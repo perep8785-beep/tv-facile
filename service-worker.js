@@ -1,9 +1,9 @@
-const CACHE_NAME = "tv-facile-v8";
+const CACHE_NAME = "tv-facile-v81";
 const APP_ASSETS = [
   "./",
   "./index.html",
   "./styles.css?v=8",
-  "./app.js?v=8",
+  "./app.js?v=81",
   "./manifest.webmanifest",
   "./data.json",
   "./icon-192.png",
