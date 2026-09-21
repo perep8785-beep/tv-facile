@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#000000">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>TV Facile</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon-192.png">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="stylesheet" href="styles.css?v=8">
+</head>
+<body>
+  <noscript>Cette application a besoin de JavaScript.</noscript>
+
+  <main id="app" class="app-shell">
+    <header class="topbar">
+      <img src="icon-192.png" class="app-logo" alt="">
+      <div>
+        <h1>TV FACILE</h1>
+        <p>Choisissez une chaîne</p>
+      </div>
+    </header>
+
+    <section id="homeView" class="view">
+      <div id="homeContent">
+        <div id="syncStatus" class="sync-status">ÉMISSIONS PRÊTES</div>
+        <button class="channel-button" data-section="EQUINOXE TV">
+          <span class="channel-code">EQ</span>
+          <span class="channel-name">ÉQUINOXE TV</span>
+          <span class="arrow">›</span>
+        </button>
+
+        <button class="channel-button" data-section="CANAL 2">
+          <span class="channel-code">C2</span>
+          <span class="channel-name">CANAL 2</span>
+          <span class="arrow">›</span>
+        </button>
+
+        <button class="channel-button" data-section="INFO TV">
+          <span class="channel-code">IT</span>
+          <span class="channel-name">INFO TV</span>
+          <span class="arrow">›</span>
+        </button>
+
+        <button id="refreshBtn" class="secondary-button">ACTUALISER LES ÉMISSIONS</button>
+      </div>
+    </section>
+
+    <section id="channelView" class="view hidden">
+      <button id="homeBtn" class="back-button">‹ ACCUEIL</button>
+      <h2 id="channelTitle" class="screen-title">CHAÎNE</h2>
+      <div id="showsList" class="shows-list"></div>
+    </section>
+  </main>
+
+  <section id="playerView" class="player-view hidden" aria-label="Lecteur vidéo">
+    <div class="player-top">
+      <button id="backToShowsBtn" class="player-back">‹ RETOUR AUX ÉMISSIONS</button>
+      <div id="playerTitle" class="player-title">ÉMISSION</div>
+    </div>
+    <div id="playerMessage" class="player-message">Chargement…</div>
+    <div class="video-wrap">
+      <iframe id="videoFrame"
+              title="Lecteur vidéo"
+              allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen></iframe>
+    </div>
+    <a id="openBraveLink" class="fallback-link hidden" target="_blank" rel="noopener">
+      SI LA VIDÉO NE DÉMARRE PAS, OUVRIR DANS BRAVE
+    </a>
+  </section>
+
+  <script src="app.js?v=8"></script>
+</body>
+</html>
