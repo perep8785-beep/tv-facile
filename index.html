@@ -4,9 +4,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#000000">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <title>TV Facile</title>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icon-192.png">
@@ -14,67 +11,240 @@
   <link rel="stylesheet" href="styles.css?v=8">
 </head>
 <body>
-  <noscript>Cette application a besoin de JavaScript.</noscript>
 
-  <main id="app" class="app-shell">
-    <header class="topbar">
-      <img src="icon-192.png" class="app-logo" alt="">
-      <div>
-        <h1>TV FACILE</h1>
-        <p>Choisissez une chaîne</p>
-      </div>
-    </header>
-
-    <section id="homeView" class="view">
-      <div id="homeContent">
-        <div id="syncStatus" class="sync-status">ÉMISSIONS PRÊTES</div>
-        <button type="button" class="channel-button" onclick="openSection('EQUINOXE TV')">
-          <span class="channel-code">EQ</span>
-          <span class="channel-name">ÉQUINOXE TV</span>
-          <span class="arrow">›</span>
-        </button>
-
-        <button type="button" class="channel-button" onclick="openSection('CANAL 2')">
-          <span class="channel-code">C2</span>
-          <span class="channel-name">CANAL 2</span>
-          <span class="arrow">›</span>
-        </button>
-
-        <button type="button" class="channel-button" onclick="openSection('INFO TV')">
-          <span class="channel-code">IT</span>
-          <span class="channel-name">INFO TV</span>
-          <span class="arrow">›</span>
-        </button>
-
-        <button type="button" id="refreshBtn" class="secondary-button" onclick="refreshShows()">ACTUALISER LES ÉMISSIONS</button>
-      </div>
-    </section>
-
-    <section id="channelView" class="view hidden">
-      <button type="button" id="homeBtn" class="back-button" onclick="goHome()">‹ ACCUEIL</button>
-      <h2 id="channelTitle" class="screen-title">CHAÎNE</h2>
-      <div id="showsList" class="shows-list"></div>
-    </section>
-  </main>
-
-  <section id="playerView" class="player-view hidden" aria-label="Lecteur vidéo">
-    <div class="player-top">
-      <button type="button" id="backToShowsBtn" class="player-back" onclick="closePlayer()">‹ RETOUR AUX ÉMISSIONS</button>
-      <div id="playerTitle" class="player-title">ÉMISSION</div>
+<main id="app" class="app-shell">
+  <header class="topbar">
+    <img src="icon-192.png" class="app-logo" alt="">
+    <div>
+      <h1>TV FACILE</h1>
+      <p>Choisissez une chaîne</p>
     </div>
-    <div id="playerMessage" class="player-message">Chargement…</div>
-    <div class="video-wrap">
-      <iframe id="videoFrame"
-              title="Lecteur vidéo"
-              allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen></iframe>
+  </header>
+
+  <section id="homeView" class="view">
+    <div id="homeContent">
+      <div id="syncStatus" class="sync-status">ÉMISSIONS PRÊTES</div>
+
+      <button type="button" class="channel-button" onclick="openSection('EQUINOXE TV')">
+        <span class="channel-code">EQ</span>
+        <span class="channel-name">ÉQUINOXE TV</span>
+        <span class="arrow">›</span>
+      </button>
+
+      <button type="button" class="channel-button" onclick="openSection('CANAL 2')">
+        <span class="channel-code">C2</span>
+        <span class="channel-name">CANAL 2</span>
+        <span class="arrow">›</span>
+      </button>
+
+      <button type="button" class="channel-button" onclick="openSection('INFO TV')">
+        <span class="channel-code">IT</span>
+        <span class="channel-name">INFO TV</span>
+        <span class="arrow">›</span>
+      </button>
+
+      <button type="button" class="secondary-button" onclick="refreshShows()">
+        ACTUALISER LES ÉMISSIONS
+      </button>
     </div>
-    <a id="openBraveLink" class="fallback-link hidden" target="_blank" rel="noopener">
-      SI LA VIDÉO NE DÉMARRE PAS, OUVRIR DANS BRAVE
-    </a>
   </section>
 
-  <script src="app.js?v=81"></script>
+  <section id="channelView" class="view hidden">
+    <button type="button" class="back-button" onclick="goHome()">‹ ACCUEIL</button>
+    <h2 id="channelTitle" class="screen-title">CHAÎNE</h2>
+    <div id="showsList" class="shows-list"></div>
+  </section>
+</main>
+
+<section id="playerView" class="player-view hidden">
+  <div class="player-top">
+    <button type="button" class="player-back" onclick="closePlayer()">‹ RETOUR AUX ÉMISSIONS</button>
+    <div id="playerTitle" class="player-title">ÉMISSION</div>
+  </div>
+  <div id="playerMessage" class="player-message">Lecture…</div>
+  <div class="video-wrap">
+    <iframe id="videoFrame"
+            title="Lecteur vidéo"
+            allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
+            allowfullscreen></iframe>
+  </div>
+  <a id="openBraveLink" class="fallback-link hidden" target="_blank" rel="noopener">
+    OUVRIR DANS BRAVE
+  </a>
+</section>
+
+<script>
+const STARTER_DATA = {"shows": [{"id": "zenith1", "section": "EQUINOXE TV", "label": "LE ZÉNITH 1", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=10+12+LE+ZENITH+PART1+EQUINOXE+TV&sp=CAI%253D", "embedUrl": ""}, {"id": "zenith2", "section": "EQUINOXE TV", "label": "LE ZÉNITH 2", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=10+12+LE+ZENITH+PART2+EQUINOXE+TV&sp=CAI%253D", "embedUrl": ""}, {"id": "grandesunes", "section": "EQUINOXE TV", "label": "GRANDES UNES", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=REVUE+DES+GRANDES+UNES+EQUINOXE+TV&sp=CAI%253D", "embedUrl": ""}, {"id": "journal20", "section": "EQUINOXE TV", "label": "JOURNAL 20H", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=JOURNAL+20H+EQUINOXE+TV&sp=CAI%253D", "embedUrl": ""}, {"id": "debrief20", "section": "EQUINOXE TV", "label": "DÉBRIEF DU JOURNAL", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=DEBRIEF+JOURNAL+20H+EQUINOXE+TV&sp=CAI%253D", "embedUrl": ""}, {"id": "bilingue", "section": "EQUINOXE TV", "label": "JOURNAL BILINGUE", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=JOURNAL+BILINGUE+EQUINOXE+TV&sp=CAI%253D", "embedUrl": ""}, {"id": "droitreponse", "section": "EQUINOXE TV", "label": "DROIT DE RÉPONSE", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=DROIT+DE+REPONSE+EQUINOXE+TV&sp=CAI%253D", "embedUrl": ""}, {"id": "equinoxsoir", "section": "EQUINOXE TV", "label": "ÉQUINOXE SOIR", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=EQUINOXE+SOIR&sp=CAI%253D", "embedUrl": ""}, {"id": "pidginnews", "section": "EQUINOXE TV", "label": "PIDGIN NEWS", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=PIDGIN+NEWS+EQUINOXE+TV&sp=CAI%253D", "embedUrl": ""}, {"id": "pidgindebate", "section": "EQUINOXE TV", "label": "PIDGIN NEWS DEBATE", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=PIDGIN+NEWS+DEBATE+EQUINOXE+TV&sp=CAI%253D", "embedUrl": ""}, {"id": "canal2journal", "section": "CANAL 2", "label": "JOURNAL CANAL 2", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=JOURNAL+CANAL+2+INTERNATIONAL&sp=CAI%253D", "embedUrl": ""}, {"id": "canal2debrief", "section": "CANAL 2", "label": "DÉBRIEF CANAL 2", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=DEBRIEF+CANAL+2+INTERNATIONAL&sp=CAI%253D", "embedUrl": ""}, {"id": "clubamis", "section": "CANAL 2", "label": "LE CLUB DES AMIS", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=CLUB+DES+AMIS+CANAL+2&sp=CAI%253D", "embedUrl": ""}, {"id": "canalpress", "section": "CANAL 2", "label": "CANAL PRESSE", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=CANAL+PRESSE+CANAL+2&sp=CAI%253D", "embedUrl": ""}, {"id": "clubelites", "section": "CANAL 2", "label": "LE CLUB DES ÉLITES", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=CLUB+DES+ELITES+CANAL+2&sp=CAI%253D", "embedUrl": ""}, {"id": "infojournal", "section": "INFO TV", "label": "INFO TV - LE JOURNAL", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=20H00+INFO+TV+CAMEROUN&sp=CAI%253D", "embedUrl": ""}, {"id": "infodebrief", "section": "INFO TV", "label": "INFO TV - DÉBRIEF", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=DEBRIEF+INFO+TV+CAMEROUN&sp=CAI%253D", "embedUrl": ""}]};
+let appData = STARTER_DATA;
+let currentSection = null;
+
+const homeView = document.getElementById("homeView");
+const channelView = document.getElementById("channelView");
+const showsList = document.getElementById("showsList");
+const channelTitle = document.getElementById("channelTitle");
+const syncStatus = document.getElementById("syncStatus");
+
+const playerView = document.getElementById("playerView");
+const playerTitle = document.getElementById("playerTitle");
+const playerMessage = document.getElementById("playerMessage");
+const videoFrame = document.getElementById("videoFrame");
+const openBraveLink = document.getElementById("openBraveLink");
+
+function showOnly(view) {
+  homeView.classList.add("hidden");
+  channelView.classList.add("hidden");
+  view.classList.remove("hidden");
+}
+
+function initials(text) {
+  return String(text || "TV")
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0,2)
+    .map(w => w[0])
+    .join("")
+    .toUpperCase();
+}
+
+function openSection(section) {
+  currentSection = section;
+  renderChannel(section);
+}
+
+function renderChannel(section) {
+  channelTitle.textContent = section;
+  showsList.innerHTML = "";
+
+  const shows = (appData.shows || []).filter(s => s.section === section);
+
+  shows.forEach(show => {
+    const card = document.createElement("article");
+    card.className = "show-card" + (show.found ? "" : " not-found");
+
+    const thumbWrap = document.createElement("div");
+    thumbWrap.className = "show-thumb-wrap";
+
+    if (show.thumbnail) {
+      const img = document.createElement("img");
+      img.className = "show-thumb";
+      img.alt = "";
+      img.src = show.thumbnail;
+      img.onerror = () => {
+        thumbWrap.innerHTML =
+          '<div class="thumb-fallback">' + initials(show.label) + '</div>';
+      };
+      thumbWrap.appendChild(img);
+    } else {
+      thumbWrap.innerHTML =
+        '<div class="thumb-fallback">' + initials(show.label) + '</div>';
+    }
+
+    const body = document.createElement("div");
+    body.className = "show-body";
+
+    const title = document.createElement("h3");
+    title.className = "show-title";
+    title.textContent = show.label;
+
+    const meta = document.createElement("p");
+    meta.className = "show-meta";
+    meta.textContent = show.found
+      ? "DERNIÈRE ÉMISSION DISPONIBLE"
+      : "OUVRIR LA RECHERCHE";
+
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "watch-button";
+    button.textContent = show.found ? "▶ REGARDER" : "▶ OUVRIR";
+    button.onclick = function() {
+      openPlayer(show);
+    };
+
+    body.appendChild(title);
+    body.appendChild(meta);
+    body.appendChild(button);
+
+    card.appendChild(thumbWrap);
+    card.appendChild(body);
+    showsList.appendChild(card);
+  });
+
+  showOnly(channelView);
+  window.scrollTo(0,0);
+}
+
+function goHome() {
+  currentSection = null;
+  showOnly(homeView);
+  window.scrollTo(0,0);
+}
+
+function openPlayer(show) {
+  if (!show) return;
+
+  if (!show.found || !show.embedUrl) {
+    if (show.watchUrl) {
+      window.location.href = show.watchUrl;
+    }
+    return;
+  }
+
+  playerTitle.textContent = show.label;
+  playerMessage.textContent = "LECTURE DE LA DERNIÈRE ÉMISSION";
+  videoFrame.src = show.embedUrl;
+  openBraveLink.href = show.watchUrl || "#";
+  openBraveLink.classList.remove("hidden");
+  playerView.classList.remove("hidden");
+  document.body.style.overflow = "hidden";
+}
+
+function closePlayer() {
+  videoFrame.src = "";
+  playerView.classList.add("hidden");
+  document.body.style.overflow = "";
+}
+
+async function loadData() {
+  try {
+    syncStatus.textContent = "ACTUALISATION…";
+
+    const response = await fetch("data.json?t=" + Date.now(), {
+      cache: "no-store"
+    });
+
+    if (!response.ok) throw new Error("data.json");
+
+    const data = await response.json();
+
+    if (data && Array.isArray(data.shows)) {
+      appData = data;
+      syncStatus.textContent = "ÉMISSIONS PRÊTES";
+
+      if (currentSection) {
+        renderChannel(currentSection);
+      }
+    }
+  } catch (e) {
+    syncStatus.textContent = "ÉMISSIONS PRÊTES";
+  }
+}
+
+function refreshShows() {
+  loadData();
+}
+
+window.openSection = openSection;
+window.goHome = goHome;
+window.closePlayer = closePlayer;
+window.refreshShows = refreshShows;
+
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("service-worker.js?v=10").catch(function(){});
+}
+
+showOnly(homeView);
+loadData();
+</script>
+
 </body>
 </html>
