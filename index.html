@@ -28,30 +28,30 @@
     <section id="homeView" class="view">
       <div id="homeContent">
         <div id="syncStatus" class="sync-status">ÉMISSIONS PRÊTES</div>
-        <button class="channel-button" data-section="EQUINOXE TV">
+        <button type="button" class="channel-button" onclick="openSection('EQUINOXE TV')">
           <span class="channel-code">EQ</span>
           <span class="channel-name">ÉQUINOXE TV</span>
           <span class="arrow">›</span>
         </button>
 
-        <button class="channel-button" data-section="CANAL 2">
+        <button type="button" class="channel-button" onclick="openSection('CANAL 2')">
           <span class="channel-code">C2</span>
           <span class="channel-name">CANAL 2</span>
           <span class="arrow">›</span>
         </button>
 
-        <button class="channel-button" data-section="INFO TV">
+        <button type="button" class="channel-button" onclick="openSection('INFO TV')">
           <span class="channel-code">IT</span>
           <span class="channel-name">INFO TV</span>
           <span class="arrow">›</span>
         </button>
 
-        <button id="refreshBtn" class="secondary-button">ACTUALISER LES ÉMISSIONS</button>
+        <button type="button" id="refreshBtn" class="secondary-button" onclick="refreshShows()">ACTUALISER LES ÉMISSIONS</button>
       </div>
     </section>
 
     <section id="channelView" class="view hidden">
-      <button id="homeBtn" class="back-button">‹ ACCUEIL</button>
+      <button type="button" id="homeBtn" class="back-button" onclick="goHome()">‹ ACCUEIL</button>
       <h2 id="channelTitle" class="screen-title">CHAÎNE</h2>
       <div id="showsList" class="shows-list"></div>
     </section>
@@ -59,7 +59,7 @@
 
   <section id="playerView" class="player-view hidden" aria-label="Lecteur vidéo">
     <div class="player-top">
-      <button id="backToShowsBtn" class="player-back">‹ RETOUR AUX ÉMISSIONS</button>
+      <button type="button" id="backToShowsBtn" class="player-back" onclick="closePlayer()">‹ RETOUR AUX ÉMISSIONS</button>
       <div id="playerTitle" class="player-title">ÉMISSION</div>
     </div>
     <div id="playerMessage" class="player-message">Chargement…</div>
@@ -75,6 +75,6 @@
     </a>
   </section>
 
-  <script src="app.js?v=8"></script>
+  <script src="app.js?v=81"></script>
 </body>
 </html>
