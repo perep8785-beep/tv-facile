@@ -1,11 +1,11 @@
-const CACHE_NAME = "tv-facile-v6";
-
+const CACHE_NAME = "tv-facile-v8";
 const APP_ASSETS = [
   "./",
   "./index.html",
-  "./styles.css",
-  "./app.js?v=6",
+  "./styles.css?v=8",
+  "./app.js?v=8",
   "./manifest.webmanifest",
+  "./data.json",
   "./icon-192.png",
   "./icon-512.png",
   "./icon-maskable-512.png"
@@ -22,62 +22,40 @@ self.addEventListener("install", event => {
 self.addEventListener("activate", event => {
   event.waitUntil(
     caches.keys()
-      .then(keys =>
-        Promise.all(
-          keys
-            .filter(k => k !== CACHE_NAME)
-            .map(k => caches.delete(k))
-        )
-      )
+      .then(keys => Promise.all(keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k))))
       .then(() => self.clients.claim())
   );
 });
 
 self.addEventListener("fetch", event => {
   if (event.request.method !== "GET") return;
-
   const url = new URL(event.request.url);
   if (url.origin !== self.location.origin) return;
 
-  const isNavigation = event.request.mode === "navigate";
-  const isCore =
-    url.pathname.endsWith("/index.html") ||
-    url.pathname.endsWith("/app.js") ||
-    url.pathname.endsWith("/styles.css") ||
-    url.pathname.endsWith("/manifest.webmanifest");
-
-  if (isNavigation || isCore) {
+  if (url.pathname.endsWith("/data.json")) {
     event.respondWith(
       fetch(event.request)
         .then(response => {
           const copy = response.clone();
-          caches.open(CACHE_NAME).then(cache =>
-            cache.put(event.request, copy)
-          );
+          caches.open(CACHE_NAME).then(cache => cache.put("./data.json", copy));
           return response;
         })
-        .catch(() =>
-          caches.match(event.request)
-            .then(r => r || caches.match("./index.html"))
-        )
+        .catch(() => caches.match("./data.json"))
+    );
+    return;
+  }
+
+  const isNavigation = event.request.mode === "navigate";
+  if (isNavigation) {
+    event.respondWith(
+      fetch(event.request)
+        .then(response => response)
+        .catch(() => caches.match("./index.html"))
     );
     return;
   }
 
   event.respondWith(
-    caches.match(event.request).then(cached => {
-      if (cached) return cached;
-
-      return fetch(event.request).then(response => {
-        if (response && response.ok) {
-          const copy = response.clone();
-          caches.open(CACHE_NAME).then(cache =>
-            cache.put(event.request, copy)
-          );
-        }
-        return response;
-      });
-    })
+    caches.match(event.request).then(cached => cached || fetch(event.request))
   );
 });
-
