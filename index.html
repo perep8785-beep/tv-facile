@@ -222,6 +222,75 @@ if("serviceWorker"in navigator)navigator.serviceWorker.register("service-worker.
 })();
 </script>
 </body>
+</html>  <div class="note">La vidéo reste dans TV Facile.</div>
+</section>
+
+<script src="data.js?v=10"></script>
+<script>
+(function(){
+"use strict";
+var DATA=(window.TV_DATA&&Array.isArray(window.TV_DATA.shows))?window.TV_DATA:{shows:[]};
+var current=null;
+var home=document.getElementById("home");
+var channelView=document.getElementById("channelView");
+var cards=document.getElementById("cards");
+var channelTitle=document.getElementById("channelTitle");
+var status=document.getElementById("status");
+var player=document.getElementById("player");
+var frame=document.getElementById("frame");
+var playerName=document.getElementById("playerName");
+
+function showHome(){
+  current=null;
+  channelView.classList.add("hidden");
+  home.classList.remove("hidden");
+  window.scrollTo(0,0);
+}
+function closePlayer(){
+  frame.src="";
+  player.classList.add("hidden");
+  document.body.style.overflow="";
+}
+function openPlayer(show){
+  if(!show.found||!show.embedUrl)return;
+  playerName.textContent=show.label;
+  frame.src=show.embedUrl;
+  player.classList.remove("hidden");
+  document.body.style.overflow="hidden";
+}
+function render(section){
+  current=section;
+  channelTitle.textContent=section;
+  cards.innerHTML="";
+  var list=DATA.shows.filter(function(s){return s.section===section});
+  list.forEach(function(show){
+    var card=document.createElement("article"); card.className="card";
+    var tw=document.createElement("div"); tw.className="thumbwrap";
+    if(show.found&&show.thumbnail){
+      var img=document.createElement("img"); img.className="thumb"; img.alt=""; img.src=show.thumbnail; tw.appendChild(img);
+    }else{
+      var w=document.createElement("div"); w.className="waiting"; w.textContent="MISE À JOUR…"; tw.appendChild(w);
+    }
+    var body=document.createElement("div"); body.className="body";
+    var h=document.createElement("h3"); h.textContent=show.label;
+    var meta=document.createElement("div"); meta.className="meta";
+    meta.textContent=show.found?"DERNIÈRE ÉMISSION DISPONIBLE":"VIDÉO EN COURS DE MISE À JOUR";
+    var b=document.createElement("button"); b.className="watch";
+    b.textContent=show.found?"▶ REGARDER ICI":"BIENTÔT DISPONIBLE";
+    b.disabled=!show.found;
+    if(show.found)b.onclick=function(){openPlayer(show)};
+    body.append(h,meta,b); card.append(tw,body); cards.appendChild(card);
+  });
+  home.classList.add("hidden"); channelView.classList.remove("hidden"); window.scrollTo(0,0);
+}
+document.querySelectorAll(".channel").forEach(function(b){b.onclick=function(){render(b.dataset.section)}});
+document.getElementById("homeBtn").onclick=showHome;
+document.getElementById("backBtn").onclick=closePlayer;
+status.textContent=DATA.generatedAt?"DERNIÈRES VIDÉOS À JOUR":"LANCEZ UNE PREMIÈRE MISE À JOUR GITHUB";
+if("serviceWorker"in navigator)navigator.serviceWorker.register("service-worker.js?v=10").catch(function(){});
+})();
+</script>
+</body>
 </html>
 <script>
 const FALLBACK = [{"id": "zenith1", "section": "EQUINOXE TV", "label": "LE ZÉNITH 1", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=10+12+LE+ZENITH+PART1+EQUINOXE+TV&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "zenith2", "section": "EQUINOXE TV", "label": "LE ZÉNITH 2", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=10+12+LE+ZENITH+PART2+EQUINOXE+TV&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "grandesunes", "section": "EQUINOXE TV", "label": "GRANDES UNES", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=REVUE+DES+GRANDES+UNES+EQUINOXE+TV&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "journal20", "section": "EQUINOXE TV", "label": "JOURNAL 20H", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=JOURNAL+20H+EQUINOXE+TV&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "debrief20", "section": "EQUINOXE TV", "label": "DÉBRIEF DU JOURNAL", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=DEBRIEF+JOURNAL+20H+EQUINOXE+TV&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "bilingue", "section": "EQUINOXE TV", "label": "JOURNAL BILINGUE", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=JOURNAL+BILINGUE+EQUINOXE+TV&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "droitreponse", "section": "EQUINOXE TV", "label": "DROIT DE RÉPONSE", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=DROIT+DE+REPONSE+EQUINOXE+TV&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "equinoxsoir", "section": "EQUINOXE TV", "label": "ÉQUINOXE SOIR", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=EQUINOXE+SOIR&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "pidginnews", "section": "EQUINOXE TV", "label": "PIDGIN NEWS", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=PIDGIN+NEWS+EQUINOXE+TV&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "pidgindebate", "section": "EQUINOXE TV", "label": "PIDGIN NEWS DEBATE", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=PIDGIN+NEWS+DEBATE+EQUINOXE+TV&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "canal2journal", "section": "CANAL 2", "label": "JOURNAL CANAL 2", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=JOURNAL+CANAL+2+INTERNATIONAL&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "canal2debrief", "section": "CANAL 2", "label": "DÉBRIEF CANAL 2", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=DEBRIEF+CANAL+2+INTERNATIONAL&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "clubamis", "section": "CANAL 2", "label": "LE CLUB DES AMIS", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=CLUB+DES+AMIS+CANAL+2&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "canalpress", "section": "CANAL 2", "label": "CANAL PRESSE", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=CANAL+PRESSE+CANAL+2&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "clubelites", "section": "CANAL 2", "label": "LE CLUB DES ÉLITES", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=CLUB+DES+ELITES+CANAL+2&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "infojournal", "section": "INFO TV", "label": "INFO TV - LE JOURNAL", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=20H00+INFO+TV+CAMEROUN&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "infodebrief", "section": "INFO TV", "label": "INFO TV - DÉBRIEF", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=DEBRIEF+INFO+TV+CAMEROUN&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}];
