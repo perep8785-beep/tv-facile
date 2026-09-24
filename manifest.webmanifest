@@ -2,14 +2,10 @@
   "name": "TV Facile",
   "short_name": "TV Facile",
   "description": "Accès simplifié aux émissions TV favorites.",
-  "id": "./?app=tv-facile-v7",
-  "start_url": "./?app=tv-facile-v7",
+  "id": "./?app=tv-facile-v8",
+  "start_url": "./?app=tv-facile-v8",
   "scope": "./",
   "display": "standalone",
-  "display_override": [
-    "standalone",
-    "minimal-ui"
-  ],
   "background_color": "#000000",
   "theme_color": "#000000",
   "icons": [
@@ -31,10 +27,6 @@
       "type": "image/png",
       "purpose": "maskable"
     }
-  ],
-  "categories": [
-    "entertainment",
-    "video"
   ],
   "lang": "fr-CA",
   "dir": "ltr"
