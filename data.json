@@ -191,4 +191,111 @@
       "videoTitle": ""
     }
   ]
+}      "found": false,
+      "videoId": "",
+      "thumbnail": "",
+      "watchUrl": "https://www.youtube.com/results?search_query=EQUINOXE+SOIR&sp=CAI%253D",
+      "embedUrl": "",
+      "videoTitle": ""
+    },
+    {
+      "id": "pidginnews",
+      "section": "EQUINOXE TV",
+      "label": "PIDGIN NEWS",
+      "found": false,
+      "videoId": "",
+      "thumbnail": "",
+      "watchUrl": "https://www.youtube.com/results?search_query=PIDGIN+NEWS+EQUINOXE+TV&sp=CAI%253D",
+      "embedUrl": "",
+      "videoTitle": ""
+    },
+    {
+      "id": "pidgindebate",
+      "section": "EQUINOXE TV",
+      "label": "PIDGIN NEWS DEBATE",
+      "found": false,
+      "videoId": "",
+      "thumbnail": "",
+      "watchUrl": "https://www.youtube.com/results?search_query=PIDGIN+NEWS+DEBATE+EQUINOXE+TV&sp=CAI%253D",
+      "embedUrl": "",
+      "videoTitle": ""
+    },
+    {
+      "id": "canal2journal",
+      "section": "CANAL 2",
+      "label": "JOURNAL CANAL 2",
+      "found": false,
+      "videoId": "",
+      "thumbnail": "",
+      "watchUrl": "https://www.youtube.com/results?search_query=JOURNAL+CANAL+2+INTERNATIONAL&sp=CAI%253D",
+      "embedUrl": "",
+      "videoTitle": ""
+    },
+    {
+      "id": "canal2debrief",
+      "section": "CANAL 2",
+      "label": "DÉBRIEF CANAL 2",
+      "found": false,
+      "videoId": "",
+      "thumbnail": "",
+      "watchUrl": "https://www.youtube.com/results?search_query=DEBRIEF+CANAL+2+INTERNATIONAL&sp=CAI%253D",
+      "embedUrl": "",
+      "videoTitle": ""
+    },
+    {
+      "id": "clubamis",
+      "section": "CANAL 2",
+      "label": "LE CLUB DES AMIS",
+      "found": false,
+      "videoId": "",
+      "thumbnail": "",
+      "watchUrl": "https://www.youtube.com/results?search_query=CLUB+DES+AMIS+CANAL+2&sp=CAI%253D",
+      "embedUrl": "",
+      "videoTitle": ""
+    },
+    {
+      "id": "canalpress",
+      "section": "CANAL 2",
+      "label": "CANAL PRESSE",
+      "found": false,
+      "videoId": "",
+      "thumbnail": "",
+      "watchUrl": "https://www.youtube.com/results?search_query=CANAL+PRESSE+CANAL+2&sp=CAI%253D",
+      "embedUrl": "",
+      "videoTitle": ""
+    },
+    {
+      "id": "clubelites",
+      "section": "CANAL 2",
+      "label": "LE CLUB DES ÉLITES",
+      "found": false,
+      "videoId": "",
+      "thumbnail": "",
+      "watchUrl": "https://www.youtube.com/results?search_query=CLUB+DES+ELITES+CANAL+2&sp=CAI%253D",
+      "embedUrl": "",
+      "videoTitle": ""
+    },
+    {
+      "id": "infojournal",
+      "section": "INFO TV",
+      "label": "INFO TV - LE JOURNAL",
+      "found": false,
+      "videoId": "",
+      "thumbnail": "",
+      "watchUrl": "https://www.youtube.com/results?search_query=20H00+INFO+TV+CAMEROUN&sp=CAI%253D",
+      "embedUrl": "",
+      "videoTitle": ""
+    },
+    {
+      "id": "infodebrief",
+      "section": "INFO TV",
+      "label": "INFO TV - DÉBRIEF",
+      "found": false,
+      "videoId": "",
+      "thumbnail": "",
+      "watchUrl": "https://www.youtube.com/results?search_query=DEBRIEF+INFO+TV+CAMEROUN&sp=CAI%253D",
+      "embedUrl": "",
+      "videoTitle": ""
+    }
+  ]
 }
