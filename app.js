@@ -137,6 +137,108 @@ function renderChannel(section) {
   });
 
   showOnly(channelView);
+  window.scrollTo({top: 0, behavior: "instant"});
+}
+
+function openPlayer(show) {
+  if (!show) return;
+
+  if (!show.found || !show.embedUrl) {
+    if (show.watchUrl) window.open(show.watchUrl, "_blank", "noopener");
+    return;
+  }
+
+  playerTitle.textContent = show.label;
+  playerMessage.textContent = "LECTURE DE LA DERNIÈRE ÉMISSION";
+  videoFrame.src = show.embedUrl;
+  openBraveLink.href = show.watchUrl || "#";
+  openBraveLink.classList.remove("hidden");
+  playerView.classList.remove("hidden");
+  document.body.style.overflow = "hidden";
+}
+
+function closePlayer() {
+  videoFrame.src = "";
+  playerView.classList.add("hidden");
+  document.body.style.overflow = "";
+}
+
+document.querySelectorAll(".channel-button").forEach(btn => {
+  btn.addEventListener("click", () => renderChannel(btn.dataset.section));
+});
+
+document.getElementById("homeBtn").addEventListener("click", () => {
+  currentSection = null;
+  showHome();
+  window.scrollTo({top: 0, behavior: "instant"});
+});
+
+document.getElementById("backToShowsBtn").addEventListener("click", closePlayer);
+document.getElementById("refreshBtn").addEventListener("click", () => loadData());
+
+async function startApp() {
+  if ("serviceWorker" in navigator) {
+    try { await navigator.serviceWorker.register("service-worker.js?v=7"); } catch (_) {}
+  }
+
+  appData = fallbackData();
+  showHome();
+  await loadData({quiet:true});
+}
+
+startApp();
+  if (!shows.length) {
+    const empty = document.createElement("div");
+    empty.className = "loading-box";
+    empty.textContent = "ACTUALISEZ L'APPLICATION";
+    showsList.appendChild(empty);
+  }
+
+  shows.forEach(show => {
+    const card = document.createElement("article");
+    card.className = "show-card" + (show.found ? "" : " not-found");
+
+    const thumbWrap = document.createElement("div");
+    thumbWrap.className = "show-thumb-wrap";
+
+    if (show.thumbnail) {
+      const img = document.createElement("img");
+      img.className = "show-thumb";
+      img.alt = "";
+      img.loading = "lazy";
+      img.src = show.thumbnail;
+      img.onerror = () => {
+        thumbWrap.innerHTML = `<div class="thumb-fallback">${initials(show.label)}</div>`;
+      };
+      thumbWrap.appendChild(img);
+    } else {
+      thumbWrap.innerHTML = `<div class="thumb-fallback">${initials(show.label)}</div>`;
+    }
+
+    const body = document.createElement("div");
+    body.className = "show-body";
+
+    const title = document.createElement("h3");
+    title.className = "show-title";
+    title.textContent = show.label;
+
+    const meta = document.createElement("p");
+    meta.className = "show-meta";
+    meta.textContent = show.found
+      ? "DERNIÈRE ÉMISSION DISPONIBLE"
+      : "OUVRIR LA RECHERCHE";
+
+    const button = document.createElement("button");
+    button.className = "watch-button";
+    button.textContent = show.found ? "▶ REGARDER" : "▶ OUVRIR";
+    button.addEventListener("click", () => openPlayer(show));
+
+    body.append(title, meta, button);
+    card.append(thumbWrap, body);
+    showsList.appendChild(card);
+  });
+
+  showOnly(channelView);
   window.scrollTo(0, 0);
 }
 
