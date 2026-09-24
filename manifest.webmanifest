@@ -2,8 +2,8 @@
   "name": "TV Facile",
   "short_name": "TV Facile",
   "description": "Accès simplifié aux émissions TV favorites.",
-  "id": "./?app=tv-facile-v8",
-  "start_url": "./?app=tv-facile-v8",
+  "id": "./?app=tv-facile-v7",
+  "start_url": "./?app=tv-facile-v7",
   "scope": "./",
   "display": "standalone",
   "display_override": [
