@@ -1,4 +1,4 @@
-const CACHE_NAME = "tv-facile-v12";
+const CACHE_NAME = "tv-facile-v13";
 
 const APP_SHELL = [
   "./index.html",
@@ -12,7 +12,6 @@ const APP_SHELL = [
 self.addEventListener(
   "install",
   event => {
-
     event.waitUntil(
       caches
         .open(CACHE_NAME)
@@ -29,7 +28,6 @@ self.addEventListener(
 self.addEventListener(
   "activate",
   event => {
-
     event.waitUntil(
       caches
         .keys()
@@ -85,13 +83,6 @@ async function networkFirst(
     canonicalRequest(url);
 
   try {
-    /*
-      IMPORTANT:
-
-      Always request the newest
-      index.html / data.json.
-    */
-
     const response =
       await fetch(
         request,
@@ -135,7 +126,6 @@ async function networkFirst(
 self.addEventListener(
   "fetch",
   event => {
-
     if (
       event.request.method !== "GET"
     ) {
@@ -147,25 +137,12 @@ self.addEventListener(
         event.request.url
       );
 
-    /*
-      Do not intercept YouTube,
-      thumbnails, etc.
-    */
-
     if (
       url.origin !==
       self.location.origin
     ) {
       return;
     }
-
-    /*
-      NETWORK-FIRST:
-
-      index.html
-      navigation
-      data.json
-    */
 
     if (
       event.request.mode ===
@@ -188,19 +165,12 @@ self.addEventListener(
       return;
     }
 
-    /*
-      CACHE-FIRST:
-
-      icons / manifest / shell
-    */
-
     event.respondWith(
       caches
         .match(
           event.request
         )
         .then(cached => {
-
           if (cached) {
             return cached;
           }
@@ -209,7 +179,6 @@ self.addEventListener(
             event.request
           )
             .then(response => {
-
               if (
                 response &&
                 response.ok
