@@ -2,12 +2,10 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-
   <meta
     name="viewport"
     content="width=device-width, initial-scale=1, viewport-fit=cover"
   >
-
   <meta name="theme-color" content="#000000">
   <meta name="color-scheme" content="dark">
 
@@ -62,16 +60,11 @@
       padding: 18px 16px 36px;
     }
 
-    /* =========================
-       HEADER / LOGO
-       ========================= */
-
     .hero {
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 18px;
-
       margin: 2px 0 22px;
       padding: 12px 6px;
     }
@@ -79,22 +72,16 @@
     .hero img {
       width: clamp(72px, 18vw, 108px);
       height: clamp(72px, 18vw, 108px);
-
       object-fit: contain;
       flex: 0 0 auto;
     }
 
     .hero h1 {
       margin: 0;
-
       font-size: clamp(44px, 11vw, 76px);
       line-height: 0.92;
       letter-spacing: -2px;
     }
-
-    /* =========================
-       HOME
-       ========================= */
 
     .home-choices {
       display: grid;
@@ -104,19 +91,14 @@
     .channel {
       width: 100%;
       min-height: 150px;
-
       border: 8px solid var(--yellow);
       border-radius: 30px;
-
       background: var(--black);
       color: var(--yellow);
-
       padding: 18px 20px;
-
       display: flex;
       align-items: center;
       justify-content: space-between;
-
       text-align: left;
     }
 
@@ -137,31 +119,21 @@
       transform: scale(0.985);
     }
 
-    /* =========================
-       CHANNEL VIEW
-       ========================= */
-
     .nav-button {
       width: 100%;
       min-height: 90px;
-
       border: 7px solid var(--yellow);
       border-radius: 24px;
-
       background: var(--black);
       color: var(--yellow);
-
       padding: 12px 16px;
-
       font-size: clamp(28px, 7vw, 44px);
       font-weight: 900;
     }
 
     .screen-title {
       margin: 22px 0;
-
       text-align: center;
-
       font-size: clamp(42px, 10vw, 64px);
       line-height: 1;
     }
@@ -173,51 +145,38 @@
 
     .card {
       overflow: hidden;
-
       border: 8px solid var(--yellow);
       border-radius: 30px;
-
       background: var(--black);
     }
 
     .thumbnail-button {
       display: block;
-
       width: 100%;
       aspect-ratio: 16 / 9;
-
       overflow: hidden;
-
       padding: 0;
-
       border: 0;
       border-bottom: 7px solid var(--yellow);
-
       background: #050505;
       color: var(--yellow);
     }
 
     .thumbnail-button img {
       display: block;
-
       width: 100%;
       height: 100%;
-
       object-fit: cover;
     }
 
     .thumbnail-fallback {
       width: 100%;
       height: 100%;
-
       display: flex;
       align-items: center;
       justify-content: center;
-
       padding: 22px;
-
       text-align: center;
-
       font-size: clamp(27px, 7vw, 43px);
       line-height: 1.05;
     }
@@ -228,16 +187,13 @@
 
     .card h3 {
       margin: 0 0 14px;
-
       font-size: clamp(34px, 8vw, 50px);
       line-height: 1.03;
     }
 
     .video-title {
       margin: 0 0 15px;
-
       color: var(--soft-yellow);
-
       font-size: clamp(18px, 4.5vw, 24px);
       line-height: 1.2;
     }
@@ -245,40 +201,28 @@
     .watch-button {
       width: 100%;
       min-height: 100px;
-
       border: 0;
       border-radius: 22px;
-
       background: var(--yellow);
       color: var(--black);
-
       padding: 14px;
-
       font-size: clamp(32px, 8vw, 48px);
       font-weight: 900;
     }
 
     .watch-button:disabled {
       border: 4px solid var(--yellow);
-
       background: #111111;
       color: var(--yellow);
     }
-
-    /* =========================
-       VIDEO PLAYER
-       ========================= */
 
     .player {
       position: fixed;
       inset: 0;
       z-index: 9999;
-
       display: flex;
       flex-direction: column;
-
       background: var(--black);
-
       padding:
         max(10px, env(safe-area-inset-top))
         10px
@@ -292,9 +236,7 @@
 
     .player-title {
       margin: 8px 0 0;
-
       text-align: center;
-
       font-size: clamp(24px, 6vw, 38px);
       line-height: 1.05;
     }
@@ -306,13 +248,10 @@
 
     .video-container iframe {
       display: block;
-
       width: 100%;
       height: 100%;
-
       border: 5px solid var(--yellow);
       border-radius: 18px;
-
       background: var(--black);
     }
 
@@ -377,21 +316,17 @@
 </head>
 
 <body>
-
   <main class="app">
-
     <header class="hero">
       <img src="icon-192.png" alt="">
       <h1>TV FACILE</h1>
     </header>
 
-    <!-- HOME: EXACTLY THREE CHOICES -->
     <section
       id="home"
       class="home-choices"
       aria-label="Choisir une chaîne"
     >
-
       <button
         class="channel"
         type="button"
@@ -418,12 +353,9 @@
         <span class="channel-name">INFO TV</span>
         <span class="channel-arrow" aria-hidden="true">›</span>
       </button>
-
     </section>
 
-    <!-- PROGRAMS -->
     <section id="channelView" class="hidden">
-
       <button
         id="homeButton"
         class="nav-button"
@@ -437,20 +369,15 @@
       </h2>
 
       <div id="cards" class="cards"></div>
-
     </section>
-
   </main>
 
-  <!-- FULL-SCREEN IN-APP PLAYER -->
   <section
     id="player"
     class="player hidden"
     aria-label="Lecteur vidéo"
   >
-
     <div class="player-header">
-
       <button
         id="backButton"
         class="nav-button"
@@ -463,11 +390,9 @@
         id="playerTitle"
         class="player-title"
       ></div>
-
     </div>
 
     <div class="video-container">
-
       <iframe
         id="videoFrame"
         title="Lecteur vidéo TV FACILE"
@@ -476,9 +401,7 @@
         referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen
       ></iframe>
-
     </div>
-
   </section>
 
   <script>
@@ -507,11 +430,6 @@
           label: "JOURNAL 20H"
         },
         {
-          id: "debrief20",
-          section: "EQUINOXE TV",
-          label: "DÉBRIEF DU JOURNAL"
-        },
-        {
           id: "bilingue",
           section: "EQUINOXE TV",
           label: "JOURNAL BILINGUE"
@@ -536,7 +454,6 @@
           section: "EQUINOXE TV",
           label: "PIDGIN NEWS DEBATE"
         },
-
         {
           id: "canal2journal",
           section: "CANAL 2",
@@ -548,11 +465,6 @@
           label: "DÉBRIEF CANAL 2"
         },
         {
-          id: "clubamis",
-          section: "CANAL 2",
-          label: "LE CLUB DES AMIS"
-        },
-        {
           id: "canalpress",
           section: "CANAL 2",
           label: "CANAL PRESSE"
@@ -562,16 +474,10 @@
           section: "CANAL 2",
           label: "LE CLUB DES ÉLITES"
         },
-
         {
           id: "infojournal",
           section: "INFO TV",
           label: "LE JOURNAL"
-        },
-        {
-          id: "infodebrief",
-          section: "INFO TV",
-          label: "DÉBRIEF"
         }
       ];
 
@@ -613,10 +519,23 @@
         document.getElementById("playerTitle");
 
       function validData(value) {
+        if (
+          !value ||
+          !Array.isArray(value.shows) ||
+          value.shows.length !== PROGRAMS.length
+        ) {
+          return false;
+        }
+
+        const expectedIds =
+          new Set(PROGRAMS.map(program => program.id));
+
+        const receivedIds =
+          new Set(value.shows.map(show => show.id));
+
         return (
-          value &&
-          Array.isArray(value.shows) &&
-          value.shows.length >= PROGRAMS.length
+          receivedIds.size === expectedIds.size &&
+          [...expectedIds].every(id => receivedIds.has(id))
         );
       }
 
@@ -647,23 +566,17 @@
           data = freshData;
 
           localStorage.setItem(
-            "tv-facile-data-v12",
+            "tv-facile-data-v13",
             JSON.stringify(freshData)
           );
         }
 
         catch (error) {
-          /*
-            The app NEVER gets stuck.
-
-            If network data cannot load,
-            try the previous good version.
-          */
           try {
             const cached =
               JSON.parse(
                 localStorage.getItem(
-                  "tv-facile-data-v12"
+                  "tv-facile-data-v13"
                 ) || "null"
               );
 
@@ -673,7 +586,7 @@
           }
 
           catch (ignored) {
-            // Keep built-in empty structure.
+            // Keep the built-in fallback structure.
           }
         }
 
@@ -742,10 +655,7 @@
         }
 
         catch (error) {
-          /*
-            Wake lock is an enhancement.
-            Playback must still work without it.
-          */
+          // Playback still works when wake lock is unsupported.
         }
       }
 
@@ -782,9 +692,6 @@
       }
 
       async function closePlayer() {
-        /*
-          Clearing src actually stops playback.
-        */
         videoFrame.src =
           "about:blank";
 
@@ -829,10 +736,6 @@
             );
 
           card.className = "card";
-
-          /*
-            THUMBNAIL BUTTON
-          */
 
           const thumbnailButton =
             document.createElement(
@@ -902,10 +805,6 @@
               true;
           }
 
-          /*
-            CARD TEXT
-          */
-
           const body =
             document.createElement(
               "div"
@@ -945,10 +844,6 @@
               title
             );
           }
-
-          /*
-            HUGE WATCH BUTTON
-          */
 
           const watch =
             document.createElement(
@@ -1007,7 +902,6 @@
       document
         .querySelectorAll(".channel")
         .forEach(button => {
-
           button.addEventListener(
             "click",
             function () {
@@ -1036,18 +930,9 @@
           closePlayer
         );
 
-      /*
-        Android/browser backgrounding can
-        release the wake lock automatically.
-
-        Re-request it when the app becomes
-        visible while the player is open.
-      */
-
       document.addEventListener(
         "visibilitychange",
         function () {
-
           if (
             document.visibilityState ===
               "visible" &&
@@ -1063,7 +948,6 @@
       window.addEventListener(
         "pagehide",
         function () {
-
           if (wakeLock) {
             try {
               wakeLock.release();
@@ -1076,16 +960,12 @@
         }
       );
 
-      /*
-        SERVICE WORKER
-      */
-
       if (
         "serviceWorker" in navigator
       ) {
         navigator.serviceWorker
           .register(
-            "./service-worker.js?v=12",
+            "./service-worker.js?v=13",
             {
               updateViaCache: "none"
             }
@@ -1095,17 +975,8 @@
           });
       }
 
-      /*
-        Home appears IMMEDIATELY.
-
-        Data loads afterwards.
-        No loading screen.
-      */
-
       loadData();
-
     })();
   </script>
-
 </body>
 </html>
