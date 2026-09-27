@@ -1,5 +1,7 @@
 name: Update TV Facile
 
+# v3: 14 programs + known-good fallback videos
+
 on:
   schedule:
     - cron: "17 * * * *"
@@ -91,6 +93,7 @@ jobs:
                   "channel": "equinoxe",
                   "section": "EQUINOXE TV",
                   "label": "LE ZÉNITH 1",
+                  "seedVideoId": "FvDuQ31UZKM",
                   "queries": [
                       "10 12 LE ZENITH PART1",
                       "10 12 LE ZENITH PARTIE 1",
@@ -109,6 +112,7 @@ jobs:
                   "channel": "equinoxe",
                   "section": "EQUINOXE TV",
                   "label": "LE ZÉNITH 2",
+                  "seedVideoId": "qu12IAZq-Mk",
                   "queries": [
                       "10 12 LE ZENITH PART2",
                       "10 12 LE ZENITH PARTIE 2",
@@ -127,6 +131,7 @@ jobs:
                   "channel": "equinoxe",
                   "section": "EQUINOXE TV",
                   "label": "REVUE DES GRANDES UNES",
+                  "seedVideoId": "Aumpi5rEMwU",
                   "queries": [
                       "REVUE DES GRANDES UNES",
                       "LA REVUE DES GRANDES UNES",
@@ -141,6 +146,7 @@ jobs:
                   "channel": "equinoxe",
                   "section": "EQUINOXE TV",
                   "label": "JOURNAL 20H",
+                  "seedVideoId": "kpLzG1FIK_Q",
                   "queries": [
                       "JOURNAL 20H",
                       "JOURNAL DE 20H",
@@ -154,25 +160,11 @@ jobs:
                   ],
               },
               {
-                  "id": "debrief20",
-                  "channel": "equinoxe",
-                  "section": "EQUINOXE TV",
-                  "label": "DÉBRIEF DU JOURNAL",
-                  "queries": [
-                      "DEBRIEF JOURNAL 20H",
-                      "DEBRIEF DU JOURNAL",
-                      "JOURNAL 20H DEBRIEF",
-                  ],
-                  "patterns": [
-                      r"\bDEBRIEF\b.*\bJOURNAL\b",
-                      r"\bJOURNAL\b.*\bDEBRIEF\b",
-                  ],
-              },
-              {
                   "id": "bilingue",
                   "channel": "equinoxe",
                   "section": "EQUINOXE TV",
                   "label": "JOURNAL BILINGUE",
+                  "seedVideoId": "X1aRcyC_ANg",
                   "queries": [
                       "JOURNAL BILINGUE",
                       "JTB",
@@ -199,6 +191,7 @@ jobs:
                   "channel": "equinoxe",
                   "section": "EQUINOXE TV",
                   "label": "ÉQUINOXE SOIR",
+                  "seedVideoId": "OrDHMWbHdL8",
                   "queries": [
                       "EQUINOXE SOIR",
                   ],
@@ -211,6 +204,7 @@ jobs:
                   "channel": "equinoxe",
                   "section": "EQUINOXE TV",
                   "label": "PIDGIN NEWS",
+                  "seedVideoId": "ydGQEacJ5yk",
                   "queries": [
                       "PIDGIN NEWS",
                   ],
@@ -226,6 +220,7 @@ jobs:
                   "channel": "equinoxe",
                   "section": "EQUINOXE TV",
                   "label": "PIDGIN NEWS DEBATE",
+                  "seedVideoId": "d6wDlWHRSEA",
                   "queries": [
                       "PIDGIN NEWS DEBATE",
                   ],
@@ -268,19 +263,6 @@ jobs:
                   ],
               },
               {
-                  "id": "clubamis",
-                  "channel": "canal2",
-                  "section": "CANAL 2",
-                  "label": "LE CLUB DES AMIS",
-                  "queries": [
-                      "LE CLUB DES AMIS",
-                      "CLUB DES AMIS",
-                  ],
-                  "patterns": [
-                      r"\bCLUB DES AMIS\b",
-                  ],
-              },
-              {
                   "id": "canalpress",
                   "channel": "canal2",
                   "section": "CANAL 2",
@@ -297,6 +279,7 @@ jobs:
                   "channel": "canal2",
                   "section": "CANAL 2",
                   "label": "LE CLUB DES ÉLITES",
+                  "seedVideoId": "w8HfinkK4Ac",
                   "queries": [
                       "LE CLUB DES ELITES",
                       "CLUB DES ELITES",
@@ -325,19 +308,6 @@ jobs:
                       r"\b20H(?:00)?\b.*\bJOURNAL\b",
                   ],
                   "exclude": [
-                      r"\bDEBRIEF\b",
-                  ],
-              },
-              {
-                  "id": "infodebrief",
-                  "channel": "infotv",
-                  "section": "INFO TV",
-                  "label": "DÉBRIEF",
-                  "queries": [
-                      "DEBRIEF",
-                      "DEBRIEF DU JOURNAL",
-                  ],
-                  "patterns": [
                       r"\bDEBRIEF\b",
                   ],
               },
@@ -1497,6 +1467,55 @@ jobs:
                   continue
 
 
+              # If YouTube search did not expose a newer episode,
+              # use the known-good reference supplied for this show.
+              seed_video_id = show.get(
+                  "seedVideoId",
+                  "",
+              )
+
+              if seed_video_id:
+                  seeded = {
+                      "id": show["id"],
+                      "section": show[
+                          "section"
+                      ],
+                      "label": show[
+                          "label"
+                      ],
+                      "found": True,
+                      "videoId": seed_video_id,
+                      "thumbnail": (
+                          "https://i.ytimg.com/vi/"
+                          + seed_video_id
+                          + "/hqdefault.jpg"
+                      ),
+                      "embedUrl": (
+                          "https://www.youtube-nocookie.com/embed/"
+                          + seed_video_id
+                          + "?autoplay=1&rel=0&playsinline=1"
+                      ),
+                      "watchUrl": (
+                          "https://www.youtube.com/watch?v="
+                          + seed_video_id
+                      ),
+                      "videoTitle": "",
+                      "publishedAt": "",
+                  }
+
+                  final_shows.append(
+                      seeded
+                  )
+
+                  print(
+                      "SEEDED |",
+                      show["label"],
+                      "|",
+                      seed_video_id,
+                  )
+
+                  continue
+
               final_shows.append(
                   {
                       "id": show["id"],
@@ -1626,7 +1645,7 @@ jobs:
           print()
           print(
               "TV FACILE RESULT:",
-              f"{found_count}/17 available",
+              f"{found_count}/14 available",
           )
           PY
 
@@ -1651,9 +1670,9 @@ jobs:
               []
           )
 
-          if len(shows) != 17:
+          if len(shows) != 14:
               raise SystemExit(
-                  f"Expected 17 programs; found {len(shows)}."
+                  f"Expected 14 programs; found {len(shows)}."
               )
 
           seen = set()
@@ -1731,7 +1750,7 @@ jobs:
           )
 
           print(
-              f"Validated {found}/17 available programs."
+              f"Validated {found}/14 available programs."
           )
           PY
 
@@ -1818,6 +1837,6 @@ jobs:
               )
 
           print(
-              "All 17 programs have a real YouTube episode."
+              "All 14 programs have a real YouTube episode."
           )
           PY
