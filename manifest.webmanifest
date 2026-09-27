@@ -1,13 +1,15 @@
 {
   "name": "TV Facile",
   "short_name": "TV Facile",
-  "description": "Accès simplifié aux dernières émissions TV.",
-  "id": "./?app=tv-facile-v10",
-  "start_url": "./?app=tv-facile-v10",
+  "description": "Accès très simple aux dernières émissions TV.",
+  "id": "./",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
+  "lang": "fr",
+  "dir": "ltr",
   "icons": [
     {
       "src": "icon-192.png",
@@ -27,7 +29,5 @@
       "type": "image/png",
       "purpose": "maskable"
     }
-  ],
-  "lang": "fr-CA",
-  "dir": "ltr"
+  ]
 }
