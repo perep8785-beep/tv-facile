@@ -1,0 +1,228 @@
+{
+  "generatedAt": null,
+  "channels": {
+    "EQUINOXE TV": {
+      "name": "ÉQUINOXE TV",
+      "handle": "@equinoxetv",
+      "channelId": ""
+    },
+    "CANAL 2": {
+      "name": "Canal2 International",
+      "handle": "@canal2internationalofficiel",
+      "channelId": "UCli7mxfNrS0BBtlo5DwCt8Q"
+    },
+    "INFO TV": {
+      "name": "Info TV Officiel",
+      "handle": "@InfoTV_Cameroun",
+      "channelId": "UCNngJARC3eIXpUwAXfCJO5A"
+    }
+  },
+  "shows": [
+    {
+      "id": "zenith1",
+      "section": "EQUINOXE TV",
+      "label": "LE ZÉNITH 1",
+      "found": false,
+      "videoId": "",
+      "thumbnail": "",
+      "embedUrl": "",
+      "watchUrl": "",
+      "videoTitle": "",
+      "publishedAt": ""
+    },
+    {
+      "id": "zenith2",
+      "section": "EQUINOXE TV",
+      "label": "LE ZÉNITH 2",
+      "found": false,
+      "videoId": "",
+      "thumbnail": "",
+      "embedUrl": "",
+      "watchUrl": "",
+      "videoTitle": "",
+      "publishedAt": ""
+    },
+    {
+      "id": "grandesunes",
+      "section": "EQUINOXE TV",
+      "label": "REVUE DES GRANDES UNES",
+      "found": false,
+      "videoId": "",
+      "thumbnail": "",
+      "embedUrl": "",
+      "watchUrl": "",
+      "videoTitle": "",
+      "publishedAt": ""
+    },
+    {
+      "id": "journal20",
+      "section": "EQUINOXE TV",
+      "label": "JOURNAL 20H",
+      "found": false,
+      "videoId": "",
+      "thumbnail": "",
+      "embedUrl": "",
+      "watchUrl": "",
+      "videoTitle": "",
+      "publishedAt": ""
+    },
+    {
+      "id": "debrief20",
+      "section": "EQUINOXE TV",
+      "label": "DÉBRIEF DU JOURNAL",
+      "found": false,
+      "videoId": "",
+      "thumbnail": "",
+      "embedUrl": "",
+      "watchUrl": "",
+      "videoTitle": "",
+      "publishedAt": ""
+    },
+    {
+      "id": "bilingue",
+      "section": "EQUINOXE TV",
+      "label": "JOURNAL BILINGUE",
+      "found": false,
+      "videoId": "",
+      "thumbnail": "",
+      "embedUrl": "",
+      "watchUrl": "",
+      "videoTitle": "",
+      "publishedAt": ""
+    },
+    {
+      "id": "droitreponse",
+      "section": "EQUINOXE TV",
+      "label": "DROIT DE RÉPONSE",
+      "found": false,
+      "videoId": "",
+      "thumbnail": "",
+      "embedUrl": "",
+      "watchUrl": "",
+      "videoTitle": "",
+      "publishedAt": ""
+    },
+    {
+      "id": "equinoxsoir",
+      "section": "EQUINOXE TV",
+      "label": "ÉQUINOXE SOIR",
+      "found": false,
+      "videoId": "",
+      "thumbnail": "",
+      "embedUrl": "",
+      "watchUrl": "",
+      "videoTitle": "",
+      "publishedAt": ""
+    },
+    {
+      "id": "pidginnews",
+      "section": "EQUINOXE TV",
+      "label": "PIDGIN NEWS",
+      "found": false,
+      "videoId": "",
+      "thumbnail": "",
+      "embedUrl": "",
+      "watchUrl": "",
+      "videoTitle": "",
+      "publishedAt": ""
+    },
+    {
+      "id": "pidgindebate",
+      "section": "EQUINOXE TV",
+      "label": "PIDGIN NEWS DEBATE",
+      "found": false,
+      "videoId": "",
+      "thumbnail": "",
+      "embedUrl": "",
+      "watchUrl": "",
+      "videoTitle": "",
+      "publishedAt": ""
+    },
+
+    {
+      "id": "canal2journal",
+      "section": "CANAL 2",
+      "label": "JOURNAL CANAL 2",
+      "found": false,
+      "videoId": "",
+      "thumbnail": "",
+      "embedUrl": "",
+      "watchUrl": "",
+      "videoTitle": "",
+      "publishedAt": ""
+    },
+    {
+      "id": "canal2debrief",
+      "section": "CANAL 2",
+      "label": "DÉBRIEF CANAL 2",
+      "found": false,
+      "videoId": "",
+      "thumbnail": "",
+      "embedUrl": "",
+      "watchUrl": "",
+      "videoTitle": "",
+      "publishedAt": ""
+    },
+    {
+      "id": "clubamis",
+      "section": "CANAL 2",
+      "label": "LE CLUB DES AMIS",
+      "found": false,
+      "videoId": "",
+      "thumbnail": "",
+      "embedUrl": "",
+      "watchUrl": "",
+      "videoTitle": "",
+      "publishedAt": ""
+    },
+    {
+      "id": "canalpress",
+      "section": "CANAL 2",
+      "label": "CANAL PRESSE",
+      "found": false,
+      "videoId": "",
+      "thumbnail": "",
+      "embedUrl": "",
+      "watchUrl": "",
+      "videoTitle": "",
+      "publishedAt": ""
+    },
+    {
+      "id": "clubelites",
+      "section": "CANAL 2",
+      "label": "LE CLUB DES ÉLITES",
+      "found": false,
+      "videoId": "",
+      "thumbnail": "",
+      "embedUrl": "",
+      "watchUrl": "",
+      "videoTitle": "",
+      "publishedAt": ""
+    },
+
+    {
+      "id": "infojournal",
+      "section": "INFO TV",
+      "label": "LE JOURNAL",
+      "found": false,
+      "videoId": "",
+      "thumbnail": "",
+      "embedUrl": "",
+      "watchUrl": "",
+      "videoTitle": "",
+      "publishedAt": ""
+    },
+    {
+      "id": "infodebrief",
+      "section": "INFO TV",
+      "label": "DÉBRIEF",
+      "found": false,
+      "videoId": "",
+      "thumbnail": "",
+      "embedUrl": "",
+      "watchUrl": "",
+      "videoTitle": "",
+      "publishedAt": ""
+    }
+  ]
+}
