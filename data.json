@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T10:24:59.920601Z",
+  "generatedAt": "2026-09-27T11:24:42.660121Z",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
@@ -94,13 +94,13 @@
       "id": "droitreponse",
       "section": "EQUINOXE TV",
       "label": "DROIT DE RÉPONSE",
-      "found": false,
-      "videoId": "",
-      "thumbnail": "",
-      "embedUrl": "",
-      "watchUrl": "",
-      "videoTitle": "",
-      "publishedAt": ""
+      "found": true,
+      "videoId": "rHEqHPQ3uj4",
+      "thumbnail": "https://i.ytimg.com/vi/rHEqHPQ3uj4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/rHEqHPQ3uj4?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=rHEqHPQ3uj4",
+      "videoTitle": "DROIT DE RÉPONSE DU DIMANCHE 27 SEPTEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-09-26T20:04:22+00:00"
     },
     {
       "id": "equinoxsoir",
