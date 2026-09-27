@@ -1,569 +1,1111 @@
 <!doctype html>
 <html lang="fr">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#000000">
-<meta name="mobile-web-app-capable" content="yes">
-<title>TV Facile</title>
-<link rel="manifest" href="manifest.webmanifest">
-<link rel="icon" href="icon-192.png">
-<link rel="apple-touch-icon" href="icon-192.png">
-<style>
-:root{--y:#FFFF00;--b:#000;--soft:#fffca8}
-*{box-sizing:border-box}
-html,body{margin:0;min-height:100%;background:#000;color:var(--y);font-family:Arial,Helvetica,sans-serif;-webkit-text-size-adjust:100%}
-body{font-weight:900}
-button{font:inherit;touch-action:manipulation}
-.hidden{display:none!important}
-.app{max-width:820px;margin:auto;padding:14px 14px 30px}
-.hero{display:grid;grid-template-columns:100px 1fr;align-items:center;gap:15px;border:7px solid var(--y);border-radius:30px;padding:14px;margin-bottom:16px;background:#000}
-.hero img{width:92px;height:92px;object-fit:contain;border:4px solid var(--y);border-radius:20px;padding:4px}
-.hero h1{font-size:clamp(40px,10vw,60px);line-height:.92;margin:0}
-.hero p{font-size:clamp(22px,5.8vw,31px);line-height:1.05;margin:8px 0 0}
-.status{border:4px solid var(--y);border-radius:18px;text-align:center;padding:10px 12px;margin-bottom:14px;font-size:clamp(18px,4.7vw,24px)}
-.channel{width:100%;min-height:145px;display:grid;grid-template-columns:90px 1fr 40px;align-items:center;gap:14px;margin:0 0 16px;padding:14px;border:7px solid var(--y);border-radius:30px;background:#000;color:var(--y);text-align:left}
-.channel:active,.watch:active,.navbtn:active{transform:scale(.985)}
-.code{width:80px;height:80px;display:flex;align-items:center;justify-content:center;border-radius:20px;background:var(--y);color:#000;font-size:31px;border:4px solid #000}
-.name{font-size:clamp(34px,8vw,50px);line-height:1}
-.arrow{font-size:54px}
-.navbtn{width:100%;min-height:76px;border:6px solid var(--y);border-radius:22px;background:#000;color:var(--y);font-size:clamp(24px,6vw,34px);font-weight:900;padding:10px}
-.screen-title{font-size:clamp(40px,9vw,58px);text-align:center;margin:16px 0}
-.cards{display:flex;flex-direction:column;gap:20px}
-.card{border:7px solid var(--y);border-radius:30px;overflow:hidden;background:#000}
-.thumbwrap{width:100%;aspect-ratio:16/9;border-bottom:6px solid var(--y);background:#060606;display:flex;align-items:center;justify-content:center;overflow:hidden}
-.thumb{width:100%;height:100%;object-fit:cover;display:block}
-.waiting{font-size:clamp(28px,7vw,42px);text-align:center;padding:25px;color:var(--y)}
-.body{padding:15px}
-.card h3{font-size:clamp(34px,8vw,48px);line-height:1;margin:0}
-.meta{font-size:clamp(20px,5vw,27px);color:var(--soft);margin:9px 0 0}
-.watch{width:100%;min-height:90px;margin-top:14px;border:6px solid var(--y);border-radius:22px;background:var(--y);color:#000;font-size:clamp(30px,7vw,42px);font-weight:900}
-.watch[disabled]{background:#111;color:var(--y);opacity:1}
-.player{position:fixed;inset:0;z-index:9999;background:#000;color:var(--y);display:flex;flex-direction:column;padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom)}
-.playerhead{padding:10px;border-bottom:5px solid var(--y)}
-.playername{text-align:center;font-size:clamp(28px,7vw,42px);margin:10px 0 3px}
-.video{flex:1;min-height:0;padding:10px}
-.video iframe{width:100%;height:100%;min-height:280px;border:3px solid var(--y);border-radius:15px;background:#111}
-.note{text-align:center;color:var(--soft);font-size:18px;padding:0 10px 10px}
-@media(orientation:landscape) and (max-height:560px){
-.hero{grid-template-columns:74px 1fr;padding:9px}.hero img{width:68px;height:68px}.channel{min-height:108px}
-.card{display:grid;grid-template-columns:44% 56%}.thumbwrap{aspect-ratio:auto;border-bottom:0;border-right:6px solid var(--y)}
-}
-</style>
-</head>
-<body>
-<main class="app">
-<header class="hero">
-  <img src="icon-192.png" alt="">
-  <div><h1>TV FACILE</h1><p>Choisissez une chaîne</p></div>
-</header>
+  <meta charset="utf-8">
 
-<section id="home">
-  <div id="status" class="status">CHARGEMENT DES DERNIÈRES ÉMISSIONS…</div>
-  <button class="channel" data-section="EQUINOXE TV"><span class="code">EQ</span><span class="name">ÉQUINOXE TV</span><span class="arrow">›</span></button>
-  <button class="channel" data-section="CANAL 2"><span class="code">C2</span><span class="name">CANAL 2</span><span class="arrow">›</span></button>
-  <button class="channel" data-section="INFO TV"><span class="code">IT</span><span class="name">INFO TV</span><span class="arrow">›</span></button>
-</section>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, viewport-fit=cover"
+  >
 
-<section id="channelView" class="hidden">
-  <button id="homeBtn" class="navbtn">‹ ACCUEIL</button>
-  <h2 id="channelTitle" class="screen-title">CHAÎNE</h2>
-  <div id="cards" class="cards"></div>
-</section>
-</main>
+  <meta name="theme-color" content="#000000">
+  <meta name="color-scheme" content="dark">
 
-<section id="player" class="player hidden">
-  <div class="playerhead">
-    <button id="backBtn" class="navbtn">‹ RETOUR AUX ÉMISSIONS</button>
-    <div id="playerName" class="playername">ÉMISSION</div>
-  </div>
-  <div class="video">
-    <iframe id="frame"
-      title="Lecteur vidéo"
-      allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
-      referrerpolicy="strict-origin-when-cross-origin"
-      allowfullscreen></iframe>
-  </div>
-  <div class="note">La vidéo reste dans TV Facile.</div>
-</section>
+  <title>TV FACILE</title>
 
-<script src="data.js?v=10"></script>
-<script>
-(function(){
-"use strict";
-var DATA=(window.TV_DATA&&Array.isArray(window.TV_DATA.shows))?window.TV_DATA:{shows:[]};
-var current=null;
-var home=document.getElementById("home");
-var channelView=document.getElementById("channelView");
-var cards=document.getElementById("cards");
-var channelTitle=document.getElementById("channelTitle");
-var status=document.getElementById("status");
-var player=document.getElementById("player");
-var frame=document.getElementById("frame");
-var playerName=document.getElementById("playerName");
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon-192.png">
+  <link rel="apple-touch-icon" href="icon-192.png">
 
-function showHome(){
-  current=null;
-  channelView.classList.add("hidden");
-  home.classList.remove("hidden");
-  window.scrollTo(0,0);
-}
-function closePlayer(){
-  frame.src="";
-  player.classList.add("hidden");
-  document.body.style.overflow="";
-}
-function openPlayer(show){
-  if(!show.found||!show.embedUrl)return;
-  playerName.textContent=show.label;
-  frame.src=show.embedUrl;
-  player.classList.remove("hidden");
-  document.body.style.overflow="hidden";
-}
-function render(section){
-  current=section;
-  channelTitle.textContent=section;
-  cards.innerHTML="";
-  var list=DATA.shows.filter(function(s){return s.section===section});
-  list.forEach(function(show){
-    var card=document.createElement("article"); card.className="card";
-    var tw=document.createElement("div"); tw.className="thumbwrap";
-    if(show.found&&show.thumbnail){
-      var img=document.createElement("img"); img.className="thumb"; img.alt=""; img.src=show.thumbnail; tw.appendChild(img);
-    }else{
-      var w=document.createElement("div"); w.className="waiting"; w.textContent="MISE À JOUR…"; tw.appendChild(w);
-    }
-    var body=document.createElement("div"); body.className="body";
-    var h=document.createElement("h3"); h.textContent=show.label;
-    var meta=document.createElement("div"); meta.className="meta";
-    meta.textContent=show.found?"DERNIÈRE ÉMISSION DISPONIBLE":"VIDÉO EN COURS DE MISE À JOUR";
-    var b=document.createElement("button"); b.className="watch";
-    b.textContent=show.found?"▶ REGARDER ICI":"BIENTÔT DISPONIBLE";
-    b.disabled=!show.found;
-    if(show.found)b.onclick=function(){openPlayer(show)};
-    body.append(h,meta,b); card.append(tw,body); cards.appendChild(card);
-  });
-  home.classList.add("hidden"); channelView.classList.remove("hidden"); window.scrollTo(0,0);
-}
-document.querySelectorAll(".channel").forEach(function(b){b.onclick=function(){render(b.dataset.section)}});
-document.getElementById("homeBtn").onclick=showHome;
-document.getElementById("backBtn").onclick=closePlayer;
-status.textContent=DATA.generatedAt?"DERNIÈRES VIDÉOS À JOUR":"LANCEZ UNE PREMIÈRE MISE À JOUR GITHUB";
-if("serviceWorker"in navigator)navigator.serviceWorker.register("service-worker.js?v=10").catch(function(){});
-})();
-</script>
-</body>
-</html>  <div class="note">La vidéo reste dans TV Facile.</div>
-</section>
-
-<script src="data.js?v=10"></script>
-<script>
-(function(){
-"use strict";
-var DATA=(window.TV_DATA&&Array.isArray(window.TV_DATA.shows))?window.TV_DATA:{shows:[]};
-var current=null;
-var home=document.getElementById("home");
-var channelView=document.getElementById("channelView");
-var cards=document.getElementById("cards");
-var channelTitle=document.getElementById("channelTitle");
-var status=document.getElementById("status");
-var player=document.getElementById("player");
-var frame=document.getElementById("frame");
-var playerName=document.getElementById("playerName");
-
-function showHome(){
-  current=null;
-  channelView.classList.add("hidden");
-  home.classList.remove("hidden");
-  window.scrollTo(0,0);
-}
-function closePlayer(){
-  frame.src="";
-  player.classList.add("hidden");
-  document.body.style.overflow="";
-}
-function openPlayer(show){
-  if(!show.found||!show.embedUrl)return;
-  playerName.textContent=show.label;
-  frame.src=show.embedUrl;
-  player.classList.remove("hidden");
-  document.body.style.overflow="hidden";
-}
-function render(section){
-  current=section;
-  channelTitle.textContent=section;
-  cards.innerHTML="";
-  var list=DATA.shows.filter(function(s){return s.section===section});
-  list.forEach(function(show){
-    var card=document.createElement("article"); card.className="card";
-    var tw=document.createElement("div"); tw.className="thumbwrap";
-    if(show.found&&show.thumbnail){
-      var img=document.createElement("img"); img.className="thumb"; img.alt=""; img.src=show.thumbnail; tw.appendChild(img);
-    }else{
-      var w=document.createElement("div"); w.className="waiting"; w.textContent="MISE À JOUR…"; tw.appendChild(w);
-    }
-    var body=document.createElement("div"); body.className="body";
-    var h=document.createElement("h3"); h.textContent=show.label;
-    var meta=document.createElement("div"); meta.className="meta";
-    meta.textContent=show.found?"DERNIÈRE ÉMISSION DISPONIBLE":"VIDÉO EN COURS DE MISE À JOUR";
-    var b=document.createElement("button"); b.className="watch";
-    b.textContent=show.found?"▶ REGARDER ICI":"BIENTÔT DISPONIBLE";
-    b.disabled=!show.found;
-    if(show.found)b.onclick=function(){openPlayer(show)};
-    body.append(h,meta,b); card.append(tw,body); cards.appendChild(card);
-  });
-  home.classList.add("hidden"); channelView.classList.remove("hidden"); window.scrollTo(0,0);
-}
-document.querySelectorAll(".channel").forEach(function(b){b.onclick=function(){render(b.dataset.section)}});
-document.getElementById("homeBtn").onclick=showHome;
-document.getElementById("backBtn").onclick=closePlayer;
-status.textContent=DATA.generatedAt?"DERNIÈRES VIDÉOS À JOUR":"LANCEZ UNE PREMIÈRE MISE À JOUR GITHUB";
-if("serviceWorker"in navigator)navigator.serviceWorker.register("service-worker.js?v=10").catch(function(){});
-})();
-</script>
-</body>
-</html>  <div class="note">La vidéo reste dans TV Facile.</div>
-</section>
-
-<script src="data.js?v=10"></script>
-<script>
-(function(){
-"use strict";
-var DATA=(window.TV_DATA&&Array.isArray(window.TV_DATA.shows))?window.TV_DATA:{shows:[]};
-var current=null;
-var home=document.getElementById("home");
-var channelView=document.getElementById("channelView");
-var cards=document.getElementById("cards");
-var channelTitle=document.getElementById("channelTitle");
-var status=document.getElementById("status");
-var player=document.getElementById("player");
-var frame=document.getElementById("frame");
-var playerName=document.getElementById("playerName");
-
-function showHome(){
-  current=null;
-  channelView.classList.add("hidden");
-  home.classList.remove("hidden");
-  window.scrollTo(0,0);
-}
-function closePlayer(){
-  frame.src="";
-  player.classList.add("hidden");
-  document.body.style.overflow="";
-}
-function openPlayer(show){
-  if(!show.found||!show.embedUrl)return;
-  playerName.textContent=show.label;
-  frame.src=show.embedUrl;
-  player.classList.remove("hidden");
-  document.body.style.overflow="hidden";
-}
-function render(section){
-  current=section;
-  channelTitle.textContent=section;
-  cards.innerHTML="";
-  var list=DATA.shows.filter(function(s){return s.section===section});
-  list.forEach(function(show){
-    var card=document.createElement("article"); card.className="card";
-    var tw=document.createElement("div"); tw.className="thumbwrap";
-    if(show.found&&show.thumbnail){
-      var img=document.createElement("img"); img.className="thumb"; img.alt=""; img.src=show.thumbnail; tw.appendChild(img);
-    }else{
-      var w=document.createElement("div"); w.className="waiting"; w.textContent="MISE À JOUR…"; tw.appendChild(w);
-    }
-    var body=document.createElement("div"); body.className="body";
-    var h=document.createElement("h3"); h.textContent=show.label;
-    var meta=document.createElement("div"); meta.className="meta";
-    meta.textContent=show.found?"DERNIÈRE ÉMISSION DISPONIBLE":"VIDÉO EN COURS DE MISE À JOUR";
-    var b=document.createElement("button"); b.className="watch";
-    b.textContent=show.found?"▶ REGARDER ICI":"BIENTÔT DISPONIBLE";
-    b.disabled=!show.found;
-    if(show.found)b.onclick=function(){openPlayer(show)};
-    body.append(h,meta,b); card.append(tw,body); cards.appendChild(card);
-  });
-  home.classList.add("hidden"); channelView.classList.remove("hidden"); window.scrollTo(0,0);
-}
-document.querySelectorAll(".channel").forEach(function(b){b.onclick=function(){render(b.dataset.section)}});
-document.getElementById("homeBtn").onclick=showHome;
-document.getElementById("backBtn").onclick=closePlayer;
-status.textContent=DATA.generatedAt?"DERNIÈRES VIDÉOS À JOUR":"LANCEZ UNE PREMIÈRE MISE À JOUR GITHUB";
-if("serviceWorker"in navigator)navigator.serviceWorker.register("service-worker.js?v=10").catch(function(){});
-})();
-</script>
-</body>
-</html>
-<script>
-const FALLBACK = [{"id": "zenith1", "section": "EQUINOXE TV", "label": "LE ZÉNITH 1", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=10+12+LE+ZENITH+PART1+EQUINOXE+TV&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "zenith2", "section": "EQUINOXE TV", "label": "LE ZÉNITH 2", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=10+12+LE+ZENITH+PART2+EQUINOXE+TV&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "grandesunes", "section": "EQUINOXE TV", "label": "GRANDES UNES", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=REVUE+DES+GRANDES+UNES+EQUINOXE+TV&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "journal20", "section": "EQUINOXE TV", "label": "JOURNAL 20H", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=JOURNAL+20H+EQUINOXE+TV&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "debrief20", "section": "EQUINOXE TV", "label": "DÉBRIEF DU JOURNAL", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=DEBRIEF+JOURNAL+20H+EQUINOXE+TV&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "bilingue", "section": "EQUINOXE TV", "label": "JOURNAL BILINGUE", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=JOURNAL+BILINGUE+EQUINOXE+TV&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "droitreponse", "section": "EQUINOXE TV", "label": "DROIT DE RÉPONSE", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=DROIT+DE+REPONSE+EQUINOXE+TV&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "equinoxsoir", "section": "EQUINOXE TV", "label": "ÉQUINOXE SOIR", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=EQUINOXE+SOIR&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "pidginnews", "section": "EQUINOXE TV", "label": "PIDGIN NEWS", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=PIDGIN+NEWS+EQUINOXE+TV&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "pidgindebate", "section": "EQUINOXE TV", "label": "PIDGIN NEWS DEBATE", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=PIDGIN+NEWS+DEBATE+EQUINOXE+TV&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "canal2journal", "section": "CANAL 2", "label": "JOURNAL CANAL 2", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=JOURNAL+CANAL+2+INTERNATIONAL&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "canal2debrief", "section": "CANAL 2", "label": "DÉBRIEF CANAL 2", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=DEBRIEF+CANAL+2+INTERNATIONAL&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "clubamis", "section": "CANAL 2", "label": "LE CLUB DES AMIS", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=CLUB+DES+AMIS+CANAL+2&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "canalpress", "section": "CANAL 2", "label": "CANAL PRESSE", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=CANAL+PRESSE+CANAL+2&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "clubelites", "section": "CANAL 2", "label": "LE CLUB DES ÉLITES", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=CLUB+DES+ELITES+CANAL+2&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "infojournal", "section": "INFO TV", "label": "INFO TV - LE JOURNAL", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=20H00+INFO+TV+CAMEROUN&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}, {"id": "infodebrief", "section": "INFO TV", "label": "INFO TV - DÉBRIEF", "found": false, "videoId": "", "thumbnail": "", "watchUrl": "https://www.youtube.com/results?search_query=DEBRIEF+INFO+TV+CAMEROUN&sp=CAI%253D", "embedUrl": "", "videoTitle": ""}];
-let DATA = {shows:FALLBACK};
-let SECTION = null;
-
-const home = document.getElementById("home");
-const channelView = document.getElementById("channelView");
-const cards = document.getElementById("cards");
-const channelTitle = document.getElementById("channelTitle");
-const statusEl = document.getElementById("status");
-const player = document.getElementById("player");
-const frame = document.getElementById("frame");
-const playerName = document.getElementById("playerName");
-const external = document.getElementById("external");
-
-function showHome(){
-  SECTION=null;
-  channelView.classList.add("hidden");
-  home.classList.remove("hidden");
-  window.scrollTo(0,0);
-}
-
-function initials(s){
-  return String(s||"TV").split(/\s+/).filter(Boolean).slice(0,2).map(x=>x[0]).join("").toUpperCase();
-}
-
-function render(section){
-  SECTION=section;
-  channelTitle.textContent=section;
-  cards.innerHTML="";
-  const list=(DATA.shows||FALLBACK).filter(x=>x.section===section);
-
-  list.forEach(show=>{
-    const card=document.createElement("article");
-    card.className="card";
-
-    const tw=document.createElement("div");
-    tw.className="thumbwrap";
-    if(show.thumbnail){
-      const im=document.createElement("img");
-      im.className="thumb";
-      im.alt="";
-      im.src=show.thumbnail;
-      im.onerror=()=>{tw.innerHTML='<div class="fallback">'+initials(show.label)+'</div>'};
-      tw.appendChild(im);
-    }else{
-      tw.innerHTML='<div class="fallback">'+initials(show.label)+'</div>';
+  <style>
+    :root {
+      --yellow: #FFFF00;
+      --black: #000000;
+      --soft-yellow: #FFFDB0;
     }
 
-    const body=document.createElement("div");
-    body.className="body";
-    const h=document.createElement("h3");
-    h.textContent=show.label;
-    const m=document.createElement("div");
-    m.className="meta";
-    m.textContent=show.found?"DERNIÈRE ÉMISSION DISPONIBLE":"OUVRIR LA RECHERCHE";
-    const b=document.createElement("button");
-    b.className="watch";
-    b.textContent=show.found?"▶ REGARDER":"▶ OUVRIR";
-    b.onclick=()=>openShow(show);
-    body.append(h,m,b);
-    card.append(tw,body);
-    cards.appendChild(card);
-  });
-
-  home.classList.add("hidden");
-  channelView.classList.remove("hidden");
-  window.scrollTo(0,0);
-}
-
-function openShow(show){
-  if(show.found && show.embedUrl){
-    playerName.textContent=show.label;
-    frame.src=show.embedUrl;
-    external.href=show.watchUrl||"#";
-    player.classList.remove("hidden");
-    document.body.style.overflow="hidden";
-  }else if(show.watchUrl){
-    window.location.href=show.watchUrl;
-  }
-}
-
-function closePlayer(){
-  frame.src="";
-  player.classList.add("hidden");
-  document.body.style.overflow="";
-}
-
-async function loadData(manual=false){
-  if(manual) statusEl.textContent="ACTUALISATION…";
-  try{
-    const r=await fetch("data.json?t="+Date.now(),{cache:"no-store"});
-    if(!r.ok) throw new Error("data");
-    const j=await r.json();
-    if(!j || !Array.isArray(j.shows)) throw new Error("format");
-    DATA=j;
-    localStorage.setItem("tvfacile_v8",JSON.stringify(j));
-    statusEl.textContent=j.generatedAt?"MISE À JOUR AUTOMATIQUE OK":"ÉMISSIONS PRÊTES";
-    if(SECTION) render(SECTION);
-  }catch(e){
-    try{
-      const c=JSON.parse(localStorage.getItem("tvfacile_v8")||"null");
-      if(c&&Array.isArray(c.shows)) DATA=c;
-    }catch(_e){}
-    statusEl.textContent="MODE SIMPLE — LES BOUTONS RESTENT DISPONIBLES";
-  }
-}
-
-document.querySelectorAll(".channel").forEach(b=>b.onclick=()=>render(b.dataset.section));
-document.getElementById("homeBtn").onclick=showHome;
-document.getElementById("backBtn").onclick=closePlayer;
-document.getElementById("refresh").onclick=()=>loadData(true);
-
-if("serviceWorker" in navigator) navigator.serviceWorker.register("service-worker.js?v=8").catch(()=>{});
-showHome();
-loadData(false);
-</script>
-</body>
-</html>  homeView.classList.add("hidden");
-  channelView.classList.add("hidden");
-  view.classList.remove("hidden");
-}
-
-function initials(text) {
-  return String(text || "TV")
-    .split(/\s+/)
-    .filter(Boolean)
-    .slice(0,2)
-    .map(w => w[0])
-    .join("")
-    .toUpperCase();
-}
-
-function openSection(section) {
-  currentSection = section;
-  renderChannel(section);
-}
-
-function renderChannel(section) {
-  channelTitle.textContent = section;
-  showsList.innerHTML = "";
-
-  const shows = (appData.shows || []).filter(s => s.section === section);
-
-  shows.forEach(show => {
-    const card = document.createElement("article");
-    card.className = "show-card" + (show.found ? "" : " not-found");
-
-    const thumbWrap = document.createElement("div");
-    thumbWrap.className = "show-thumb-wrap";
-
-    if (show.thumbnail) {
-      const img = document.createElement("img");
-      img.className = "show-thumb";
-      img.alt = "";
-      img.src = show.thumbnail;
-      img.onerror = () => {
-        thumbWrap.innerHTML =
-          '<div class="thumb-fallback">' + initials(show.label) + '</div>';
-      };
-      thumbWrap.appendChild(img);
-    } else {
-      thumbWrap.innerHTML =
-        '<div class="thumb-fallback">' + initials(show.label) + '</div>';
+    * {
+      box-sizing: border-box;
     }
 
-    const body = document.createElement("div");
-    body.className = "show-body";
-
-    const title = document.createElement("h3");
-    title.className = "show-title";
-    title.textContent = show.label;
-
-    const meta = document.createElement("p");
-    meta.className = "show-meta";
-    meta.textContent = show.found
-      ? "DERNIÈRE ÉMISSION DISPONIBLE"
-      : "OUVRIR LA RECHERCHE";
-
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "watch-button";
-    button.textContent = show.found ? "▶ REGARDER" : "▶ OUVRIR";
-    button.onclick = function() {
-      openPlayer(show);
-    };
-
-    body.appendChild(title);
-    body.appendChild(meta);
-    body.appendChild(button);
-
-    card.appendChild(thumbWrap);
-    card.appendChild(body);
-    showsList.appendChild(card);
-  });
-
-  showOnly(channelView);
-  window.scrollTo(0,0);
-}
-
-function goHome() {
-  currentSection = null;
-  showOnly(homeView);
-  window.scrollTo(0,0);
-}
-
-function openPlayer(show) {
-  if (!show) return;
-
-  if (!show.found || !show.embedUrl) {
-    if (show.watchUrl) {
-      window.location.href = show.watchUrl;
+    html,
+    body {
+      margin: 0;
+      min-height: 100%;
+      background: var(--black);
+      color: var(--yellow);
+      font-family: Arial, Helvetica, sans-serif;
+      -webkit-text-size-adjust: 100%;
     }
-    return;
-  }
 
-  playerTitle.textContent = show.label;
-  playerMessage.textContent = "LECTURE DE LA DERNIÈRE ÉMISSION";
-  videoFrame.src = show.embedUrl;
-  openBraveLink.href = show.watchUrl || "#";
-  openBraveLink.classList.remove("hidden");
-  playerView.classList.remove("hidden");
-  document.body.style.overflow = "hidden";
-}
+    body {
+      font-weight: 900;
+    }
 
-function closePlayer() {
-  videoFrame.src = "";
-  playerView.classList.add("hidden");
-  document.body.style.overflow = "";
-}
+    button {
+      font: inherit;
+      touch-action: manipulation;
+    }
 
-async function loadData() {
-  try {
-    syncStatus.textContent = "ACTUALISATION…";
+    button:focus-visible {
+      outline: 6px solid #FFFFFF;
+      outline-offset: 4px;
+    }
 
-    const response = await fetch("data.json?t=" + Date.now(), {
-      cache: "no-store"
-    });
+    .hidden {
+      display: none !important;
+    }
 
-    if (!response.ok) throw new Error("data.json");
+    .app {
+      width: min(100%, 900px);
+      margin: 0 auto;
+      padding: 18px 16px 36px;
+    }
 
-    const data = await response.json();
+    /* =========================
+       HEADER / LOGO
+       ========================= */
 
-    if (data && Array.isArray(data.shows)) {
-      appData = data;
-      syncStatus.textContent = "ÉMISSIONS PRÊTES";
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 18px;
 
-      if (currentSection) {
-        renderChannel(currentSection);
+      margin: 2px 0 22px;
+      padding: 12px 6px;
+    }
+
+    .hero img {
+      width: clamp(72px, 18vw, 108px);
+      height: clamp(72px, 18vw, 108px);
+
+      object-fit: contain;
+      flex: 0 0 auto;
+    }
+
+    .hero h1 {
+      margin: 0;
+
+      font-size: clamp(44px, 11vw, 76px);
+      line-height: 0.92;
+      letter-spacing: -2px;
+    }
+
+    /* =========================
+       HOME
+       ========================= */
+
+    .home-choices {
+      display: grid;
+      gap: 20px;
+    }
+
+    .channel {
+      width: 100%;
+      min-height: 150px;
+
+      border: 8px solid var(--yellow);
+      border-radius: 30px;
+
+      background: var(--black);
+      color: var(--yellow);
+
+      padding: 18px 20px;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      text-align: left;
+    }
+
+    .channel-name {
+      font-size: clamp(38px, 9vw, 62px);
+      line-height: 1;
+    }
+
+    .channel-arrow {
+      font-size: clamp(58px, 13vw, 84px);
+      line-height: 0.7;
+    }
+
+    .channel:active,
+    .nav-button:active,
+    .watch-button:active,
+    .thumbnail-button:active {
+      transform: scale(0.985);
+    }
+
+    /* =========================
+       CHANNEL VIEW
+       ========================= */
+
+    .nav-button {
+      width: 100%;
+      min-height: 90px;
+
+      border: 7px solid var(--yellow);
+      border-radius: 24px;
+
+      background: var(--black);
+      color: var(--yellow);
+
+      padding: 12px 16px;
+
+      font-size: clamp(28px, 7vw, 44px);
+      font-weight: 900;
+    }
+
+    .screen-title {
+      margin: 22px 0;
+
+      text-align: center;
+
+      font-size: clamp(42px, 10vw, 64px);
+      line-height: 1;
+    }
+
+    .cards {
+      display: grid;
+      gap: 24px;
+    }
+
+    .card {
+      overflow: hidden;
+
+      border: 8px solid var(--yellow);
+      border-radius: 30px;
+
+      background: var(--black);
+    }
+
+    .thumbnail-button {
+      display: block;
+
+      width: 100%;
+      aspect-ratio: 16 / 9;
+
+      overflow: hidden;
+
+      padding: 0;
+
+      border: 0;
+      border-bottom: 7px solid var(--yellow);
+
+      background: #050505;
+      color: var(--yellow);
+    }
+
+    .thumbnail-button img {
+      display: block;
+
+      width: 100%;
+      height: 100%;
+
+      object-fit: cover;
+    }
+
+    .thumbnail-fallback {
+      width: 100%;
+      height: 100%;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      padding: 22px;
+
+      text-align: center;
+
+      font-size: clamp(27px, 7vw, 43px);
+      line-height: 1.05;
+    }
+
+    .card-body {
+      padding: 18px;
+    }
+
+    .card h3 {
+      margin: 0 0 14px;
+
+      font-size: clamp(34px, 8vw, 50px);
+      line-height: 1.03;
+    }
+
+    .video-title {
+      margin: 0 0 15px;
+
+      color: var(--soft-yellow);
+
+      font-size: clamp(18px, 4.5vw, 24px);
+      line-height: 1.2;
+    }
+
+    .watch-button {
+      width: 100%;
+      min-height: 100px;
+
+      border: 0;
+      border-radius: 22px;
+
+      background: var(--yellow);
+      color: var(--black);
+
+      padding: 14px;
+
+      font-size: clamp(32px, 8vw, 48px);
+      font-weight: 900;
+    }
+
+    .watch-button:disabled {
+      border: 4px solid var(--yellow);
+
+      background: #111111;
+      color: var(--yellow);
+    }
+
+    /* =========================
+       VIDEO PLAYER
+       ========================= */
+
+    .player {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+
+      display: flex;
+      flex-direction: column;
+
+      background: var(--black);
+
+      padding:
+        max(10px, env(safe-area-inset-top))
+        10px
+        max(10px, env(safe-area-inset-bottom));
+    }
+
+    .player-header {
+      flex: 0 0 auto;
+      padding-bottom: 10px;
+    }
+
+    .player-title {
+      margin: 8px 0 0;
+
+      text-align: center;
+
+      font-size: clamp(24px, 6vw, 38px);
+      line-height: 1.05;
+    }
+
+    .video-container {
+      flex: 1;
+      min-height: 0;
+    }
+
+    .video-container iframe {
+      display: block;
+
+      width: 100%;
+      height: 100%;
+
+      border: 5px solid var(--yellow);
+      border-radius: 18px;
+
+      background: var(--black);
+    }
+
+    @media (min-width: 760px) {
+      .cards {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .home-choices {
+        gap: 24px;
       }
     }
-  } catch (e) {
-    syncStatus.textContent = "ÉMISSIONS PRÊTES";
-  }
-}
 
-function refreshShows() {
-  loadData();
-}
+    @media (orientation: landscape) and (max-height: 600px) {
+      .app {
+        width: min(100%, 1050px);
+      }
 
-window.openSection = openSection;
-window.goHome = goHome;
-window.closePlayer = closePlayer;
-window.refreshShows = refreshShows;
+      .hero {
+        margin-bottom: 10px;
+      }
 
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("service-worker.js?v=10").catch(function(){});
-}
+      .hero img {
+        width: 70px;
+        height: 70px;
+      }
 
-showOnly(homeView);
-loadData();
-</script>
+      .hero h1 {
+        font-size: 52px;
+      }
+
+      .channel {
+        min-height: 105px;
+      }
+
+      .channel-name {
+        font-size: 42px;
+      }
+
+      .player {
+        padding: 8px;
+      }
+
+      .player-header {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        gap: 14px;
+      }
+
+      .player-title {
+        margin: 0;
+        font-size: 28px;
+      }
+
+      .nav-button {
+        min-height: 68px;
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="app">
+
+    <header class="hero">
+      <img src="icon-192.png" alt="">
+      <h1>TV FACILE</h1>
+    </header>
+
+    <!-- HOME: EXACTLY THREE CHOICES -->
+    <section
+      id="home"
+      class="home-choices"
+      aria-label="Choisir une chaîne"
+    >
+
+      <button
+        class="channel"
+        type="button"
+        data-section="EQUINOXE TV"
+      >
+        <span class="channel-name">ÉQUINOXE TV</span>
+        <span class="channel-arrow" aria-hidden="true">›</span>
+      </button>
+
+      <button
+        class="channel"
+        type="button"
+        data-section="CANAL 2"
+      >
+        <span class="channel-name">CANAL 2</span>
+        <span class="channel-arrow" aria-hidden="true">›</span>
+      </button>
+
+      <button
+        class="channel"
+        type="button"
+        data-section="INFO TV"
+      >
+        <span class="channel-name">INFO TV</span>
+        <span class="channel-arrow" aria-hidden="true">›</span>
+      </button>
+
+    </section>
+
+    <!-- PROGRAMS -->
+    <section id="channelView" class="hidden">
+
+      <button
+        id="homeButton"
+        class="nav-button"
+        type="button"
+      >
+        ‹ ACCUEIL
+      </button>
+
+      <h2 id="channelTitle" class="screen-title">
+        CHAÎNE
+      </h2>
+
+      <div id="cards" class="cards"></div>
+
+    </section>
+
+  </main>
+
+  <!-- FULL-SCREEN IN-APP PLAYER -->
+  <section
+    id="player"
+    class="player hidden"
+    aria-label="Lecteur vidéo"
+  >
+
+    <div class="player-header">
+
+      <button
+        id="backButton"
+        class="nav-button"
+        type="button"
+      >
+        ‹ RETOUR AUX ÉMISSIONS
+      </button>
+
+      <div
+        id="playerTitle"
+        class="player-title"
+      ></div>
+
+    </div>
+
+    <div class="video-container">
+
+      <iframe
+        id="videoFrame"
+        title="Lecteur vidéo TV FACILE"
+        src="about:blank"
+        allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+
+    </div>
+
+  </section>
+
+  <script>
+    (function () {
+      "use strict";
+
+      const PROGRAMS = [
+        {
+          id: "zenith1",
+          section: "EQUINOXE TV",
+          label: "LE ZÉNITH 1"
+        },
+        {
+          id: "zenith2",
+          section: "EQUINOXE TV",
+          label: "LE ZÉNITH 2"
+        },
+        {
+          id: "grandesunes",
+          section: "EQUINOXE TV",
+          label: "REVUE DES GRANDES UNES"
+        },
+        {
+          id: "journal20",
+          section: "EQUINOXE TV",
+          label: "JOURNAL 20H"
+        },
+        {
+          id: "debrief20",
+          section: "EQUINOXE TV",
+          label: "DÉBRIEF DU JOURNAL"
+        },
+        {
+          id: "bilingue",
+          section: "EQUINOXE TV",
+          label: "JOURNAL BILINGUE"
+        },
+        {
+          id: "droitreponse",
+          section: "EQUINOXE TV",
+          label: "DROIT DE RÉPONSE"
+        },
+        {
+          id: "equinoxsoir",
+          section: "EQUINOXE TV",
+          label: "ÉQUINOXE SOIR"
+        },
+        {
+          id: "pidginnews",
+          section: "EQUINOXE TV",
+          label: "PIDGIN NEWS"
+        },
+        {
+          id: "pidgindebate",
+          section: "EQUINOXE TV",
+          label: "PIDGIN NEWS DEBATE"
+        },
+
+        {
+          id: "canal2journal",
+          section: "CANAL 2",
+          label: "JOURNAL CANAL 2"
+        },
+        {
+          id: "canal2debrief",
+          section: "CANAL 2",
+          label: "DÉBRIEF CANAL 2"
+        },
+        {
+          id: "clubamis",
+          section: "CANAL 2",
+          label: "LE CLUB DES AMIS"
+        },
+        {
+          id: "canalpress",
+          section: "CANAL 2",
+          label: "CANAL PRESSE"
+        },
+        {
+          id: "clubelites",
+          section: "CANAL 2",
+          label: "LE CLUB DES ÉLITES"
+        },
+
+        {
+          id: "infojournal",
+          section: "INFO TV",
+          label: "LE JOURNAL"
+        },
+        {
+          id: "infodebrief",
+          section: "INFO TV",
+          label: "DÉBRIEF"
+        }
+      ];
+
+      let data = {
+        shows: PROGRAMS.map(program => ({
+          ...program,
+          found: false,
+          videoId: "",
+          thumbnail: "",
+          embedUrl: "",
+          watchUrl: "",
+          videoTitle: "",
+          publishedAt: ""
+        }))
+      };
+
+      let currentSection = null;
+      let wakeLock = null;
+
+      const home =
+        document.getElementById("home");
+
+      const channelView =
+        document.getElementById("channelView");
+
+      const cards =
+        document.getElementById("cards");
+
+      const channelTitle =
+        document.getElementById("channelTitle");
+
+      const player =
+        document.getElementById("player");
+
+      const videoFrame =
+        document.getElementById("videoFrame");
+
+      const playerTitle =
+        document.getElementById("playerTitle");
+
+      function validData(value) {
+        return (
+          value &&
+          Array.isArray(value.shows) &&
+          value.shows.length >= PROGRAMS.length
+        );
+      }
+
+      async function loadData() {
+        try {
+          const response = await fetch(
+            "./data.json?v=" + Date.now(),
+            {
+              cache: "no-store"
+            }
+          );
+
+          if (!response.ok) {
+            throw new Error(
+              "HTTP " + response.status
+            );
+          }
+
+          const freshData =
+            await response.json();
+
+          if (!validData(freshData)) {
+            throw new Error(
+              "Invalid data.json"
+            );
+          }
+
+          data = freshData;
+
+          localStorage.setItem(
+            "tv-facile-data-v12",
+            JSON.stringify(freshData)
+          );
+        }
+
+        catch (error) {
+          /*
+            The app NEVER gets stuck.
+
+            If network data cannot load,
+            try the previous good version.
+          */
+          try {
+            const cached =
+              JSON.parse(
+                localStorage.getItem(
+                  "tv-facile-data-v12"
+                ) || "null"
+              );
+
+            if (validData(cached)) {
+              data = cached;
+            }
+          }
+
+          catch (ignored) {
+            // Keep built-in empty structure.
+          }
+        }
+
+        if (currentSection) {
+          renderChannel(
+            currentSection
+          );
+        }
+      }
+
+      function showHome() {
+        currentSection = null;
+
+        channelView.classList.add(
+          "hidden"
+        );
+
+        home.classList.remove(
+          "hidden"
+        );
+
+        window.scrollTo(0, 0);
+      }
+
+      function showUnavailable(
+        thumbnailButton,
+        label
+      ) {
+        thumbnailButton.innerHTML = "";
+
+        const fallback =
+          document.createElement("div");
+
+        fallback.className =
+          "thumbnail-fallback";
+
+        fallback.textContent =
+          label +
+          " — VIDÉO EN COURS DE MISE À JOUR";
+
+        thumbnailButton.appendChild(
+          fallback
+        );
+      }
+
+      async function requestWakeLock() {
+        if (
+          !("wakeLock" in navigator) ||
+          player.classList.contains("hidden")
+        ) {
+          return;
+        }
+
+        try {
+          wakeLock =
+            await navigator.wakeLock.request(
+              "screen"
+            );
+
+          wakeLock.addEventListener(
+            "release",
+            function () {
+              wakeLock = null;
+            }
+          );
+        }
+
+        catch (error) {
+          /*
+            Wake lock is an enhancement.
+            Playback must still work without it.
+          */
+        }
+      }
+
+      function openPlayer(show) {
+        if (
+          !show ||
+          !show.found ||
+          !show.videoId
+        ) {
+          return;
+        }
+
+        playerTitle.textContent =
+          show.label;
+
+        videoFrame.src =
+          show.embedUrl ||
+          (
+            "https://www.youtube-nocookie.com/embed/" +
+            encodeURIComponent(
+              show.videoId
+            ) +
+            "?autoplay=1&rel=0&playsinline=1"
+          );
+
+        player.classList.remove(
+          "hidden"
+        );
+
+        document.body.style.overflow =
+          "hidden";
+
+        requestWakeLock();
+      }
+
+      async function closePlayer() {
+        /*
+          Clearing src actually stops playback.
+        */
+        videoFrame.src =
+          "about:blank";
+
+        player.classList.add(
+          "hidden"
+        );
+
+        document.body.style.overflow =
+          "";
+
+        if (wakeLock) {
+          try {
+            await wakeLock.release();
+          }
+
+          catch (error) {
+            // Ignore.
+          }
+
+          wakeLock = null;
+        }
+      }
+
+      function renderChannel(section) {
+        currentSection = section;
+
+        channelTitle.textContent =
+          section;
+
+        cards.innerHTML = "";
+
+        const programs =
+          data.shows.filter(
+            show =>
+              show.section === section
+          );
+
+        programs.forEach(show => {
+          const card =
+            document.createElement(
+              "article"
+            );
+
+          card.className = "card";
+
+          /*
+            THUMBNAIL BUTTON
+          */
+
+          const thumbnailButton =
+            document.createElement(
+              "button"
+            );
+
+          thumbnailButton.className =
+            "thumbnail-button";
+
+          thumbnailButton.type =
+            "button";
+
+          thumbnailButton.setAttribute(
+            "aria-label",
+            show.found
+              ? "Regarder " + show.label
+              : show.label
+          );
+
+          if (
+            show.found &&
+            show.thumbnail
+          ) {
+            const image =
+              document.createElement(
+                "img"
+              );
+
+            image.src =
+              show.thumbnail;
+
+            image.alt =
+              "Dernière émission " +
+              show.label;
+
+            image.loading =
+              "lazy";
+
+            image.decoding =
+              "async";
+
+            image.onerror =
+              function () {
+                showUnavailable(
+                  thumbnailButton,
+                  show.label
+                );
+              };
+
+            thumbnailButton.appendChild(
+              image
+            );
+
+            thumbnailButton.onclick =
+              function () {
+                openPlayer(show);
+              };
+          }
+
+          else {
+            showUnavailable(
+              thumbnailButton,
+              show.label
+            );
+
+            thumbnailButton.disabled =
+              true;
+          }
+
+          /*
+            CARD TEXT
+          */
+
+          const body =
+            document.createElement(
+              "div"
+            );
+
+          body.className =
+            "card-body";
+
+          const heading =
+            document.createElement(
+              "h3"
+            );
+
+          heading.textContent =
+            show.label;
+
+          body.appendChild(
+            heading
+          );
+
+          if (
+            show.found &&
+            show.videoTitle
+          ) {
+            const title =
+              document.createElement(
+                "p"
+              );
+
+            title.className =
+              "video-title";
+
+            title.textContent =
+              show.videoTitle;
+
+            body.appendChild(
+              title
+            );
+          }
+
+          /*
+            HUGE WATCH BUTTON
+          */
+
+          const watch =
+            document.createElement(
+              "button"
+            );
+
+          watch.className =
+            "watch-button";
+
+          watch.type =
+            "button";
+
+          watch.textContent =
+            show.found
+              ? "▶ REGARDER"
+              : "INDISPONIBLE";
+
+          watch.disabled =
+            !show.found;
+
+          if (show.found) {
+            watch.onclick =
+              function () {
+                openPlayer(show);
+              };
+          }
+
+          body.appendChild(
+            watch
+          );
+
+          card.appendChild(
+            thumbnailButton
+          );
+
+          card.appendChild(
+            body
+          );
+
+          cards.appendChild(
+            card
+          );
+        });
+
+        home.classList.add(
+          "hidden"
+        );
+
+        channelView.classList.remove(
+          "hidden"
+        );
+
+        window.scrollTo(0, 0);
+      }
+
+      document
+        .querySelectorAll(".channel")
+        .forEach(button => {
+
+          button.addEventListener(
+            "click",
+            function () {
+              renderChannel(
+                button.dataset.section
+              );
+            }
+          );
+        });
+
+      document
+        .getElementById(
+          "homeButton"
+        )
+        .addEventListener(
+          "click",
+          showHome
+        );
+
+      document
+        .getElementById(
+          "backButton"
+        )
+        .addEventListener(
+          "click",
+          closePlayer
+        );
+
+      /*
+        Android/browser backgrounding can
+        release the wake lock automatically.
+
+        Re-request it when the app becomes
+        visible while the player is open.
+      */
+
+      document.addEventListener(
+        "visibilitychange",
+        function () {
+
+          if (
+            document.visibilityState ===
+              "visible" &&
+            !player.classList.contains(
+              "hidden"
+            )
+          ) {
+            requestWakeLock();
+          }
+        }
+      );
+
+      window.addEventListener(
+        "pagehide",
+        function () {
+
+          if (wakeLock) {
+            try {
+              wakeLock.release();
+            }
+
+            catch (error) {
+              // Ignore.
+            }
+          }
+        }
+      );
+
+      /*
+        SERVICE WORKER
+      */
+
+      if (
+        "serviceWorker" in navigator
+      ) {
+        navigator.serviceWorker
+          .register(
+            "./service-worker.js?v=12",
+            {
+              updateViaCache: "none"
+            }
+          )
+          .catch(function () {
+            // App still works without PWA support.
+          });
+      }
+
+      /*
+        Home appears IMMEDIATELY.
+
+        Data loads afterwards.
+        No loading screen.
+      */
+
+      loadData();
+
+    })();
+  </script>
 
 </body>
 </html>
