@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T18:27:57.491345Z",
+  "generatedAt": "2026-09-27T19:23:21.100154Z",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
@@ -131,12 +131,12 @@
       "section": "CANAL 2",
       "label": "JOURNAL CANAL 2",
       "found": true,
-      "videoId": "hHyhf3rgLdE",
-      "thumbnail": "https://i.ytimg.com/vi/hHyhf3rgLdE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/hHyhf3rgLdE?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=hHyhf3rgLdE",
-      "videoTitle": "LE JOURNAL TÉLÉVISÉ BILINGUE 13H00 du Vendredi 25/09/2026 - Canal 2 international",
-      "publishedAt": "2026-09-26T00:33:17+00:00"
+      "videoId": "TqnipUW0VUU",
+      "thumbnail": "https://i.ytimg.com/vi/TqnipUW0VUU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/TqnipUW0VUU?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=TqnipUW0VUU",
+      "videoTitle": "LE JOURNAL TÉLÉVISÉ BILINGUE 13H00 du Mardi 22/09/2026 - Canal 2 international",
+      "publishedAt": "2026-09-27T19:03:49+00:00"
     },
     {
       "id": "canal2debrief",
@@ -179,12 +179,12 @@
       "section": "INFO TV",
       "label": "LE JOURNAL",
       "found": true,
-      "videoId": "ZJwIunPazx0",
-      "thumbnail": "https://i.ytimg.com/vi/ZJwIunPazx0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/ZJwIunPazx0?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=ZJwIunPazx0",
-      "videoTitle": "LE 20H DU 26 SEPTEMBRE 2026",
-      "publishedAt": "2026-09-27T07:41:18+00:00"
+      "videoId": "1qZt7bIhkCA",
+      "thumbnail": "https://i.ytimg.com/vi/1qZt7bIhkCA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/1qZt7bIhkCA?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=1qZt7bIhkCA",
+      "videoTitle": "LE 20H BILINGUE DU 27 SEPTEMBRE 2026",
+      "publishedAt": "2026-09-27T18:47:25+00:00"
     }
   ]
 }
