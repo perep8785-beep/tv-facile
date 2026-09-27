@@ -1,0 +1,507 @@
+name: Update TV Facile
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-tv.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tv-facile-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    timeout-minutes: 25
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install yt-dlp
+        run: |
+          python -m pip install \
+            --disable-pip-version-check \
+            --quiet \
+            yt-dlp
+
+      - name: Find latest official episodes
+        shell: bash
+
+        run: |
+          python <<'PY'
+
+          import datetime
+          import json
+          import re
+          import unicodedata
+          import urllib.request
+          import xml.etree.ElementTree as ET
+
+          from yt_dlp import YoutubeDL
+
+
+          # ============================================================
+          # OFFICIAL CHANNELS
+          # ============================================================
+
+          CHANNELS = {
+
+              "equinoxe": {
+                  "section": "EQUINOXE TV",
+                  "name": "ÉQUINOXE TV",
+                  "handle": "@equinoxetv",
+                  "expected_id": None
+              },
+
+              "canal2": {
+                  "section": "CANAL 2",
+                  "name": "Canal2 International",
+                  "handle": "@canal2internationalofficiel",
+                  "expected_id": "UCli7mxfNrS0BBtlo5DwCt8Q"
+              },
+
+              "infotv": {
+                  "section": "INFO TV",
+                  "name": "Info TV Officiel",
+                  "handle": "@InfoTV_Cameroun",
+                  "expected_id": "UCNngJARC3eIXpUwAXfCJO5A"
+              }
+          }
+
+
+          # ============================================================
+          # PROGRAM MATCHING RULES
+          # ============================================================
+
+          SHOWS = [
+
+              {
+                  "id": "zenith1",
+                  "channel": "equinoxe",
+                  "section": "EQUINOXE TV",
+                  "label": "LE ZÉNITH 1",
+
+                  "patterns": [
+                      r"\b10 12\b.*\bZENITH\b.*\bPART(?:IE)? 1\b",
+                      r"\bZENITH\b.*\bPART(?:IE)? 1\b"
+                  ],
+
+                  "query":
+                      "LE ZENITH PARTIE 1 EQUINOXE TV"
+              },
+
+              {
+                  "id": "zenith2",
+                  "channel": "equinoxe",
+                  "section": "EQUINOXE TV",
+                  "label": "LE ZÉNITH 2",
+
+                  "patterns": [
+                      r"\b10 12\b.*\bZENITH\b.*\bPART(?:IE)? 2\b",
+                      r"\bZENITH\b.*\bPART(?:IE)? 2\b"
+                  ],
+
+                  "query":
+                      "LE ZENITH PARTIE 2 EQUINOXE TV"
+              },
+
+              {
+                  "id": "grandesunes",
+                  "channel": "equinoxe",
+                  "section": "EQUINOXE TV",
+                  "label": "REVUE DES GRANDES UNES",
+
+                  "patterns": [
+                      r"\bREVUE DES GRANDES UNES\b",
+                      r"\bGRANDES UNES\b"
+                  ],
+
+                  "query":
+                      "REVUE DES GRANDES UNES EQUINOXE TV"
+              },
+
+              {
+                  "id": "journal20",
+                  "channel": "equinoxe",
+                  "section": "EQUINOXE TV",
+                  "label": "JOURNAL 20H",
+
+                  "patterns": [
+                      r"\bJOURNAL 20H\b",
+                      r"\bJOURNAL DE 20H\b"
+                  ],
+
+                  "query":
+                      "JOURNAL 20H EQUINOXE TV"
+              },
+
+              {
+                  "id": "debrief20",
+                  "channel": "equinoxe",
+                  "section": "EQUINOXE TV",
+                  "label": "DÉBRIEF DU JOURNAL",
+
+                  "patterns": [
+                      r"\bDEBRIEF\b.*\bJOURNAL\b",
+                      r"\bJOURNAL 20H\b.*\bDEBRIEF\b"
+                  ],
+
+                  "query":
+                      "DEBRIEF JOURNAL 20H EQUINOXE TV"
+              },
+
+              {
+                  "id": "bilingue",
+                  "channel": "equinoxe",
+                  "section": "EQUINOXE TV",
+                  "label": "JOURNAL BILINGUE",
+
+                  "patterns": [
+                      r"\bJOURNAL BILINGUE\b",
+                      r"\bJTB\b"
+                  ],
+
+                  "query":
+                      "JOURNAL BILINGUE EQUINOXE TV"
+              },
+
+              {
+                  "id": "droitreponse",
+                  "channel": "equinoxe",
+                  "section": "EQUINOXE TV",
+                  "label": "DROIT DE RÉPONSE",
+
+                  "patterns": [
+                      r"\bDROIT DE REPONSE\b"
+                  ],
+
+                  "query":
+                      "DROIT DE REPONSE EQUINOXE TV"
+              },
+
+              {
+                  "id": "equinoxsoir",
+                  "channel": "equinoxe",
+                  "section": "EQUINOXE TV",
+                  "label": "ÉQUINOXE SOIR",
+
+                  "patterns": [
+                      r"\bEQUINOXE SOIR\b"
+                  ],
+
+                  "query":
+                      "EQUINOXE SOIR"
+              },
+
+              {
+                  "id": "pidginnews",
+                  "channel": "equinoxe",
+                  "section": "EQUINOXE TV",
+                  "label": "PIDGIN NEWS",
+
+                  "patterns": [
+                      r"\bPIDGIN NEWS\b"
+                  ],
+
+                  "exclude": [
+                      r"\bDEBATE\b"
+                  ],
+
+                  "query":
+                      "PIDGIN NEWS EQUINOXE TV"
+              },
+
+              {
+                  "id": "pidgindebate",
+                  "channel": "equinoxe",
+                  "section": "EQUINOXE TV",
+                  "label": "PIDGIN NEWS DEBATE",
+
+                  "patterns": [
+                      r"\bPIDGIN NEWS DEBATE\b",
+                      r"\bPIDGIN\b.*\bDEBATE\b"
+                  ],
+
+                  "query":
+                      "PIDGIN NEWS DEBATE EQUINOXE TV"
+              },
+
+
+              # ========================================================
+              # CANAL 2
+              # ========================================================
+
+              {
+                  "id": "canal2journal",
+                  "channel": "canal2",
+                  "section": "CANAL 2",
+                  "label": "JOURNAL CANAL 2",
+
+                  "patterns": [
+                      r"\bJOURNAL\b.*\b19H50\b",
+                      r"\b19H50\b.*\bJOURNAL\b",
+                      r"\bLE JOURNAL\b"
+                  ],
+
+                  "query":
+                      "LE JOURNAL 19H50 CANAL 2 INTERNATIONAL"
+              },
+
+              {
+                  "id": "canal2debrief",
+                  "channel": "canal2",
+                  "section": "CANAL 2",
+                  "label": "DÉBRIEF CANAL 2",
+
+                  "patterns": [
+                      r"\bDEBRIEF\b"
+                  ],
+
+                  "query":
+                      "DEBRIEF CANAL 2 INTERNATIONAL"
+              },
+
+              {
+                  "id": "clubamis",
+                  "channel": "canal2",
+                  "section": "CANAL 2",
+                  "label": "LE CLUB DES AMIS",
+
+                  "patterns": [
+                      r"\bCLUB DES AMIS\b"
+                  ],
+
+                  "query":
+                      "LE CLUB DES AMIS CANAL 2 INTERNATIONAL"
+              },
+
+              {
+                  "id": "canalpress",
+                  "channel": "canal2",
+                  "section": "CANAL 2",
+                  "label": "CANAL PRESSE",
+
+                  "patterns": [
+                      r"\bCANAL PRESSE\b"
+                  ],
+
+                  "query":
+                      "CANAL PRESSE CANAL 2 INTERNATIONAL"
+              },
+
+              {
+                  "id": "clubelites",
+                  "channel": "canal2",
+                  "section": "CANAL 2",
+                  "label": "LE CLUB DES ÉLITES",
+
+                  "patterns": [
+                      r"\bCLUB DES ELITES\b",
+                      r"\bCLUB D ELITES\b"
+                  ],
+
+                  "query":
+                      "LE CLUB DES ELITES CANAL 2 INTERNATIONAL"
+              },
+
+
+              # ========================================================
+              # INFO TV
+              # ========================================================
+
+              {
+                  "id": "infojournal",
+                  "channel": "infotv",
+                  "section": "INFO TV",
+                  "label": "LE JOURNAL",
+
+                  "patterns": [
+                      r"\bLE 20H00\b",
+                      r"\bLE 20H\b",
+                      r"\bJOURNAL 20H\b",
+                      r"\bLE JOURNAL\b"
+                  ],
+
+                  "query":
+                      "LE 20H INFO TV CAMEROUN"
+              },
+
+              {
+                  "id": "infodebrief",
+                  "channel": "infotv",
+                  "section": "INFO TV",
+                  "label": "DÉBRIEF",
+
+                  "patterns": [
+                      r"\bDEBRIEF\b"
+                  ],
+
+                  "query":
+                      "DEBRIEF INFO TV CAMEROUN"
+              }
+          ]
+
+
+          # ============================================================
+          # TEXT NORMALIZATION
+          # ============================================================
+
+          def normalize(value):
+
+              value = value or ""
+
+              value = unicodedata.normalize(
+                  "NFKD",
+                  value
+              )
+
+              value = "".join(
+                  character
+                  for character in value
+                  if not unicodedata.combining(
+                      character
+                  )
+              )
+
+              value = (
+                  value
+                  .upper()
+                  .replace("’", "'")
+                  .replace("–", "-")
+                  .replace("—", "-")
+              )
+
+              value = re.sub(
+                  r"[^A-Z0-9]+",
+                  " ",
+                  value
+              )
+
+              return re.sub(
+                  r"\s+",
+                  " ",
+                  value
+              ).strip()
+
+
+          # ============================================================
+          # YT-DLP
+          # ============================================================
+
+          BASE_YDL_OPTIONS = {
+
+              "quiet": True,
+
+              "no_warnings": True,
+
+              "skip_download": True,
+
+              "ignoreerrors": True,
+
+              "socket_timeout": 30,
+
+              "extractor_args": {
+                  "youtube": {
+                      "player_client": [
+                          "web"
+                      ]
+                  }
+              }
+          }
+
+
+          def ytdlp_extract(
+              url,
+              flat=False
+          ):
+
+              options = dict(
+                  BASE_YDL_OPTIONS
+              )
+
+              if flat:
+                  options[
+                      "extract_flat"
+                  ] = "in_playlist"
+
+              with YoutubeDL(
+                  options
+              ) as ydl:
+
+                  return ydl.extract_info(
+                      url,
+                      download=False
+                  )
+
+
+          # ============================================================
+          # CHANNEL ID RESOLUTION
+          # ============================================================
+
+          def resolve_channel_id(
+              handle
+          ):
+
+              url = (
+                  "https://www.youtube.com/" +
+                  handle +
+                  "/videos"
+              )
+
+              try:
+                  info =
+                      ytdlp_extract(
+                          url,
+                          flat=True
+                      )
+
+                  channel_id = (
+                      info.get(
+                          "channel_id"
+                      )
+                      or
+                      info.get(
+                          "uploader_id"
+                      )
+                  )
+
+                  if (
+                      channel_id and
+                      str(
+                          channel_id
+                      ).startswith("UC")
+                  ):
+                      return channel_id
+
+              except Exception as error:
+                  print(
+                      "yt-dlp channel resolution failed:",
+                      handle,
+                      error
+                  )
+
+              /*
+              Python does not support JS comments.
+              */
+
+          PY
