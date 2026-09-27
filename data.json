@@ -1,10 +1,10 @@
 {
-  "generatedAt": null,
+  "generatedAt": "2026-09-27T02:36:47.111533Z",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
       "handle": "@equinoxetv",
-      "channelId": ""
+      "channelId": "UCXriNfPc0bkHIp0G9YTwYEw"
     },
     "CANAL 2": {
       "name": "Canal2 International",
@@ -138,7 +138,6 @@
       "videoTitle": "",
       "publishedAt": ""
     },
-
     {
       "id": "canal2journal",
       "section": "CANAL 2",
@@ -155,13 +154,13 @@
       "id": "canal2debrief",
       "section": "CANAL 2",
       "label": "DÉBRIEF CANAL 2",
-      "found": false,
-      "videoId": "",
-      "thumbnail": "",
-      "embedUrl": "",
-      "watchUrl": "",
-      "videoTitle": "",
-      "publishedAt": ""
+      "found": true,
+      "videoId": "MOiDbPMFKkU",
+      "thumbnail": "https://i.ytimg.com/vi/MOiDbPMFKkU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/MOiDbPMFKkU?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=MOiDbPMFKkU",
+      "videoTitle": "RENTREE ECONOMIQUE: Doit-on s’inquiéter pour le Climat des affaires ?(DEBRIEF DE L'ACTU ,14/09/2026)",
+      "publishedAt": "2026-09-14T00:00:00Z"
     },
     {
       "id": "clubamis",
@@ -199,7 +198,6 @@
       "videoTitle": "",
       "publishedAt": ""
     },
-
     {
       "id": "infojournal",
       "section": "INFO TV",
