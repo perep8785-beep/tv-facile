@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T09:25:17.603130Z",
+  "generatedAt": "2026-09-27T10:24:59.920601Z",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
@@ -178,13 +178,13 @@
       "id": "canalpress",
       "section": "CANAL 2",
       "label": "CANAL PRESSE",
-      "found": false,
-      "videoId": "",
-      "thumbnail": "",
-      "embedUrl": "",
-      "watchUrl": "",
-      "videoTitle": "",
-      "publishedAt": ""
+      "found": true,
+      "videoId": "Td7CtCfCklk",
+      "thumbnail": "https://i.ytimg.com/vi/Td7CtCfCklk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Td7CtCfCklk?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=Td7CtCfCklk",
+      "videoTitle": "CANAL PRESSE du 27/09/2026",
+      "publishedAt": "2026-09-27T09:39:38+00:00"
     },
     {
       "id": "clubelites",
