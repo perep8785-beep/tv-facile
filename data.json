@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T07:29:19.260524Z",
+  "generatedAt": "2026-09-28T08:30:28.207372Z",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
@@ -47,12 +47,12 @@
       "section": "EQUINOXE TV",
       "label": "REVUE DES GRANDES UNES",
       "found": true,
-      "videoId": "Aumpi5rEMwU",
-      "thumbnail": "https://i.ytimg.com/vi/Aumpi5rEMwU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/Aumpi5rEMwU?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=Aumpi5rEMwU",
-      "videoTitle": "",
-      "publishedAt": ""
+      "videoId": "Oo4oFwKdCxA",
+      "thumbnail": "https://i.ytimg.com/vi/Oo4oFwKdCxA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Oo4oFwKdCxA?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=Oo4oFwKdCxA",
+      "videoTitle": "LA REVUE DES GRANDES UNES DU LUNDI 28 SEPTEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-09-27T21:25:37+00:00"
     },
     {
       "id": "journal20",
@@ -184,7 +184,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/1qZt7bIhkCA?autoplay=1&rel=0&playsinline=1",
       "watchUrl": "https://www.youtube.com/watch?v=1qZt7bIhkCA",
       "videoTitle": "LE 20H BILINGUE DU 27 SEPTEMBRE 2026",
-      "publishedAt": "2026-09-27T18:47:25+00:00"
+      "publishedAt": "2026-09-28T07:43:58+00:00"
     }
   ]
 }
