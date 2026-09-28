@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T09:30:52.637677Z",
+  "generatedAt": "2026-09-28T10:29:04.119206Z",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
@@ -28,19 +28,19 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/5pn6QNnFCTo?autoplay=1&rel=0&playsinline=1",
       "watchUrl": "https://www.youtube.com/watch?v=5pn6QNnFCTo",
       "videoTitle": "10 12 LE ZÉNITH PART1 DU LUNDI 28 SEPTEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-09-28T08:58:58+00:00"
+      "publishedAt": "2026-09-28T10:05:04+00:00"
     },
     {
       "id": "zenith2",
       "section": "EQUINOXE TV",
       "label": "LE ZÉNITH 2",
       "found": true,
-      "videoId": "qu12IAZq-Mk",
-      "thumbnail": "https://i.ytimg.com/vi/qu12IAZq-Mk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/qu12IAZq-Mk?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=qu12IAZq-Mk",
-      "videoTitle": "",
-      "publishedAt": ""
+      "videoId": "3lN-uXc4E0k",
+      "thumbnail": "https://i.ytimg.com/vi/3lN-uXc4E0k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/3lN-uXc4E0k?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=3lN-uXc4E0k",
+      "videoTitle": "10 12 LE ZÉNITH PART2 DU LUNDI 28 SEPTEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-09-28T10:02:57+00:00"
     },
     {
       "id": "grandesunes",
