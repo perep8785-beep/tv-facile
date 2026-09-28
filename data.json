@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T17:27:44.550483Z",
+  "generatedAt": "2026-09-28T18:31:13.270103Z",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
@@ -95,12 +95,12 @@
       "section": "EQUINOXE TV",
       "label": "ÉQUINOXE SOIR",
       "found": true,
-      "videoId": "OrDHMWbHdL8",
-      "thumbnail": "https://i.ytimg.com/vi/OrDHMWbHdL8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/OrDHMWbHdL8?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=OrDHMWbHdL8",
-      "videoTitle": "",
-      "publishedAt": ""
+      "videoId": "X4IQhOqLr70",
+      "thumbnail": "https://i.ytimg.com/vi/X4IQhOqLr70/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/X4IQhOqLr70?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=X4IQhOqLr70",
+      "videoTitle": "ÉQUINOXE SOIR DU LUNDI 28 SEPTEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-09-28T17:36:06+00:00"
     },
     {
       "id": "pidginnews",
@@ -143,12 +143,12 @@
       "section": "CANAL 2",
       "label": "DÉBRIEF CANAL 2",
       "found": true,
-      "videoId": "MOiDbPMFKkU",
-      "thumbnail": "https://i.ytimg.com/vi/MOiDbPMFKkU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/MOiDbPMFKkU?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=MOiDbPMFKkU",
-      "videoTitle": "RENTREE ECONOMIQUE: Doit-on s’inquiéter pour le Climat des affaires ?(DEBRIEF DE L'ACTU ,14/09/2026)",
-      "publishedAt": "2026-09-14T00:00:00Z"
+      "videoId": "ZKRQJx3WWrA",
+      "thumbnail": "https://i.ytimg.com/vi/ZKRQJx3WWrA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/ZKRQJx3WWrA?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=ZKRQJx3WWrA",
+      "videoTitle": "CAMEROUN : Pourquoi tous les secteurs d’activité sont-ils en difficulté ?(DEBRIEF du 28/09/2026)",
+      "publishedAt": "2026-09-28T17:37:11+00:00"
     },
     {
       "id": "canalpress",
