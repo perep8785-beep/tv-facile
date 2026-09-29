@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T18:32:12.972619Z",
+  "generatedAt": "2026-09-29T20:28:53.496958Z",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
@@ -131,24 +131,24 @@
       "section": "CANAL 2",
       "label": "JOURNAL CANAL 2",
       "found": true,
-      "videoId": "MY_qm1jtY7g",
-      "thumbnail": "https://i.ytimg.com/vi/MY_qm1jtY7g/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/MY_qm1jtY7g?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=MY_qm1jtY7g",
-      "videoTitle": "LE JOURNAL TÉLÉVISÉ BILINGUE 13H00 du Mardi 29/09/2026 - Canal 2 international",
-      "publishedAt": "2026-09-29T10:04:51+00:00"
+      "videoId": "pSoEGJvhqgo",
+      "thumbnail": "https://i.ytimg.com/vi/pSoEGJvhqgo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/pSoEGJvhqgo?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=pSoEGJvhqgo",
+      "videoTitle": "LE JOURNAL  19h50 du Mardi 29/09/2026 - Canal 2 international",
+      "publishedAt": "2026-09-29T19:30:34+00:00"
     },
     {
       "id": "canal2debrief",
       "section": "CANAL 2",
       "label": "DÉBRIEF CANAL 2",
       "found": true,
-      "videoId": "wQQQLEMX5y8",
-      "thumbnail": "https://i.ytimg.com/vi/wQQQLEMX5y8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/wQQQLEMX5y8?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=wQQQLEMX5y8",
-      "videoTitle": "DEBRIEF DE L'ACTU du Mardi 29/09/2026",
-      "publishedAt": "2026-09-29T18:02:13+00:00"
+      "videoId": "8EvFDnVQks8",
+      "thumbnail": "https://i.ytimg.com/vi/8EvFDnVQks8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/8EvFDnVQks8?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=8EvFDnVQks8",
+      "videoTitle": "CAN 2027 : Le Cameroun veut confirmer face au Congo  ( DEBRIEF DE L'ACTU du Mardi 29/09/2026 )",
+      "publishedAt": "2026-09-29T18:44:06+00:00"
     },
     {
       "id": "canalpress",
