@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T08:30:07.254479Z",
+  "generatedAt": "2026-09-29T09:29:11.960091Z",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
@@ -23,12 +23,12 @@
       "section": "EQUINOXE TV",
       "label": "LE ZÉNITH 1",
       "found": true,
-      "videoId": "5pn6QNnFCTo",
-      "thumbnail": "https://i.ytimg.com/vi/5pn6QNnFCTo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/5pn6QNnFCTo?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=5pn6QNnFCTo",
-      "videoTitle": "10 12 LE ZÉNITH PART1 DU LUNDI 28 SEPTEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-09-28T10:05:04+00:00"
+      "videoId": "lQGRveV38jU",
+      "thumbnail": "https://i.ytimg.com/vi/lQGRveV38jU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/lQGRveV38jU?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=lQGRveV38jU",
+      "videoTitle": "10 12 LE ZÉNITH PART1 DU MARDI 29 SEPTEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-09-29T08:56:23+00:00"
     },
     {
       "id": "zenith2",
@@ -52,7 +52,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/XQenXdYnFRE?autoplay=1&rel=0&playsinline=1",
       "watchUrl": "https://www.youtube.com/watch?v=XQenXdYnFRE",
       "videoTitle": "LA REVUE DES GRANDES UNES DU MARDI 29 SEPTEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-09-29T08:04:36+00:00"
+      "publishedAt": "2026-09-29T08:58:12+00:00"
     },
     {
       "id": "journal20",
