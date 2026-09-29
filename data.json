@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T09:29:11.960091Z",
+  "generatedAt": "2026-09-29T10:29:11.303475Z",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
@@ -23,24 +23,24 @@
       "section": "EQUINOXE TV",
       "label": "LE ZÉNITH 1",
       "found": true,
-      "videoId": "lQGRveV38jU",
-      "thumbnail": "https://i.ytimg.com/vi/lQGRveV38jU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/lQGRveV38jU?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=lQGRveV38jU",
+      "videoId": "hRKvcuf9VPY",
+      "thumbnail": "https://i.ytimg.com/vi/hRKvcuf9VPY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/hRKvcuf9VPY?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=hRKvcuf9VPY",
       "videoTitle": "10 12 LE ZÉNITH PART1 DU MARDI 29 SEPTEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-09-29T08:56:23+00:00"
+      "publishedAt": "2026-09-29T10:04:39+00:00"
     },
     {
       "id": "zenith2",
       "section": "EQUINOXE TV",
       "label": "LE ZÉNITH 2",
       "found": true,
-      "videoId": "3lN-uXc4E0k",
-      "thumbnail": "https://i.ytimg.com/vi/3lN-uXc4E0k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/3lN-uXc4E0k?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=3lN-uXc4E0k",
-      "videoTitle": "10 12 LE ZÉNITH PART2 DU LUNDI 28 SEPTEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-09-28T10:51:06+00:00"
+      "videoId": "zy70OsnMFW8",
+      "thumbnail": "https://i.ytimg.com/vi/zy70OsnMFW8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/zy70OsnMFW8?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=zy70OsnMFW8",
+      "videoTitle": "10 12 LE ZÉNITH PART2 DU MARDI 29 SEPTEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-09-29T10:03:35+00:00"
     },
     {
       "id": "grandesunes",
