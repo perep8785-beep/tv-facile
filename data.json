@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T17:27:58.774449Z",
+  "generatedAt": "2026-09-29T18:32:12.972619Z",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
@@ -143,12 +143,12 @@
       "section": "CANAL 2",
       "label": "DÉBRIEF CANAL 2",
       "found": true,
-      "videoId": "ZKRQJx3WWrA",
-      "thumbnail": "https://i.ytimg.com/vi/ZKRQJx3WWrA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/ZKRQJx3WWrA?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=ZKRQJx3WWrA",
-      "videoTitle": "CAMEROUN : Pourquoi tous les secteurs d’activité sont-ils en difficulté ?(DEBRIEF du 28/09/2026)",
-      "publishedAt": "2026-09-29T06:42:31+00:00"
+      "videoId": "wQQQLEMX5y8",
+      "thumbnail": "https://i.ytimg.com/vi/wQQQLEMX5y8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/wQQQLEMX5y8?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=wQQQLEMX5y8",
+      "videoTitle": "DEBRIEF DE L'ACTU du Mardi 29/09/2026",
+      "publishedAt": "2026-09-29T18:02:13+00:00"
     },
     {
       "id": "canalpress",
