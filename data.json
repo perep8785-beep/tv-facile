@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T11:26:31.852756Z",
+  "generatedAt": "2026-09-30T12:37:33.911750Z",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
@@ -76,7 +76,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/tRdrVLmalMs?autoplay=1&rel=0&playsinline=1",
       "watchUrl": "https://www.youtube.com/watch?v=tRdrVLmalMs",
       "videoTitle": "JTB 12H DU MERCREDI 30 SEPTEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-09-30T10:59:50+00:00"
+      "publishedAt": "2026-09-30T11:31:21+00:00"
     },
     {
       "id": "droitreponse",
@@ -107,12 +107,12 @@
       "section": "EQUINOXE TV",
       "label": "PIDGIN NEWS",
       "found": true,
-      "videoId": "zkv3ZPVjw0I",
-      "thumbnail": "https://i.ytimg.com/vi/zkv3ZPVjw0I/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/zkv3ZPVjw0I?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=zkv3ZPVjw0I",
-      "videoTitle": "PIDGIN NEWS TUESDAY SEPTEMBER 29, 2026 - EQUINOXE TV",
-      "publishedAt": "2026-09-29T12:33:57+00:00"
+      "videoId": "qQgeFR5l6UE",
+      "thumbnail": "https://i.ytimg.com/vi/qQgeFR5l6UE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/qQgeFR5l6UE?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=qQgeFR5l6UE",
+      "videoTitle": "PIDGIN NEWS WEDNESDAY SEPTEMBER 30, 2026 - EQUINOXE TV",
+      "publishedAt": "2026-09-30T12:32:45+00:00"
     },
     {
       "id": "pidgindebate",
