@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T17:28:29.824408Z",
+  "generatedAt": "2026-09-30T18:30:44.068074Z",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
@@ -95,12 +95,12 @@
       "section": "EQUINOXE TV",
       "label": "ÉQUINOXE SOIR",
       "found": true,
-      "videoId": "X4IQhOqLr70",
-      "thumbnail": "https://i.ytimg.com/vi/X4IQhOqLr70/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/X4IQhOqLr70?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=X4IQhOqLr70",
-      "videoTitle": "ÉQUINOXE SOIR DU LUNDI 28 SEPTEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-09-28T18:58:59+00:00"
+      "videoId": "TXjyqntb48o",
+      "thumbnail": "https://i.ytimg.com/vi/TXjyqntb48o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/TXjyqntb48o?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=TXjyqntb48o",
+      "videoTitle": "ÉQUINOXE SOIR DU MERCREDI 30 SEPTEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-09-30T17:34:22+00:00"
     },
     {
       "id": "pidginnews",
@@ -143,12 +143,12 @@
       "section": "CANAL 2",
       "label": "DÉBRIEF CANAL 2",
       "found": true,
-      "videoId": "8EvFDnVQks8",
-      "thumbnail": "https://i.ytimg.com/vi/8EvFDnVQks8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/8EvFDnVQks8?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=8EvFDnVQks8",
-      "videoTitle": "CAN 2027 : Le Cameroun veut confirmer face au Congo  ( DEBRIEF DE L'ACTU du Mardi 29/09/2026 )",
-      "publishedAt": "2026-09-29T18:44:06+00:00"
+      "videoId": "8gJxEzuVfoc",
+      "thumbnail": "https://i.ytimg.com/vi/8gJxEzuVfoc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/8gJxEzuVfoc?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=8gJxEzuVfoc",
+      "videoTitle": "LUTTE CONTRE BOKO HARAM : Un redéploiement militaire qui rassure ? (DEBRIEF DE L'ACTU du 30/09/2026)",
+      "publishedAt": "2026-09-30T17:37:41+00:00"
     },
     {
       "id": "canalpress",
