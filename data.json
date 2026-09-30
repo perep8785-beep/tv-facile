@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T09:29:21.718822Z",
+  "generatedAt": "2026-09-30T10:29:07.777937Z",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
@@ -23,24 +23,24 @@
       "section": "EQUINOXE TV",
       "label": "LE ZÉNITH 1",
       "found": true,
-      "videoId": "hRKvcuf9VPY",
-      "thumbnail": "https://i.ytimg.com/vi/hRKvcuf9VPY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/hRKvcuf9VPY?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=hRKvcuf9VPY",
-      "videoTitle": "10 12 LE ZÉNITH PART1 DU MARDI 29 SEPTEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-09-29T10:04:39+00:00"
+      "videoId": "kP5cM80Z_UA",
+      "thumbnail": "https://i.ytimg.com/vi/kP5cM80Z_UA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/kP5cM80Z_UA?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=kP5cM80Z_UA",
+      "videoTitle": "10 12 LE ZÉNITH PART1 DU MERCREDI 30 SEPTEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-09-30T10:06:48+00:00"
     },
     {
       "id": "zenith2",
       "section": "EQUINOXE TV",
       "label": "LE ZÉNITH 2",
       "found": true,
-      "videoId": "zy70OsnMFW8",
-      "thumbnail": "https://i.ytimg.com/vi/zy70OsnMFW8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/zy70OsnMFW8?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=zy70OsnMFW8",
-      "videoTitle": "10 12 LE ZÉNITH PART2 DU MARDI 29 SEPTEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-09-29T11:00:38+00:00"
+      "videoId": "KPaSZ3d5qjg",
+      "thumbnail": "https://i.ytimg.com/vi/KPaSZ3d5qjg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/KPaSZ3d5qjg?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=KPaSZ3d5qjg",
+      "videoTitle": "10 12 LE ZÉNITH PART2 DU MERCREDI 30 SEPTEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-09-30T10:04:49+00:00"
     },
     {
       "id": "grandesunes",
@@ -131,12 +131,12 @@
       "section": "CANAL 2",
       "label": "JOURNAL CANAL 2",
       "found": true,
-      "videoId": "MY_qm1jtY7g",
-      "thumbnail": "https://i.ytimg.com/vi/MY_qm1jtY7g/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/MY_qm1jtY7g?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=MY_qm1jtY7g",
-      "videoTitle": "LE JOURNAL TÉLÉVISÉ BILINGUE 13H00 du Mardi 29/09/2026 - Canal 2 international",
-      "publishedAt": "2026-09-30T00:35:30+00:00"
+      "videoId": "gNwaYE4fSdA",
+      "thumbnail": "https://i.ytimg.com/vi/gNwaYE4fSdA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/gNwaYE4fSdA?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=gNwaYE4fSdA",
+      "videoTitle": "LE JOURNAL TÉLÉVISÉ BILINGUE 13H00 du Mercredi 30/09/2026 - Canal 2 international",
+      "publishedAt": "2026-09-30T10:10:43+00:00"
     },
     {
       "id": "canal2debrief",
