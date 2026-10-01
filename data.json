@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T17:28:53.530745Z",
+  "generatedAt": "2026-10-01T18:33:20.901890Z",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
@@ -95,12 +95,12 @@
       "section": "EQUINOXE TV",
       "label": "ÉQUINOXE SOIR",
       "found": true,
-      "videoId": "TXjyqntb48o",
-      "thumbnail": "https://i.ytimg.com/vi/TXjyqntb48o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/TXjyqntb48o?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=TXjyqntb48o",
-      "videoTitle": "ÉQUINOXE SOIR :Minat, MRC et le récépissé de déclaration de réunion publique : Signe d'apaisement ?",
-      "publishedAt": "2026-09-30T18:59:50+00:00"
+      "videoId": "QiVXg-D36ZY",
+      "thumbnail": "https://i.ytimg.com/vi/QiVXg-D36ZY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/QiVXg-D36ZY?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=QiVXg-D36ZY",
+      "videoTitle": "ÉQUINOXE SOIR DU JEUDI 01 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-01T17:35:38+00:00"
     },
     {
       "id": "pidginnews",
@@ -143,12 +143,12 @@
       "section": "CANAL 2",
       "label": "DÉBRIEF CANAL 2",
       "found": true,
-      "videoId": "8gJxEzuVfoc",
-      "thumbnail": "https://i.ytimg.com/vi/8gJxEzuVfoc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/8gJxEzuVfoc?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=8gJxEzuVfoc",
-      "videoTitle": "LUTTE CONTRE BOKO HARAM : Un redéploiement militaire qui rassure ? (DEBRIEF DE L'ACTU du 30/09/2026)",
-      "publishedAt": "2026-10-01T06:43:09+00:00"
+      "videoId": "AcYylosprBI",
+      "thumbnail": "https://i.ytimg.com/vi/AcYylosprBI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/AcYylosprBI?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=AcYylosprBI",
+      "videoTitle": "CRISE ANGLOPHONE : Où en est-on 10 ans après ? ( DEBRIEF DE L'ACTU du Jeudi 01/10/2026 )",
+      "publishedAt": "2026-10-01T17:39:24+00:00"
     },
     {
       "id": "canalpress",
