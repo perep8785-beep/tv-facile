@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T18:33:20.901890Z",
+  "generatedAt": "2026-10-01T19:28:17.118249Z",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
@@ -100,7 +100,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/QiVXg-D36ZY?autoplay=1&rel=0&playsinline=1",
       "watchUrl": "https://www.youtube.com/watch?v=QiVXg-D36ZY",
       "videoTitle": "ÉQUINOXE SOIR DU JEUDI 01 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-01T17:35:38+00:00"
+      "publishedAt": "2026-10-01T18:58:37+00:00"
     },
     {
       "id": "pidginnews",
@@ -131,12 +131,12 @@
       "section": "CANAL 2",
       "label": "JOURNAL CANAL 2",
       "found": true,
-      "videoId": "gNwaYE4fSdA",
-      "thumbnail": "https://i.ytimg.com/vi/gNwaYE4fSdA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/gNwaYE4fSdA?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=gNwaYE4fSdA",
-      "videoTitle": "LE JOURNAL TÉLÉVISÉ BILINGUE 13H00 du Mercredi 30/09/2026 - Canal 2 international",
-      "publishedAt": "2026-10-01T00:36:33+00:00"
+      "videoId": "RrtvEhAZ6Ro",
+      "thumbnail": "https://i.ytimg.com/vi/RrtvEhAZ6Ro/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/RrtvEhAZ6Ro?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=RrtvEhAZ6Ro",
+      "videoTitle": "LE JOURNAL  19h50 du Jeudi 01/10/2026 - Canal 2 international",
+      "publishedAt": "2026-10-01T18:41:49+00:00"
     },
     {
       "id": "canal2debrief",
@@ -179,12 +179,12 @@
       "section": "INFO TV",
       "label": "LE JOURNAL",
       "found": true,
-      "videoId": "Uk4qpYCaFl0",
-      "thumbnail": "https://i.ytimg.com/vi/Uk4qpYCaFl0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/Uk4qpYCaFl0?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=Uk4qpYCaFl0",
-      "videoTitle": "LE 20H DU 30 SEPTEMBRE 2026",
-      "publishedAt": "2026-10-01T07:42:05+00:00"
+      "videoId": "MVx3n2NjSWE",
+      "thumbnail": "https://i.ytimg.com/vi/MVx3n2NjSWE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/MVx3n2NjSWE?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=MVx3n2NjSWE",
+      "videoTitle": "LE 20H DU 1er OCTOBRE 2026",
+      "publishedAt": "2026-10-01T18:39:41+00:00"
     }
   ]
 }
