@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T19:28:17.118249Z",
+  "generatedAt": "2026-10-01T20:30:00.662217Z",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
@@ -47,12 +47,12 @@
       "section": "EQUINOXE TV",
       "label": "REVUE DES GRANDES UNES",
       "found": true,
-      "videoId": "jbLAc3-yzQM",
-      "thumbnail": "https://i.ytimg.com/vi/jbLAc3-yzQM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/jbLAc3-yzQM?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=jbLAc3-yzQM",
-      "videoTitle": "LA REVUE DES GRANDES UNES DU JEUDI 01 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-01T08:59:52+00:00"
+      "videoId": "-a1ZjyK9jpE",
+      "thumbnail": "https://i.ytimg.com/vi/-a1ZjyK9jpE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/-a1ZjyK9jpE?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=-a1ZjyK9jpE",
+      "videoTitle": "LA REVUE DES GRANDES UNES DU VENDREDI 02 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-01T19:53:58+00:00"
     },
     {
       "id": "journal20",
@@ -136,7 +136,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/RrtvEhAZ6Ro?autoplay=1&rel=0&playsinline=1",
       "watchUrl": "https://www.youtube.com/watch?v=RrtvEhAZ6Ro",
       "videoTitle": "LE JOURNAL  19h50 du Jeudi 01/10/2026 - Canal 2 international",
-      "publishedAt": "2026-10-01T18:41:49+00:00"
+      "publishedAt": "2026-10-01T19:41:24+00:00"
     },
     {
       "id": "canal2debrief",
