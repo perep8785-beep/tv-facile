@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T23:25:15.995656Z",
+  "generatedAt": "2026-10-01T00:37:33.311920Z",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
@@ -131,12 +131,12 @@
       "section": "CANAL 2",
       "label": "JOURNAL CANAL 2",
       "found": true,
-      "videoId": "l6aFdkKkdLc",
-      "thumbnail": "https://i.ytimg.com/vi/l6aFdkKkdLc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/l6aFdkKkdLc?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=l6aFdkKkdLc",
-      "videoTitle": "LE JOURNAL  19h50 du Mercredi 30/09/2026 - Canal 2 international",
-      "publishedAt": "2026-09-30T19:39:18+00:00"
+      "videoId": "gNwaYE4fSdA",
+      "thumbnail": "https://i.ytimg.com/vi/gNwaYE4fSdA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/gNwaYE4fSdA?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=gNwaYE4fSdA",
+      "videoTitle": "LE JOURNAL TÉLÉVISÉ BILINGUE 13H00 du Mercredi 30/09/2026 - Canal 2 international",
+      "publishedAt": "2026-10-01T00:36:33+00:00"
     },
     {
       "id": "canal2debrief",
