@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T18:32:11.320028Z",
+  "generatedAt": "2026-10-02T19:28:46.812605Z",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
@@ -100,7 +100,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/ys76mpiwHI8?autoplay=1&rel=0&playsinline=1",
       "watchUrl": "https://www.youtube.com/watch?v=ys76mpiwHI8",
       "videoTitle": "ÉQUINOXE SOIR DU VENDREDI 02 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-02T18:09:23+00:00"
+      "publishedAt": "2026-10-02T18:56:46+00:00"
     },
     {
       "id": "pidginnews",
@@ -131,12 +131,12 @@
       "section": "CANAL 2",
       "label": "JOURNAL CANAL 2",
       "found": true,
-      "videoId": "DqxGOHtucNo",
-      "thumbnail": "https://i.ytimg.com/vi/DqxGOHtucNo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/DqxGOHtucNo?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=DqxGOHtucNo",
-      "videoTitle": "LE JOURNAL TÉLÉVISÉ BILINGUE 13H00 du Vendredi 02/10/2026 - Canal 2 international",
-      "publishedAt": "2026-10-02T12:40:05+00:00"
+      "videoId": "E5NJSyBBJE8",
+      "thumbnail": "https://i.ytimg.com/vi/E5NJSyBBJE8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/E5NJSyBBJE8?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=E5NJSyBBJE8",
+      "videoTitle": "LE JOURNAL  19h50 du Vendredi 02/10/2026 - Canal 2 international",
+      "publishedAt": "2026-10-02T18:42:21+00:00"
     },
     {
       "id": "canal2debrief",
