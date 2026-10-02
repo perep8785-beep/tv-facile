@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T10:27:52.252657Z",
+  "generatedAt": "2026-10-02T11:27:21.836394Z",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
@@ -40,7 +40,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/7N-DZa1LhlY?autoplay=1&rel=0&playsinline=1",
       "watchUrl": "https://www.youtube.com/watch?v=7N-DZa1LhlY",
       "videoTitle": "10 12 LE ZÉNITH PART2 DU VENDREDI 02 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-02T10:04:04+00:00"
+      "publishedAt": "2026-10-02T10:58:50+00:00"
     },
     {
       "id": "grandesunes",
@@ -71,12 +71,12 @@
       "section": "EQUINOXE TV",
       "label": "JOURNAL BILINGUE",
       "found": true,
-      "videoId": "9JYkvdYKiYw",
-      "thumbnail": "https://i.ytimg.com/vi/9JYkvdYKiYw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/9JYkvdYKiYw?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=9JYkvdYKiYw",
-      "videoTitle": "JTB 12H DU JEUDI 01 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-01T11:34:54+00:00"
+      "videoId": "NSUkP3KSCq8",
+      "thumbnail": "https://i.ytimg.com/vi/NSUkP3KSCq8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/NSUkP3KSCq8?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=NSUkP3KSCq8",
+      "videoTitle": "JTB 12H DU VENDREDI 02 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-02T10:57:10+00:00"
     },
     {
       "id": "droitreponse",
