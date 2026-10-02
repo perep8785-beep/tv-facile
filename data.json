@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T09:29:46.834455Z",
+  "generatedAt": "2026-10-02T10:27:52.252657Z",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
@@ -28,19 +28,19 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/WD4lCUWcmmE?autoplay=1&rel=0&playsinline=1",
       "watchUrl": "https://www.youtube.com/watch?v=WD4lCUWcmmE",
       "videoTitle": "10 12 LE ZÉNITH PART1 DU VENDREDI 02 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-02T08:58:23+00:00"
+      "publishedAt": "2026-10-02T10:06:08+00:00"
     },
     {
       "id": "zenith2",
       "section": "EQUINOXE TV",
       "label": "LE ZÉNITH 2",
       "found": true,
-      "videoId": "WTBc-OSY7eo",
-      "thumbnail": "https://i.ytimg.com/vi/WTBc-OSY7eo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/WTBc-OSY7eo?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=WTBc-OSY7eo",
-      "videoTitle": "10 12 LE ZÉNITH PART2 DU JEUDI 01 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-01T10:58:14+00:00"
+      "videoId": "7N-DZa1LhlY",
+      "thumbnail": "https://i.ytimg.com/vi/7N-DZa1LhlY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/7N-DZa1LhlY?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=7N-DZa1LhlY",
+      "videoTitle": "10 12 LE ZÉNITH PART2 DU VENDREDI 02 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-02T10:04:04+00:00"
     },
     {
       "id": "grandesunes",
@@ -131,12 +131,12 @@
       "section": "CANAL 2",
       "label": "JOURNAL CANAL 2",
       "found": true,
-      "videoId": "l6aFdkKkdLc",
-      "thumbnail": "https://i.ytimg.com/vi/l6aFdkKkdLc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/l6aFdkKkdLc?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=l6aFdkKkdLc",
-      "videoTitle": "LE JOURNAL TÉLÉVISÉ BILINGUE 13H00 du Jeudi 01/10/2026 - Canal 2 international",
-      "publishedAt": "2026-10-02T00:36:14+00:00"
+      "videoId": "Il2j_V4xUHs",
+      "thumbnail": "https://i.ytimg.com/vi/Il2j_V4xUHs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Il2j_V4xUHs?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=Il2j_V4xUHs",
+      "videoTitle": "LE JOURNAL TÉLÉVISÉ BILINGUE 13H00 du Vendredi 02/10/2026 - Canal 2 international",
+      "publishedAt": "2026-10-02T09:44:53+00:00"
     },
     {
       "id": "canal2debrief",
