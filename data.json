@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T17:28:31.947043Z",
+  "generatedAt": "2026-10-02T18:32:11.320028Z",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
@@ -95,12 +95,12 @@
       "section": "EQUINOXE TV",
       "label": "ÉQUINOXE SOIR",
       "found": true,
-      "videoId": "QiVXg-D36ZY",
-      "thumbnail": "https://i.ytimg.com/vi/QiVXg-D36ZY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/QiVXg-D36ZY?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=QiVXg-D36ZY",
-      "videoTitle": "ÉQUINOXE SOIR DU JEUDI 01 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-01T18:58:37+00:00"
+      "videoId": "ys76mpiwHI8",
+      "thumbnail": "https://i.ytimg.com/vi/ys76mpiwHI8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/ys76mpiwHI8?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=ys76mpiwHI8",
+      "videoTitle": "ÉQUINOXE SOIR DU VENDREDI 02 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-02T18:09:23+00:00"
     },
     {
       "id": "pidginnews",
@@ -143,12 +143,12 @@
       "section": "CANAL 2",
       "label": "DÉBRIEF CANAL 2",
       "found": true,
-      "videoId": "AcYylosprBI",
-      "thumbnail": "https://i.ytimg.com/vi/AcYylosprBI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/AcYylosprBI?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=AcYylosprBI",
-      "videoTitle": "CRISE ANGLOPHONE : Où en est-on 10 ans après ? ( DEBRIEF DE L'ACTU du Jeudi 01/10/2026 )",
-      "publishedAt": "2026-10-02T06:41:38+00:00"
+      "videoId": "K0gIB8zO3Ao",
+      "thumbnail": "https://i.ytimg.com/vi/K0gIB8zO3Ao/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/K0gIB8zO3Ao?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=K0gIB8zO3Ao",
+      "videoTitle": "CAN 2027 : Que retenir des deux matchs du Cameroun ? ( DEBRIEF DE L'ACTU du Vendredi 02/10/2026 )",
+      "publishedAt": "2026-10-02T17:37:58+00:00"
     },
     {
       "id": "canalpress",
