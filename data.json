@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T14:36:22.209316Z",
+  "generatedAt": "2026-10-03T19:04:17.973404Z",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
@@ -179,12 +179,12 @@
       "section": "INFO TV",
       "label": "LE JOURNAL",
       "found": true,
-      "videoId": "MVx3n2NjSWE",
-      "thumbnail": "https://i.ytimg.com/vi/MVx3n2NjSWE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/MVx3n2NjSWE?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=MVx3n2NjSWE",
-      "videoTitle": "LE 20H DU 1er OCTOBRE 2026",
-      "publishedAt": "2026-10-02T07:35:24+00:00"
+      "videoId": "wdOjkHRiaw0",
+      "thumbnail": "https://i.ytimg.com/vi/wdOjkHRiaw0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/wdOjkHRiaw0?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=wdOjkHRiaw0",
+      "videoTitle": "LE 20H00 BILINGUE DU 03 OCTOBRE 2026",
+      "publishedAt": "2026-10-03T14:09:48+00:00"
     }
   ]
 }
