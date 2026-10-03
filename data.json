@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T10:25:40.730927Z",
+  "generatedAt": "2026-10-03T14:36:22.209316Z",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
@@ -71,12 +71,12 @@
       "section": "EQUINOXE TV",
       "label": "JOURNAL BILINGUE",
       "found": true,
-      "videoId": "NSUkP3KSCq8",
-      "thumbnail": "https://i.ytimg.com/vi/NSUkP3KSCq8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/NSUkP3KSCq8?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=NSUkP3KSCq8",
-      "videoTitle": "JTB 12H DU VENDREDI 02 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-02T11:32:50+00:00"
+      "videoId": "0x8K45_1aJM",
+      "thumbnail": "https://i.ytimg.com/vi/0x8K45_1aJM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/0x8K45_1aJM?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=0x8K45_1aJM",
+      "videoTitle": "JTB 12H DU SAMEDI 03 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-03T11:33:38+00:00"
     },
     {
       "id": "droitreponse",
@@ -119,12 +119,12 @@
       "section": "EQUINOXE TV",
       "label": "PIDGIN NEWS DEBATE",
       "found": true,
-      "videoId": "d6wDlWHRSEA",
-      "thumbnail": "https://i.ytimg.com/vi/d6wDlWHRSEA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/d6wDlWHRSEA?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=d6wDlWHRSEA",
-      "videoTitle": "",
-      "publishedAt": ""
+      "videoId": "n7D_e0edXws",
+      "thumbnail": "https://i.ytimg.com/vi/n7D_e0edXws/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/n7D_e0edXws?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=n7D_e0edXws",
+      "videoTitle": "PIDGIN NEWS DEBATE SATURDAY OCTOBER 03, 2026 - EQUINOXE TV",
+      "publishedAt": "2026-10-03T13:13:52+00:00"
     },
     {
       "id": "canal2journal",
