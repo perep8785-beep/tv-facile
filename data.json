@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T05:17:56.207036Z",
+  "generatedAt": "2026-10-04T11:05:01.427744Z",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
@@ -83,12 +83,12 @@
       "section": "EQUINOXE TV",
       "label": "DROIT DE RÉPONSE",
       "found": true,
-      "videoId": "rHEqHPQ3uj4",
-      "thumbnail": "https://i.ytimg.com/vi/rHEqHPQ3uj4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/rHEqHPQ3uj4?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=rHEqHPQ3uj4",
-      "videoTitle": "DROIT DE RÉPONSE DU DIMANCHE 27 SEPTEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-09-27T13:06:33+00:00"
+      "videoId": "JifOwVHcU-Y",
+      "thumbnail": "https://i.ytimg.com/vi/JifOwVHcU-Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/JifOwVHcU-Y?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=JifOwVHcU-Y",
+      "videoTitle": "DROIT DE RÉPONSE DU DIMANCHE 04 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-03T22:07:20+00:00"
     },
     {
       "id": "equinoxsoir",
@@ -155,12 +155,12 @@
       "section": "CANAL 2",
       "label": "CANAL PRESSE",
       "found": true,
-      "videoId": "Td7CtCfCklk",
-      "thumbnail": "https://i.ytimg.com/vi/Td7CtCfCklk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/Td7CtCfCklk?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=Td7CtCfCklk",
-      "videoTitle": "CANAL PRESSE du 27/09/2026 : \" PENURIE DE GAZ DOMESTIQUE : Comprendre le phénomène et ses contours \"",
-      "publishedAt": "2026-09-27T13:56:01+00:00"
+      "videoId": "vQJ4BaUlgjk",
+      "thumbnail": "https://i.ytimg.com/vi/vQJ4BaUlgjk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/vQJ4BaUlgjk?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=vQJ4BaUlgjk",
+      "videoTitle": "CANAL PRESSE du 04/10/2026: \" VIOLS, INFANTICIDES, ENLEVEMENTS D’ENFANTS : Comprendre ces ... \"",
+      "publishedAt": "2026-10-04T08:25:33+00:00"
     },
     {
       "id": "clubelites",
@@ -184,7 +184,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/wdOjkHRiaw0?autoplay=1&rel=0&playsinline=1",
       "watchUrl": "https://www.youtube.com/watch?v=wdOjkHRiaw0",
       "videoTitle": "LE 20H00 BILINGUE DU 03 OCTOBRE 2026",
-      "publishedAt": "2026-10-03T14:09:48+00:00"
+      "publishedAt": "2026-10-04T07:33:31+00:00"
     }
   ]
 }
