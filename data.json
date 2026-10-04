@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T11:05:01.427744Z",
+  "generatedAt": "2026-10-04T18:00:00.037372Z",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
@@ -88,7 +88,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/JifOwVHcU-Y?autoplay=1&rel=0&playsinline=1",
       "watchUrl": "https://www.youtube.com/watch?v=JifOwVHcU-Y",
       "videoTitle": "DROIT DE RÉPONSE DU DIMANCHE 04 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-03T22:07:20+00:00"
+      "publishedAt": "2026-10-04T13:01:53+00:00"
     },
     {
       "id": "equinoxsoir",
@@ -155,12 +155,12 @@
       "section": "CANAL 2",
       "label": "CANAL PRESSE",
       "found": true,
-      "videoId": "vQJ4BaUlgjk",
-      "thumbnail": "https://i.ytimg.com/vi/vQJ4BaUlgjk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/vQJ4BaUlgjk?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=vQJ4BaUlgjk",
+      "videoId": "_mpYJaCpiE0",
+      "thumbnail": "https://i.ytimg.com/vi/_mpYJaCpiE0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/_mpYJaCpiE0?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=_mpYJaCpiE0",
       "videoTitle": "CANAL PRESSE du 04/10/2026: \" VIOLS, INFANTICIDES, ENLEVEMENTS D’ENFANTS : Comprendre ces ... \"",
-      "publishedAt": "2026-10-04T08:25:33+00:00"
+      "publishedAt": "2026-10-04T13:19:09+00:00"
     },
     {
       "id": "clubelites",
