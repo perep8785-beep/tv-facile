@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T11:29:36.208530Z",
+  "generatedAt": "2026-10-05T12:35:50.055758Z",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
@@ -107,12 +107,12 @@
       "section": "EQUINOXE TV",
       "label": "PIDGIN NEWS",
       "found": true,
-      "videoId": "qsGVAsYnw2o",
-      "thumbnail": "https://i.ytimg.com/vi/qsGVAsYnw2o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/qsGVAsYnw2o?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=qsGVAsYnw2o",
-      "videoTitle": "PIDGIN NEWS FRIDAY OCTOBER 02, 2026 - EQUINOXE TV",
-      "publishedAt": "2026-10-02T12:36:13+00:00"
+      "videoId": "v7E2klkKlAA",
+      "thumbnail": "https://i.ytimg.com/vi/v7E2klkKlAA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/v7E2klkKlAA?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=v7E2klkKlAA",
+      "videoTitle": "PIDGIN NEWS MONDAY OCTOBER 05, 2026 - EQUINOXE TV",
+      "publishedAt": "2026-10-05T12:33:20+00:00"
     },
     {
       "id": "pidgindebate",
