@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T10:31:17.921387Z",
+  "generatedAt": "2026-10-05T11:29:36.208530Z",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
@@ -35,12 +35,12 @@
       "section": "EQUINOXE TV",
       "label": "LE ZÉNITH 2",
       "found": true,
-      "videoId": "96jHrL5leyI",
-      "thumbnail": "https://i.ytimg.com/vi/96jHrL5leyI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/96jHrL5leyI?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=96jHrL5leyI",
+      "videoId": "kgW5GixSeds",
+      "thumbnail": "https://i.ytimg.com/vi/kgW5GixSeds/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/kgW5GixSeds?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=kgW5GixSeds",
       "videoTitle": "10 12 LE ZÉNITH PART2 DU LUNDI 05 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-05T10:02:14+00:00"
+      "publishedAt": "2026-10-05T10:57:18+00:00"
     },
     {
       "id": "grandesunes",
@@ -71,12 +71,12 @@
       "section": "EQUINOXE TV",
       "label": "JOURNAL BILINGUE",
       "found": true,
-      "videoId": "0x8K45_1aJM",
-      "thumbnail": "https://i.ytimg.com/vi/0x8K45_1aJM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/0x8K45_1aJM?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=0x8K45_1aJM",
-      "videoTitle": "JTB 12H DU SAMEDI 03 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-03T11:33:38+00:00"
+      "videoId": "TenmnN7H-sc",
+      "thumbnail": "https://i.ytimg.com/vi/TenmnN7H-sc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/TenmnN7H-sc?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=TenmnN7H-sc",
+      "videoTitle": "JTB 12H DU LUNDI 05 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-05T11:26:09+00:00"
     },
     {
       "id": "droitreponse",
@@ -131,12 +131,12 @@
       "section": "CANAL 2",
       "label": "JOURNAL CANAL 2",
       "found": true,
-      "videoId": "Il2j_V4xUHs",
-      "thumbnail": "https://i.ytimg.com/vi/Il2j_V4xUHs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/Il2j_V4xUHs?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=Il2j_V4xUHs",
-      "videoTitle": "LE JOURNAL TÉLÉVISÉ BILINGUE 13H00 du Vendredi 02/10/2026 - Canal 2 international",
-      "publishedAt": "2026-10-03T00:32:21+00:00"
+      "videoId": "A0VC9z_WtoU",
+      "thumbnail": "https://i.ytimg.com/vi/A0VC9z_WtoU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/A0VC9z_WtoU?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=A0VC9z_WtoU",
+      "videoTitle": "LE JOURNAL TÉLÉVISÉ BILINGUE 13H00 du Lundi 05/10/2026 - Canal 2 international",
+      "publishedAt": "2026-10-05T11:00:17+00:00"
     },
     {
       "id": "canal2debrief",
