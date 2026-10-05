@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T07:32:09.034485Z",
+  "generatedAt": "2026-10-05T08:32:51.350763Z",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
@@ -47,12 +47,12 @@
       "section": "EQUINOXE TV",
       "label": "REVUE DES GRANDES UNES",
       "found": true,
-      "videoId": "-a1ZjyK9jpE",
-      "thumbnail": "https://i.ytimg.com/vi/-a1ZjyK9jpE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/-a1ZjyK9jpE?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=-a1ZjyK9jpE",
-      "videoTitle": "LA REVUE DES GRANDES UNES DU VENDREDI 02 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-02T09:00:14+00:00"
+      "videoId": "KLhRAtZT6kU",
+      "thumbnail": "https://i.ytimg.com/vi/KLhRAtZT6kU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/KLhRAtZT6kU?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=KLhRAtZT6kU",
+      "videoTitle": "LA REVUE DES GRANDES UNES DU LUNDI 05 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-05T08:19:39+00:00"
     },
     {
       "id": "journal20",
@@ -184,7 +184,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/ieyz9MXlUVc?autoplay=1&rel=0&playsinline=1",
       "watchUrl": "https://www.youtube.com/watch?v=ieyz9MXlUVc",
       "videoTitle": "LE 20H BILINGUE DU 04 OCTOBRE 2026",
-      "publishedAt": "2026-10-04T18:53:47+00:00"
+      "publishedAt": "2026-10-05T07:45:02+00:00"
     }
   ]
 }
