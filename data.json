@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T17:28:20.796541Z",
+  "generatedAt": "2026-10-05T18:34:08.817918Z",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
@@ -95,12 +95,12 @@
       "section": "EQUINOXE TV",
       "label": "ÉQUINOXE SOIR",
       "found": true,
-      "videoId": "ys76mpiwHI8",
-      "thumbnail": "https://i.ytimg.com/vi/ys76mpiwHI8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/ys76mpiwHI8?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=ys76mpiwHI8",
-      "videoTitle": "ÉQUINOXE SOIR DU VENDREDI 02 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-02T18:56:46+00:00"
+      "videoId": "BYgEtZrTFRk",
+      "thumbnail": "https://i.ytimg.com/vi/BYgEtZrTFRk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/BYgEtZrTFRk?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=BYgEtZrTFRk",
+      "videoTitle": "ÉQUINOXE SOIR DU LUNDI 05 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-05T17:36:16+00:00"
     },
     {
       "id": "pidginnews",
@@ -143,12 +143,12 @@
       "section": "CANAL 2",
       "label": "DÉBRIEF CANAL 2",
       "found": true,
-      "videoId": "K0gIB8zO3Ao",
-      "thumbnail": "https://i.ytimg.com/vi/K0gIB8zO3Ao/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/K0gIB8zO3Ao?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=K0gIB8zO3Ao",
-      "videoTitle": "CAN 2027 : Que retenir des deux matchs du Cameroun ? ( DEBRIEF DE L'ACTU du Vendredi 02/10/2026 )",
-      "publishedAt": "2026-10-03T06:42:38+00:00"
+      "videoId": "5LhXb4INqFk",
+      "thumbnail": "https://i.ytimg.com/vi/5LhXb4INqFk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/5LhXb4INqFk?autoplay=1&rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=5LhXb4INqFk",
+      "videoTitle": "ENSEIGNANTS : 60 ans après quelle place et quel avenir pour la profession ? (DEBRIEF du 05/10/2026)",
+      "publishedAt": "2026-10-05T18:02:13+00:00"
     },
     {
       "id": "canalpress",
