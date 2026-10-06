@@ -2,10 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1, viewport-fit=cover"
-  >
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#000000">
   <meta name="color-scheme" content="dark">
 
@@ -20,6 +17,7 @@
       --yellow: #FFFF00;
       --black: #000000;
       --soft-yellow: #FFFDB0;
+      --dim: #3a3a00;
     }
 
     * {
@@ -33,16 +31,21 @@
       background: var(--black);
       color: var(--yellow);
       font-family: Arial, Helvetica, sans-serif;
+      font-weight: 900;
       -webkit-text-size-adjust: 100%;
+      -webkit-tap-highlight-color: transparent;
     }
 
-    body {
-      font-weight: 900;
+    button,
+    select,
+    input {
+      font: inherit;
+      color: inherit;
     }
 
     button {
-      font: inherit;
       touch-action: manipulation;
+      cursor: pointer;
     }
 
     button:focus-visible {
@@ -50,74 +53,153 @@
       outline-offset: 4px;
     }
 
+    svg {
+      display: block;
+      fill: currentColor;
+    }
+
     .hidden {
       display: none !important;
     }
 
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+    }
+
+    /* ---------- home ---------- */
+
     .app {
       width: min(100%, 900px);
       margin: 0 auto;
-      padding: 18px 16px 36px;
+      padding: max(14px, env(safe-area-inset-top)) 16px 36px;
     }
 
     .hero {
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 18px;
-      margin: 2px 0 22px;
-      padding: 12px 6px;
+      gap: 14px;
+      margin: 0 0 16px;
     }
 
     .hero img {
-      width: clamp(72px, 18vw, 108px);
-      height: clamp(72px, 18vw, 108px);
+      width: clamp(56px, 14vw, 84px);
+      height: clamp(56px, 14vw, 84px);
       object-fit: contain;
-      flex: 0 0 auto;
     }
 
     .hero h1 {
       margin: 0;
-      font-size: clamp(44px, 11vw, 76px);
-      line-height: 0.92;
+      font-size: clamp(38px, 10vw, 64px);
+      line-height: 0.95;
       letter-spacing: -2px;
     }
 
-    .home-choices {
-      display: grid;
-      gap: 20px;
-    }
-
-    .channel {
+    .start {
       width: 100%;
-      min-height: 150px;
-      border: 8px solid var(--yellow);
-      border-radius: 30px;
-      background: var(--black);
-      color: var(--yellow);
-      padding: 18px 20px;
+      min-height: min(52vh, 460px);
+      border: 0;
+      border-radius: 34px;
+      background: var(--yellow);
+      color: var(--black);
       display: flex;
+      flex-direction: column;
       align-items: center;
-      justify-content: space-between;
-      text-align: left;
+      justify-content: center;
+      gap: 10px;
+      padding: 20px;
     }
 
-    .channel-name {
-      font-size: clamp(38px, 9vw, 62px);
+    .start svg {
+      width: clamp(120px, 38vw, 220px);
+      height: clamp(120px, 38vw, 220px);
+    }
+
+    .start-label {
+      font-size: clamp(36px, 9.5vw, 64px);
       line-height: 1;
     }
 
-    .channel-arrow {
-      font-size: clamp(58px, 13vw, 84px);
-      line-height: 0.7;
+    .start-info {
+      font-size: clamp(22px, 6vw, 36px);
+      line-height: 1.1;
     }
 
+    .start:active,
     .channel:active,
     .nav-button:active,
     .watch-button:active,
-    .thumbnail-button:active {
+    .tv-btn:active {
       transform: scale(0.985);
     }
+
+    .channels {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .channel {
+      min-height: 120px;
+      border: 7px solid var(--yellow);
+      border-radius: 26px;
+      background: var(--black);
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      text-align: center;
+    }
+
+    .channel-name {
+      font-size: clamp(26px, 7vw, 44px);
+      line-height: 1;
+    }
+
+    .channel-count {
+      font-size: clamp(18px, 4.6vw, 26px);
+      color: var(--soft-yellow);
+    }
+
+    .hold-button {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hold-fill {
+      position: absolute;
+      inset: 0;
+      background: var(--yellow);
+      transform-origin: left center;
+      transform: scaleX(0);
+      opacity: 0.35;
+      pointer-events: none;
+    }
+
+    .hold-button.holding .hold-fill {
+      transition: transform var(--hold-ms, 1500ms) linear;
+      transform: scaleX(1);
+    }
+
+    .settings-open {
+      width: 100%;
+      margin-top: 26px;
+      min-height: 64px;
+      border: 4px solid var(--dim);
+      border-radius: 18px;
+      background: var(--black);
+      color: var(--soft-yellow);
+      font-size: 20px;
+    }
+
+    /* ---------- channel list ---------- */
 
     .nav-button {
       width: 100%;
@@ -125,10 +207,8 @@
       border: 7px solid var(--yellow);
       border-radius: 24px;
       background: var(--black);
-      color: var(--yellow);
       padding: 12px 16px;
       font-size: clamp(28px, 7vw, 44px);
-      font-weight: 900;
     }
 
     .screen-title {
@@ -147,29 +227,42 @@
       overflow: hidden;
       border: 8px solid var(--yellow);
       border-radius: 30px;
-      background: var(--black);
     }
 
-    .thumbnail-button {
+    .card.watched {
+      border-color: var(--dim);
+    }
+
+    .thumb {
+      position: relative;
       display: block;
       width: 100%;
       aspect-ratio: 16 / 9;
-      overflow: hidden;
       padding: 0;
       border: 0;
       border-bottom: 7px solid var(--yellow);
       background: #050505;
-      color: var(--yellow);
     }
 
-    .thumbnail-button img {
+    .thumb img {
       display: block;
       width: 100%;
       height: 100%;
       object-fit: cover;
     }
 
-    .thumbnail-fallback {
+    .badge {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      padding: 6px 14px;
+      border-radius: 14px;
+      background: var(--yellow);
+      color: var(--black);
+      font-size: clamp(22px, 5.5vw, 32px);
+    }
+
+    .thumb-fallback {
       width: 100%;
       height: 100%;
       display: flex;
@@ -186,16 +279,15 @@
     }
 
     .card h3 {
-      margin: 0 0 14px;
+      margin: 0 0 8px;
       font-size: clamp(34px, 8vw, 50px);
       line-height: 1.03;
     }
 
-    .video-title {
-      margin: 0 0 15px;
+    .card-date {
+      margin: 0 0 14px;
       color: var(--soft-yellow);
-      font-size: clamp(18px, 4.5vw, 24px);
-      line-height: 1.2;
+      font-size: clamp(22px, 5.5vw, 30px);
     }
 
     .watch-button {
@@ -207,7 +299,6 @@
       color: var(--black);
       padding: 14px;
       font-size: clamp(32px, 8vw, 48px);
-      font-weight: 900;
     }
 
     .watch-button:disabled {
@@ -216,767 +307,569 @@
       color: var(--yellow);
     }
 
-    .player {
+    /* ---------- TV screen ---------- */
+
+    .tv {
       position: fixed;
       inset: 0;
-      z-index: 9999;
+      z-index: 50;
       display: flex;
       flex-direction: column;
       background: var(--black);
-      padding:
-        max(10px, env(safe-area-inset-top))
-        10px
-        max(10px, env(safe-area-inset-bottom));
+      padding: max(8px, env(safe-area-inset-top)) 8px max(8px, env(safe-area-inset-bottom));
+      touch-action: none;
+      user-select: none;
+      -webkit-user-select: none;
     }
 
-    .player-header {
-      flex: 0 0 auto;
-      padding-bottom: 10px;
+    .tv-main {
+      position: relative;
+      flex: 1;
+      min-height: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
     }
 
-    .player-title {
-      margin: 8px 0 0;
+    .tv-video {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      max-height: 58vh;
+      border: 5px solid var(--yellow);
+      border-radius: 18px;
+      overflow: hidden;
+      background: #050505;
+    }
+
+    .tv-video iframe,
+    #ytplayer {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .tv-info {
+      flex: 1;
+      min-height: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
       text-align: center;
-      font-size: clamp(24px, 6vw, 38px);
+      overflow: hidden;
+    }
+
+    .tv-channel {
+      font-size: clamp(26px, 7vw, 40px);
+      color: var(--soft-yellow);
+    }
+
+    .tv-title {
+      font-size: clamp(40px, 11vw, 72px);
+      line-height: 1.02;
+    }
+
+    .tv-state {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      font-size: clamp(28px, 7.5vw, 44px);
+    }
+
+    .tv-state svg {
+      width: clamp(84px, 24vw, 150px);
+      height: clamp(84px, 24vw, 150px);
+    }
+
+    .tv-count {
+      font-size: clamp(20px, 5vw, 28px);
+      color: var(--soft-yellow);
+    }
+
+    /* Catches every tap over the video and the text: the YouTube player
+       never receives touches, the app handles them all. */
+    .tv-surface {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+    }
+
+    .tv-bar {
+      flex: 0 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .tv-btn {
+      min-height: 96px;
+      border: 6px solid var(--yellow);
+      border-radius: 24px;
+      background: var(--black);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      font-size: clamp(24px, 6vw, 34px);
+    }
+
+    .tv-btn svg {
+      width: 48px;
+      height: 48px;
+      flex: 0 0 auto;
+    }
+
+    .overlay {
+      position: absolute;
+      inset: 0;
+      z-index: 10;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 18px;
+      padding: 24px;
+      text-align: center;
+    }
+
+    .dark {
+      background: #000000;
+    }
+
+    .alert {
+      z-index: 12;
+      background: var(--yellow);
+      color: var(--black);
+    }
+
+    .alert svg,
+    .tapbox svg,
+    .listen svg {
+      width: min(46vw, 260px);
+      height: min(46vw, 260px);
+    }
+
+    .alert-title {
+      font-size: clamp(40px, 11vw, 72px);
+      line-height: 1;
+    }
+
+    .alert-shows {
+      font-size: clamp(30px, 8vw, 50px);
+      line-height: 1.1;
+    }
+
+    .tapbox {
+      z-index: 11;
+      background: rgba(0, 0, 0, 0.88);
+      font-size: clamp(36px, 10vw, 64px);
       line-height: 1.05;
     }
 
-    .video-container {
-      flex: 1;
-      min-height: 0;
+    .listen {
+      z-index: 13;
+      background: rgba(0, 0, 0, 0.82);
+      font-size: clamp(36px, 10vw, 60px);
     }
 
-    .video-container iframe {
-      display: block;
-      width: 100%;
-      height: 100%;
-      border: 5px solid var(--yellow);
-      border-radius: 18px;
+    .listen svg {
+      animation: pulse 1s ease-in-out infinite alternate;
+    }
+
+    @keyframes pulse {
+      from { transform: scale(0.9); }
+      to { transform: scale(1.08); }
+    }
+
+    .flash {
+      position: fixed;
+      left: 50%;
+      top: 50%;
+      z-index: 200;
+      width: min(60vw, 320px);
+      height: min(60vw, 320px);
+      margin: calc(min(60vw, 320px) / -2) 0 0 calc(min(60vw, 320px) / -2);
+      border-radius: 50%;
+      background: var(--yellow);
+      color: var(--black);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transform: scale(0.6);
+      pointer-events: none;
+      transition: opacity 0.2s, transform 0.2s;
+    }
+
+    .flash.show {
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    .flash svg {
+      width: 58%;
+      height: 58%;
+    }
+
+    /* ---------- settings (for the family, normal reading size) ---------- */
+
+    .settings {
+      position: fixed;
+      inset: 0;
+      z-index: 100;
+      overflow-y: auto;
       background: var(--black);
+      padding: max(14px, env(safe-area-inset-top)) 16px 40px;
+      font-weight: 700;
+    }
+
+    .settings-inner {
+      width: min(100%, 720px);
+      margin: 0 auto;
+    }
+
+    .settings h2 {
+      margin: 6px 0 16px;
+      font-size: 34px;
+    }
+
+    .settings fieldset {
+      margin: 0 0 18px;
+      padding: 14px;
+      border: 3px solid var(--yellow);
+      border-radius: 18px;
+    }
+
+    .settings legend {
+      padding: 0 8px;
+      font-size: 22px;
+      font-weight: 900;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+      margin: 10px 0;
+      font-size: 19px;
+    }
+
+    .row label {
+      flex: 1 1 180px;
+    }
+
+    .row.times label {
+      flex-basis: 100%;
+    }
+
+    .settings input[type="time"],
+    .settings select {
+      min-height: 48px;
+      padding: 6px 10px;
+      border: 3px solid var(--yellow);
+      border-radius: 12px;
+      background: var(--black);
+      font-size: 19px;
+    }
+
+    .settings input[type="checkbox"] {
+      width: 30px;
+      height: 30px;
+      accent-color: var(--yellow);
+    }
+
+    .settings .btn {
+      min-height: 54px;
+      padding: 8px 16px;
+      border: 3px solid var(--yellow);
+      border-radius: 14px;
+      background: var(--black);
+      font-size: 19px;
+      font-weight: 900;
+    }
+
+    .settings .btn.primary {
+      width: 100%;
+      background: var(--yellow);
+      color: var(--black);
+      font-size: 24px;
+    }
+
+    .hint {
+      margin: 6px 0;
+      color: var(--soft-yellow);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.35;
+    }
+
+    .meter {
+      position: relative;
+      height: 22px;
+      flex: 1 1 200px;
+      border: 2px solid var(--yellow);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .meter span {
+      position: absolute;
+      inset: 0 auto 0 0;
+      width: 0;
+      background: var(--yellow);
+    }
+
+    .show-list label {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 8px 0;
+      font-size: 18px;
     }
 
     @media (min-width: 760px) {
       .cards {
         grid-template-columns: 1fr 1fr;
       }
-
-      .home-choices {
-        gap: 24px;
-      }
     }
 
     @media (orientation: landscape) and (max-height: 600px) {
-      .app {
-        width: min(100%, 1050px);
+      .start {
+        min-height: 60vh;
       }
 
-      .hero {
-        margin-bottom: 10px;
+      .channels {
+        grid-template-columns: repeat(4, 1fr);
       }
 
-      .hero img {
-        width: 70px;
-        height: 70px;
+      .tv-main {
+        flex-direction: row;
       }
 
-      .hero h1 {
-        font-size: 52px;
+      .tv-video {
+        width: auto;
+        height: 100%;
+        max-height: none;
       }
 
-      .channel {
-        min-height: 105px;
-      }
-
-      .channel-name {
-        font-size: 42px;
-      }
-
-      .player {
-        padding: 8px;
-      }
-
-      .player-header {
-        display: grid;
-        grid-template-columns: 1fr auto;
-        align-items: center;
-        gap: 14px;
-      }
-
-      .player-title {
-        margin: 0;
-        font-size: 28px;
-      }
-
-      .nav-button {
-        min-height: 68px;
-        font-size: 28px;
+      .tv-btn {
+        min-height: 70px;
       }
     }
   </style>
 </head>
 
 <body>
-  <main class="app">
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M6 3.5v17a1 1 0 0 0 1.5.86l14-8.5a1 1 0 0 0 0-1.72l-14-8.5A1 1 0 0 0 6 3.5z"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><rect x="4" y="3" width="6" height="18" rx="1.5"/><rect x="14" y="3" width="6" height="18" rx="1.5"/></symbol>
+    <symbol id="i-next" viewBox="0 0 24 24"><path d="M3 4.5v15a1 1 0 0 0 1.5.86L15 14v5.5a1 1 0 0 0 2 0v-15a1 1 0 0 0-2 0V10L4.5 3.64A1 1 0 0 0 3 4.5z"/><rect x="18" y="3.5" width="3" height="17" rx="1"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M12 2.5 1.5 11.2l1.3 1.6L4 11.8V21h6v-6h4v6h6v-9.2l1.2 1l1.3-1.6z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M9.2 16.6 4.6 12l-1.8 1.8 6.4 6.4L21.4 8l-1.8-1.8z"/></symbol>
+    <symbol id="i-wait" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 10.6V6h-2v7.4l5.3 3.2 1-1.7z"/></symbol>
+    <symbol id="i-bell" viewBox="0 0 24 24"><path d="M12 22a2.5 2.5 0 0 0 2.5-2.5h-5A2.5 2.5 0 0 0 12 22zm7-5.5V11a7 7 0 0 0-5.5-6.84V3a1.5 1.5 0 0 0-3 0v1.16A7 7 0 0 0 5 11v5.5L3 18.5V19.5h18v-1z"/></symbol>
+    <symbol id="i-mic" viewBox="0 0 24 24"><path d="M12 15a4 4 0 0 0 4-4V5a4 4 0 0 0-8 0v6a4 4 0 0 0 4 4zm7-4h-2a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.92V21h2v-3.08A7 7 0 0 0 19 11z"/></symbol>
+    <symbol id="i-hand" viewBox="0 0 24 24"><path d="M13 2a1.5 1.5 0 0 0-1.5 1.5V11h-1V4.5a1.5 1.5 0 0 0-3 0V14l-2.2-2.2a1.6 1.6 0 0 0-2.3 2.3L8.6 19A6 6 0 0 0 13 21h1a6 6 0 0 0 6-6V7.5a1.5 1.5 0 0 0-3 0V11h-1V3.5A1.5 1.5 0 0 0 14.5 2z"/></symbol>
+  </svg>
+
+  <main id="home" class="app">
     <header class="hero">
       <img src="icon-192.png" alt="">
       <h1>TV FACILE</h1>
     </header>
 
-    <section
-      id="home"
-      class="home-choices"
-      aria-label="Choisir une chaîne"
-    >
-      <button
-        class="channel"
-        type="button"
-        data-section="EQUINOXE TV"
-      >
-        <span class="channel-name">ÉQUINOXE TV</span>
-        <span class="channel-arrow" aria-hidden="true">›</span>
-      </button>
+    <button id="startButton" class="start" type="button">
+      <svg aria-hidden="true"><use href="#i-play"/></svg>
+      <span class="start-label">LANCER LA TÉLÉ</span>
+      <span id="startInfo" class="start-info"></span>
+    </button>
 
-      <button
-        class="channel"
-        type="button"
-        data-section="CANAL 2"
-      >
-        <span class="channel-name">CANAL 2</span>
-        <span class="channel-arrow" aria-hidden="true">›</span>
-      </button>
+    <section id="channels" class="channels" aria-label="Choisir une chaîne"></section>
 
-      <button
-        class="channel"
-        type="button"
-        data-section="INFO TV"
-      >
-        <span class="channel-name">INFO TV</span>
-        <span class="channel-arrow" aria-hidden="true">›</span>
-      </button>
-    </section>
-
-    <section id="channelView" class="hidden">
-      <button
-        id="homeButton"
-        class="nav-button"
-        type="button"
-      >
-        ‹ ACCUEIL
-      </button>
-
-      <h2 id="channelTitle" class="screen-title">
-        CHAÎNE
-      </h2>
-
-      <div id="cards" class="cards"></div>
-    </section>
+    <button id="settingsButton" class="settings-open hold-button" type="button">
+      <span class="hold-fill"></span>
+      RÉGLAGES (rester appuyé)
+    </button>
   </main>
 
-  <section
-    id="player"
-    class="player hidden"
-    aria-label="Lecteur vidéo"
-  >
-    <div class="player-header">
-      <button
-        id="backButton"
-        class="nav-button"
-        type="button"
-      >
-        ‹ RETOUR AUX ÉMISSIONS
-      </button>
+  <section id="channelView" class="app hidden">
+    <button id="homeButton" class="nav-button" type="button">‹ ACCUEIL</button>
+    <h2 id="channelTitle" class="screen-title"></h2>
+    <div id="cards" class="cards"></div>
+  </section>
 
-      <div
-        id="playerTitle"
-        class="player-title"
-      ></div>
+  <section id="tv" class="tv hidden" aria-label="Télévision">
+    <div class="tv-main">
+      <div class="tv-video">
+        <div id="ytplayer"></div>
+      </div>
+      <div class="tv-info">
+        <div id="tvChannel" class="tv-channel"></div>
+        <div id="tvTitle" class="tv-title"></div>
+        <div class="tv-state">
+          <svg id="tvIcon" aria-hidden="true"><use href="#i-wait"/></svg>
+          <span id="tvState"></span>
+        </div>
+        <div id="tvCount" class="tv-count"></div>
+      </div>
+      <div class="tv-surface" aria-label="Tapez deux fois pour pause ou lecture"></div>
     </div>
 
-    <div class="video-container">
-      <iframe
-        id="videoFrame"
-        title="Lecteur vidéo TV FACILE"
-        src="about:blank"
-        allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-      ></iframe>
+    <div class="tv-bar">
+      <button id="nextButton" class="tv-btn" type="button">
+        <svg aria-hidden="true"><use href="#i-next"/></svg>
+        SUIVANT
+      </button>
+      <button id="menuButton" class="tv-btn hold-button" type="button">
+        <span class="hold-fill"></span>
+        <svg aria-hidden="true"><use href="#i-home"/></svg>
+        MENU
+      </button>
+    </div>
+
+    <div id="dark" class="overlay dark hidden"></div>
+
+    <div id="tapBox" class="overlay tapbox hidden">
+      <svg aria-hidden="true"><use href="#i-hand"/></svg>
+      TOUCHEZ DEUX FOIS L'ÉCRAN
+    </div>
+
+    <div id="alertBox" class="overlay alert hidden">
+      <svg aria-hidden="true"><use href="#i-bell"/></svg>
+      <div class="alert-title">NOUVELLE ÉMISSION</div>
+      <div id="alertShows" class="alert-shows"></div>
+    </div>
+
+    <div id="listenBox" class="overlay listen hidden">
+      <svg aria-hidden="true"><use href="#i-mic"/></svg>
+      JE VOUS ÉCOUTE
     </div>
   </section>
 
-  <script>
-    (function () {
-      "use strict";
-
-      const PROGRAMS = [
-        {
-          id: "zenith1",
-          section: "EQUINOXE TV",
-          label: "LE ZÉNITH 1"
-        },
-        {
-          id: "zenith2",
-          section: "EQUINOXE TV",
-          label: "LE ZÉNITH 2"
-        },
-        {
-          id: "grandesunes",
-          section: "EQUINOXE TV",
-          label: "REVUE DES GRANDES UNES"
-        },
-        {
-          id: "journal20",
-          section: "EQUINOXE TV",
-          label: "JOURNAL 20H"
-        },
-        {
-          id: "bilingue",
-          section: "EQUINOXE TV",
-          label: "JOURNAL BILINGUE"
-        },
-        {
-          id: "droitreponse",
-          section: "EQUINOXE TV",
-          label: "DROIT DE RÉPONSE"
-        },
-        {
-          id: "equinoxsoir",
-          section: "EQUINOXE TV",
-          label: "ÉQUINOXE SOIR"
-        },
-        {
-          id: "pidginnews",
-          section: "EQUINOXE TV",
-          label: "PIDGIN NEWS"
-        },
-        {
-          id: "pidgindebate",
-          section: "EQUINOXE TV",
-          label: "PIDGIN NEWS DEBATE"
-        },
-        {
-          id: "canal2journal",
-          section: "CANAL 2",
-          label: "JOURNAL CANAL 2"
-        },
-        {
-          id: "canal2debrief",
-          section: "CANAL 2",
-          label: "DÉBRIEF CANAL 2"
-        },
-        {
-          id: "canalpress",
-          section: "CANAL 2",
-          label: "CANAL PRESSE"
-        },
-        {
-          id: "clubelites",
-          section: "CANAL 2",
-          label: "LE CLUB DES ÉLITES"
-        },
-        {
-          id: "infojournal",
-          section: "INFO TV",
-          label: "LE JOURNAL"
-        }
-      ];
-
-      let data = {
-        shows: PROGRAMS.map(program => ({
-          ...program,
-          found: false,
-          videoId: "",
-          thumbnail: "",
-          embedUrl: "",
-          watchUrl: "",
-          videoTitle: "",
-          publishedAt: ""
-        }))
-      };
-
-      let currentSection = null;
-      let wakeLock = null;
-
-      const home =
-        document.getElementById("home");
-
-      const channelView =
-        document.getElementById("channelView");
-
-      const cards =
-        document.getElementById("cards");
-
-      const channelTitle =
-        document.getElementById("channelTitle");
-
-      const player =
-        document.getElementById("player");
-
-      const videoFrame =
-        document.getElementById("videoFrame");
-
-      const playerTitle =
-        document.getElementById("playerTitle");
-
-      function validData(value) {
-        if (
-          !value ||
-          !Array.isArray(value.shows) ||
-          value.shows.length !== PROGRAMS.length
-        ) {
-          return false;
-        }
-
-        const expectedIds =
-          new Set(PROGRAMS.map(program => program.id));
-
-        const receivedIds =
-          new Set(value.shows.map(show => show.id));
-
-        return (
-          receivedIds.size === expectedIds.size &&
-          [...expectedIds].every(id => receivedIds.has(id))
-        );
-      }
-
-      async function loadData() {
-        try {
-          const response = await fetch(
-            "./data.json?v=" + Date.now(),
-            {
-              cache: "no-store"
-            }
-          );
-
-          if (!response.ok) {
-            throw new Error(
-              "HTTP " + response.status
-            );
-          }
-
-          const freshData =
-            await response.json();
-
-          if (!validData(freshData)) {
-            throw new Error(
-              "Invalid data.json"
-            );
-          }
-
-          data = freshData;
-
-          localStorage.setItem(
-            "tv-facile-data-v13",
-            JSON.stringify(freshData)
-          );
-        }
-
-        catch (error) {
-          try {
-            const cached =
-              JSON.parse(
-                localStorage.getItem(
-                  "tv-facile-data-v13"
-                ) || "null"
-              );
-
-            if (validData(cached)) {
-              data = cached;
-            }
-          }
-
-          catch (ignored) {
-            // Keep the built-in fallback structure.
-          }
-        }
-
-        if (currentSection) {
-          renderChannel(
-            currentSection
-          );
-        }
-      }
-
-      function showHome() {
-        currentSection = null;
-
-        channelView.classList.add(
-          "hidden"
-        );
-
-        home.classList.remove(
-          "hidden"
-        );
-
-        window.scrollTo(0, 0);
-      }
-
-      function showUnavailable(
-        thumbnailButton,
-        label
-      ) {
-        thumbnailButton.innerHTML = "";
-
-        const fallback =
-          document.createElement("div");
-
-        fallback.className =
-          "thumbnail-fallback";
-
-        fallback.textContent =
-          label +
-          " — VIDÉO EN COURS DE MISE À JOUR";
-
-        thumbnailButton.appendChild(
-          fallback
-        );
-      }
-
-      async function requestWakeLock() {
-        if (
-          !("wakeLock" in navigator) ||
-          player.classList.contains("hidden")
-        ) {
-          return;
-        }
-
-        try {
-          wakeLock =
-            await navigator.wakeLock.request(
-              "screen"
-            );
-
-          wakeLock.addEventListener(
-            "release",
-            function () {
-              wakeLock = null;
-            }
-          );
-        }
-
-        catch (error) {
-          // Playback still works when wake lock is unsupported.
-        }
-      }
-
-      function openPlayer(show) {
-        if (
-          !show ||
-          !show.found ||
-          !show.videoId
-        ) {
-          return;
-        }
-
-        playerTitle.textContent =
-          show.label;
-
-        videoFrame.src =
-          show.embedUrl ||
-          (
-            "https://www.youtube-nocookie.com/embed/" +
-            encodeURIComponent(
-              show.videoId
-            ) +
-            "?autoplay=1&rel=0&playsinline=1"
-          );
-
-        player.classList.remove(
-          "hidden"
-        );
-
-        document.body.style.overflow =
-          "hidden";
-
-        requestWakeLock();
-      }
-
-      async function closePlayer() {
-        videoFrame.src =
-          "about:blank";
-
-        player.classList.add(
-          "hidden"
-        );
-
-        document.body.style.overflow =
-          "";
-
-        if (wakeLock) {
-          try {
-            await wakeLock.release();
-          }
-
-          catch (error) {
-            // Ignore.
-          }
-
-          wakeLock = null;
-        }
-      }
-
-      function renderChannel(section) {
-        currentSection = section;
-
-        channelTitle.textContent =
-          section;
-
-        cards.innerHTML = "";
-
-        const programs =
-          data.shows.filter(
-            show =>
-              show.section === section
-          );
-
-        programs.forEach(show => {
-          const card =
-            document.createElement(
-              "article"
-            );
-
-          card.className = "card";
-
-          const thumbnailButton =
-            document.createElement(
-              "button"
-            );
-
-          thumbnailButton.className =
-            "thumbnail-button";
-
-          thumbnailButton.type =
-            "button";
-
-          thumbnailButton.setAttribute(
-            "aria-label",
-            show.found
-              ? "Regarder " + show.label
-              : show.label
-          );
-
-          if (
-            show.found &&
-            show.thumbnail
-          ) {
-            const image =
-              document.createElement(
-                "img"
-              );
-
-            image.src =
-              show.thumbnail;
-
-            image.alt =
-              "Dernière émission " +
-              show.label;
-
-            image.loading =
-              "lazy";
-
-            image.decoding =
-              "async";
-
-            image.onerror =
-              function () {
-                showUnavailable(
-                  thumbnailButton,
-                  show.label
-                );
-              };
-
-            thumbnailButton.appendChild(
-              image
-            );
-
-            thumbnailButton.onclick =
-              function () {
-                openPlayer(show);
-              };
-          }
-
-          else {
-            showUnavailable(
-              thumbnailButton,
-              show.label
-            );
-
-            thumbnailButton.disabled =
-              true;
-          }
-
-          const body =
-            document.createElement(
-              "div"
-            );
-
-          body.className =
-            "card-body";
-
-          const heading =
-            document.createElement(
-              "h3"
-            );
-
-          heading.textContent =
-            show.label;
-
-          body.appendChild(
-            heading
-          );
-
-          if (
-            show.found &&
-            show.videoTitle
-          ) {
-            const title =
-              document.createElement(
-                "p"
-              );
-
-            title.className =
-              "video-title";
-
-            title.textContent =
-              show.videoTitle;
-
-            body.appendChild(
-              title
-            );
-          }
-
-          const watch =
-            document.createElement(
-              "button"
-            );
-
-          watch.className =
-            "watch-button";
-
-          watch.type =
-            "button";
-
-          watch.textContent =
-            show.found
-              ? "▶ REGARDER"
-              : "INDISPONIBLE";
-
-          watch.disabled =
-            !show.found;
-
-          if (show.found) {
-            watch.onclick =
-              function () {
-                openPlayer(show);
-              };
-          }
-
-          body.appendChild(
-            watch
-          );
-
-          card.appendChild(
-            thumbnailButton
-          );
-
-          card.appendChild(
-            body
-          );
-
-          cards.appendChild(
-            card
-          );
-        });
-
-        home.classList.add(
-          "hidden"
-        );
-
-        channelView.classList.remove(
-          "hidden"
-        );
-
-        window.scrollTo(0, 0);
-      }
-
-      document
-        .querySelectorAll(".channel")
-        .forEach(button => {
-          button.addEventListener(
-            "click",
-            function () {
-              renderChannel(
-                button.dataset.section
-              );
-            }
-          );
-        });
-
-      document
-        .getElementById(
-          "homeButton"
-        )
-        .addEventListener(
-          "click",
-          showHome
-        );
-
-      document
-        .getElementById(
-          "backButton"
-        )
-        .addEventListener(
-          "click",
-          closePlayer
-        );
-
-      document.addEventListener(
-        "visibilitychange",
-        function () {
-          if (
-            document.visibilityState ===
-              "visible" &&
-            !player.classList.contains(
-              "hidden"
-            )
-          ) {
-            requestWakeLock();
-          }
-        }
-      );
-
-      window.addEventListener(
-        "pagehide",
-        function () {
-          if (wakeLock) {
-            try {
-              wakeLock.release();
-            }
-
-            catch (error) {
-              // Ignore.
-            }
-          }
-        }
-      );
-
-      if (
-        "serviceWorker" in navigator
-      ) {
-        navigator.serviceWorker
-          .register(
-            "./service-worker.js?v=13",
-            {
-              updateViaCache: "none"
-            }
-          )
-          .catch(function () {
-            // App still works without PWA support.
-          });
-      }
-
-      loadData();
-    })();
-  </script>
+  <section id="settings" class="settings hidden" aria-label="Réglages">
+    <div class="settings-inner">
+      <h2>Réglages</h2>
+
+      <fieldset>
+        <legend>Heures de télé</legend>
+        <div class="row times">
+          <label for="morningStart">Matin</label>
+          <input id="morningStart" type="time"> à <input id="morningEnd" type="time">
+        </div>
+        <div class="row times">
+          <label for="eveningStart">Soir</label>
+          <input id="eveningStart" type="time"> à <input id="eveningEnd" type="time">
+        </div>
+        <p class="hint">Hors de ces heures la télé se met en pause toute seule et reprend à l'heure suivante. 23:59 = jusqu'à minuit.</p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Lecture</legend>
+        <div class="row">
+          <label for="announce">Dire le nom de chaque émission</label>
+          <input id="announce" type="checkbox">
+        </div>
+        <div class="row">
+          <label for="blackAfter">Écran noir après</label>
+          <select id="blackAfter">
+            <option value="15">15 secondes</option>
+            <option value="30">30 secondes</option>
+            <option value="60">1 minute</option>
+            <option value="300">5 minutes</option>
+            <option value="0">Jamais</option>
+          </select>
+        </div>
+        <p class="hint">L'écran devient tout noir mais la vidéo continue. Deux tapes n'importe où = pause / lecture. Une tape = rallumer l'écran. Appui long = « qu'est-ce que je regarde ».</p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Nouvelle émission</legend>
+        <div class="row">
+          <label for="alertMinutes">Durée de la sonnerie</label>
+          <select id="alertMinutes">
+            <option value="1">1 minute</option>
+            <option value="3">3 minutes</option>
+            <option value="5">5 minutes</option>
+          </select>
+        </div>
+        <div class="row">
+          <label for="autoPlayNew">Lancer tout seul à la fin de la sonnerie</label>
+          <input id="autoPlayNew" type="checkbox">
+        </div>
+        <div class="row">
+          <button id="testAlert" class="btn" type="button">Tester la sonnerie</button>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Assistant vocal</legend>
+        <div class="row">
+          <label for="voice">Activer (claquer des doigts puis parler)</label>
+          <input id="voice" type="checkbox">
+        </div>
+        <div class="row">
+          <label for="trigger">Déclencheur</label>
+          <select id="trigger">
+            <option value="single">1 claquement</option>
+            <option value="double">2 claquements rapides</option>
+          </select>
+        </div>
+        <div class="row">
+          <label for="sensitivity">Sensibilité</label>
+          <select id="sensitivity">
+            <option value="low">Faible</option>
+            <option value="medium">Moyenne</option>
+            <option value="high">Forte</option>
+          </select>
+        </div>
+        <div class="row">
+          <label for="engine">Reconnaissance</label>
+          <select id="engine">
+            <option value="vosk">Sur le téléphone (recommandé)</option>
+            <option value="google">Google (si disponible)</option>
+          </select>
+        </div>
+        <div class="row">
+          <label for="aec">Annulation d'écho (essai)</label>
+          <input id="aec" type="checkbox">
+        </div>
+        <div class="row">
+          <button id="testVoice" class="btn" type="button">Tester le micro</button>
+          <div class="meter"><span id="meterBar"></span></div>
+        </div>
+        <p id="voiceStatus" class="hint"></p>
+        <p class="hint">Commandes : joue, pause / arrête, suivant, recommence, recule, avance, plus fort, moins fort, c'est quoi, quelle heure, quel jour, il reste combien, Équinoxe, Canal deux, Info télé, Vision quatre, aide. Pendant la sonnerie, pas besoin de claquer : « arrête » ou « joue ». Si les claquements passent mal quand la télé est forte, essayez la sensibilité forte ou taper dans les mains.</p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Émissions lues automatiquement</legend>
+        <div id="showList" class="show-list"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Déjà vu</legend>
+        <div class="row">
+          <button id="markAll" class="btn" type="button">Tout marquer comme vu</button>
+          <button id="resetWatched" class="btn" type="button">Tout remettre à voir</button>
+        </div>
+      </fieldset>
+
+      <p id="dataStatus" class="hint"></p>
+
+      <button id="closeSettings" class="btn primary" type="button">Fermer</button>
+    </div>
+  </section>
+
+  <div id="flash" class="flash" aria-hidden="true"><svg><use href="#i-pause"/></svg></div>
+  <div id="live" class="sr-only" aria-live="polite"></div>
+
+  <script src="voice.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>

@@ -1,5 +1,8 @@
 {
-  "generatedAt": "2026-10-06T02:28:03.595402Z",
+  "version": 2,
+  "generatedAt": "2026-10-06T03:09:21Z",
+  "checkedAt": "2026-10-06T03:09:21Z",
+  "source": "pages",
   "channels": {
     "EQUINOXE TV": {
       "name": "ÉQUINOXE TV",
@@ -15,176 +18,383 @@
       "name": "Info TV Officiel",
       "handle": "@InfoTV_Cameroun",
       "channelId": "UCNngJARC3eIXpUwAXfCJO5A"
+    },
+    "VISION 4": {
+      "name": "Vision 4",
+      "handle": "@vision4_television_africaine",
+      "channelId": "UCsn8TRCZtOQxfMlQKgH0biw"
     }
   },
   "shows": [
     {
       "id": "zenith1",
       "section": "EQUINOXE TV",
+      "channel": "equinoxe",
       "label": "LE ZÉNITH 1",
+      "spoken": "Le Zénith, première partie",
+      "freq": "daily",
       "found": true,
+      "status": "found",
       "videoId": "C88O4G8EUXA",
       "thumbnail": "https://i.ytimg.com/vi/C88O4G8EUXA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/C88O4G8EUXA?autoplay=1&rel=0&playsinline=1",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/C88O4G8EUXA?rel=0&playsinline=1",
       "watchUrl": "https://www.youtube.com/watch?v=C88O4G8EUXA",
       "videoTitle": "10 12 LE ZÉNITH PART1 DU LUNDI 05 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-05T10:04:26+00:00"
+      "publishedAt": "2026-10-05T10:09:21Z",
+      "episodeDate": "2026-10-05",
+      "durationSec": 2849,
+      "parts": [
+        {
+          "videoId": "C88O4G8EUXA",
+          "title": "10 12 LE ZÉNITH PART1 DU LUNDI 05 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2849,
+          "publishedAt": "2026-10-05T10:09:21Z"
+        }
+      ]
     },
     {
       "id": "zenith2",
       "section": "EQUINOXE TV",
+      "channel": "equinoxe",
       "label": "LE ZÉNITH 2",
+      "spoken": "Le Zénith, deuxième partie",
+      "freq": "daily",
       "found": true,
-      "videoId": "kgW5GixSeds",
-      "thumbnail": "https://i.ytimg.com/vi/kgW5GixSeds/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/kgW5GixSeds?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=kgW5GixSeds",
+      "status": "found",
+      "videoId": "96jHrL5leyI",
+      "thumbnail": "https://i.ytimg.com/vi/96jHrL5leyI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/96jHrL5leyI?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=96jHrL5leyI",
       "videoTitle": "10 12 LE ZÉNITH PART2 DU LUNDI 05 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-05T10:57:18+00:00"
+      "publishedAt": "2026-10-05T11:09:21Z",
+      "episodeDate": "2026-10-05",
+      "durationSec": 2000,
+      "parts": [
+        {
+          "videoId": "96jHrL5leyI",
+          "title": "10 12 LE ZÉNITH PART2 DU LUNDI 05 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 1558,
+          "publishedAt": "2026-10-05T11:09:21Z"
+        },
+        {
+          "videoId": "kgW5GixSeds",
+          "title": "10 12 LE ZÉNITH PART2 DU LUNDI 05 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 442,
+          "publishedAt": "2026-10-05T11:09:21Z"
+        }
+      ]
     },
     {
       "id": "grandesunes",
       "section": "EQUINOXE TV",
+      "channel": "equinoxe",
       "label": "REVUE DES GRANDES UNES",
+      "spoken": "La revue des grandes unes",
+      "freq": "daily",
       "found": true,
+      "status": "found",
       "videoId": "KLhRAtZT6kU",
       "thumbnail": "https://i.ytimg.com/vi/KLhRAtZT6kU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/KLhRAtZT6kU?autoplay=1&rel=0&playsinline=1",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/KLhRAtZT6kU?rel=0&playsinline=1",
       "watchUrl": "https://www.youtube.com/watch?v=KLhRAtZT6kU",
       "videoTitle": "LA REVUE DES GRANDES UNES DU LUNDI 05 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-05T09:00:48+00:00"
+      "publishedAt": "2026-10-05T09:09:21Z",
+      "episodeDate": "2026-10-05",
+      "durationSec": 2178,
+      "parts": [
+        {
+          "videoId": "KLhRAtZT6kU",
+          "title": "LA REVUE DES GRANDES UNES DU LUNDI 05 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2178,
+          "publishedAt": "2026-10-05T09:09:21Z"
+        }
+      ]
     },
     {
       "id": "journal20",
       "section": "EQUINOXE TV",
+      "channel": "equinoxe",
       "label": "JOURNAL 20H",
+      "spoken": "Le journal de 20 heures d'Équinoxe",
+      "freq": "daily",
       "found": true,
-      "videoId": "kpLzG1FIK_Q",
-      "thumbnail": "https://i.ytimg.com/vi/kpLzG1FIK_Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/kpLzG1FIK_Q?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=kpLzG1FIK_Q",
-      "videoTitle": "",
-      "publishedAt": ""
+      "status": "found",
+      "videoId": "fuObB48EHLs",
+      "thumbnail": "https://i.ytimg.com/vi/fuObB48EHLs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/fuObB48EHLs?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=fuObB48EHLs",
+      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU LUNDI 05 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-05T20:09:21Z",
+      "episodeDate": "2026-10-05",
+      "durationSec": 3250,
+      "parts": [
+        {
+          "videoId": "fuObB48EHLs",
+          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU LUNDI 05 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 3250,
+          "publishedAt": "2026-10-05T20:09:21Z"
+        }
+      ]
     },
     {
       "id": "bilingue",
       "section": "EQUINOXE TV",
+      "channel": "equinoxe",
       "label": "JOURNAL BILINGUE",
+      "spoken": "Le journal bilingue",
+      "freq": "daily",
       "found": true,
+      "status": "found",
       "videoId": "TenmnN7H-sc",
       "thumbnail": "https://i.ytimg.com/vi/TenmnN7H-sc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/TenmnN7H-sc?autoplay=1&rel=0&playsinline=1",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/TenmnN7H-sc?rel=0&playsinline=1",
       "watchUrl": "https://www.youtube.com/watch?v=TenmnN7H-sc",
       "videoTitle": "JTB 12H DU LUNDI 05 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-05T11:26:09+00:00"
+      "publishedAt": "2026-10-05T12:09:21Z",
+      "episodeDate": "2026-10-05",
+      "durationSec": 1294,
+      "parts": [
+        {
+          "videoId": "TenmnN7H-sc",
+          "title": "JTB 12H DU LUNDI 05 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 1294,
+          "publishedAt": "2026-10-05T12:09:21Z"
+        }
+      ]
     },
     {
       "id": "droitreponse",
       "section": "EQUINOXE TV",
+      "channel": "equinoxe",
       "label": "DROIT DE RÉPONSE",
+      "spoken": "Droit de réponse",
+      "freq": "weekly",
       "found": true,
+      "status": "found",
       "videoId": "JifOwVHcU-Y",
       "thumbnail": "https://i.ytimg.com/vi/JifOwVHcU-Y/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/JifOwVHcU-Y?autoplay=1&rel=0&playsinline=1",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/JifOwVHcU-Y?rel=0&playsinline=1",
       "watchUrl": "https://www.youtube.com/watch?v=JifOwVHcU-Y",
       "videoTitle": "DROIT DE RÉPONSE DU DIMANCHE 04 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-04T13:01:53+00:00"
+      "publishedAt": "2026-10-05T03:09:21Z",
+      "episodeDate": "2026-10-04",
+      "durationSec": 6694,
+      "parts": [
+        {
+          "videoId": "JifOwVHcU-Y",
+          "title": "DROIT DE RÉPONSE DU DIMANCHE 04 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 6694,
+          "publishedAt": "2026-10-05T03:09:21Z"
+        }
+      ]
     },
     {
       "id": "equinoxsoir",
       "section": "EQUINOXE TV",
+      "channel": "equinoxe",
       "label": "ÉQUINOXE SOIR",
+      "spoken": "Équinoxe soir",
+      "freq": "daily",
       "found": true,
+      "status": "found",
       "videoId": "BYgEtZrTFRk",
       "thumbnail": "https://i.ytimg.com/vi/BYgEtZrTFRk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/BYgEtZrTFRk?autoplay=1&rel=0&playsinline=1",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/BYgEtZrTFRk?rel=0&playsinline=1",
       "watchUrl": "https://www.youtube.com/watch?v=BYgEtZrTFRk",
       "videoTitle": "ÉQUINOXE SOIR DU LUNDI 05 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-05T19:01:31+00:00"
+      "publishedAt": "2026-10-05T19:09:21Z",
+      "episodeDate": "2026-10-05",
+      "durationSec": 2737,
+      "parts": [
+        {
+          "videoId": "BYgEtZrTFRk",
+          "title": "ÉQUINOXE SOIR DU LUNDI 05 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2737,
+          "publishedAt": "2026-10-05T19:09:21Z"
+        }
+      ]
     },
     {
       "id": "pidginnews",
       "section": "EQUINOXE TV",
+      "channel": "equinoxe",
       "label": "PIDGIN NEWS",
+      "spoken": "Pidgin News",
+      "freq": "daily",
       "found": true,
+      "status": "found",
       "videoId": "v7E2klkKlAA",
       "thumbnail": "https://i.ytimg.com/vi/v7E2klkKlAA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/v7E2klkKlAA?autoplay=1&rel=0&playsinline=1",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/v7E2klkKlAA?rel=0&playsinline=1",
       "watchUrl": "https://www.youtube.com/watch?v=v7E2klkKlAA",
       "videoTitle": "PIDGIN NEWS MONDAY OCTOBER 05, 2026 - EQUINOXE TV",
-      "publishedAt": "2026-10-05T12:33:20+00:00"
+      "publishedAt": "2026-10-05T13:09:21Z",
+      "episodeDate": "2026-10-05",
+      "durationSec": 1553,
+      "parts": [
+        {
+          "videoId": "v7E2klkKlAA",
+          "title": "PIDGIN NEWS MONDAY OCTOBER 05, 2026 - EQUINOXE TV",
+          "durationSec": 1553,
+          "publishedAt": "2026-10-05T13:09:21Z"
+        }
+      ]
     },
     {
       "id": "pidgindebate",
       "section": "EQUINOXE TV",
+      "channel": "equinoxe",
       "label": "PIDGIN NEWS DEBATE",
+      "spoken": "Pidgin News Debate",
+      "freq": "weekly",
       "found": true,
-      "videoId": "n7D_e0edXws",
-      "thumbnail": "https://i.ytimg.com/vi/n7D_e0edXws/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/n7D_e0edXws?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=n7D_e0edXws",
+      "status": "found",
+      "videoId": "oYMDgHvB53o",
+      "thumbnail": "https://i.ytimg.com/vi/oYMDgHvB53o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/oYMDgHvB53o?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=oYMDgHvB53o",
       "videoTitle": "PIDGIN NEWS DEBATE SATURDAY OCTOBER 03, 2026 - EQUINOXE TV",
-      "publishedAt": "2026-10-03T13:13:52+00:00"
+      "publishedAt": "2026-10-04T03:09:21Z",
+      "episodeDate": "2026-10-03",
+      "durationSec": 3227,
+      "parts": [
+        {
+          "videoId": "oYMDgHvB53o",
+          "title": "PIDGIN NEWS DEBATE SATURDAY OCTOBER 03, 2026 - EQUINOXE TV",
+          "durationSec": 3227,
+          "publishedAt": "2026-10-04T03:09:21Z"
+        }
+      ]
     },
     {
       "id": "canal2journal",
       "section": "CANAL 2",
+      "channel": "canal2",
       "label": "JOURNAL CANAL 2",
+      "spoken": "Le journal de Canal 2",
+      "freq": "daily",
       "found": true,
+      "status": "found",
       "videoId": "YFwz0kVVxJY",
       "thumbnail": "https://i.ytimg.com/vi/YFwz0kVVxJY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/YFwz0kVVxJY?autoplay=1&rel=0&playsinline=1",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/YFwz0kVVxJY?rel=0&playsinline=1",
       "watchUrl": "https://www.youtube.com/watch?v=YFwz0kVVxJY",
       "videoTitle": "LE JOURNAL  19h50 du Lundi 05/10/2026 - Canal 2 international",
-      "publishedAt": "2026-10-05T19:39:17+00:00"
+      "publishedAt": "2026-10-05T20:09:21Z",
+      "episodeDate": "2026-10-05",
+      "durationSec": 1918,
+      "parts": [
+        {
+          "videoId": "YFwz0kVVxJY",
+          "title": "LE JOURNAL  19h50 du Lundi 05/10/2026 - Canal 2 international",
+          "durationSec": 1918,
+          "publishedAt": "2026-10-05T20:09:21Z"
+        }
+      ]
     },
     {
       "id": "canal2debrief",
       "section": "CANAL 2",
+      "channel": "canal2",
       "label": "DÉBRIEF CANAL 2",
+      "spoken": "Le débrief de l'actu, Canal 2",
+      "freq": "daily",
       "found": true,
-      "videoId": "5LhXb4INqFk",
-      "thumbnail": "https://i.ytimg.com/vi/5LhXb4INqFk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/5LhXb4INqFk?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=5LhXb4INqFk",
-      "videoTitle": "ENSEIGNANTS : 60 ans après quelle place et quel avenir pour la profession ? (DEBRIEF du 05/10/2026)",
-      "publishedAt": "2026-10-05T18:02:13+00:00"
+      "status": "found",
+      "videoId": "K0gIB8zO3Ao",
+      "thumbnail": "https://i.ytimg.com/vi/K0gIB8zO3Ao/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/K0gIB8zO3Ao?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=K0gIB8zO3Ao",
+      "videoTitle": "CAN 2027 : Que retenir des deux matchs du Cameroun ? ( DEBRIEF DE L'ACTU du Vendredi 02/10/2026 )",
+      "publishedAt": "2026-10-03T03:09:21Z",
+      "episodeDate": "2026-10-02",
+      "durationSec": 3135,
+      "parts": [
+        {
+          "videoId": "K0gIB8zO3Ao",
+          "title": "CAN 2027 : Que retenir des deux matchs du Cameroun ? ( DEBRIEF DE L'ACTU du Vendredi 02/10/2026 )",
+          "durationSec": 3135,
+          "publishedAt": "2026-10-03T03:09:21Z"
+        }
+      ]
     },
     {
       "id": "canalpress",
       "section": "CANAL 2",
+      "channel": "canal2",
       "label": "CANAL PRESSE",
+      "spoken": "Canal Presse",
+      "freq": "weekly",
       "found": true,
-      "videoId": "_mpYJaCpiE0",
-      "thumbnail": "https://i.ytimg.com/vi/_mpYJaCpiE0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/_mpYJaCpiE0?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=_mpYJaCpiE0",
+      "status": "found",
+      "videoId": "vQJ4BaUlgjk",
+      "thumbnail": "https://i.ytimg.com/vi/vQJ4BaUlgjk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/vQJ4BaUlgjk?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=vQJ4BaUlgjk",
       "videoTitle": "CANAL PRESSE du 04/10/2026: \" VIOLS, INFANTICIDES, ENLEVEMENTS D’ENFANTS : Comprendre ces ... \"",
-      "publishedAt": "2026-10-04T13:19:09+00:00"
-    },
-    {
-      "id": "clubelites",
-      "section": "CANAL 2",
-      "label": "LE CLUB DES ÉLITES",
-      "found": true,
-      "videoId": "w8HfinkK4Ac",
-      "thumbnail": "https://i.ytimg.com/vi/w8HfinkK4Ac/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/w8HfinkK4Ac?autoplay=1&rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=w8HfinkK4Ac",
-      "videoTitle": "",
-      "publishedAt": ""
+      "publishedAt": "2026-10-05T03:09:21Z",
+      "episodeDate": "2026-10-04",
+      "durationSec": 8819,
+      "parts": [
+        {
+          "videoId": "vQJ4BaUlgjk",
+          "title": "CANAL PRESSE du 04/10/2026: \" VIOLS, INFANTICIDES, ENLEVEMENTS D’ENFANTS : Comprendre ces ... \"",
+          "durationSec": 8819,
+          "publishedAt": "2026-10-05T03:09:21Z"
+        }
+      ]
     },
     {
       "id": "infojournal",
       "section": "INFO TV",
+      "channel": "infotv",
       "label": "LE JOURNAL",
+      "spoken": "Le journal d'Info TV",
+      "freq": "daily",
       "found": true,
+      "status": "found",
       "videoId": "j7LcO3jpPVM",
       "thumbnail": "https://i.ytimg.com/vi/j7LcO3jpPVM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/j7LcO3jpPVM?autoplay=1&rel=0&playsinline=1",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/j7LcO3jpPVM?rel=0&playsinline=1",
       "watchUrl": "https://www.youtube.com/watch?v=j7LcO3jpPVM",
       "videoTitle": "LE 20H DU 05 OCTOBRE 2026",
-      "publishedAt": "2026-10-05T18:43:41+00:00"
+      "publishedAt": "2026-10-05T20:09:21Z",
+      "episodeDate": "2026-10-05",
+      "durationSec": 2713,
+      "parts": [
+        {
+          "videoId": "j7LcO3jpPVM",
+          "title": "LE 20H DU 05 OCTOBRE 2026",
+          "durationSec": 2713,
+          "publishedAt": "2026-10-05T20:09:21Z"
+        }
+      ]
+    },
+    {
+      "id": "clubelites",
+      "section": "VISION 4",
+      "channel": "vision4",
+      "label": "CLUB D'ÉLITES",
+      "spoken": "Club d'Élites, sur Vision 4",
+      "freq": "weekly",
+      "found": true,
+      "status": "found",
+      "videoId": "srLn5rk_5aQ",
+      "thumbnail": "https://i.ytimg.com/vi/srLn5rk_5aQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/srLn5rk_5aQ?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=srLn5rk_5aQ",
+      "videoTitle": "CLUB D'ÉLITES",
+      "publishedAt": "2026-10-05T03:09:21Z",
+      "episodeDate": "2026-10-05",
+      "durationSec": 10509,
+      "parts": [
+        {
+          "videoId": "srLn5rk_5aQ",
+          "title": "CLUB D'ÉLITES",
+          "durationSec": 10509,
+          "publishedAt": "2026-10-05T03:09:21Z"
+        }
+      ]
     }
   ]
 }
