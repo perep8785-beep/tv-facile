@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-06T11:44:35Z",
-  "checkedAt": "2026-10-06T11:44:35Z",
+  "generatedAt": "2026-10-06T12:46:36Z",
+  "checkedAt": "2026-10-06T12:46:36Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -217,20 +217,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "v7E2klkKlAA",
-      "thumbnail": "https://i.ytimg.com/vi/v7E2klkKlAA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/v7E2klkKlAA?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=v7E2klkKlAA",
-      "videoTitle": "PIDGIN NEWS MONDAY OCTOBER 05, 2026 - EQUINOXE TV",
-      "publishedAt": "2026-10-05T13:09:21Z",
-      "episodeDate": "2026-10-05",
-      "durationSec": 1553,
+      "videoId": "tNQ1oFkEcdU",
+      "thumbnail": "https://i.ytimg.com/vi/tNQ1oFkEcdU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/tNQ1oFkEcdU?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=tNQ1oFkEcdU",
+      "videoTitle": "PIDGIN NEWS TUESDAY OCTOBER 06, 2026 - EQUINOXE TV",
+      "publishedAt": "2026-10-06T12:30:36Z",
+      "episodeDate": "2026-10-06",
+      "durationSec": 1504,
       "parts": [
         {
-          "videoId": "v7E2klkKlAA",
-          "title": "PIDGIN NEWS MONDAY OCTOBER 05, 2026 - EQUINOXE TV",
-          "durationSec": 1553,
-          "publishedAt": "2026-10-05T13:09:21Z"
+          "videoId": "tNQ1oFkEcdU",
+          "title": "PIDGIN NEWS TUESDAY OCTOBER 06, 2026 - EQUINOXE TV",
+          "durationSec": 1504,
+          "publishedAt": "2026-10-06T12:30:36Z"
         }
       ]
     },
