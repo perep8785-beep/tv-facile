@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-06T19:43:38Z",
-  "checkedAt": "2026-10-06T19:43:38Z",
+  "generatedAt": "2026-10-06T20:10:06Z",
+  "checkedAt": "2026-10-06T20:10:06Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -113,20 +113,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "fuObB48EHLs",
-      "thumbnail": "https://i.ytimg.com/vi/fuObB48EHLs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/fuObB48EHLs?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=fuObB48EHLs",
-      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU LUNDI 05 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-05T20:09:21Z",
-      "episodeDate": "2026-10-05",
-      "durationSec": 3250,
+      "videoId": "TT2-DccVeRE",
+      "thumbnail": "https://i.ytimg.com/vi/TT2-DccVeRE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/TT2-DccVeRE?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=TT2-DccVeRE",
+      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MARDI 06 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-06T19:56:06Z",
+      "episodeDate": "2026-10-06",
+      "durationSec": 3316,
       "parts": [
         {
-          "videoId": "fuObB48EHLs",
-          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU LUNDI 05 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 3250,
-          "publishedAt": "2026-10-05T20:09:21Z"
+          "videoId": "TT2-DccVeRE",
+          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MARDI 06 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 3316,
+          "publishedAt": "2026-10-06T19:56:06Z"
         }
       ]
     },
