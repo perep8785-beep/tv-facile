@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-06T11:08:54Z",
-  "checkedAt": "2026-10-06T11:08:54Z",
+  "generatedAt": "2026-10-06T11:44:35Z",
+  "checkedAt": "2026-10-06T11:44:35Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -139,20 +139,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "TenmnN7H-sc",
-      "thumbnail": "https://i.ytimg.com/vi/TenmnN7H-sc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/TenmnN7H-sc?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=TenmnN7H-sc",
-      "videoTitle": "JTB 12H DU LUNDI 05 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-05T12:09:21Z",
-      "episodeDate": "2026-10-05",
-      "durationSec": 1294,
+      "videoId": "BfxcFez943M",
+      "thumbnail": "https://i.ytimg.com/vi/BfxcFez943M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/BfxcFez943M?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=BfxcFez943M",
+      "videoTitle": "JTB 12H DU MARDI 06 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-06T11:31:35Z",
+      "episodeDate": "2026-10-06",
+      "durationSec": 1809,
       "parts": [
         {
-          "videoId": "TenmnN7H-sc",
-          "title": "JTB 12H DU LUNDI 05 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 1294,
-          "publishedAt": "2026-10-05T12:09:21Z"
+          "videoId": "BfxcFez943M",
+          "title": "JTB 12H DU MARDI 06 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 1809,
+          "publishedAt": "2026-10-06T11:31:35Z"
         }
       ]
     },
