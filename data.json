@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-07T06:59:54Z",
-  "checkedAt": "2026-10-07T06:59:54Z",
+  "generatedAt": "2026-10-07T09:17:46Z",
+  "checkedAt": "2026-10-07T09:17:46Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -87,20 +87,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "He-2UJdrJ94",
-      "thumbnail": "https://i.ytimg.com/vi/He-2UJdrJ94/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/He-2UJdrJ94?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=He-2UJdrJ94",
-      "videoTitle": "LA REVUE DES GRANDES UNES DU MARDI 06 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-06T08:59:57Z",
-      "episodeDate": "2026-10-06",
-      "durationSec": 1993,
+      "videoId": "iKFGd6GXxq0",
+      "thumbnail": "https://i.ytimg.com/vi/iKFGd6GXxq0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/iKFGd6GXxq0?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=iKFGd6GXxq0",
+      "videoTitle": "LA REVUE DES GRANDES UNES DU MERCREDI 07 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-07T08:59:46Z",
+      "episodeDate": "2026-10-07",
+      "durationSec": 2064,
       "parts": [
         {
-          "videoId": "He-2UJdrJ94",
-          "title": "LA REVUE DES GRANDES UNES DU MARDI 06 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 1993,
-          "publishedAt": "2026-10-06T08:59:57Z"
+          "videoId": "iKFGd6GXxq0",
+          "title": "LA REVUE DES GRANDES UNES DU MERCREDI 07 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2064,
+          "publishedAt": "2026-10-07T08:59:46Z"
         }
       ]
     },
