@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-07T09:17:46Z",
-  "checkedAt": "2026-10-07T09:17:46Z",
+  "generatedAt": "2026-10-07T10:18:59Z",
+  "checkedAt": "2026-10-07T10:18:59Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -35,20 +35,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "hGi6IPgTHFw",
-      "thumbnail": "https://i.ytimg.com/vi/hGi6IPgTHFw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/hGi6IPgTHFw?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=hGi6IPgTHFw",
-      "videoTitle": "10 12 LE ZÉNITH PART1 DU MARDI 06 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-06T10:03:16Z",
-      "episodeDate": "2026-10-06",
-      "durationSec": 3143,
+      "videoId": "NVg-sUB6r90",
+      "thumbnail": "https://i.ytimg.com/vi/NVg-sUB6r90/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/NVg-sUB6r90?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=NVg-sUB6r90",
+      "videoTitle": "10 12 LE ZÉNITH PART1 DU MERCREDI 07 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-07T10:03:59Z",
+      "episodeDate": "2026-10-07",
+      "durationSec": 3304,
       "parts": [
         {
-          "videoId": "hGi6IPgTHFw",
-          "title": "10 12 LE ZÉNITH PART1 DU MARDI 06 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 3143,
-          "publishedAt": "2026-10-06T10:03:16Z"
+          "videoId": "NVg-sUB6r90",
+          "title": "10 12 LE ZÉNITH PART1 DU MERCREDI 07 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 3304,
+          "publishedAt": "2026-10-07T10:03:59Z"
         }
       ]
     },
@@ -276,12 +276,12 @@
       "videoTitle": "LE JOURNAL  19h50 du Mardi 06/10/2026 - Canal 2 international",
       "publishedAt": "2026-10-06T19:34:38Z",
       "episodeDate": "2026-10-06",
-      "durationSec": 2197,
+      "durationSec": 2072,
       "parts": [
         {
           "videoId": "dJTIvY6G7Vg",
           "title": "LE JOURNAL  19h50 du Mardi 06/10/2026 - Canal 2 international",
-          "durationSec": 2197,
+          "durationSec": 2072,
           "publishedAt": "2026-10-06T19:34:38Z"
         }
       ]
