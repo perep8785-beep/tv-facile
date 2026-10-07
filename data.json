@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-07T12:38:00Z",
-  "checkedAt": "2026-10-07T12:38:00Z",
+  "generatedAt": "2026-10-07T18:59:39Z",
+  "checkedAt": "2026-10-07T18:59:39Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -191,20 +191,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "kx2kWAAv-zE",
-      "thumbnail": "https://i.ytimg.com/vi/kx2kWAAv-zE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/kx2kWAAv-zE?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=kx2kWAAv-zE",
-      "videoTitle": "ÉQUINOXE SOIR DU MARDI 06 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-06T18:57:43Z",
-      "episodeDate": "2026-10-06",
-      "durationSec": 2692,
+      "videoId": "uJekcoZ6f2E",
+      "thumbnail": "https://i.ytimg.com/vi/uJekcoZ6f2E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/uJekcoZ6f2E?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=uJekcoZ6f2E",
+      "videoTitle": "ÉQUINOXE SOIR DU MERCREDI 07 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-07T18:55:39Z",
+      "episodeDate": "2026-10-07",
+      "durationSec": 2717,
       "parts": [
         {
-          "videoId": "kx2kWAAv-zE",
-          "title": "ÉQUINOXE SOIR DU MARDI 06 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2692,
-          "publishedAt": "2026-10-06T18:57:43Z"
+          "videoId": "uJekcoZ6f2E",
+          "title": "ÉQUINOXE SOIR DU MERCREDI 07 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2717,
+          "publishedAt": "2026-10-07T18:55:39Z"
         }
       ]
     },
