@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-08T19:42:06Z",
-  "checkedAt": "2026-10-08T19:42:06Z",
+  "generatedAt": "2026-10-08T19:57:53Z",
+  "checkedAt": "2026-10-08T19:57:53Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -347,20 +347,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "krdzL2Fhpog",
-      "thumbnail": "https://i.ytimg.com/vi/krdzL2Fhpog/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/krdzL2Fhpog?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=krdzL2Fhpog",
-      "videoTitle": "LE 20H00  DU 07 OCTOBRE 2026",
-      "publishedAt": "2026-10-07T19:41:58Z",
-      "episodeDate": "2026-10-07",
-      "durationSec": 2468,
+      "videoId": "UmejSANKXYw",
+      "thumbnail": "https://i.ytimg.com/vi/UmejSANKXYw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/UmejSANKXYw?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=UmejSANKXYw",
+      "videoTitle": "LE 20H  DU 08 OCTOBRE 2026",
+      "publishedAt": "2026-10-08T19:43:53Z",
+      "episodeDate": "2026-10-08",
+      "durationSec": 2586,
       "parts": [
         {
-          "videoId": "krdzL2Fhpog",
-          "title": "LE 20H00  DU 07 OCTOBRE 2026",
-          "durationSec": 2468,
-          "publishedAt": "2026-10-07T19:41:58Z"
+          "videoId": "UmejSANKXYw",
+          "title": "LE 20H  DU 08 OCTOBRE 2026",
+          "durationSec": 2586,
+          "publishedAt": "2026-10-08T19:43:53Z"
         }
       ]
     },
