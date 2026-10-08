@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-08T18:32:23Z",
-  "checkedAt": "2026-10-08T18:32:23Z",
+  "generatedAt": "2026-10-08T18:59:09Z",
+  "checkedAt": "2026-10-08T18:59:09Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -191,20 +191,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "uJekcoZ6f2E",
-      "thumbnail": "https://i.ytimg.com/vi/uJekcoZ6f2E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/uJekcoZ6f2E?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=uJekcoZ6f2E",
-      "videoTitle": "ÉQUINOXE SOIR DU MERCREDI 07 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-07T18:55:39Z",
-      "episodeDate": "2026-10-07",
-      "durationSec": 2717,
+      "videoId": "79i0HPfNAzE",
+      "thumbnail": "https://i.ytimg.com/vi/79i0HPfNAzE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/79i0HPfNAzE?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=79i0HPfNAzE",
+      "videoTitle": "ÉQUINOXE SOIR DU JEUDI 08 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-08T18:56:09Z",
+      "episodeDate": "2026-10-08",
+      "durationSec": 2479,
       "parts": [
         {
-          "videoId": "uJekcoZ6f2E",
-          "title": "ÉQUINOXE SOIR DU MERCREDI 07 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2717,
-          "publishedAt": "2026-10-07T18:55:39Z"
+          "videoId": "79i0HPfNAzE",
+          "title": "ÉQUINOXE SOIR DU JEUDI 08 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2479,
+          "publishedAt": "2026-10-08T18:56:09Z"
         }
       ]
     },
@@ -295,20 +295,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "Or6rzXHKvH0",
-      "thumbnail": "https://i.ytimg.com/vi/Or6rzXHKvH0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/Or6rzXHKvH0?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=Or6rzXHKvH0",
-      "videoTitle": "RENTREE ACADEMIQUE: Faut-il s’inquiéter pour l’avenir des Etudiants ?(DEBRIEF DE L'ACTU ,06/10/2026)",
-      "publishedAt": "2026-10-06T18:41:34Z",
-      "episodeDate": "2026-10-06",
-      "durationSec": 3352,
+      "videoId": "WhmzeEN1hkY",
+      "thumbnail": "https://i.ytimg.com/vi/WhmzeEN1hkY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/WhmzeEN1hkY?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=WhmzeEN1hkY",
+      "videoTitle": "INVESTITURES : Ca gronde déjà dans les partis politiques … (DEBRIEF DE L'ACTU du Jeudi 08/10/2026 )",
+      "publishedAt": "2026-10-08T18:41:09Z",
+      "episodeDate": "2026-10-08",
+      "durationSec": 3506,
       "parts": [
         {
-          "videoId": "Or6rzXHKvH0",
-          "title": "RENTREE ACADEMIQUE: Faut-il s’inquiéter pour l’avenir des Etudiants ?(DEBRIEF DE L'ACTU ,06/10/2026)",
-          "durationSec": 3352,
-          "publishedAt": "2026-10-06T18:41:34Z"
+          "videoId": "WhmzeEN1hkY",
+          "title": "INVESTITURES : Ca gronde déjà dans les partis politiques … (DEBRIEF DE L'ACTU du Jeudi 08/10/2026 )",
+          "durationSec": 3506,
+          "publishedAt": "2026-10-08T18:41:09Z"
         }
       ]
     },
