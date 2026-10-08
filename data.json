@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-08T15:31:31Z",
-  "checkedAt": "2026-10-08T15:31:31Z",
+  "generatedAt": "2026-10-08T18:09:16Z",
+  "checkedAt": "2026-10-08T18:09:16Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -276,12 +276,12 @@
       "videoTitle": "LE JOURNAL  19h50 du Mercredi 07/10/2026 - Canal 2 international",
       "publishedAt": "2026-10-07T19:39:58Z",
       "episodeDate": "2026-10-07",
-      "durationSec": 2948,
+      "durationSec": 2789,
       "parts": [
         {
           "videoId": "PHaU8Lg2f4A",
           "title": "LE JOURNAL  19h50 du Mercredi 07/10/2026 - Canal 2 international",
-          "durationSec": 2948,
+          "durationSec": 2789,
           "publishedAt": "2026-10-07T19:39:58Z"
         }
       ]
@@ -346,7 +346,7 @@
       "spoken": "Le journal d'Info TV",
       "freq": "daily",
       "found": true,
-      "status": "found",
+      "status": "preserved",
       "videoId": "krdzL2Fhpog",
       "thumbnail": "https://i.ytimg.com/vi/krdzL2Fhpog/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/krdzL2Fhpog?rel=0&playsinline=1",
