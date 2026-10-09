@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-09T17:57:45Z",
-  "checkedAt": "2026-10-09T17:57:45Z",
+  "generatedAt": "2026-10-09T18:57:31Z",
+  "checkedAt": "2026-10-09T18:57:31Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -197,20 +197,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "79i0HPfNAzE",
-      "thumbnail": "https://i.ytimg.com/vi/79i0HPfNAzE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/79i0HPfNAzE?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=79i0HPfNAzE",
-      "videoTitle": "ÉQUINOXE SOIR DU JEUDI 08 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-08T18:56:09Z",
-      "episodeDate": "2026-10-08",
-      "durationSec": 2479,
+      "videoId": "7v8_RhnVezE",
+      "thumbnail": "https://i.ytimg.com/vi/7v8_RhnVezE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/7v8_RhnVezE?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=7v8_RhnVezE",
+      "videoTitle": "ÉQUINOXE SOIR DU VENDREDI 09 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-09T18:56:31Z",
+      "episodeDate": "2026-10-09",
+      "durationSec": 2791,
       "parts": [
         {
-          "videoId": "79i0HPfNAzE",
-          "title": "ÉQUINOXE SOIR DU JEUDI 08 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2479,
-          "publishedAt": "2026-10-08T18:56:09Z"
+          "videoId": "7v8_RhnVezE",
+          "title": "ÉQUINOXE SOIR DU VENDREDI 09 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2791,
+          "publishedAt": "2026-10-09T18:56:31Z"
         }
       ]
     },
@@ -301,20 +301,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "WhmzeEN1hkY",
-      "thumbnail": "https://i.ytimg.com/vi/WhmzeEN1hkY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/WhmzeEN1hkY?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=WhmzeEN1hkY",
-      "videoTitle": "INVESTITURES : Ca gronde déjà dans les partis politiques … (DEBRIEF DE L'ACTU du Jeudi 08/10/2026 )",
-      "publishedAt": "2026-10-08T18:41:09Z",
-      "episodeDate": "2026-10-08",
-      "durationSec": 3451,
+      "videoId": "ig4iQCnpDtA",
+      "thumbnail": "https://i.ytimg.com/vi/ig4iQCnpDtA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/ig4iQCnpDtA?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=ig4iQCnpDtA",
+      "videoTitle": "LION INDOMTABLES U20 : Yvan KENMOE déjà sous Pression ?  ( DEBRIEF DE L'ACTU du Vendredi 09/10/2026)",
+      "publishedAt": "2026-10-09T18:41:31Z",
+      "episodeDate": "2026-10-09",
+      "durationSec": 3151,
       "parts": [
         {
-          "videoId": "WhmzeEN1hkY",
-          "title": "INVESTITURES : Ca gronde déjà dans les partis politiques … (DEBRIEF DE L'ACTU du Jeudi 08/10/2026 )",
-          "durationSec": 3451,
-          "publishedAt": "2026-10-08T18:41:09Z"
+          "videoId": "ig4iQCnpDtA",
+          "title": "LION INDOMTABLES U20 : Yvan KENMOE déjà sous Pression ?  ( DEBRIEF DE L'ACTU du Vendredi 09/10/2026)",
+          "durationSec": 3151,
+          "publishedAt": "2026-10-09T18:41:31Z"
         }
       ]
     },
