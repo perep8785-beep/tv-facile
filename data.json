@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-09T06:49:34Z",
-  "checkedAt": "2026-10-09T06:49:34Z",
+  "generatedAt": "2026-10-09T07:56:48Z",
+  "checkedAt": "2026-10-09T07:56:48Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -354,12 +354,12 @@
       "videoTitle": "LE 20H  DU 08 OCTOBRE 2026",
       "publishedAt": "2026-10-08T19:43:53Z",
       "episodeDate": "2026-10-08",
-      "durationSec": 2586,
+      "durationSec": 2582,
       "parts": [
         {
           "videoId": "UmejSANKXYw",
           "title": "LE 20H  DU 08 OCTOBRE 2026",
-          "durationSec": 2586,
+          "durationSec": 2582,
           "publishedAt": "2026-10-08T19:43:53Z"
         }
       ]
