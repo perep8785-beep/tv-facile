@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-09T10:56:26Z",
-  "checkedAt": "2026-10-09T10:56:26Z",
+  "generatedAt": "2026-10-09T11:10:53Z",
+  "checkedAt": "2026-10-09T11:10:53Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -68,7 +68,7 @@
       "videoTitle": "10 12 LE ZÉNITH PART2 DU VENDREDI 09 OCTOBRE 2026 - ÉQUINOXE TV",
       "publishedAt": "2026-10-09T10:43:26Z",
       "episodeDate": "2026-10-09",
-      "durationSec": 2637,
+      "durationSec": 2631,
       "parts": [
         {
           "videoId": "wWi2nTJdoUc",
@@ -79,7 +79,7 @@
         {
           "videoId": "_UsAZvFwh50",
           "title": "10 12 LE ZÉNITH PART2 DU VENDREDI 09 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 459,
+          "durationSec": 453,
           "publishedAt": "2026-10-09T10:55:26Z"
         }
       ]
