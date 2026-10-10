@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-10T15:55:16Z",
-  "checkedAt": "2026-10-10T15:55:16Z",
+  "generatedAt": "2026-10-10T19:40:18Z",
+  "checkedAt": "2026-10-10T19:40:18Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -152,13 +152,19 @@
       "videoTitle": "JTB 12H DU SAMEDI  10  OCTOBRE 2026 - ÉQUINOXE TV",
       "publishedAt": "2026-10-10T11:33:09Z",
       "episodeDate": "2026-10-10",
-      "durationSec": 1904,
+      "durationSec": 3574,
       "parts": [
         {
           "videoId": "7TAf3eXFkJ0",
           "title": "JTB 12H DU SAMEDI  10  OCTOBRE 2026 - ÉQUINOXE TV",
           "durationSec": 1904,
           "publishedAt": "2026-10-10T11:33:09Z"
+        },
+        {
+          "videoId": "K9wn_YB3QRE",
+          "title": "20H BILINGUE DU SAMEDI 10 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 1670,
+          "publishedAt": "2026-10-10T19:29:18Z"
         }
       ]
     },
@@ -275,20 +281,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "airjQvOpWJo",
-      "thumbnail": "https://i.ytimg.com/vi/airjQvOpWJo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/airjQvOpWJo?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=airjQvOpWJo",
-      "videoTitle": "LE JOURNAL  19h50 du Vendredi 09/10/2026 - Canal 2 international",
-      "publishedAt": "2026-10-09T19:34:10Z",
-      "episodeDate": "2026-10-09",
-      "durationSec": 2569,
+      "videoId": "iqk3a2z-AV8",
+      "thumbnail": "https://i.ytimg.com/vi/iqk3a2z-AV8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/iqk3a2z-AV8?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=iqk3a2z-AV8",
+      "videoTitle": "LE JOURNAL  20h00 du Samedi 10/10/2026 - Canal 2 international",
+      "publishedAt": "2026-10-10T19:35:18Z",
+      "episodeDate": "2026-10-10",
+      "durationSec": 2042,
       "parts": [
         {
-          "videoId": "airjQvOpWJo",
-          "title": "LE JOURNAL  19h50 du Vendredi 09/10/2026 - Canal 2 international",
-          "durationSec": 2569,
-          "publishedAt": "2026-10-09T19:34:10Z"
+          "videoId": "iqk3a2z-AV8",
+          "title": "LE JOURNAL  20h00 du Samedi 10/10/2026 - Canal 2 international",
+          "durationSec": 2042,
+          "publishedAt": "2026-10-10T19:35:18Z"
         }
       ]
     },
