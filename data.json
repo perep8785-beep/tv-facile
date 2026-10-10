@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-10T06:58:22Z",
-  "checkedAt": "2026-10-10T06:58:22Z",
+  "generatedAt": "2026-10-10T07:53:28Z",
+  "checkedAt": "2026-10-10T07:53:28Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -360,12 +360,12 @@
       "videoTitle": "LE 20H DU 09 OCTOBRE 2026",
       "publishedAt": "2026-10-09T19:33:10Z",
       "episodeDate": "2026-10-09",
-      "durationSec": 1973,
+      "durationSec": 1984,
       "parts": [
         {
           "videoId": "VPRE3s3eoSE",
           "title": "LE 20H DU 09 OCTOBRE 2026",
-          "durationSec": 1973,
+          "durationSec": 1984,
           "publishedAt": "2026-10-09T19:33:10Z"
         }
       ]
