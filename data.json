@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-10T11:41:09Z",
-  "checkedAt": "2026-10-10T11:41:09Z",
+  "generatedAt": "2026-10-10T12:57:36Z",
+  "checkedAt": "2026-10-10T12:57:36Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -249,20 +249,20 @@
       "freq": "weekly",
       "found": true,
       "status": "found",
-      "videoId": "oYMDgHvB53o",
-      "thumbnail": "https://i.ytimg.com/vi/oYMDgHvB53o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/oYMDgHvB53o?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=oYMDgHvB53o",
-      "videoTitle": "PIDGIN NEWS DEBATE SATURDAY OCTOBER 03, 2026 - EQUINOXE TV",
-      "publishedAt": "2026-10-04T03:09:21Z",
-      "episodeDate": "2026-10-03",
-      "durationSec": 3227,
+      "videoId": "J1i9m1pFh-E",
+      "thumbnail": "https://i.ytimg.com/vi/J1i9m1pFh-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/J1i9m1pFh-E?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=J1i9m1pFh-E",
+      "videoTitle": "PIDGIN NEWS DEBATE SATURDAY OCTOBER 10, 2026 - EQUINOXE TV",
+      "publishedAt": "2026-10-10T12:34:36Z",
+      "episodeDate": "2026-10-10",
+      "durationSec": 2788,
       "parts": [
         {
-          "videoId": "oYMDgHvB53o",
-          "title": "PIDGIN NEWS DEBATE SATURDAY OCTOBER 03, 2026 - EQUINOXE TV",
-          "durationSec": 3227,
-          "publishedAt": "2026-10-04T03:09:21Z"
+          "videoId": "J1i9m1pFh-E",
+          "title": "PIDGIN NEWS DEBATE SATURDAY OCTOBER 10, 2026 - EQUINOXE TV",
+          "durationSec": 2788,
+          "publishedAt": "2026-10-10T12:34:36Z"
         }
       ]
     },
