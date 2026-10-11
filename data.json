@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-11T11:55:54Z",
-  "checkedAt": "2026-10-11T11:55:54Z",
+  "generatedAt": "2026-10-11T12:34:52Z",
+  "checkedAt": "2026-10-11T12:34:52Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -333,20 +333,20 @@
       "freq": "weekly",
       "found": true,
       "status": "found",
-      "videoId": "vQJ4BaUlgjk",
-      "thumbnail": "https://i.ytimg.com/vi/vQJ4BaUlgjk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/vQJ4BaUlgjk?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=vQJ4BaUlgjk",
-      "videoTitle": "CANAL PRESSE du 04/10/2026: \" VIOLS, INFANTICIDES, ENLEVEMENTS D’ENFANTS : Comprendre ces ... \"",
-      "publishedAt": "2026-10-05T03:09:21Z",
-      "episodeDate": "2026-10-04",
-      "durationSec": 8819,
+      "videoId": "tzjKbnVyv6g",
+      "thumbnail": "https://i.ytimg.com/vi/tzjKbnVyv6g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/tzjKbnVyv6g?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=tzjKbnVyv6g",
+      "videoTitle": "CANAL PRESSE du 11/10/2026",
+      "publishedAt": "2026-10-11T12:23:52Z",
+      "episodeDate": "2026-10-11",
+      "durationSec": 6179,
       "parts": [
         {
-          "videoId": "vQJ4BaUlgjk",
-          "title": "CANAL PRESSE du 04/10/2026: \" VIOLS, INFANTICIDES, ENLEVEMENTS D’ENFANTS : Comprendre ces ... \"",
-          "durationSec": 8819,
-          "publishedAt": "2026-10-05T03:09:21Z"
+          "videoId": "tzjKbnVyv6g",
+          "title": "CANAL PRESSE du 11/10/2026",
+          "durationSec": 6179,
+          "publishedAt": "2026-10-11T12:23:52Z"
         }
       ]
     },
