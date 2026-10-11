@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-11T18:08:19Z",
-  "checkedAt": "2026-10-11T18:08:19Z",
+  "generatedAt": "2026-10-11T19:26:43Z",
+  "checkedAt": "2026-10-11T19:26:43Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -281,20 +281,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "iqk3a2z-AV8",
-      "thumbnail": "https://i.ytimg.com/vi/iqk3a2z-AV8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/iqk3a2z-AV8?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=iqk3a2z-AV8",
-      "videoTitle": "LE JOURNAL  20h00 du Samedi 10/10/2026 - Canal 2 international",
-      "publishedAt": "2026-10-10T19:47:46Z",
-      "episodeDate": "2026-10-10",
-      "durationSec": 2042,
+      "videoId": "vKHaPg1KTeE",
+      "thumbnail": "https://i.ytimg.com/vi/vKHaPg1KTeE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/vKHaPg1KTeE?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=vKHaPg1KTeE",
+      "videoTitle": "LE JOURNAL  20h00 du Dimanche 11/10/2026 - Canal 2 international",
+      "publishedAt": "2026-10-11T19:25:43Z",
+      "episodeDate": "2026-10-11",
+      "durationSec": 1377,
       "parts": [
         {
-          "videoId": "iqk3a2z-AV8",
-          "title": "LE JOURNAL  20h00 du Samedi 10/10/2026 - Canal 2 international",
-          "durationSec": 2042,
-          "publishedAt": "2026-10-10T19:47:46Z"
+          "videoId": "vKHaPg1KTeE",
+          "title": "LE JOURNAL  20h00 du Dimanche 11/10/2026 - Canal 2 international",
+          "durationSec": 1377,
+          "publishedAt": "2026-10-11T19:25:43Z"
         }
       ]
     },
