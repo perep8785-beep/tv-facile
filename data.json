@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-11T19:26:43Z",
-  "checkedAt": "2026-10-11T19:26:43Z",
+  "generatedAt": "2026-10-11T19:42:22Z",
+  "checkedAt": "2026-10-11T19:42:22Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -145,26 +145,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "7TAf3eXFkJ0",
-      "thumbnail": "https://i.ytimg.com/vi/7TAf3eXFkJ0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/7TAf3eXFkJ0?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=7TAf3eXFkJ0",
-      "videoTitle": "JTB 12H DU SAMEDI  10  OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-10T11:33:09Z",
-      "episodeDate": "2026-10-10",
-      "durationSec": 3574,
+      "videoId": "hs0ch56Tqnk",
+      "thumbnail": "https://i.ytimg.com/vi/hs0ch56Tqnk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/hs0ch56Tqnk?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=hs0ch56Tqnk",
+      "videoTitle": "20H BILINGUE DU DIMANCHE 11 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-11T19:30:22Z",
+      "episodeDate": "2026-10-11",
+      "durationSec": 1714,
       "parts": [
         {
-          "videoId": "7TAf3eXFkJ0",
-          "title": "JTB 12H DU SAMEDI  10  OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 1904,
-          "publishedAt": "2026-10-10T11:33:09Z"
-        },
-        {
-          "videoId": "K9wn_YB3QRE",
-          "title": "20H BILINGUE DU SAMEDI 10 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 1670,
-          "publishedAt": "2026-10-10T19:29:18Z"
+          "videoId": "hs0ch56Tqnk",
+          "title": "20H BILINGUE DU DIMANCHE 11 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 1714,
+          "publishedAt": "2026-10-11T19:30:22Z"
         }
       ]
     },
@@ -288,12 +282,12 @@
       "videoTitle": "LE JOURNAL  20h00 du Dimanche 11/10/2026 - Canal 2 international",
       "publishedAt": "2026-10-11T19:25:43Z",
       "episodeDate": "2026-10-11",
-      "durationSec": 1377,
+      "durationSec": 1334,
       "parts": [
         {
           "videoId": "vKHaPg1KTeE",
           "title": "LE JOURNAL  20h00 du Dimanche 11/10/2026 - Canal 2 international",
-          "durationSec": 1377,
+          "durationSec": 1334,
           "publishedAt": "2026-10-11T19:25:43Z"
         }
       ]
