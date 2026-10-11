@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-11T13:16:40Z",
-  "checkedAt": "2026-10-11T13:16:40Z",
+  "generatedAt": "2026-10-11T13:40:59Z",
+  "checkedAt": "2026-10-11T13:40:59Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -385,20 +385,20 @@
       "freq": "weekly",
       "found": true,
       "status": "found",
-      "videoId": "srLn5rk_5aQ",
-      "thumbnail": "https://i.ytimg.com/vi/srLn5rk_5aQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/srLn5rk_5aQ?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=srLn5rk_5aQ",
+      "videoId": "sdjS6TrITDo",
+      "thumbnail": "https://i.ytimg.com/vi/sdjS6TrITDo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/sdjS6TrITDo?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=sdjS6TrITDo",
       "videoTitle": "CLUB D'ÉLITES",
-      "publishedAt": "2026-10-05T03:09:21Z",
-      "episodeDate": "2026-10-05",
-      "durationSec": 10509,
+      "publishedAt": "2026-10-11T13:25:59Z",
+      "episodeDate": "2026-10-11",
+      "durationSec": 11962,
       "parts": [
         {
-          "videoId": "srLn5rk_5aQ",
+          "videoId": "sdjS6TrITDo",
           "title": "CLUB D'ÉLITES",
-          "durationSec": 10509,
-          "publishedAt": "2026-10-05T03:09:21Z"
+          "durationSec": 11962,
+          "publishedAt": "2026-10-11T13:25:59Z"
         }
       ]
     }
