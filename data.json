@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-11T11:09:11Z",
-  "checkedAt": "2026-10-11T11:09:11Z",
+  "generatedAt": "2026-10-11T11:55:54Z",
+  "checkedAt": "2026-10-11T11:55:54Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -177,20 +177,20 @@
       "freq": "weekly",
       "found": true,
       "status": "found",
-      "videoId": "JifOwVHcU-Y",
-      "thumbnail": "https://i.ytimg.com/vi/JifOwVHcU-Y/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/JifOwVHcU-Y?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=JifOwVHcU-Y",
-      "videoTitle": "DROIT DE RÉPONSE DU DIMANCHE 04 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-05T03:09:21Z",
-      "episodeDate": "2026-10-04",
-      "durationSec": 6694,
+      "videoId": "4VJbpNm4A5M",
+      "thumbnail": "https://i.ytimg.com/vi/4VJbpNm4A5M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/4VJbpNm4A5M?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=4VJbpNm4A5M",
+      "videoTitle": "DROIT DE RÉPONSE DU DIMANCHE 11 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-11T11:51:54Z",
+      "episodeDate": "2026-10-11",
+      "durationSec": 3026,
       "parts": [
         {
-          "videoId": "JifOwVHcU-Y",
-          "title": "DROIT DE RÉPONSE DU DIMANCHE 04 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 6694,
-          "publishedAt": "2026-10-05T03:09:21Z"
+          "videoId": "4VJbpNm4A5M",
+          "title": "DROIT DE RÉPONSE DU DIMANCHE 11 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 3026,
+          "publishedAt": "2026-10-11T11:51:54Z"
         }
       ]
     },
