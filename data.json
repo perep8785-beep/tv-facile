@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-11T16:06:58Z",
-  "checkedAt": "2026-10-11T16:06:58Z",
+  "generatedAt": "2026-10-11T16:58:42Z",
+  "checkedAt": "2026-10-11T16:58:42Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -340,12 +340,12 @@
       "videoTitle": "CANAL PRESSE du 11/10/2026",
       "publishedAt": "2026-10-11T12:23:52Z",
       "episodeDate": "2026-10-11",
-      "durationSec": 6179,
+      "durationSec": 6079,
       "parts": [
         {
           "videoId": "tzjKbnVyv6g",
           "title": "CANAL PRESSE du 11/10/2026",
-          "durationSec": 6179,
+          "durationSec": 6079,
           "publishedAt": "2026-10-11T12:23:52Z"
         }
       ]
