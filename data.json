@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-11T00:11:24Z",
-  "checkedAt": "2026-10-11T00:11:24Z",
+  "generatedAt": "2026-10-11T00:39:19Z",
+  "checkedAt": "2026-10-11T00:39:19Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -358,7 +358,7 @@
       "spoken": "Le journal d'Info TV",
       "freq": "daily",
       "found": true,
-      "status": "preserved",
+      "status": "found",
       "videoId": "VPRE3s3eoSE",
       "thumbnail": "https://i.ytimg.com/vi/VPRE3s3eoSE/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/VPRE3s3eoSE?rel=0&playsinline=1",
