@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-12T19:47:17Z",
-  "checkedAt": "2026-10-12T19:47:17Z",
+  "generatedAt": "2026-10-12T20:09:37Z",
+  "checkedAt": "2026-10-12T20:09:37Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -113,20 +113,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "yGbEei0PWJo",
-      "thumbnail": "https://i.ytimg.com/vi/yGbEei0PWJo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/yGbEei0PWJo?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=yGbEei0PWJo",
-      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU VENDREDI 09 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-09T19:55:06Z",
-      "episodeDate": "2026-10-09",
-      "durationSec": 3208,
+      "videoId": "NQpJeIfVgVU",
+      "thumbnail": "https://i.ytimg.com/vi/NQpJeIfVgVU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/NQpJeIfVgVU?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=NQpJeIfVgVU",
+      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU LUNDI 12 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-12T19:54:37Z",
+      "episodeDate": "2026-10-12",
+      "durationSec": 3192,
       "parts": [
         {
-          "videoId": "yGbEei0PWJo",
-          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU VENDREDI 09 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 3208,
-          "publishedAt": "2026-10-09T19:55:06Z"
+          "videoId": "NQpJeIfVgVU",
+          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU LUNDI 12 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 3192,
+          "publishedAt": "2026-10-12T19:54:37Z"
         }
       ]
     },
@@ -165,20 +165,20 @@
       "freq": "weekly",
       "found": true,
       "status": "found",
-      "videoId": "0SWr8OGpaPk",
-      "thumbnail": "https://i.ytimg.com/vi/0SWr8OGpaPk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/0SWr8OGpaPk?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=0SWr8OGpaPk",
+      "videoId": "J9-13tnHPa4",
+      "thumbnail": "https://i.ytimg.com/vi/J9-13tnHPa4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/J9-13tnHPa4?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=J9-13tnHPa4",
       "videoTitle": "DROIT DE RÉPONSE DU DIMANCHE 11 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-11T15:58:17Z",
+      "publishedAt": "2026-10-11T20:09:37Z",
       "episodeDate": "2026-10-11",
-      "durationSec": 4029,
+      "durationSec": 7173,
       "parts": [
         {
-          "videoId": "0SWr8OGpaPk",
+          "videoId": "J9-13tnHPa4",
           "title": "DROIT DE RÉPONSE DU DIMANCHE 11 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 4029,
-          "publishedAt": "2026-10-11T15:58:17Z"
+          "durationSec": 7173,
+          "publishedAt": "2026-10-11T20:09:37Z"
         }
       ]
     },
@@ -353,20 +353,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "VPRE3s3eoSE",
-      "thumbnail": "https://i.ytimg.com/vi/VPRE3s3eoSE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/VPRE3s3eoSE?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=VPRE3s3eoSE",
-      "videoTitle": "LE 20H DU 09 OCTOBRE 2026",
-      "publishedAt": "2026-10-09T19:33:10Z",
-      "episodeDate": "2026-10-09",
-      "durationSec": 1984,
+      "videoId": "mlaCwdExGEI",
+      "thumbnail": "https://i.ytimg.com/vi/mlaCwdExGEI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/mlaCwdExGEI?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=mlaCwdExGEI",
+      "videoTitle": "LE 20H  DU 12 OCTOBRE 2026",
+      "publishedAt": "2026-10-12T19:47:37Z",
+      "episodeDate": "2026-10-12",
+      "durationSec": 2815,
       "parts": [
         {
-          "videoId": "VPRE3s3eoSE",
-          "title": "LE 20H DU 09 OCTOBRE 2026",
-          "durationSec": 1984,
-          "publishedAt": "2026-10-09T19:33:10Z"
+          "videoId": "mlaCwdExGEI",
+          "title": "LE 20H  DU 12 OCTOBRE 2026",
+          "durationSec": 2815,
+          "publishedAt": "2026-10-12T19:47:37Z"
         }
       ]
     },
