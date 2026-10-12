@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-12T19:09:52Z",
-  "checkedAt": "2026-10-12T19:09:52Z",
+  "generatedAt": "2026-10-12T19:47:17Z",
+  "checkedAt": "2026-10-12T19:47:17Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -165,27 +165,15 @@
       "freq": "weekly",
       "found": true,
       "status": "found",
-      "videoId": "J9-13tnHPa4",
-      "thumbnail": "https://i.ytimg.com/vi/J9-13tnHPa4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/J9-13tnHPa4?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=J9-13tnHPa4",
+      "videoId": "0SWr8OGpaPk",
+      "thumbnail": "https://i.ytimg.com/vi/0SWr8OGpaPk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/0SWr8OGpaPk?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=0SWr8OGpaPk",
       "videoTitle": "DROIT DE RÉPONSE DU DIMANCHE 11 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-11T15:37:58Z",
+      "publishedAt": "2026-10-11T15:58:17Z",
       "episodeDate": "2026-10-11",
-      "durationSec": 14228,
+      "durationSec": 4029,
       "parts": [
-        {
-          "videoId": "J9-13tnHPa4",
-          "title": "DROIT DE RÉPONSE DU DIMANCHE 11 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 7173,
-          "publishedAt": "2026-10-11T15:37:58Z"
-        },
-        {
-          "videoId": "4VJbpNm4A5M",
-          "title": "DROIT DE RÉPONSE DU DIMANCHE 11 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 3026,
-          "publishedAt": "2026-10-11T15:58:17Z"
-        },
         {
           "videoId": "0SWr8OGpaPk",
           "title": "DROIT DE RÉPONSE DU DIMANCHE 11 OCTOBRE 2026 - ÉQUINOXE TV",
@@ -281,20 +269,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "vKHaPg1KTeE",
-      "thumbnail": "https://i.ytimg.com/vi/vKHaPg1KTeE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/vKHaPg1KTeE?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=vKHaPg1KTeE",
-      "videoTitle": "LE JOURNAL  20h00 du Dimanche 11/10/2026 - Canal 2 international",
-      "publishedAt": "2026-10-11T19:43:41Z",
-      "episodeDate": "2026-10-11",
-      "durationSec": 1334,
+      "videoId": "npiYm8F-Ch0",
+      "thumbnail": "https://i.ytimg.com/vi/npiYm8F-Ch0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/npiYm8F-Ch0?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=npiYm8F-Ch0",
+      "videoTitle": "LE JOURNAL  19h50 du Lundi 12/10/2026 - Canal 2 international",
+      "publishedAt": "2026-10-12T19:39:17Z",
+      "episodeDate": "2026-10-12",
+      "durationSec": 2574,
       "parts": [
         {
-          "videoId": "vKHaPg1KTeE",
-          "title": "LE JOURNAL  20h00 du Dimanche 11/10/2026 - Canal 2 international",
-          "durationSec": 1334,
-          "publishedAt": "2026-10-11T19:43:41Z"
+          "videoId": "npiYm8F-Ch0",
+          "title": "LE JOURNAL  19h50 du Lundi 12/10/2026 - Canal 2 international",
+          "durationSec": 2574,
+          "publishedAt": "2026-10-12T19:39:17Z"
         }
       ]
     },
