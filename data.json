@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-12T02:57:15Z",
-  "checkedAt": "2026-10-12T02:57:15Z",
+  "generatedAt": "2026-10-12T06:20:08Z",
+  "checkedAt": "2026-10-12T06:20:08Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -327,20 +327,20 @@
       "freq": "weekly",
       "found": true,
       "status": "found",
-      "videoId": "cGq1xLzZ_oM",
-      "thumbnail": "https://i.ytimg.com/vi/cGq1xLzZ_oM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/cGq1xLzZ_oM?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=cGq1xLzZ_oM",
-      "videoTitle": "CANAL PRESSE du 11/10/2026: \"LA CRISE ANGLOPHONE : Quel bilan dix ans après le début des hostilités\"",
-      "publishedAt": "2026-10-11T16:08:19Z",
+      "videoId": "tzjKbnVyv6g",
+      "thumbnail": "https://i.ytimg.com/vi/tzjKbnVyv6g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/tzjKbnVyv6g?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=tzjKbnVyv6g",
+      "videoTitle": "CANAL PRESSE du 11/10/2026",
+      "publishedAt": "2026-10-11T13:20:08Z",
       "episodeDate": "2026-10-11",
-      "durationSec": 7717,
+      "durationSec": 6079,
       "parts": [
         {
-          "videoId": "cGq1xLzZ_oM",
-          "title": "CANAL PRESSE du 11/10/2026: \"LA CRISE ANGLOPHONE : Quel bilan dix ans après le début des hostilités\"",
-          "durationSec": 7717,
-          "publishedAt": "2026-10-11T16:08:19Z"
+          "videoId": "tzjKbnVyv6g",
+          "title": "CANAL PRESSE du 11/10/2026",
+          "durationSec": 6079,
+          "publishedAt": "2026-10-11T13:20:08Z"
         }
       ]
     },
