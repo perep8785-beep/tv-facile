@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-12T13:08:37Z",
-  "checkedAt": "2026-10-12T13:08:37Z",
+  "generatedAt": "2026-10-12T15:58:17Z",
+  "checkedAt": "2026-10-12T15:58:17Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -172,13 +172,25 @@
       "videoTitle": "DROIT DE RÉPONSE DU DIMANCHE 11 OCTOBRE 2026 - ÉQUINOXE TV",
       "publishedAt": "2026-10-11T15:37:58Z",
       "episodeDate": "2026-10-11",
-      "durationSec": 7173,
+      "durationSec": 14228,
       "parts": [
         {
           "videoId": "J9-13tnHPa4",
           "title": "DROIT DE RÉPONSE DU DIMANCHE 11 OCTOBRE 2026 - ÉQUINOXE TV",
           "durationSec": 7173,
           "publishedAt": "2026-10-11T15:37:58Z"
+        },
+        {
+          "videoId": "4VJbpNm4A5M",
+          "title": "DROIT DE RÉPONSE DU DIMANCHE 11 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 3026,
+          "publishedAt": "2026-10-11T15:58:17Z"
+        },
+        {
+          "videoId": "0SWr8OGpaPk",
+          "title": "DROIT DE RÉPONSE DU DIMANCHE 11 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 4029,
+          "publishedAt": "2026-10-11T15:58:17Z"
         }
       ]
     },
@@ -328,13 +340,19 @@
       "videoTitle": "CANAL PRESSE du 11/10/2026: \"LA CRISE ANGLOPHONE : Quel bilan dix ans après le début des hostilités\"",
       "publishedAt": "2026-10-11T15:55:28Z",
       "episodeDate": "2026-10-11",
-      "durationSec": 7717,
+      "durationSec": 13796,
       "parts": [
         {
           "videoId": "cGq1xLzZ_oM",
           "title": "CANAL PRESSE du 11/10/2026: \"LA CRISE ANGLOPHONE : Quel bilan dix ans après le début des hostilités\"",
           "durationSec": 7717,
           "publishedAt": "2026-10-11T15:55:28Z"
+        },
+        {
+          "videoId": "tzjKbnVyv6g",
+          "title": "CANAL PRESSE du 11/10/2026",
+          "durationSec": 6079,
+          "publishedAt": "2026-10-11T15:58:17Z"
         }
       ]
     },
@@ -372,7 +390,7 @@
       "spoken": "Club d'Élites, sur Vision 4",
       "freq": "weekly",
       "found": true,
-      "status": "found",
+      "status": "preserved",
       "videoId": "sdjS6TrITDo",
       "thumbnail": "https://i.ytimg.com/vi/sdjS6TrITDo/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/sdjS6TrITDo?rel=0&playsinline=1",
