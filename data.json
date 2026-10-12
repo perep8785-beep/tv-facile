@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-12T15:58:17Z",
-  "checkedAt": "2026-10-12T15:58:17Z",
+  "generatedAt": "2026-10-12T16:16:06Z",
+  "checkedAt": "2026-10-12T16:16:06Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -390,7 +390,7 @@
       "spoken": "Club d'Élites, sur Vision 4",
       "freq": "weekly",
       "found": true,
-      "status": "preserved",
+      "status": "found",
       "videoId": "sdjS6TrITDo",
       "thumbnail": "https://i.ytimg.com/vi/sdjS6TrITDo/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/sdjS6TrITDo?rel=0&playsinline=1",
