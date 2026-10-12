@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-12T06:55:28Z",
-  "checkedAt": "2026-10-12T06:55:28Z",
+  "generatedAt": "2026-10-12T08:59:59Z",
+  "checkedAt": "2026-10-12T08:59:59Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -93,20 +93,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "uaBAqrCQRoE",
-      "thumbnail": "https://i.ytimg.com/vi/uaBAqrCQRoE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/uaBAqrCQRoE?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=uaBAqrCQRoE",
-      "videoTitle": "LA REVUE DES GRANDES UNES DU VENDREDI 09 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-09T08:58:35Z",
-      "episodeDate": "2026-10-09",
-      "durationSec": 2088,
+      "videoId": "e1ErL-BVPbg",
+      "thumbnail": "https://i.ytimg.com/vi/e1ErL-BVPbg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/e1ErL-BVPbg?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=e1ErL-BVPbg",
+      "videoTitle": "LA REVUE DES GRANDES UNES DU LUNDI 12 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-12T08:58:59Z",
+      "episodeDate": "2026-10-12",
+      "durationSec": 2154,
       "parts": [
         {
-          "videoId": "uaBAqrCQRoE",
-          "title": "LA REVUE DES GRANDES UNES DU VENDREDI 09 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2088,
-          "publishedAt": "2026-10-09T08:58:35Z"
+          "videoId": "e1ErL-BVPbg",
+          "title": "LA REVUE DES GRANDES UNES DU LUNDI 12 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2154,
+          "publishedAt": "2026-10-12T08:58:59Z"
         }
       ]
     },
@@ -378,7 +378,7 @@
       "spoken": "Club d'Élites, sur Vision 4",
       "freq": "weekly",
       "found": true,
-      "status": "found",
+      "status": "preserved",
       "videoId": "sdjS6TrITDo",
       "thumbnail": "https://i.ytimg.com/vi/sdjS6TrITDo/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/sdjS6TrITDo?rel=0&playsinline=1",
