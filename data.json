@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-12T23:08:47Z",
-  "checkedAt": "2026-10-12T23:08:47Z",
+  "generatedAt": "2026-10-13T00:13:31Z",
+  "checkedAt": "2026-10-13T00:13:31Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -281,20 +281,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "npiYm8F-Ch0",
-      "thumbnail": "https://i.ytimg.com/vi/npiYm8F-Ch0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/npiYm8F-Ch0?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=npiYm8F-Ch0",
-      "videoTitle": "LE JOURNAL  19h50 du Lundi 12/10/2026 - Canal 2 international",
-      "publishedAt": "2026-10-12T19:39:17Z",
-      "episodeDate": "2026-10-12",
-      "durationSec": 2574,
+      "videoId": "4EIUQYynkqg",
+      "thumbnail": "https://i.ytimg.com/vi/4EIUQYynkqg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/4EIUQYynkqg?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=4EIUQYynkqg",
+      "videoTitle": "LE JOURNAL  19h50 du Lundi 05/10/2026 - Canal 2 international",
+      "publishedAt": "2026-10-07T00:13:31Z",
+      "episodeDate": "2026-10-05",
+      "durationSec": 2572,
       "parts": [
         {
-          "videoId": "npiYm8F-Ch0",
-          "title": "LE JOURNAL  19h50 du Lundi 12/10/2026 - Canal 2 international",
-          "durationSec": 2574,
-          "publishedAt": "2026-10-12T19:39:17Z"
+          "videoId": "4EIUQYynkqg",
+          "title": "LE JOURNAL  19h50 du Lundi 05/10/2026 - Canal 2 international",
+          "durationSec": 2572,
+          "publishedAt": "2026-10-07T00:13:31Z"
         }
       ]
     },
@@ -306,7 +306,7 @@
       "spoken": "Le débrief de l'actu, Canal 2",
       "freq": "daily",
       "found": true,
-      "status": "found",
+      "status": "preserved",
       "videoId": "ig4iQCnpDtA",
       "thumbnail": "https://i.ytimg.com/vi/ig4iQCnpDtA/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/ig4iQCnpDtA?rel=0&playsinline=1",
@@ -340,19 +340,13 @@
       "videoTitle": "CANAL PRESSE du 11/10/2026: \"LA CRISE ANGLOPHONE : Quel bilan dix ans après le début des hostilités\"",
       "publishedAt": "2026-10-11T15:55:28Z",
       "episodeDate": "2026-10-11",
-      "durationSec": 13796,
+      "durationSec": 7717,
       "parts": [
         {
           "videoId": "cGq1xLzZ_oM",
           "title": "CANAL PRESSE du 11/10/2026: \"LA CRISE ANGLOPHONE : Quel bilan dix ans après le début des hostilités\"",
           "durationSec": 7717,
           "publishedAt": "2026-10-11T15:55:28Z"
-        },
-        {
-          "videoId": "tzjKbnVyv6g",
-          "title": "CANAL PRESSE du 11/10/2026",
-          "durationSec": 6079,
-          "publishedAt": "2026-10-11T17:43:41Z"
         }
       ]
     },
