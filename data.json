@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-13T19:22:43Z",
-  "checkedAt": "2026-10-13T19:22:43Z",
+  "generatedAt": "2026-10-13T19:56:22Z",
+  "checkedAt": "2026-10-13T19:56:22Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -113,20 +113,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "NQpJeIfVgVU",
-      "thumbnail": "https://i.ytimg.com/vi/NQpJeIfVgVU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/NQpJeIfVgVU?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=NQpJeIfVgVU",
-      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU LUNDI 12 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-12T19:54:37Z",
-      "episodeDate": "2026-10-12",
-      "durationSec": 3192,
+      "videoId": "dT8pZbOQM-c",
+      "thumbnail": "https://i.ytimg.com/vi/dT8pZbOQM-c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/dT8pZbOQM-c?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=dT8pZbOQM-c",
+      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MARDI 13 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-13T19:46:22Z",
+      "episodeDate": "2026-10-13",
+      "durationSec": 2719,
       "parts": [
         {
-          "videoId": "NQpJeIfVgVU",
-          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU LUNDI 12 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 3192,
-          "publishedAt": "2026-10-12T19:54:37Z"
+          "videoId": "dT8pZbOQM-c",
+          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MARDI 13 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2719,
+          "publishedAt": "2026-10-13T19:46:22Z"
         }
       ]
     },
@@ -281,20 +281,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "npiYm8F-Ch0",
-      "thumbnail": "https://i.ytimg.com/vi/npiYm8F-Ch0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/npiYm8F-Ch0?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=npiYm8F-Ch0",
-      "videoTitle": "LE JOURNAL  19h50 du Lundi 12/10/2026 - Canal 2 international",
-      "publishedAt": "2026-10-12T19:46:48Z",
-      "episodeDate": "2026-10-12",
-      "durationSec": 2574,
+      "videoId": "Lcio2-vZL3E",
+      "thumbnail": "https://i.ytimg.com/vi/Lcio2-vZL3E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Lcio2-vZL3E?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=Lcio2-vZL3E",
+      "videoTitle": "LE JOURNAL  19h50 du Mardi 13/10/2026 - Canal 2 international",
+      "publishedAt": "2026-10-13T19:35:22Z",
+      "episodeDate": "2026-10-13",
+      "durationSec": 2543,
       "parts": [
         {
-          "videoId": "npiYm8F-Ch0",
-          "title": "LE JOURNAL  19h50 du Lundi 12/10/2026 - Canal 2 international",
-          "durationSec": 2574,
-          "publishedAt": "2026-10-12T19:46:48Z"
+          "videoId": "Lcio2-vZL3E",
+          "title": "LE JOURNAL  19h50 du Mardi 13/10/2026 - Canal 2 international",
+          "durationSec": 2543,
+          "publishedAt": "2026-10-13T19:35:22Z"
         }
       ]
     },
@@ -365,20 +365,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "mlaCwdExGEI",
-      "thumbnail": "https://i.ytimg.com/vi/mlaCwdExGEI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/mlaCwdExGEI?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=mlaCwdExGEI",
-      "videoTitle": "LE 20H  DU 12 OCTOBRE 2026",
-      "publishedAt": "2026-10-12T19:47:37Z",
-      "episodeDate": "2026-10-12",
-      "durationSec": 2813,
+      "videoId": "mRgKkykuVW8",
+      "thumbnail": "https://i.ytimg.com/vi/mRgKkykuVW8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/mRgKkykuVW8?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=mRgKkykuVW8",
+      "videoTitle": "LE 20H DU 13 OCTOBRE 2026",
+      "publishedAt": "2026-10-13T19:34:22Z",
+      "episodeDate": "2026-10-13",
+      "durationSec": 1979,
       "parts": [
         {
-          "videoId": "mlaCwdExGEI",
-          "title": "LE 20H  DU 12 OCTOBRE 2026",
-          "durationSec": 2813,
-          "publishedAt": "2026-10-12T19:47:37Z"
+          "videoId": "mRgKkykuVW8",
+          "title": "LE 20H DU 13 OCTOBRE 2026",
+          "durationSec": 1979,
+          "publishedAt": "2026-10-13T19:34:22Z"
         }
       ]
     },
