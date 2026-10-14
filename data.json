@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-14T18:51:31Z",
-  "checkedAt": "2026-10-14T18:51:31Z",
+  "generatedAt": "2026-10-14T19:58:45Z",
+  "checkedAt": "2026-10-14T19:58:45Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -113,20 +113,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "dT8pZbOQM-c",
-      "thumbnail": "https://i.ytimg.com/vi/dT8pZbOQM-c/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/dT8pZbOQM-c?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=dT8pZbOQM-c",
-      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MARDI 13 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-13T19:46:22Z",
-      "episodeDate": "2026-10-13",
-      "durationSec": 2719,
+      "videoId": "4-d5yij1wyo",
+      "thumbnail": "https://i.ytimg.com/vi/4-d5yij1wyo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/4-d5yij1wyo?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=4-d5yij1wyo",
+      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MERCREDI 14 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-14T19:54:45Z",
+      "episodeDate": "2026-10-14",
+      "durationSec": 3160,
       "parts": [
         {
-          "videoId": "dT8pZbOQM-c",
-          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MARDI 13 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2719,
-          "publishedAt": "2026-10-13T19:46:22Z"
+          "videoId": "4-d5yij1wyo",
+          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MERCREDI 14 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 3160,
+          "publishedAt": "2026-10-14T19:54:45Z"
         }
       ]
     },
@@ -269,20 +269,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "Lcio2-vZL3E",
-      "thumbnail": "https://i.ytimg.com/vi/Lcio2-vZL3E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/Lcio2-vZL3E?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=Lcio2-vZL3E",
-      "videoTitle": "LE JOURNAL  19h50 du Mardi 13/10/2026 - Canal 2 international",
-      "publishedAt": "2026-10-13T19:35:22Z",
-      "episodeDate": "2026-10-13",
-      "durationSec": 2543,
+      "videoId": "C3viQI0illY",
+      "thumbnail": "https://i.ytimg.com/vi/C3viQI0illY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/C3viQI0illY?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=C3viQI0illY",
+      "videoTitle": "LE JOURNAL  19h50 du Mercredi 14/10/2026 - Canal 2 international",
+      "publishedAt": "2026-10-14T19:38:45Z",
+      "episodeDate": "2026-10-14",
+      "durationSec": 2786,
       "parts": [
         {
-          "videoId": "Lcio2-vZL3E",
-          "title": "LE JOURNAL  19h50 du Mardi 13/10/2026 - Canal 2 international",
-          "durationSec": 2543,
-          "publishedAt": "2026-10-13T19:35:22Z"
+          "videoId": "C3viQI0illY",
+          "title": "LE JOURNAL  19h50 du Mercredi 14/10/2026 - Canal 2 international",
+          "durationSec": 2786,
+          "publishedAt": "2026-10-14T19:38:45Z"
         }
       ]
     },
