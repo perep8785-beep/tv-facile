@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-14T15:12:31Z",
-  "checkedAt": "2026-10-14T15:12:31Z",
+  "generatedAt": "2026-10-14T18:51:31Z",
+  "checkedAt": "2026-10-14T18:51:31Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -191,20 +191,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "jzzZF_M-hMs",
-      "thumbnail": "https://i.ytimg.com/vi/jzzZF_M-hMs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/jzzZF_M-hMs?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=jzzZF_M-hMs",
-      "videoTitle": "ÉQUINOXE SOIR DU MARDI 13 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-13T18:56:43Z",
-      "episodeDate": "2026-10-13",
-      "durationSec": 2718,
+      "videoId": "Ir4i_aqKDqk",
+      "thumbnail": "https://i.ytimg.com/vi/Ir4i_aqKDqk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Ir4i_aqKDqk?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=Ir4i_aqKDqk",
+      "videoTitle": "ÉQUINOXE SOIR DU MERCREDI 14 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-14T18:49:31Z",
+      "episodeDate": "2026-10-14",
+      "durationSec": 2544,
       "parts": [
         {
-          "videoId": "jzzZF_M-hMs",
-          "title": "ÉQUINOXE SOIR DU MARDI 13 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2718,
-          "publishedAt": "2026-10-13T18:56:43Z"
+          "videoId": "Ir4i_aqKDqk",
+          "title": "ÉQUINOXE SOIR DU MERCREDI 14 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2544,
+          "publishedAt": "2026-10-14T18:49:31Z"
         }
       ]
     },
@@ -295,20 +295,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "ig4iQCnpDtA",
-      "thumbnail": "https://i.ytimg.com/vi/ig4iQCnpDtA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/ig4iQCnpDtA?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=ig4iQCnpDtA",
-      "videoTitle": "LION INDOMTABLES U20 : Yvan KENMOE déjà sous Pression ?  ( DEBRIEF DE L'ACTU du Vendredi 09/10/2026)",
-      "publishedAt": "2026-10-09T18:41:31Z",
-      "episodeDate": "2026-10-09",
-      "durationSec": 3072,
+      "videoId": "O9znpumsCnM",
+      "thumbnail": "https://i.ytimg.com/vi/O9znpumsCnM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/O9znpumsCnM?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=O9znpumsCnM",
+      "videoTitle": "LEGISLATIVES ET MUNICIPALES: Le rendez-vous de 2027 se Précise-t-il?(DEBRIEF DE L'ACTU ,14/10/2026)",
+      "publishedAt": "2026-10-14T18:40:31Z",
+      "episodeDate": "2026-10-14",
+      "durationSec": 3504,
       "parts": [
         {
-          "videoId": "ig4iQCnpDtA",
-          "title": "LION INDOMTABLES U20 : Yvan KENMOE déjà sous Pression ?  ( DEBRIEF DE L'ACTU du Vendredi 09/10/2026)",
-          "durationSec": 3072,
-          "publishedAt": "2026-10-09T18:41:31Z"
+          "videoId": "O9znpumsCnM",
+          "title": "LEGISLATIVES ET MUNICIPALES: Le rendez-vous de 2027 se Précise-t-il?(DEBRIEF DE L'ACTU ,14/10/2026)",
+          "durationSec": 3504,
+          "publishedAt": "2026-10-14T18:40:31Z"
         }
       ]
     },
