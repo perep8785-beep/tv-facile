@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-15T18:21:38Z",
-  "checkedAt": "2026-10-15T18:21:38Z",
+  "generatedAt": "2026-10-15T19:07:23Z",
+  "checkedAt": "2026-10-15T19:07:23Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -191,20 +191,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "Ir4i_aqKDqk",
-      "thumbnail": "https://i.ytimg.com/vi/Ir4i_aqKDqk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/Ir4i_aqKDqk?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=Ir4i_aqKDqk",
-      "videoTitle": "ÉQUINOXE SOIR DU MERCREDI 14 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-14T18:49:31Z",
-      "episodeDate": "2026-10-14",
-      "durationSec": 2544,
+      "videoId": "6yjNQsO2i6o",
+      "thumbnail": "https://i.ytimg.com/vi/6yjNQsO2i6o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/6yjNQsO2i6o?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=6yjNQsO2i6o",
+      "videoTitle": "ÉQUINOXE SOIR DU JEUDI 15 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-15T18:57:23Z",
+      "episodeDate": "2026-10-15",
+      "durationSec": 2846,
       "parts": [
         {
-          "videoId": "Ir4i_aqKDqk",
-          "title": "ÉQUINOXE SOIR DU MERCREDI 14 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2544,
-          "publishedAt": "2026-10-14T18:49:31Z"
+          "videoId": "6yjNQsO2i6o",
+          "title": "ÉQUINOXE SOIR DU JEUDI 15 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2846,
+          "publishedAt": "2026-10-15T18:57:23Z"
         }
       ]
     },
@@ -295,20 +295,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "O9znpumsCnM",
-      "thumbnail": "https://i.ytimg.com/vi/O9znpumsCnM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/O9znpumsCnM?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=O9znpumsCnM",
-      "videoTitle": "LEGISLATIVES ET MUNICIPALES: Le rendez-vous de 2027 se Précise-t-il?(DEBRIEF DE L'ACTU ,14/10/2026)",
-      "publishedAt": "2026-10-14T18:40:31Z",
-      "episodeDate": "2026-10-14",
-      "durationSec": 3430,
+      "videoId": "_J4_NZAEuAc",
+      "thumbnail": "https://i.ytimg.com/vi/_J4_NZAEuAc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/_J4_NZAEuAc?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=_J4_NZAEuAc",
+      "videoTitle": "POULET ET ŒUFS TOXIQUES AU CAMEROUN : Alarme sanitaire ou guerre économique ?(DEBRIEF du 15/10/2026)",
+      "publishedAt": "2026-10-15T18:41:23Z",
+      "episodeDate": "2026-10-15",
+      "durationSec": 3492,
       "parts": [
         {
-          "videoId": "O9znpumsCnM",
-          "title": "LEGISLATIVES ET MUNICIPALES: Le rendez-vous de 2027 se Précise-t-il?(DEBRIEF DE L'ACTU ,14/10/2026)",
-          "durationSec": 3430,
-          "publishedAt": "2026-10-14T18:40:31Z"
+          "videoId": "_J4_NZAEuAc",
+          "title": "POULET ET ŒUFS TOXIQUES AU CAMEROUN : Alarme sanitaire ou guerre économique ?(DEBRIEF du 15/10/2026)",
+          "durationSec": 3492,
+          "publishedAt": "2026-10-15T18:41:23Z"
         }
       ]
     },
