@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-15T12:52:10Z",
-  "checkedAt": "2026-10-15T12:52:10Z",
+  "generatedAt": "2026-10-15T18:21:38Z",
+  "checkedAt": "2026-10-15T18:21:38Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -347,20 +347,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "mRgKkykuVW8",
-      "thumbnail": "https://i.ytimg.com/vi/mRgKkykuVW8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/mRgKkykuVW8?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=mRgKkykuVW8",
-      "videoTitle": "LE 20H DU 13 OCTOBRE 2026",
-      "publishedAt": "2026-10-13T19:34:22Z",
-      "episodeDate": "2026-10-13",
-      "durationSec": 1989,
+      "videoId": "9t5IT7jRpqc",
+      "thumbnail": "https://i.ytimg.com/vi/9t5IT7jRpqc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/9t5IT7jRpqc?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=9t5IT7jRpqc",
+      "videoTitle": "LE 20H  DU 14 OCTOBRE 2026",
+      "publishedAt": "2026-10-14T20:21:38Z",
+      "episodeDate": "2026-10-14",
+      "durationSec": 2373,
       "parts": [
         {
-          "videoId": "mRgKkykuVW8",
-          "title": "LE 20H DU 13 OCTOBRE 2026",
-          "durationSec": 1989,
-          "publishedAt": "2026-10-13T19:34:22Z"
+          "videoId": "9t5IT7jRpqc",
+          "title": "LE 20H  DU 14 OCTOBRE 2026",
+          "durationSec": 2373,
+          "publishedAt": "2026-10-14T20:21:38Z"
         }
       ]
     },
