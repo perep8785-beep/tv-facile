@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-15T11:02:06Z",
-  "checkedAt": "2026-10-15T11:02:06Z",
+  "generatedAt": "2026-10-15T11:41:18Z",
+  "checkedAt": "2026-10-15T11:41:18Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -139,20 +139,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "APB-kQX2NDo",
-      "thumbnail": "https://i.ytimg.com/vi/APB-kQX2NDo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/APB-kQX2NDo?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=APB-kQX2NDo",
-      "videoTitle": "JTB 12H DU MERCREDI 14 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-14T11:28:03Z",
-      "episodeDate": "2026-10-14",
-      "durationSec": 1616,
+      "videoId": "IXLtZfsjjCg",
+      "thumbnail": "https://i.ytimg.com/vi/IXLtZfsjjCg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/IXLtZfsjjCg?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=IXLtZfsjjCg",
+      "videoTitle": "JTB 12H DU JEUDI 15 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-15T11:28:18Z",
+      "episodeDate": "2026-10-15",
+      "durationSec": 1532,
       "parts": [
         {
-          "videoId": "APB-kQX2NDo",
-          "title": "JTB 12H DU MERCREDI 14 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 1616,
-          "publishedAt": "2026-10-14T11:28:03Z"
+          "videoId": "IXLtZfsjjCg",
+          "title": "JTB 12H DU JEUDI 15 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 1532,
+          "publishedAt": "2026-10-15T11:28:18Z"
         }
       ]
     },
@@ -268,7 +268,7 @@
       "spoken": "Le journal de Canal 2",
       "freq": "daily",
       "found": true,
-      "status": "found",
+      "status": "preserved",
       "videoId": "C3viQI0illY",
       "thumbnail": "https://i.ytimg.com/vi/C3viQI0illY/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/C3viQI0illY?rel=0&playsinline=1",
@@ -294,7 +294,7 @@
       "spoken": "Le débrief de l'actu, Canal 2",
       "freq": "daily",
       "found": true,
-      "status": "found",
+      "status": "preserved",
       "videoId": "O9znpumsCnM",
       "thumbnail": "https://i.ytimg.com/vi/O9znpumsCnM/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/O9znpumsCnM?rel=0&playsinline=1",
