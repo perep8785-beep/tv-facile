@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-15T11:41:18Z",
-  "checkedAt": "2026-10-15T11:41:18Z",
+  "generatedAt": "2026-10-15T12:10:03Z",
+  "checkedAt": "2026-10-15T12:10:03Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -268,7 +268,7 @@
       "spoken": "Le journal de Canal 2",
       "freq": "daily",
       "found": true,
-      "status": "preserved",
+      "status": "found",
       "videoId": "C3viQI0illY",
       "thumbnail": "https://i.ytimg.com/vi/C3viQI0illY/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/C3viQI0illY?rel=0&playsinline=1",
@@ -294,7 +294,7 @@
       "spoken": "Le débrief de l'actu, Canal 2",
       "freq": "daily",
       "found": true,
-      "status": "preserved",
+      "status": "found",
       "videoId": "O9znpumsCnM",
       "thumbnail": "https://i.ytimg.com/vi/O9znpumsCnM/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/O9znpumsCnM?rel=0&playsinline=1",
