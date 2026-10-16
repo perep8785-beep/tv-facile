@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-16T18:21:28Z",
-  "checkedAt": "2026-10-16T18:21:28Z",
+  "generatedAt": "2026-10-16T19:01:39Z",
+  "checkedAt": "2026-10-16T19:01:39Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -191,20 +191,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "6yjNQsO2i6o",
-      "thumbnail": "https://i.ytimg.com/vi/6yjNQsO2i6o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/6yjNQsO2i6o?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=6yjNQsO2i6o",
-      "videoTitle": "ÉQUINOXE SOIR DU JEUDI 15 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-15T18:57:23Z",
-      "episodeDate": "2026-10-15",
-      "durationSec": 2846,
+      "videoId": "jiFXURUkR8c",
+      "thumbnail": "https://i.ytimg.com/vi/jiFXURUkR8c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/jiFXURUkR8c?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=jiFXURUkR8c",
+      "videoTitle": "ÉQUINOXE SOIR DU VENDREDI 16 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-16T18:56:39Z",
+      "episodeDate": "2026-10-16",
+      "durationSec": 2757,
       "parts": [
         {
-          "videoId": "6yjNQsO2i6o",
-          "title": "ÉQUINOXE SOIR DU JEUDI 15 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2846,
-          "publishedAt": "2026-10-15T18:57:23Z"
+          "videoId": "jiFXURUkR8c",
+          "title": "ÉQUINOXE SOIR DU VENDREDI 16 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2757,
+          "publishedAt": "2026-10-16T18:56:39Z"
         }
       ]
     },
@@ -268,7 +268,7 @@
       "spoken": "Le journal de Canal 2",
       "freq": "daily",
       "found": true,
-      "status": "preserved",
+      "status": "found",
       "videoId": "_UpQfM44jYU",
       "thumbnail": "https://i.ytimg.com/vi/_UpQfM44jYU/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/_UpQfM44jYU?rel=0&playsinline=1",
@@ -294,21 +294,21 @@
       "spoken": "Le débrief de l'actu, Canal 2",
       "freq": "daily",
       "found": true,
-      "status": "preserved",
-      "videoId": "_J4_NZAEuAc",
-      "thumbnail": "https://i.ytimg.com/vi/_J4_NZAEuAc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/_J4_NZAEuAc?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=_J4_NZAEuAc",
-      "videoTitle": "POULET ET ŒUFS TOXIQUES AU CAMEROUN : Alarme sanitaire ou guerre économique ?(DEBRIEF du 15/10/2026)",
-      "publishedAt": "2026-10-15T18:41:23Z",
-      "episodeDate": "2026-10-15",
-      "durationSec": 3437,
+      "status": "found",
+      "videoId": "QDMs0F5rQxI",
+      "thumbnail": "https://i.ytimg.com/vi/QDMs0F5rQxI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/QDMs0F5rQxI?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=QDMs0F5rQxI",
+      "videoTitle": "ELITE ONE : C’est reparti pour une nouvelle saison ! ( DEBRIEF DE L'ACTU du Vendredi 16/10/2026 )",
+      "publishedAt": "2026-10-16T18:39:39Z",
+      "episodeDate": "2026-10-16",
+      "durationSec": 3386,
       "parts": [
         {
-          "videoId": "_J4_NZAEuAc",
-          "title": "POULET ET ŒUFS TOXIQUES AU CAMEROUN : Alarme sanitaire ou guerre économique ?(DEBRIEF du 15/10/2026)",
-          "durationSec": 3437,
-          "publishedAt": "2026-10-15T18:41:23Z"
+          "videoId": "QDMs0F5rQxI",
+          "title": "ELITE ONE : C’est reparti pour une nouvelle saison ! ( DEBRIEF DE L'ACTU du Vendredi 16/10/2026 )",
+          "durationSec": 3386,
+          "publishedAt": "2026-10-16T18:39:39Z"
         }
       ]
     },
