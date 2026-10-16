@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-16T19:38:38Z",
-  "checkedAt": "2026-10-16T19:38:38Z",
+  "generatedAt": "2026-10-16T20:02:46Z",
+  "checkedAt": "2026-10-16T20:02:46Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -113,20 +113,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "PnA1TWfAKRo",
-      "thumbnail": "https://i.ytimg.com/vi/PnA1TWfAKRo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/PnA1TWfAKRo?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=PnA1TWfAKRo",
-      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU JEUDI 15 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-15T19:59:18Z",
-      "episodeDate": "2026-10-15",
-      "durationSec": 3461,
+      "videoId": "jqxiwMUN77I",
+      "thumbnail": "https://i.ytimg.com/vi/jqxiwMUN77I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/jqxiwMUN77I?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=jqxiwMUN77I",
+      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU VENDREDI 16 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-16T19:51:46Z",
+      "episodeDate": "2026-10-16",
+      "durationSec": 3041,
       "parts": [
         {
-          "videoId": "PnA1TWfAKRo",
-          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU JEUDI 15 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 3461,
-          "publishedAt": "2026-10-15T19:59:18Z"
+          "videoId": "jqxiwMUN77I",
+          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU VENDREDI 16 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 3041,
+          "publishedAt": "2026-10-16T19:51:46Z"
         }
       ]
     },
