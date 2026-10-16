@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-16T19:01:39Z",
-  "checkedAt": "2026-10-16T19:01:39Z",
+  "generatedAt": "2026-10-16T19:38:38Z",
+  "checkedAt": "2026-10-16T19:38:38Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -269,20 +269,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "_UpQfM44jYU",
-      "thumbnail": "https://i.ytimg.com/vi/_UpQfM44jYU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/_UpQfM44jYU?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=_UpQfM44jYU",
-      "videoTitle": "LE JOURNAL  19h50 du Jeudi 15/10/2026 - Canal 2 international",
-      "publishedAt": "2026-10-15T19:37:29Z",
-      "episodeDate": "2026-10-15",
-      "durationSec": 2585,
+      "videoId": "MVz2o3PhlFQ",
+      "thumbnail": "https://i.ytimg.com/vi/MVz2o3PhlFQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/MVz2o3PhlFQ?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=MVz2o3PhlFQ",
+      "videoTitle": "LE JOURNAL  19h50 du Vendredi 16/10/2026 - Canal 2 international",
+      "publishedAt": "2026-10-16T19:33:38Z",
+      "episodeDate": "2026-10-16",
+      "durationSec": 2524,
       "parts": [
         {
-          "videoId": "_UpQfM44jYU",
-          "title": "LE JOURNAL  19h50 du Jeudi 15/10/2026 - Canal 2 international",
-          "durationSec": 2585,
-          "publishedAt": "2026-10-15T19:37:29Z"
+          "videoId": "MVz2o3PhlFQ",
+          "title": "LE JOURNAL  19h50 du Vendredi 16/10/2026 - Canal 2 international",
+          "durationSec": 2524,
+          "publishedAt": "2026-10-16T19:33:38Z"
         }
       ]
     },
@@ -347,20 +347,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "s2M04oBH_yA",
-      "thumbnail": "https://i.ytimg.com/vi/s2M04oBH_yA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/s2M04oBH_yA?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=s2M04oBH_yA",
-      "videoTitle": "LE 20H00 DU 15 OCTOBRE 2026",
-      "publishedAt": "2026-10-15T19:47:18Z",
-      "episodeDate": "2026-10-15",
-      "durationSec": 2725,
+      "videoId": "Q8LAN_OnZ-U",
+      "thumbnail": "https://i.ytimg.com/vi/Q8LAN_OnZ-U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Q8LAN_OnZ-U?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=Q8LAN_OnZ-U",
+      "videoTitle": "LE 20H DU 16 OCTOBRE 2026",
+      "publishedAt": "2026-10-16T19:35:38Z",
+      "episodeDate": "2026-10-16",
+      "durationSec": 2098,
       "parts": [
         {
-          "videoId": "s2M04oBH_yA",
-          "title": "LE 20H00 DU 15 OCTOBRE 2026",
-          "durationSec": 2725,
-          "publishedAt": "2026-10-15T19:47:18Z"
+          "videoId": "Q8LAN_OnZ-U",
+          "title": "LE 20H DU 16 OCTOBRE 2026",
+          "durationSec": 2098,
+          "publishedAt": "2026-10-16T19:35:38Z"
         }
       ]
     },
