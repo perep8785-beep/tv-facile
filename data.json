@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-16T10:58:01Z",
-  "checkedAt": "2026-10-16T10:58:01Z",
+  "generatedAt": "2026-10-16T11:56:36Z",
+  "checkedAt": "2026-10-16T11:56:36Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -139,20 +139,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "IXLtZfsjjCg",
-      "thumbnail": "https://i.ytimg.com/vi/IXLtZfsjjCg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/IXLtZfsjjCg?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=IXLtZfsjjCg",
-      "videoTitle": "JTB 12H DU JEUDI 15 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-15T11:28:18Z",
-      "episodeDate": "2026-10-15",
-      "durationSec": 1532,
+      "videoId": "hnSO12mtRaM",
+      "thumbnail": "https://i.ytimg.com/vi/hnSO12mtRaM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/hnSO12mtRaM?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=hnSO12mtRaM",
+      "videoTitle": "JTB 12H DU VENDREDI 16 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-16T11:33:36Z",
+      "episodeDate": "2026-10-16",
+      "durationSec": 1969,
       "parts": [
         {
-          "videoId": "IXLtZfsjjCg",
-          "title": "JTB 12H DU JEUDI 15 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 1532,
-          "publishedAt": "2026-10-15T11:28:18Z"
+          "videoId": "hnSO12mtRaM",
+          "title": "JTB 12H DU VENDREDI 16 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 1969,
+          "publishedAt": "2026-10-16T11:33:36Z"
         }
       ]
     },
