@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-16T13:12:22Z",
-  "checkedAt": "2026-10-16T13:12:22Z",
+  "generatedAt": "2026-10-16T17:26:42Z",
+  "checkedAt": "2026-10-16T17:26:42Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -276,12 +276,12 @@
       "videoTitle": "LE JOURNAL  19h50 du Jeudi 15/10/2026 - Canal 2 international",
       "publishedAt": "2026-10-15T19:37:29Z",
       "episodeDate": "2026-10-15",
-      "durationSec": 2721,
+      "durationSec": 2585,
       "parts": [
         {
           "videoId": "_UpQfM44jYU",
           "title": "LE JOURNAL  19h50 du Jeudi 15/10/2026 - Canal 2 international",
-          "durationSec": 2721,
+          "durationSec": 2585,
           "publishedAt": "2026-10-15T19:37:29Z"
         }
       ]
