@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-17T19:38:41Z",
-  "checkedAt": "2026-10-17T19:38:41Z",
+  "generatedAt": "2026-10-17T19:59:28Z",
+  "checkedAt": "2026-10-17T19:59:28Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -139,20 +139,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "cWIoX0jjcvc",
-      "thumbnail": "https://i.ytimg.com/vi/cWIoX0jjcvc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/cWIoX0jjcvc?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=cWIoX0jjcvc",
-      "videoTitle": "JTB 12H DU SAMEDI 17 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-17T11:46:37Z",
+      "videoId": "ZgG2KUefaw0",
+      "thumbnail": "https://i.ytimg.com/vi/ZgG2KUefaw0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/ZgG2KUefaw0?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=ZgG2KUefaw0",
+      "videoTitle": "20H BILINGUE DU SAMEDI 17 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-17T19:41:28Z",
       "episodeDate": "2026-10-17",
-      "durationSec": 1837,
+      "durationSec": 2147,
       "parts": [
         {
-          "videoId": "cWIoX0jjcvc",
-          "title": "JTB 12H DU SAMEDI 17 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 1837,
-          "publishedAt": "2026-10-17T11:46:37Z"
+          "videoId": "ZgG2KUefaw0",
+          "title": "20H BILINGUE DU SAMEDI 17 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2147,
+          "publishedAt": "2026-10-17T19:41:28Z"
         }
       ]
     },
@@ -353,20 +353,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "Q8LAN_OnZ-U",
-      "thumbnail": "https://i.ytimg.com/vi/Q8LAN_OnZ-U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/Q8LAN_OnZ-U?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=Q8LAN_OnZ-U",
-      "videoTitle": "LE 20H DU 16 OCTOBRE 2026",
-      "publishedAt": "2026-10-16T19:35:38Z",
-      "episodeDate": "2026-10-16",
-      "durationSec": 2093,
+      "videoId": "39WNmX3Ihso",
+      "thumbnail": "https://i.ytimg.com/vi/39WNmX3Ihso/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/39WNmX3Ihso?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=39WNmX3Ihso",
+      "videoTitle": "LE 20H BILINGUE DU 17 OCTOBRE 2026",
+      "publishedAt": "2026-10-17T19:46:28Z",
+      "episodeDate": "2026-10-17",
+      "durationSec": 2661,
       "parts": [
         {
-          "videoId": "Q8LAN_OnZ-U",
-          "title": "LE 20H DU 16 OCTOBRE 2026",
-          "durationSec": 2093,
-          "publishedAt": "2026-10-16T19:35:38Z"
+          "videoId": "39WNmX3Ihso",
+          "title": "LE 20H BILINGUE DU 17 OCTOBRE 2026",
+          "durationSec": 2661,
+          "publishedAt": "2026-10-17T19:46:28Z"
         }
       ]
     },
