@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-18T17:59:39Z",
-  "checkedAt": "2026-10-18T17:59:39Z",
+  "generatedAt": "2026-10-18T19:39:06Z",
+  "checkedAt": "2026-10-18T19:39:06Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -139,20 +139,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "ZgG2KUefaw0",
-      "thumbnail": "https://i.ytimg.com/vi/ZgG2KUefaw0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/ZgG2KUefaw0?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=ZgG2KUefaw0",
-      "videoTitle": "20H BILINGUE DU SAMEDI 17 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-17T20:37:32Z",
-      "episodeDate": "2026-10-17",
-      "durationSec": 2147,
+      "videoId": "uegUKjmskJQ",
+      "thumbnail": "https://i.ytimg.com/vi/uegUKjmskJQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/uegUKjmskJQ?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=uegUKjmskJQ",
+      "videoTitle": "20H BILINGUE DU DIMANCHE 18 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-18T19:29:06Z",
+      "episodeDate": "2026-10-18",
+      "durationSec": 1645,
       "parts": [
         {
-          "videoId": "ZgG2KUefaw0",
-          "title": "20H BILINGUE DU SAMEDI 17 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2147,
-          "publishedAt": "2026-10-17T20:37:32Z"
+          "videoId": "uegUKjmskJQ",
+          "title": "20H BILINGUE DU DIMANCHE 18 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 1645,
+          "publishedAt": "2026-10-18T19:29:06Z"
         }
       ]
     },
@@ -269,20 +269,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "TUq1am19nRg",
-      "thumbnail": "https://i.ytimg.com/vi/TUq1am19nRg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/TUq1am19nRg?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=TUq1am19nRg",
-      "videoTitle": "LE JOURNAL 20h00 du Samedi 17/10/2026 - Canal 2 international",
-      "publishedAt": "2026-10-17T19:30:41Z",
-      "episodeDate": "2026-10-17",
-      "durationSec": 1510,
+      "videoId": "oL7T8KLqvno",
+      "thumbnail": "https://i.ytimg.com/vi/oL7T8KLqvno/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/oL7T8KLqvno?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=oL7T8KLqvno",
+      "videoTitle": "LE JOURNAL  20h00 du Dimanche 18/10/2026 - Canal 2 international",
+      "publishedAt": "2026-10-18T19:25:06Z",
+      "episodeDate": "2026-10-18",
+      "durationSec": 1499,
       "parts": [
         {
-          "videoId": "TUq1am19nRg",
-          "title": "LE JOURNAL 20h00 du Samedi 17/10/2026 - Canal 2 international",
-          "durationSec": 1510,
-          "publishedAt": "2026-10-17T19:30:41Z"
+          "videoId": "oL7T8KLqvno",
+          "title": "LE JOURNAL  20h00 du Dimanche 18/10/2026 - Canal 2 international",
+          "durationSec": 1499,
+          "publishedAt": "2026-10-18T19:25:06Z"
         }
       ]
     },
@@ -372,7 +372,7 @@
       "spoken": "Club d'Élites, sur Vision 4",
       "freq": "weekly",
       "found": true,
-      "status": "found",
+      "status": "preserved",
       "videoId": "ls-tmL0lkjI",
       "thumbnail": "https://i.ytimg.com/vi/ls-tmL0lkjI/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/ls-tmL0lkjI?rel=0&playsinline=1",
