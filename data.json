@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-18T09:37:45Z",
-  "checkedAt": "2026-10-18T09:37:45Z",
+  "generatedAt": "2026-10-18T12:00:27Z",
+  "checkedAt": "2026-10-18T12:00:27Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -321,26 +321,20 @@
       "freq": "weekly",
       "found": true,
       "status": "found",
-      "videoId": "cGq1xLzZ_oM",
-      "thumbnail": "https://i.ytimg.com/vi/cGq1xLzZ_oM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/cGq1xLzZ_oM?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=cGq1xLzZ_oM",
-      "videoTitle": "CANAL PRESSE du 11/10/2026: \"LA CRISE ANGLOPHONE : Quel bilan dix ans après le début des hostilités\"",
-      "publishedAt": "2026-10-11T23:58:49Z",
-      "episodeDate": "2026-10-11",
-      "durationSec": 13796,
+      "videoId": "_bawyHyzi-Y",
+      "thumbnail": "https://i.ytimg.com/vi/_bawyHyzi-Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/_bawyHyzi-Y?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=_bawyHyzi-Y",
+      "videoTitle": "CANAL PRESSE, 18/10/2026:\"AFFAIRE MARTINEZ ZOGO : Le 35ème et la controverse autour du 36ème témoin\"",
+      "publishedAt": "2026-10-18T11:52:27Z",
+      "episodeDate": "2026-10-18",
+      "durationSec": 4809,
       "parts": [
         {
-          "videoId": "cGq1xLzZ_oM",
-          "title": "CANAL PRESSE du 11/10/2026: \"LA CRISE ANGLOPHONE : Quel bilan dix ans après le début des hostilités\"",
-          "durationSec": 7717,
-          "publishedAt": "2026-10-11T23:58:49Z"
-        },
-        {
-          "videoId": "tzjKbnVyv6g",
-          "title": "CANAL PRESSE du 11/10/2026",
-          "durationSec": 6079,
-          "publishedAt": "2026-10-12T08:15:36Z"
+          "videoId": "_bawyHyzi-Y",
+          "title": "CANAL PRESSE, 18/10/2026:\"AFFAIRE MARTINEZ ZOGO : Le 35ème et la controverse autour du 36ème témoin\"",
+          "durationSec": 4809,
+          "publishedAt": "2026-10-18T11:52:27Z"
         }
       ]
     },
