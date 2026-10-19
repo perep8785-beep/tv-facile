@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-19T15:49:56Z",
-  "checkedAt": "2026-10-19T15:49:56Z",
+  "generatedAt": "2026-10-19T16:14:03Z",
+  "checkedAt": "2026-10-19T16:14:03Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -334,13 +334,25 @@
       "videoTitle": "CANAL PRESSE du 18/10/2026 : \" CONVENTION DU MRC : Que valent les nouveaux hommes ? \"",
       "publishedAt": "2026-10-18T15:59:39Z",
       "episodeDate": "2026-10-18",
-      "durationSec": 9066,
+      "durationSec": 16807,
       "parts": [
         {
           "videoId": "AAsYMxTGT1I",
           "title": "CANAL PRESSE du 18/10/2026 : \" CONVENTION DU MRC : Que valent les nouveaux hommes ? \"",
           "durationSec": 9066,
           "publishedAt": "2026-10-18T15:59:39Z"
+        },
+        {
+          "videoId": "_bawyHyzi-Y",
+          "title": "CANAL PRESSE, 18/10/2026:\"AFFAIRE MARTINEZ ZOGO : Le 35ème et la controverse autour du 36ème témoin\"",
+          "durationSec": 4291,
+          "publishedAt": "2026-10-18T16:14:03Z"
+        },
+        {
+          "videoId": "J6aNcJ03aAI",
+          "title": "CANAL PRESSE du 18/10/2026 : \" CONVENTION DU MRC : Que valent les nouveaux hommes ? \"",
+          "durationSec": 3450,
+          "publishedAt": "2026-10-18T16:14:03Z"
         }
       ]
     },
