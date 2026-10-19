@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-19T12:50:49Z",
-  "checkedAt": "2026-10-19T12:50:49Z",
+  "generatedAt": "2026-10-19T15:49:56Z",
+  "checkedAt": "2026-10-19T15:49:56Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -172,13 +172,19 @@
       "videoTitle": "DROIT DE RÉPONSE DU DIMANCHE 18 OCTOBRE 2026 - ÉQUINOXE TV",
       "publishedAt": "2026-10-18T15:29:25Z",
       "episodeDate": "2026-10-18",
-      "durationSec": 6878,
+      "durationSec": 12835,
       "parts": [
         {
           "videoId": "U1tQC8d60oo",
           "title": "DROIT DE RÉPONSE DU DIMANCHE 18 OCTOBRE 2026 - ÉQUINOXE TV",
           "durationSec": 6878,
           "publishedAt": "2026-10-18T15:29:25Z"
+        },
+        {
+          "videoId": "ysetpgKRCgA",
+          "title": "DROIT DE RÉPONSE DU DIMANCHE 18 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 5957,
+          "publishedAt": "2026-10-18T15:49:56Z"
         }
       ]
     },
