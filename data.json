@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-19T10:59:06Z",
-  "checkedAt": "2026-10-19T10:59:06Z",
+  "generatedAt": "2026-10-19T11:29:36Z",
+  "checkedAt": "2026-10-19T11:29:36Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -139,20 +139,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "uegUKjmskJQ",
-      "thumbnail": "https://i.ytimg.com/vi/uegUKjmskJQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/uegUKjmskJQ?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=uegUKjmskJQ",
-      "videoTitle": "20H BILINGUE DU DIMANCHE 18 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-18T19:29:06Z",
-      "episodeDate": "2026-10-18",
-      "durationSec": 1645,
+      "videoId": "OGu1j7U0Nnc",
+      "thumbnail": "https://i.ytimg.com/vi/OGu1j7U0Nnc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/OGu1j7U0Nnc?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=OGu1j7U0Nnc",
+      "videoTitle": "JTB 12H DU LUNDI 19 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-19T11:26:36Z",
+      "episodeDate": "2026-10-19",
+      "durationSec": 1571,
       "parts": [
         {
-          "videoId": "uegUKjmskJQ",
-          "title": "20H BILINGUE DU DIMANCHE 18 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 1645,
-          "publishedAt": "2026-10-18T19:29:06Z"
+          "videoId": "OGu1j7U0Nnc",
+          "title": "JTB 12H DU LUNDI 19 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 1571,
+          "publishedAt": "2026-10-19T11:26:36Z"
         }
       ]
     },
