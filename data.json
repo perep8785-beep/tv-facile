@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-20T11:57:52Z",
-  "checkedAt": "2026-10-20T11:57:52Z",
+  "generatedAt": "2026-10-20T12:30:41Z",
+  "checkedAt": "2026-10-20T12:30:41Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -60,7 +60,7 @@
       "spoken": "Le Zénith, deuxième partie",
       "freq": "daily",
       "found": true,
-      "status": "preserved",
+      "status": "found",
       "videoId": "DCJZ4GS-bOk",
       "thumbnail": "https://i.ytimg.com/vi/DCJZ4GS-bOk/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/DCJZ4GS-bOk?rel=0&playsinline=1",
@@ -86,7 +86,7 @@
       "spoken": "La revue des grandes unes",
       "freq": "daily",
       "found": true,
-      "status": "preserved",
+      "status": "found",
       "videoId": "YF4QY2EFvrE",
       "thumbnail": "https://i.ytimg.com/vi/YF4QY2EFvrE/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/YF4QY2EFvrE?rel=0&playsinline=1",
@@ -112,7 +112,7 @@
       "spoken": "Le journal de 20 heures d'Équinoxe",
       "freq": "daily",
       "found": true,
-      "status": "preserved",
+      "status": "found",
       "videoId": "NFGD3DVZung",
       "thumbnail": "https://i.ytimg.com/vi/NFGD3DVZung/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/NFGD3DVZung?rel=0&playsinline=1",
@@ -139,20 +139,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "cWIoX0jjcvc",
-      "thumbnail": "https://i.ytimg.com/vi/cWIoX0jjcvc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/cWIoX0jjcvc?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=cWIoX0jjcvc",
-      "videoTitle": "JTB 12H DU SAMEDI 17 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-17T11:57:52Z",
-      "episodeDate": "2026-10-17",
-      "durationSec": 1837,
+      "videoId": "r4dIuYOge7Q",
+      "thumbnail": "https://i.ytimg.com/vi/r4dIuYOge7Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/r4dIuYOge7Q?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=r4dIuYOge7Q",
+      "videoTitle": "JTB 12H DU MARDI 20 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-20T11:31:41Z",
+      "episodeDate": "2026-10-20",
+      "durationSec": 1768,
       "parts": [
         {
-          "videoId": "cWIoX0jjcvc",
-          "title": "JTB 12H DU SAMEDI 17 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 1837,
-          "publishedAt": "2026-10-17T11:57:52Z"
+          "videoId": "r4dIuYOge7Q",
+          "title": "JTB 12H DU MARDI 20 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 1768,
+          "publishedAt": "2026-10-20T11:31:41Z"
         }
       ]
     },
@@ -172,13 +172,19 @@
       "videoTitle": "DROIT DE RÉPONSE DU DIMANCHE 18 OCTOBRE 2026 - ÉQUINOXE TV",
       "publishedAt": "2026-10-18T15:29:25Z",
       "episodeDate": "2026-10-18",
-      "durationSec": 6878,
+      "durationSec": 12835,
       "parts": [
         {
           "videoId": "U1tQC8d60oo",
           "title": "DROIT DE RÉPONSE DU DIMANCHE 18 OCTOBRE 2026 - ÉQUINOXE TV",
           "durationSec": 6878,
           "publishedAt": "2026-10-18T15:29:25Z"
+        },
+        {
+          "videoId": "ysetpgKRCgA",
+          "title": "DROIT DE RÉPONSE DU DIMANCHE 18 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 5957,
+          "publishedAt": "2026-10-19T12:30:41Z"
         }
       ]
     },
@@ -190,7 +196,7 @@
       "spoken": "Équinoxe soir",
       "freq": "daily",
       "found": true,
-      "status": "preserved",
+      "status": "found",
       "videoId": "bHZqGrxXBRg",
       "thumbnail": "https://i.ytimg.com/vi/bHZqGrxXBRg/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/bHZqGrxXBRg?rel=0&playsinline=1",
@@ -216,21 +222,21 @@
       "spoken": "Pidgin News",
       "freq": "daily",
       "found": true,
-      "status": "preserved",
-      "videoId": "h91u7ghzet0",
-      "thumbnail": "https://i.ytimg.com/vi/h91u7ghzet0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/h91u7ghzet0?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=h91u7ghzet0",
-      "videoTitle": "PIDGIN NEWS MONDAY OCTOBER 19, 2026 - EQUINOXE TV",
-      "publishedAt": "2026-10-19T12:29:49Z",
-      "episodeDate": "2026-10-19",
-      "durationSec": 1544,
+      "status": "found",
+      "videoId": "MoMmwsFJtZc",
+      "thumbnail": "https://i.ytimg.com/vi/MoMmwsFJtZc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/MoMmwsFJtZc?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=MoMmwsFJtZc",
+      "videoTitle": "PIDGIN NEWS TUESDAY OCTOBER 20, 2026 - EQUINOXE TV",
+      "publishedAt": "2026-10-20T12:29:41Z",
+      "episodeDate": "2026-10-20",
+      "durationSec": 1602,
       "parts": [
         {
-          "videoId": "h91u7ghzet0",
-          "title": "PIDGIN NEWS MONDAY OCTOBER 19, 2026 - EQUINOXE TV",
-          "durationSec": 1544,
-          "publishedAt": "2026-10-19T12:29:49Z"
+          "videoId": "MoMmwsFJtZc",
+          "title": "PIDGIN NEWS TUESDAY OCTOBER 20, 2026 - EQUINOXE TV",
+          "durationSec": 1602,
+          "publishedAt": "2026-10-20T12:29:41Z"
         }
       ]
     },
@@ -242,7 +248,7 @@
       "spoken": "Pidgin News Debate",
       "freq": "weekly",
       "found": true,
-      "status": "preserved",
+      "status": "found",
       "videoId": "vgAVuLLWlao",
       "thumbnail": "https://i.ytimg.com/vi/vgAVuLLWlao/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/vgAVuLLWlao?rel=0&playsinline=1",
