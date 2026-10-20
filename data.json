@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-20T10:25:37Z",
-  "checkedAt": "2026-10-20T10:25:37Z",
+  "generatedAt": "2026-10-20T10:57:52Z",
+  "checkedAt": "2026-10-20T10:57:52Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -61,20 +61,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "OCVKiYGdImI",
-      "thumbnail": "https://i.ytimg.com/vi/OCVKiYGdImI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/OCVKiYGdImI?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=OCVKiYGdImI",
-      "videoTitle": "10 12 LE ZÉNITH PART2 DU LUNDI 19 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-19T10:54:06Z",
-      "episodeDate": "2026-10-19",
-      "durationSec": 2720,
+      "videoId": "DCJZ4GS-bOk",
+      "thumbnail": "https://i.ytimg.com/vi/DCJZ4GS-bOk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/DCJZ4GS-bOk?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=DCJZ4GS-bOk",
+      "videoTitle": "10 12 LE ZÉNITH PART2 DU MARDI 20 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-20T10:54:52Z",
+      "episodeDate": "2026-10-20",
+      "durationSec": 2486,
       "parts": [
         {
-          "videoId": "OCVKiYGdImI",
-          "title": "10 12 LE ZÉNITH PART2 DU LUNDI 19 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2720,
-          "publishedAt": "2026-10-19T10:54:06Z"
+          "videoId": "DCJZ4GS-bOk",
+          "title": "10 12 LE ZÉNITH PART2 DU MARDI 20 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2486,
+          "publishedAt": "2026-10-20T10:54:52Z"
         }
       ]
     },
