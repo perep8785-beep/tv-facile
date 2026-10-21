@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-20T20:08:37Z",
-  "checkedAt": "2026-10-21T06:25:39Z",
+  "generatedAt": "2026-10-21T12:09:45Z",
+  "checkedAt": "2026-10-21T12:09:45Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -35,20 +35,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "FvSYCLwoZjs",
-      "thumbnail": "https://i.ytimg.com/vi/FvSYCLwoZjs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/FvSYCLwoZjs?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=FvSYCLwoZjs",
-      "videoTitle": "10 12 LE ZÉNITH PART1 DU MARDI 20 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-20T10:16:37Z",
-      "episodeDate": "2026-10-20",
-      "durationSec": 2678,
+      "videoId": "S_W2hbiZKz4",
+      "thumbnail": "https://i.ytimg.com/vi/S_W2hbiZKz4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/S_W2hbiZKz4?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=S_W2hbiZKz4",
+      "videoTitle": "10 12 LE ZÉNITH PART1 DU MERCREDI 21 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-21T10:09:45Z",
+      "episodeDate": "2026-10-21",
+      "durationSec": 3259,
       "parts": [
         {
-          "videoId": "FvSYCLwoZjs",
-          "title": "10 12 LE ZÉNITH PART1 DU MARDI 20 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2678,
-          "publishedAt": "2026-10-20T10:16:37Z"
+          "videoId": "S_W2hbiZKz4",
+          "title": "10 12 LE ZÉNITH PART1 DU MERCREDI 21 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 3259,
+          "publishedAt": "2026-10-21T10:09:45Z"
         }
       ]
     },
@@ -61,20 +61,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "DCJZ4GS-bOk",
-      "thumbnail": "https://i.ytimg.com/vi/DCJZ4GS-bOk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/DCJZ4GS-bOk?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=DCJZ4GS-bOk",
-      "videoTitle": "10 12 LE ZÉNITH PART2 DU MARDI 20 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-20T10:54:52Z",
-      "episodeDate": "2026-10-20",
-      "durationSec": 2486,
+      "videoId": "lp3IQaqs68w",
+      "thumbnail": "https://i.ytimg.com/vi/lp3IQaqs68w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/lp3IQaqs68w?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=lp3IQaqs68w",
+      "videoTitle": "10 12 LE ZÉNITH PART2 DU MERCREDI 21 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-21T11:09:45Z",
+      "episodeDate": "2026-10-21",
+      "durationSec": 2793,
       "parts": [
         {
-          "videoId": "DCJZ4GS-bOk",
-          "title": "10 12 LE ZÉNITH PART2 DU MARDI 20 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2486,
-          "publishedAt": "2026-10-20T10:54:52Z"
+          "videoId": "lp3IQaqs68w",
+          "title": "10 12 LE ZÉNITH PART2 DU MERCREDI 21 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2793,
+          "publishedAt": "2026-10-21T11:09:45Z"
         }
       ]
     },
@@ -87,20 +87,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "YF4QY2EFvrE",
-      "thumbnail": "https://i.ytimg.com/vi/YF4QY2EFvrE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/YF4QY2EFvrE?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=YF4QY2EFvrE",
-      "videoTitle": "LA REVUE DES GRANDES UNES DU MARDI 20 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-20T08:57:40Z",
-      "episodeDate": "2026-10-20",
-      "durationSec": 1857,
+      "videoId": "kK53WlY53OQ",
+      "thumbnail": "https://i.ytimg.com/vi/kK53WlY53OQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/kK53WlY53OQ?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=kK53WlY53OQ",
+      "videoTitle": "LA REVUE DES GRANDES UNES DU MERCREDI 21 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-21T09:09:45Z",
+      "episodeDate": "2026-10-21",
+      "durationSec": 2034,
       "parts": [
         {
-          "videoId": "YF4QY2EFvrE",
-          "title": "LA REVUE DES GRANDES UNES DU MARDI 20 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 1857,
-          "publishedAt": "2026-10-20T08:57:40Z"
+          "videoId": "kK53WlY53OQ",
+          "title": "LA REVUE DES GRANDES UNES DU MERCREDI 21 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2034,
+          "publishedAt": "2026-10-21T09:09:45Z"
         }
       ]
     },
@@ -139,20 +139,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "r4dIuYOge7Q",
-      "thumbnail": "https://i.ytimg.com/vi/r4dIuYOge7Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/r4dIuYOge7Q?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=r4dIuYOge7Q",
-      "videoTitle": "JTB 12H DU MARDI 20 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-20T11:31:41Z",
-      "episodeDate": "2026-10-20",
-      "durationSec": 1768,
+      "videoId": "uQv2zQQuzoY",
+      "thumbnail": "https://i.ytimg.com/vi/uQv2zQQuzoY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/uQv2zQQuzoY?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=uQv2zQQuzoY",
+      "videoTitle": "JTB 12H DU MERCREDI 21 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-21T11:29:45Z",
+      "episodeDate": "2026-10-21",
+      "durationSec": 1649,
       "parts": [
         {
-          "videoId": "r4dIuYOge7Q",
-          "title": "JTB 12H DU MARDI 20 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 1768,
-          "publishedAt": "2026-10-20T11:31:41Z"
+          "videoId": "uQv2zQQuzoY",
+          "title": "JTB 12H DU MERCREDI 21 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 1649,
+          "publishedAt": "2026-10-21T11:29:45Z"
         }
       ]
     },
@@ -282,12 +282,12 @@
       "videoTitle": "LE JOURNAL  19h50 du Mardi 20/10/2026 - Canal 2 international",
       "publishedAt": "2026-10-20T19:35:37Z",
       "episodeDate": "2026-10-20",
-      "durationSec": 2416,
+      "durationSec": 2298,
       "parts": [
         {
           "videoId": "gjCj4ruSOMU",
           "title": "LE JOURNAL  19h50 du Mardi 20/10/2026 - Canal 2 international",
-          "durationSec": 2416,
+          "durationSec": 2298,
           "publishedAt": "2026-10-20T19:35:37Z"
         }
       ]
@@ -372,12 +372,12 @@
       "videoTitle": "LE 20H DU 20 OCTOBRE 2026",
       "publishedAt": "2026-10-20T19:33:37Z",
       "episodeDate": "2026-10-20",
-      "durationSec": 2038,
+      "durationSec": 2037,
       "parts": [
         {
           "videoId": "iuNdbJ_ixVI",
           "title": "LE 20H DU 20 OCTOBRE 2026",
-          "durationSec": 2038,
+          "durationSec": 2037,
           "publishedAt": "2026-10-20T19:33:37Z"
         }
       ]
