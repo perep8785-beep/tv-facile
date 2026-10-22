@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-22T12:53:15Z",
-  "checkedAt": "2026-10-22T12:53:15Z",
+  "generatedAt": "2026-10-22T21:07:23Z",
+  "checkedAt": "2026-10-22T21:07:23Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -113,20 +113,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "EGEFPTnJbFM",
-      "thumbnail": "https://i.ytimg.com/vi/EGEFPTnJbFM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/EGEFPTnJbFM?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=EGEFPTnJbFM",
-      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MERCREDI 21 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-21T19:58:18Z",
-      "episodeDate": "2026-10-21",
-      "durationSec": 3286,
+      "videoId": "rEJi8NR4O0A",
+      "thumbnail": "https://i.ytimg.com/vi/rEJi8NR4O0A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/rEJi8NR4O0A?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=rEJi8NR4O0A",
+      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU JEUDI 22 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-22T20:07:23Z",
+      "episodeDate": "2026-10-22",
+      "durationSec": 3063,
       "parts": [
         {
-          "videoId": "EGEFPTnJbFM",
-          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MERCREDI 21 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 3286,
-          "publishedAt": "2026-10-21T19:58:18Z"
+          "videoId": "rEJi8NR4O0A",
+          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU JEUDI 22 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 3063,
+          "publishedAt": "2026-10-22T20:07:23Z"
         }
       ]
     },
@@ -197,20 +197,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "2XPsQdNf5oE",
-      "thumbnail": "https://i.ytimg.com/vi/2XPsQdNf5oE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/2XPsQdNf5oE?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=2XPsQdNf5oE",
-      "videoTitle": "ÉQUINOXE SOIR DU MERCREDI 21 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-21T19:37:18Z",
-      "episodeDate": "2026-10-21",
-      "durationSec": 2948,
+      "videoId": "cTzaBd5Sy1U",
+      "thumbnail": "https://i.ytimg.com/vi/cTzaBd5Sy1U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/cTzaBd5Sy1U?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=cTzaBd5Sy1U",
+      "videoTitle": "ÉQUINOXE SOIR DU JEUDI 22 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-22T19:07:23Z",
+      "episodeDate": "2026-10-22",
+      "durationSec": 2754,
       "parts": [
         {
-          "videoId": "2XPsQdNf5oE",
-          "title": "ÉQUINOXE SOIR DU MERCREDI 21 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2948,
-          "publishedAt": "2026-10-21T19:37:18Z"
+          "videoId": "cTzaBd5Sy1U",
+          "title": "ÉQUINOXE SOIR DU JEUDI 22 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2754,
+          "publishedAt": "2026-10-22T19:07:23Z"
         }
       ]
     },
@@ -275,20 +275,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "gDZFTH0vfn8",
-      "thumbnail": "https://i.ytimg.com/vi/gDZFTH0vfn8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/gDZFTH0vfn8?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=gDZFTH0vfn8",
-      "videoTitle": "LE JOURNAL  19h50 du Mercredi 21/10/2026 - Canal 2 international",
-      "publishedAt": "2026-10-21T19:37:18Z",
-      "episodeDate": "2026-10-21",
-      "durationSec": 2154,
+      "videoId": "-lZ4i3aOqz8",
+      "thumbnail": "https://i.ytimg.com/vi/-lZ4i3aOqz8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/-lZ4i3aOqz8?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=-lZ4i3aOqz8",
+      "videoTitle": "LE JOURNAL  19h50 du Jeudi 22/10/2026 - Canal 2 international",
+      "publishedAt": "2026-10-22T20:07:23Z",
+      "episodeDate": "2026-10-22",
+      "durationSec": 2380,
       "parts": [
         {
-          "videoId": "gDZFTH0vfn8",
-          "title": "LE JOURNAL  19h50 du Mercredi 21/10/2026 - Canal 2 international",
-          "durationSec": 2154,
-          "publishedAt": "2026-10-21T19:37:18Z"
+          "videoId": "-lZ4i3aOqz8",
+          "title": "LE JOURNAL  19h50 du Jeudi 22/10/2026 - Canal 2 international",
+          "durationSec": 2380,
+          "publishedAt": "2026-10-22T20:07:23Z"
         }
       ]
     },
@@ -301,20 +301,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "XjddgxULIj4",
-      "thumbnail": "https://i.ytimg.com/vi/XjddgxULIj4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/XjddgxULIj4?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=XjddgxULIj4",
-      "videoTitle": "RETRAIT DES PIECES DE MONNAIE: Qu’en est-il actuellement ?(DEBRIEF DE L'ACTU du Mercredi 21/10/2026)",
-      "publishedAt": "2026-10-21T19:37:18Z",
-      "episodeDate": "2026-10-21",
-      "durationSec": 3303,
+      "videoId": "0mQh8g0stcs",
+      "thumbnail": "https://i.ytimg.com/vi/0mQh8g0stcs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/0mQh8g0stcs?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=0mQh8g0stcs",
+      "videoTitle": "TOURNOI UNIFFAC U20 : Le Cameroun en finale ! ( DEBRIEF DE L'ACTU du Jeudi 22/10/2026 )",
+      "publishedAt": "2026-10-22T19:07:23Z",
+      "episodeDate": "2026-10-22",
+      "durationSec": 3445,
       "parts": [
         {
-          "videoId": "XjddgxULIj4",
-          "title": "RETRAIT DES PIECES DE MONNAIE: Qu’en est-il actuellement ?(DEBRIEF DE L'ACTU du Mercredi 21/10/2026)",
-          "durationSec": 3303,
-          "publishedAt": "2026-10-21T19:37:18Z"
+          "videoId": "0mQh8g0stcs",
+          "title": "TOURNOI UNIFFAC U20 : Le Cameroun en finale ! ( DEBRIEF DE L'ACTU du Jeudi 22/10/2026 )",
+          "durationSec": 3445,
+          "publishedAt": "2026-10-22T19:07:23Z"
         }
       ]
     },
