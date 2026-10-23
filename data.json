@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-22T21:07:23Z",
-  "checkedAt": "2026-10-23T04:13:35Z",
+  "generatedAt": "2026-10-23T09:22:11Z",
+  "checkedAt": "2026-10-23T09:22:11Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -87,20 +87,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "u4bkGYg5zzo",
-      "thumbnail": "https://i.ytimg.com/vi/u4bkGYg5zzo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/u4bkGYg5zzo?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=u4bkGYg5zzo",
-      "videoTitle": "LA REVUE DES GRANDES UNES DU JEUDI 22 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-22T09:53:15Z",
-      "episodeDate": "2026-10-22",
-      "durationSec": 2079,
+      "videoId": "fqduvwwBdNQ",
+      "thumbnail": "https://i.ytimg.com/vi/fqduvwwBdNQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/fqduvwwBdNQ?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=fqduvwwBdNQ",
+      "videoTitle": "LA REVUE DES GRANDES UNES DU VENDREDI 23 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-23T08:58:11Z",
+      "episodeDate": "2026-10-23",
+      "durationSec": 2017,
       "parts": [
         {
-          "videoId": "u4bkGYg5zzo",
-          "title": "LA REVUE DES GRANDES UNES DU JEUDI 22 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2079,
-          "publishedAt": "2026-10-22T09:53:15Z"
+          "videoId": "fqduvwwBdNQ",
+          "title": "LA REVUE DES GRANDES UNES DU VENDREDI 23 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2017,
+          "publishedAt": "2026-10-23T08:58:11Z"
         }
       ]
     },
@@ -308,12 +308,12 @@
       "videoTitle": "TOURNOI UNIFFAC U20 : Le Cameroun en finale ! ( DEBRIEF DE L'ACTU du Jeudi 22/10/2026 )",
       "publishedAt": "2026-10-22T19:07:23Z",
       "episodeDate": "2026-10-22",
-      "durationSec": 3445,
+      "durationSec": 3427,
       "parts": [
         {
           "videoId": "0mQh8g0stcs",
           "title": "TOURNOI UNIFFAC U20 : Le Cameroun en finale ! ( DEBRIEF DE L'ACTU du Jeudi 22/10/2026 )",
-          "durationSec": 3445,
+          "durationSec": 3427,
           "publishedAt": "2026-10-22T19:07:23Z"
         }
       ]
