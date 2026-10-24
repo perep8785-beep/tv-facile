@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-23T21:40:53Z",
-  "checkedAt": "2026-10-24T04:33:06Z",
+  "generatedAt": "2026-10-24T09:07:22Z",
+  "checkedAt": "2026-10-24T09:07:22Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -302,12 +302,12 @@
       "videoTitle": "DEBRIEF DE L'ACTU du Vendredi 23/10/2026",
       "publishedAt": "2026-10-23T19:40:53Z",
       "episodeDate": "2026-10-23",
-      "durationSec": 3404,
+      "durationSec": 3378,
       "parts": [
         {
           "videoId": "NwZxh6tMcAk",
           "title": "DEBRIEF DE L'ACTU du Vendredi 23/10/2026",
-          "durationSec": 3404,
+          "durationSec": 3378,
           "publishedAt": "2026-10-23T19:40:53Z"
         }
       ]
