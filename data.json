@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-24T21:36:51Z",
-  "checkedAt": "2026-10-25T06:53:11Z",
+  "generatedAt": "2026-10-25T12:17:42Z",
+  "checkedAt": "2026-10-25T12:17:42Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -366,12 +366,12 @@
       "videoTitle": "LE 20H BILINGUE DU 24 OCTOBRE  2026",
       "publishedAt": "2026-10-24T20:36:51Z",
       "episodeDate": "2026-10-24",
-      "durationSec": 2497,
+      "durationSec": 2494,
       "parts": [
         {
           "videoId": "ew529cyDJbo",
           "title": "LE 20H BILINGUE DU 24 OCTOBRE  2026",
-          "durationSec": 2497,
+          "durationSec": 2494,
           "publishedAt": "2026-10-24T20:36:51Z"
         }
       ]
@@ -385,20 +385,20 @@
       "freq": "weekly",
       "found": true,
       "status": "found",
-      "videoId": "ls-tmL0lkjI",
-      "thumbnail": "https://i.ytimg.com/vi/ls-tmL0lkjI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/ls-tmL0lkjI?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=ls-tmL0lkjI",
+      "videoId": "nIKtkHNGOEs",
+      "thumbnail": "https://i.ytimg.com/vi/nIKtkHNGOEs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/nIKtkHNGOEs?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=nIKtkHNGOEs",
       "videoTitle": "CLUB D'ÉLITES",
-      "publishedAt": "2026-10-18T13:42:43Z",
-      "episodeDate": "2026-10-18",
-      "durationSec": 13211,
+      "publishedAt": "2026-10-25T12:11:42Z",
+      "episodeDate": "2026-10-25",
+      "durationSec": 7425,
       "parts": [
         {
-          "videoId": "ls-tmL0lkjI",
+          "videoId": "nIKtkHNGOEs",
           "title": "CLUB D'ÉLITES",
-          "durationSec": 13211,
-          "publishedAt": "2026-10-18T13:42:43Z"
+          "durationSec": 7425,
+          "publishedAt": "2026-10-25T12:11:42Z"
         }
       ]
     }
