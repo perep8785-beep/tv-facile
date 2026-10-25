@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-25T19:15:55Z",
-  "checkedAt": "2026-10-25T19:15:55Z",
+  "generatedAt": "2026-10-25T21:58:10Z",
+  "checkedAt": "2026-10-25T21:58:10Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -139,20 +139,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "9t8ctT5Unzc",
-      "thumbnail": "https://i.ytimg.com/vi/9t8ctT5Unzc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/9t8ctT5Unzc?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=9t8ctT5Unzc",
-      "videoTitle": "20H BILINGUE DU SAMEDI 24 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-24T20:36:51Z",
-      "episodeDate": "2026-10-24",
-      "durationSec": 2052,
+      "videoId": "ERUbCR24JSU",
+      "thumbnail": "https://i.ytimg.com/vi/ERUbCR24JSU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/ERUbCR24JSU?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=ERUbCR24JSU",
+      "videoTitle": "20H BILINGUE DU DIMANCHE 25 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-25T19:58:10Z",
+      "episodeDate": "2026-10-25",
+      "durationSec": 1788,
       "parts": [
         {
-          "videoId": "9t8ctT5Unzc",
-          "title": "20H BILINGUE DU SAMEDI 24 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2052,
-          "publishedAt": "2026-10-24T20:36:51Z"
+          "videoId": "ERUbCR24JSU",
+          "title": "20H BILINGUE DU DIMANCHE 25 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 1788,
+          "publishedAt": "2026-10-25T19:58:10Z"
         }
       ]
     },
@@ -347,20 +347,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "ew529cyDJbo",
-      "thumbnail": "https://i.ytimg.com/vi/ew529cyDJbo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/ew529cyDJbo?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=ew529cyDJbo",
-      "videoTitle": "LE 20H BILINGUE DU 24 OCTOBRE  2026",
-      "publishedAt": "2026-10-24T20:36:51Z",
-      "episodeDate": "2026-10-24",
-      "durationSec": 2494,
+      "videoId": "mXvLNaSZkno",
+      "thumbnail": "https://i.ytimg.com/vi/mXvLNaSZkno/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/mXvLNaSZkno?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=mXvLNaSZkno",
+      "videoTitle": "LE 20H BILINGUE DU 25 OCTOBRE  2026",
+      "publishedAt": "2026-10-25T19:58:10Z",
+      "episodeDate": "2026-10-25",
+      "durationSec": 2031,
       "parts": [
         {
-          "videoId": "ew529cyDJbo",
-          "title": "LE 20H BILINGUE DU 24 OCTOBRE  2026",
-          "durationSec": 2494,
-          "publishedAt": "2026-10-24T20:36:51Z"
+          "videoId": "mXvLNaSZkno",
+          "title": "LE 20H BILINGUE DU 25 OCTOBRE  2026",
+          "durationSec": 2031,
+          "publishedAt": "2026-10-25T19:58:10Z"
         }
       ]
     },
