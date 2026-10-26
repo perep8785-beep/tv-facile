@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-25T21:58:10Z",
-  "checkedAt": "2026-10-25T21:58:10Z",
+  "generatedAt": "2026-10-26T09:13:43Z",
+  "checkedAt": "2026-10-26T09:13:43Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -87,20 +87,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "fqduvwwBdNQ",
-      "thumbnail": "https://i.ytimg.com/vi/fqduvwwBdNQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/fqduvwwBdNQ?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=fqduvwwBdNQ",
-      "videoTitle": "LA REVUE DES GRANDES UNES DU VENDREDI 23 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-23T08:58:11Z",
-      "episodeDate": "2026-10-23",
-      "durationSec": 2017,
+      "videoId": "bmhrDe7t4Hk",
+      "thumbnail": "https://i.ytimg.com/vi/bmhrDe7t4Hk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/bmhrDe7t4Hk?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=bmhrDe7t4Hk",
+      "videoTitle": "LA REVUE DES GRANDES UNES DU LUNDI 26 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-26T08:56:43Z",
+      "episodeDate": "2026-10-26",
+      "durationSec": 1965,
       "parts": [
         {
-          "videoId": "fqduvwwBdNQ",
-          "title": "LA REVUE DES GRANDES UNES DU VENDREDI 23 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2017,
-          "publishedAt": "2026-10-23T08:58:11Z"
+          "videoId": "bmhrDe7t4Hk",
+          "title": "LA REVUE DES GRANDES UNES DU LUNDI 26 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 1965,
+          "publishedAt": "2026-10-26T08:56:43Z"
         }
       ]
     },
@@ -269,20 +269,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "0i-cv1CPBe4",
-      "thumbnail": "https://i.ytimg.com/vi/0i-cv1CPBe4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/0i-cv1CPBe4?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=0i-cv1CPBe4",
-      "videoTitle": "LE JOURNAL  20h00 du Dimanche 25/10/2026 - Canal 2 international",
-      "publishedAt": "2026-10-25T18:53:55Z",
-      "episodeDate": "2026-10-25",
-      "durationSec": 3036,
+      "videoId": "sptFstcn_po",
+      "thumbnail": "https://i.ytimg.com/vi/sptFstcn_po/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/sptFstcn_po?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=sptFstcn_po",
+      "videoTitle": "LE JOURNAL  20h00 du Vendredi 24/10/2026 - Canal 2 international",
+      "publishedAt": "2026-10-25T09:13:43Z",
+      "episodeDate": "2026-10-24",
+      "durationSec": 2204,
       "parts": [
         {
-          "videoId": "0i-cv1CPBe4",
-          "title": "LE JOURNAL  20h00 du Dimanche 25/10/2026 - Canal 2 international",
-          "durationSec": 3036,
-          "publishedAt": "2026-10-25T18:53:55Z"
+          "videoId": "sptFstcn_po",
+          "title": "LE JOURNAL  20h00 du Vendredi 24/10/2026 - Canal 2 international",
+          "durationSec": 2204,
+          "publishedAt": "2026-10-25T09:13:43Z"
         }
       ]
     },
@@ -354,12 +354,12 @@
       "videoTitle": "LE 20H BILINGUE DU 25 OCTOBRE  2026",
       "publishedAt": "2026-10-25T19:58:10Z",
       "episodeDate": "2026-10-25",
-      "durationSec": 2031,
+      "durationSec": 2042,
       "parts": [
         {
           "videoId": "mXvLNaSZkno",
           "title": "LE 20H BILINGUE DU 25 OCTOBRE  2026",
-          "durationSec": 2031,
+          "durationSec": 2042,
           "publishedAt": "2026-10-25T19:58:10Z"
         }
       ]
