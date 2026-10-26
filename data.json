@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-26T16:09:00Z",
-  "checkedAt": "2026-10-26T16:09:00Z",
+  "generatedAt": "2026-10-26T21:00:14Z",
+  "checkedAt": "2026-10-26T21:00:14Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -113,20 +113,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "jPg0dIGkegw",
-      "thumbnail": "https://i.ytimg.com/vi/jPg0dIGkegw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/jPg0dIGkegw?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=jPg0dIGkegw",
-      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU VENDREDI 23 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-23T20:40:53Z",
-      "episodeDate": "2026-10-23",
-      "durationSec": 3417,
+      "videoId": "4peaqzQsd20",
+      "thumbnail": "https://i.ytimg.com/vi/4peaqzQsd20/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/4peaqzQsd20?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=4peaqzQsd20",
+      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU LUNDI 26 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-26T20:00:14Z",
+      "episodeDate": "2026-10-26",
+      "durationSec": 3465,
       "parts": [
         {
-          "videoId": "jPg0dIGkegw",
-          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU VENDREDI 23 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 3417,
-          "publishedAt": "2026-10-23T20:40:53Z"
+          "videoId": "4peaqzQsd20",
+          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU LUNDI 26 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 3465,
+          "publishedAt": "2026-10-26T20:00:14Z"
         }
       ]
     },
@@ -191,20 +191,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "cTzaBd5Sy1U",
-      "thumbnail": "https://i.ytimg.com/vi/cTzaBd5Sy1U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/cTzaBd5Sy1U?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=cTzaBd5Sy1U",
-      "videoTitle": "ÉQUINOXE SOIR DU JEUDI 22 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-22T19:07:23Z",
-      "episodeDate": "2026-10-22",
-      "durationSec": 2754,
+      "videoId": "EkHR09OlYOY",
+      "thumbnail": "https://i.ytimg.com/vi/EkHR09OlYOY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/EkHR09OlYOY?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=EkHR09OlYOY",
+      "videoTitle": "ÉQUINOXE SOIR DU LUNDI 26 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-26T19:00:14Z",
+      "episodeDate": "2026-10-26",
+      "durationSec": 2808,
       "parts": [
         {
-          "videoId": "cTzaBd5Sy1U",
-          "title": "ÉQUINOXE SOIR DU JEUDI 22 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2754,
-          "publishedAt": "2026-10-22T19:07:23Z"
+          "videoId": "EkHR09OlYOY",
+          "title": "ÉQUINOXE SOIR DU LUNDI 26 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2808,
+          "publishedAt": "2026-10-26T19:00:14Z"
         }
       ]
     },
@@ -269,20 +269,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "sptFstcn_po",
-      "thumbnail": "https://i.ytimg.com/vi/sptFstcn_po/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/sptFstcn_po?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=sptFstcn_po",
-      "videoTitle": "LE JOURNAL  20h00 du Vendredi 24/10/2026 - Canal 2 international",
-      "publishedAt": "2026-10-25T09:13:43Z",
-      "episodeDate": "2026-10-24",
-      "durationSec": 2204,
+      "videoId": "GESd_NvoJec",
+      "thumbnail": "https://i.ytimg.com/vi/GESd_NvoJec/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/GESd_NvoJec?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=GESd_NvoJec",
+      "videoTitle": "LE JOURNAL  19h50 du Lundi 26/10/2026 - Canal 2 international",
+      "publishedAt": "2026-10-26T20:00:14Z",
+      "episodeDate": "2026-10-26",
+      "durationSec": 2418,
       "parts": [
         {
-          "videoId": "sptFstcn_po",
-          "title": "LE JOURNAL  20h00 du Vendredi 24/10/2026 - Canal 2 international",
-          "durationSec": 2204,
-          "publishedAt": "2026-10-25T09:13:43Z"
+          "videoId": "GESd_NvoJec",
+          "title": "LE JOURNAL  19h50 du Lundi 26/10/2026 - Canal 2 international",
+          "durationSec": 2418,
+          "publishedAt": "2026-10-26T20:00:14Z"
         }
       ]
     },
