@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-26T21:00:14Z",
-  "checkedAt": "2026-10-27T05:21:50Z",
+  "generatedAt": "2026-10-27T10:45:53Z",
+  "checkedAt": "2026-10-27T10:45:53Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -35,20 +35,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "pEZqatRkMnw",
-      "thumbnail": "https://i.ytimg.com/vi/pEZqatRkMnw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/pEZqatRkMnw?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=pEZqatRkMnw",
-      "videoTitle": "10 12 LE ZÉNITH PART1 DU LUNDI 26 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-26T10:09:00Z",
-      "episodeDate": "2026-10-26",
-      "durationSec": 3263,
+      "videoId": "8oyqqsCidZA",
+      "thumbnail": "https://i.ytimg.com/vi/8oyqqsCidZA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/8oyqqsCidZA?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=8oyqqsCidZA",
+      "videoTitle": "10 12 LE ZÉNITH PART1 DU MARDI 27 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-27T10:00:53Z",
+      "episodeDate": "2026-10-27",
+      "durationSec": 3089,
       "parts": [
         {
-          "videoId": "pEZqatRkMnw",
-          "title": "10 12 LE ZÉNITH PART1 DU LUNDI 26 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 3263,
-          "publishedAt": "2026-10-26T10:09:00Z"
+          "videoId": "8oyqqsCidZA",
+          "title": "10 12 LE ZÉNITH PART1 DU MARDI 27 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 3089,
+          "publishedAt": "2026-10-27T10:00:53Z"
         }
       ]
     },
@@ -87,20 +87,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "bmhrDe7t4Hk",
-      "thumbnail": "https://i.ytimg.com/vi/bmhrDe7t4Hk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/bmhrDe7t4Hk?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=bmhrDe7t4Hk",
-      "videoTitle": "LA REVUE DES GRANDES UNES DU LUNDI 26 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-26T08:56:43Z",
-      "episodeDate": "2026-10-26",
-      "durationSec": 1965,
+      "videoId": "-WLMJw2qUms",
+      "thumbnail": "https://i.ytimg.com/vi/-WLMJw2qUms/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/-WLMJw2qUms?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=-WLMJw2qUms",
+      "videoTitle": "LA REVUE DES GRANDES UNES DU MARDI 27 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-27T09:45:53Z",
+      "episodeDate": "2026-10-27",
+      "durationSec": 2093,
       "parts": [
         {
-          "videoId": "bmhrDe7t4Hk",
-          "title": "LA REVUE DES GRANDES UNES DU LUNDI 26 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 1965,
-          "publishedAt": "2026-10-26T08:56:43Z"
+          "videoId": "-WLMJw2qUms",
+          "title": "LA REVUE DES GRANDES UNES DU MARDI 27 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2093,
+          "publishedAt": "2026-10-27T09:45:53Z"
         }
       ]
     },
