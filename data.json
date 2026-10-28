@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-28T17:23:45Z",
-  "checkedAt": "2026-10-28T17:23:45Z",
+  "generatedAt": "2026-10-28T21:48:12Z",
+  "checkedAt": "2026-10-28T21:48:12Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -113,26 +113,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "xFBeJD9Og4M",
-      "thumbnail": "https://i.ytimg.com/vi/xFBeJD9Og4M/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/xFBeJD9Og4M?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=xFBeJD9Og4M",
-      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MARDI 27 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-27T19:50:05Z",
-      "episodeDate": "2026-10-27",
-      "durationSec": 4354,
+      "videoId": "vQaQP76ebMo",
+      "thumbnail": "https://i.ytimg.com/vi/vQaQP76ebMo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/vQaQP76ebMo?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=vQaQP76ebMo",
+      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MERCREDI 28 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-28T20:48:12Z",
+      "episodeDate": "2026-10-28",
+      "durationSec": 3368,
       "parts": [
         {
-          "videoId": "xFBeJD9Og4M",
-          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MARDI 27 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2824,
-          "publishedAt": "2026-10-27T19:50:05Z"
-        },
-        {
-          "videoId": "vJ1KlNgUx0A",
-          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MARDI 27 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 1530,
-          "publishedAt": "2026-10-27T20:34:05Z"
+          "videoId": "vQaQP76ebMo",
+          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MERCREDI 28 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 3368,
+          "publishedAt": "2026-10-28T20:48:12Z"
         }
       ]
     },
@@ -197,20 +191,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "GgskK-g4ouQ",
-      "thumbnail": "https://i.ytimg.com/vi/GgskK-g4ouQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/GgskK-g4ouQ?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=GgskK-g4ouQ",
-      "videoTitle": "ÉQUINOXE SOIR DU MARDI 27 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-27T19:41:05Z",
-      "episodeDate": "2026-10-27",
-      "durationSec": 2899,
+      "videoId": "KE4mCEG-lLQ",
+      "thumbnail": "https://i.ytimg.com/vi/KE4mCEG-lLQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/KE4mCEG-lLQ?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=KE4mCEG-lLQ",
+      "videoTitle": "ÉQUINOXE SOIR DU MERCREDI 28 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-28T19:48:12Z",
+      "episodeDate": "2026-10-28",
+      "durationSec": 3224,
       "parts": [
         {
-          "videoId": "GgskK-g4ouQ",
-          "title": "ÉQUINOXE SOIR DU MARDI 27 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2899,
-          "publishedAt": "2026-10-27T19:41:05Z"
+          "videoId": "KE4mCEG-lLQ",
+          "title": "ÉQUINOXE SOIR DU MERCREDI 28 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 3224,
+          "publishedAt": "2026-10-28T19:48:12Z"
         }
       ]
     },
@@ -301,20 +295,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "NwZxh6tMcAk",
-      "thumbnail": "https://i.ytimg.com/vi/NwZxh6tMcAk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/NwZxh6tMcAk?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=NwZxh6tMcAk",
-      "videoTitle": "DEBRIEF DE L'ACTU du Vendredi 23/10/2026",
-      "publishedAt": "2026-10-23T19:40:53Z",
-      "episodeDate": "2026-10-23",
-      "durationSec": 3378,
+      "videoId": "JhG9oWwGovQ",
+      "thumbnail": "https://i.ytimg.com/vi/JhG9oWwGovQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/JhG9oWwGovQ?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=JhG9oWwGovQ",
+      "videoTitle": "BALLON D’OR 2026 : HARRY KANE UN BALLON D’OR MERITE ? ( DEBRIEF DE L'ACTU du Mercredi 28/10/2026 )",
+      "publishedAt": "2026-10-28T18:48:12Z",
+      "episodeDate": "2026-10-28",
+      "durationSec": 3265,
       "parts": [
         {
-          "videoId": "NwZxh6tMcAk",
-          "title": "DEBRIEF DE L'ACTU du Vendredi 23/10/2026",
-          "durationSec": 3378,
-          "publishedAt": "2026-10-23T19:40:53Z"
+          "videoId": "JhG9oWwGovQ",
+          "title": "BALLON D’OR 2026 : HARRY KANE UN BALLON D’OR MERITE ? ( DEBRIEF DE L'ACTU du Mercredi 28/10/2026 )",
+          "durationSec": 3265,
+          "publishedAt": "2026-10-28T18:48:12Z"
         }
       ]
     },
@@ -352,21 +346,21 @@
       "spoken": "Le journal d'Info TV",
       "freq": "daily",
       "found": true,
-      "status": "preserved",
-      "videoId": "mXvLNaSZkno",
-      "thumbnail": "https://i.ytimg.com/vi/mXvLNaSZkno/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/mXvLNaSZkno?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=mXvLNaSZkno",
-      "videoTitle": "LE 20H BILINGUE DU 25 OCTOBRE  2026",
-      "publishedAt": "2026-10-25T19:58:10Z",
-      "episodeDate": "2026-10-25",
-      "durationSec": 2042,
+      "status": "found",
+      "videoId": "C7R5Rq9GuSE",
+      "thumbnail": "https://i.ytimg.com/vi/C7R5Rq9GuSE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/C7R5Rq9GuSE?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=C7R5Rq9GuSE",
+      "videoTitle": "LE 20H DU 28 OCTOBRE  2026",
+      "publishedAt": "2026-10-28T19:48:12Z",
+      "episodeDate": "2026-10-28",
+      "durationSec": 2283,
       "parts": [
         {
-          "videoId": "mXvLNaSZkno",
-          "title": "LE 20H BILINGUE DU 25 OCTOBRE  2026",
-          "durationSec": 2042,
-          "publishedAt": "2026-10-25T19:58:10Z"
+          "videoId": "C7R5Rq9GuSE",
+          "title": "LE 20H DU 28 OCTOBRE  2026",
+          "durationSec": 2283,
+          "publishedAt": "2026-10-28T19:48:12Z"
         }
       ]
     },
