@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-28T11:39:01Z",
-  "checkedAt": "2026-10-28T11:39:01Z",
+  "generatedAt": "2026-10-28T17:23:45Z",
+  "checkedAt": "2026-10-28T17:23:45Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -223,20 +223,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "Nu0vx4cuQyo",
-      "thumbnail": "https://i.ytimg.com/vi/Nu0vx4cuQyo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/Nu0vx4cuQyo?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=Nu0vx4cuQyo",
-      "videoTitle": "PIDGIN NEWS TUESDAY OCTOBER 27, 2026 - EQUINOXE TV",
-      "publishedAt": "2026-10-27T13:09:35Z",
-      "episodeDate": "2026-10-27",
-      "durationSec": 1594,
+      "videoId": "dUop7NtbNmQ",
+      "thumbnail": "https://i.ytimg.com/vi/dUop7NtbNmQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/dUop7NtbNmQ?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=dUop7NtbNmQ",
+      "videoTitle": "PIDGIN NEWS WEDNESDAY OCTOBER 28, 2026 - EQUINOXE TV",
+      "publishedAt": "2026-10-28T13:23:45Z",
+      "episodeDate": "2026-10-28",
+      "durationSec": 1566,
       "parts": [
         {
-          "videoId": "Nu0vx4cuQyo",
-          "title": "PIDGIN NEWS TUESDAY OCTOBER 27, 2026 - EQUINOXE TV",
-          "durationSec": 1594,
-          "publishedAt": "2026-10-27T13:09:35Z"
+          "videoId": "dUop7NtbNmQ",
+          "title": "PIDGIN NEWS WEDNESDAY OCTOBER 28, 2026 - EQUINOXE TV",
+          "durationSec": 1566,
+          "publishedAt": "2026-10-28T13:23:45Z"
         }
       ]
     },
@@ -352,7 +352,7 @@
       "spoken": "Le journal d'Info TV",
       "freq": "daily",
       "found": true,
-      "status": "found",
+      "status": "preserved",
       "videoId": "mXvLNaSZkno",
       "thumbnail": "https://i.ytimg.com/vi/mXvLNaSZkno/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/mXvLNaSZkno?rel=0&playsinline=1",
