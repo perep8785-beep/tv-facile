@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-29T19:51:40Z",
-  "checkedAt": "2026-10-29T19:51:40Z",
+  "generatedAt": "2026-10-29T23:45:24Z",
+  "checkedAt": "2026-10-29T23:45:24Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -113,20 +113,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "vQaQP76ebMo",
-      "thumbnail": "https://i.ytimg.com/vi/vQaQP76ebMo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/vQaQP76ebMo?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=vQaQP76ebMo",
-      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MERCREDI 28 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-28T20:48:12Z",
-      "episodeDate": "2026-10-28",
-      "durationSec": 3368,
+      "videoId": "JhQorPoyBxk",
+      "thumbnail": "https://i.ytimg.com/vi/JhQorPoyBxk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/JhQorPoyBxk?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=JhQorPoyBxk",
+      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU JEUDI 29 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-29T20:45:24Z",
+      "episodeDate": "2026-10-29",
+      "durationSec": 3775,
       "parts": [
         {
-          "videoId": "vQaQP76ebMo",
-          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MERCREDI 28 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 3368,
-          "publishedAt": "2026-10-28T20:48:12Z"
+          "videoId": "JhQorPoyBxk",
+          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU JEUDI 29 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 3775,
+          "publishedAt": "2026-10-29T20:45:24Z"
         }
       ]
     },
