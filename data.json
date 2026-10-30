@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-29T23:45:24Z",
-  "checkedAt": "2026-10-29T23:45:24Z",
+  "generatedAt": "2026-10-30T10:50:55Z",
+  "checkedAt": "2026-10-30T10:50:55Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -35,20 +35,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "rg5VKJoaglU",
-      "thumbnail": "https://i.ytimg.com/vi/rg5VKJoaglU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/rg5VKJoaglU?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=rg5VKJoaglU",
-      "videoTitle": "10 12 LE ZÉNITH PART1 DU JEUDI 29 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-29T10:39:12Z",
-      "episodeDate": "2026-10-29",
-      "durationSec": 2733,
+      "videoId": "GkZNOGvxTlA",
+      "thumbnail": "https://i.ytimg.com/vi/GkZNOGvxTlA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/GkZNOGvxTlA?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=GkZNOGvxTlA",
+      "videoTitle": "10 12 LE ZÉNITH PART1 DU VENDREDI 30 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-30T10:00:55Z",
+      "episodeDate": "2026-10-30",
+      "durationSec": 3195,
       "parts": [
         {
-          "videoId": "rg5VKJoaglU",
-          "title": "10 12 LE ZÉNITH PART1 DU JEUDI 29 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2733,
-          "publishedAt": "2026-10-29T10:39:12Z"
+          "videoId": "GkZNOGvxTlA",
+          "title": "10 12 LE ZÉNITH PART1 DU VENDREDI 30 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 3195,
+          "publishedAt": "2026-10-30T10:00:55Z"
         }
       ]
     },
@@ -87,20 +87,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "Hs4sGKhM_tQ",
-      "thumbnail": "https://i.ytimg.com/vi/Hs4sGKhM_tQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/Hs4sGKhM_tQ?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=Hs4sGKhM_tQ",
-      "videoTitle": "LA REVUE DES GRANDES UNES DU JEUDI 29 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-29T09:39:12Z",
-      "episodeDate": "2026-10-29",
-      "durationSec": 2114,
+      "videoId": "rcaDGZ5I7N0",
+      "thumbnail": "https://i.ytimg.com/vi/rcaDGZ5I7N0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/rcaDGZ5I7N0?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=rcaDGZ5I7N0",
+      "videoTitle": "LA REVUE DES GRANDES UNES DU VENDREDI 30 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-30T09:50:55Z",
+      "episodeDate": "2026-10-30",
+      "durationSec": 1998,
       "parts": [
         {
-          "videoId": "Hs4sGKhM_tQ",
-          "title": "LA REVUE DES GRANDES UNES DU JEUDI 29 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2114,
-          "publishedAt": "2026-10-29T09:39:12Z"
+          "videoId": "rcaDGZ5I7N0",
+          "title": "LA REVUE DES GRANDES UNES DU VENDREDI 30 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 1998,
+          "publishedAt": "2026-10-30T09:50:55Z"
         }
       ]
     },
@@ -302,12 +302,12 @@
       "videoTitle": "LIONS INDOMPTABLES: David PAGOU est-il toujours en chantier ?(DEBRIEF DE L'ACTU du Jeudi 29/10/2026)",
       "publishedAt": "2026-10-29T18:51:40Z",
       "episodeDate": "2026-10-29",
-      "durationSec": 3297,
+      "durationSec": 3286,
       "parts": [
         {
           "videoId": "en11sG1-l5U",
           "title": "LIONS INDOMPTABLES: David PAGOU est-il toujours en chantier ?(DEBRIEF DE L'ACTU du Jeudi 29/10/2026)",
-          "durationSec": 3297,
+          "durationSec": 3286,
           "publishedAt": "2026-10-29T18:51:40Z"
         }
       ]
@@ -354,12 +354,12 @@
       "videoTitle": "LE 20H DU 29 OCTOBRE 2026",
       "publishedAt": "2026-10-29T19:35:40Z",
       "episodeDate": "2026-10-29",
-      "durationSec": 2122,
+      "durationSec": 2132,
       "parts": [
         {
           "videoId": "EwqS5_ZxN8E",
           "title": "LE 20H DU 29 OCTOBRE 2026",
-          "durationSec": 2122,
+          "durationSec": 2132,
           "publishedAt": "2026-10-29T19:35:40Z"
         }
       ]
