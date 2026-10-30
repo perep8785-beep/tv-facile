@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-30T16:55:27Z",
-  "checkedAt": "2026-10-30T16:55:27Z",
+  "generatedAt": "2026-10-30T21:21:21Z",
+  "checkedAt": "2026-10-30T21:21:21Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -113,20 +113,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "JhQorPoyBxk",
-      "thumbnail": "https://i.ytimg.com/vi/JhQorPoyBxk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/JhQorPoyBxk?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=JhQorPoyBxk",
-      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU JEUDI 29 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-29T20:45:24Z",
-      "episodeDate": "2026-10-29",
-      "durationSec": 3775,
+      "videoId": "lU5yIxSmriM",
+      "thumbnail": "https://i.ytimg.com/vi/lU5yIxSmriM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/lU5yIxSmriM?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=lU5yIxSmriM",
+      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU VENDREDI 30 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-30T20:21:21Z",
+      "episodeDate": "2026-10-30",
+      "durationSec": 3456,
       "parts": [
         {
-          "videoId": "JhQorPoyBxk",
-          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU JEUDI 29 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 3775,
-          "publishedAt": "2026-10-29T20:45:24Z"
+          "videoId": "lU5yIxSmriM",
+          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU VENDREDI 30 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 3456,
+          "publishedAt": "2026-10-30T20:21:21Z"
         }
       ]
     },
@@ -191,20 +191,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "1N-bdL0p3YY",
-      "thumbnail": "https://i.ytimg.com/vi/1N-bdL0p3YY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/1N-bdL0p3YY?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=1N-bdL0p3YY",
-      "videoTitle": "ÉQUINOXE SOIR DU JEUDI 29 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-29T18:56:40Z",
-      "episodeDate": "2026-10-29",
-      "durationSec": 2518,
+      "videoId": "rZizSoiCsGY",
+      "thumbnail": "https://i.ytimg.com/vi/rZizSoiCsGY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/rZizSoiCsGY?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=rZizSoiCsGY",
+      "videoTitle": "ÉQUINOXE SOIR DU VENDREDI 30 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-30T19:21:21Z",
+      "episodeDate": "2026-10-30",
+      "durationSec": 2839,
       "parts": [
         {
-          "videoId": "1N-bdL0p3YY",
-          "title": "ÉQUINOXE SOIR DU JEUDI 29 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2518,
-          "publishedAt": "2026-10-29T18:56:40Z"
+          "videoId": "rZizSoiCsGY",
+          "title": "ÉQUINOXE SOIR DU VENDREDI 30 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2839,
+          "publishedAt": "2026-10-30T19:21:21Z"
         }
       ]
     },
