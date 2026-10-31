@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-30T21:21:21Z",
-  "checkedAt": "2026-10-31T06:34:38Z",
+  "generatedAt": "2026-10-31T13:04:05Z",
+  "checkedAt": "2026-10-31T13:04:05Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -139,20 +139,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "pztR43U37HY",
-      "thumbnail": "https://i.ytimg.com/vi/pztR43U37HY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/pztR43U37HY?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=pztR43U37HY",
-      "videoTitle": "JTB 12H DU VENDREDI 30 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-30T11:55:27Z",
-      "episodeDate": "2026-10-30",
-      "durationSec": 1497,
+      "videoId": "WBTtMLKYuZg",
+      "thumbnail": "https://i.ytimg.com/vi/WBTtMLKYuZg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/WBTtMLKYuZg?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=WBTtMLKYuZg",
+      "videoTitle": "JTB 12H SAMEDI 31 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-31T12:04:05Z",
+      "episodeDate": "2026-10-31",
+      "durationSec": 1363,
       "parts": [
         {
-          "videoId": "pztR43U37HY",
-          "title": "JTB 12H DU VENDREDI 30 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 1497,
-          "publishedAt": "2026-10-30T11:55:27Z"
+          "videoId": "WBTtMLKYuZg",
+          "title": "JTB 12H SAMEDI 31 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 1363,
+          "publishedAt": "2026-10-31T12:04:05Z"
         }
       ]
     },
@@ -243,20 +243,20 @@
       "freq": "weekly",
       "found": true,
       "status": "found",
-      "videoId": "4gRqcIDHZrU",
-      "thumbnail": "https://i.ytimg.com/vi/4gRqcIDHZrU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/4gRqcIDHZrU?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=4gRqcIDHZrU",
-      "videoTitle": "PIDGIN NEWS DEBATE SATURDAY OCTOBER 24, 2026 - EQUINOXE TV",
-      "publishedAt": "2026-10-24T12:41:56Z",
-      "episodeDate": "2026-10-24",
-      "durationSec": 3638,
+      "videoId": "8nuR4ohwW7A",
+      "thumbnail": "https://i.ytimg.com/vi/8nuR4ohwW7A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/8nuR4ohwW7A?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=8nuR4ohwW7A",
+      "videoTitle": "PIDGIN NEWS DEBATE SATURDAY OCTOBER 31, 2026 - EQUINOXE TV",
+      "publishedAt": "2026-10-31T12:31:05Z",
+      "episodeDate": "2026-10-31",
+      "durationSec": 3581,
       "parts": [
         {
-          "videoId": "4gRqcIDHZrU",
-          "title": "PIDGIN NEWS DEBATE SATURDAY OCTOBER 24, 2026 - EQUINOXE TV",
-          "durationSec": 3638,
-          "publishedAt": "2026-10-24T12:41:56Z"
+          "videoId": "8nuR4ohwW7A",
+          "title": "PIDGIN NEWS DEBATE SATURDAY OCTOBER 31, 2026 - EQUINOXE TV",
+          "durationSec": 3581,
+          "publishedAt": "2026-10-31T12:31:05Z"
         }
       ]
     },
@@ -269,20 +269,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "KPgN9pzRXRo",
-      "thumbnail": "https://i.ytimg.com/vi/KPgN9pzRXRo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/KPgN9pzRXRo?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=KPgN9pzRXRo",
-      "videoTitle": "LE JOURNAL  19h50 du Jeudi 29/10/2026 - Canal 2 international",
-      "publishedAt": "2026-10-30T14:55:27Z",
-      "episodeDate": "2026-10-29",
-      "durationSec": 2290,
+      "videoId": "KTqIb3ZZ-Cc",
+      "thumbnail": "https://i.ytimg.com/vi/KTqIb3ZZ-Cc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/KTqIb3ZZ-Cc?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=KTqIb3ZZ-Cc",
+      "videoTitle": "LE JOURNAL  19h50 du Vendredi 30/10/2026 - Canal 2 international",
+      "publishedAt": "2026-10-31T12:04:05Z",
+      "episodeDate": "2026-10-30",
+      "durationSec": 2344,
       "parts": [
         {
-          "videoId": "KPgN9pzRXRo",
-          "title": "LE JOURNAL  19h50 du Jeudi 29/10/2026 - Canal 2 international",
-          "durationSec": 2290,
-          "publishedAt": "2026-10-30T14:55:27Z"
+          "videoId": "KTqIb3ZZ-Cc",
+          "title": "LE JOURNAL  19h50 du Vendredi 30/10/2026 - Canal 2 international",
+          "durationSec": 2344,
+          "publishedAt": "2026-10-31T12:04:05Z"
         }
       ]
     },
