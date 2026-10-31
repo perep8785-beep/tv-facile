@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-31T13:04:05Z",
-  "checkedAt": "2026-10-31T13:04:05Z",
+  "generatedAt": "2026-10-31T17:42:27Z",
+  "checkedAt": "2026-10-31T17:42:27Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -269,20 +269,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "KTqIb3ZZ-Cc",
-      "thumbnail": "https://i.ytimg.com/vi/KTqIb3ZZ-Cc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/KTqIb3ZZ-Cc?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=KTqIb3ZZ-Cc",
-      "videoTitle": "LE JOURNAL  19h50 du Vendredi 30/10/2026 - Canal 2 international",
-      "publishedAt": "2026-10-31T12:04:05Z",
-      "episodeDate": "2026-10-30",
-      "durationSec": 2344,
+      "videoId": "YIuG6cRzpb8",
+      "thumbnail": "https://i.ytimg.com/vi/YIuG6cRzpb8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/YIuG6cRzpb8?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=YIuG6cRzpb8",
+      "videoTitle": "LE JOURNAL  20h00 du Samedi 31/10/2026 - Canal 2 international",
+      "publishedAt": "2026-10-31T17:12:27Z",
+      "episodeDate": "2026-10-31",
+      "durationSec": 1574,
       "parts": [
         {
-          "videoId": "KTqIb3ZZ-Cc",
-          "title": "LE JOURNAL  19h50 du Vendredi 30/10/2026 - Canal 2 international",
-          "durationSec": 2344,
-          "publishedAt": "2026-10-31T12:04:05Z"
+          "videoId": "YIuG6cRzpb8",
+          "title": "LE JOURNAL  20h00 du Samedi 31/10/2026 - Canal 2 international",
+          "durationSec": 1574,
+          "publishedAt": "2026-10-31T17:12:27Z"
         }
       ]
     },
