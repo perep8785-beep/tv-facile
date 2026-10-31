@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-31T17:42:27Z",
-  "checkedAt": "2026-10-31T17:42:27Z",
+  "generatedAt": "2026-10-31T20:41:06Z",
+  "checkedAt": "2026-10-31T20:41:06Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -139,20 +139,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "WBTtMLKYuZg",
-      "thumbnail": "https://i.ytimg.com/vi/WBTtMLKYuZg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/WBTtMLKYuZg?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=WBTtMLKYuZg",
-      "videoTitle": "JTB 12H SAMEDI 31 OCTOBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-10-31T12:04:05Z",
+      "videoId": "S2B0QjObA_8",
+      "thumbnail": "https://i.ytimg.com/vi/S2B0QjObA_8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/S2B0QjObA_8?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=S2B0QjObA_8",
+      "videoTitle": "20H BILINGUE DU SAMEDI 31 OCTOBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-10-31T19:41:06Z",
       "episodeDate": "2026-10-31",
-      "durationSec": 1363,
+      "durationSec": 1917,
       "parts": [
         {
-          "videoId": "WBTtMLKYuZg",
-          "title": "JTB 12H SAMEDI 31 OCTOBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 1363,
-          "publishedAt": "2026-10-31T12:04:05Z"
+          "videoId": "S2B0QjObA_8",
+          "title": "20H BILINGUE DU SAMEDI 31 OCTOBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 1917,
+          "publishedAt": "2026-10-31T19:41:06Z"
         }
       ]
     },
@@ -347,20 +347,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "EwqS5_ZxN8E",
-      "thumbnail": "https://i.ytimg.com/vi/EwqS5_ZxN8E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/EwqS5_ZxN8E?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=EwqS5_ZxN8E",
-      "videoTitle": "LE 20H DU 29 OCTOBRE 2026",
-      "publishedAt": "2026-10-29T19:35:40Z",
-      "episodeDate": "2026-10-29",
-      "durationSec": 2132,
+      "videoId": "j-mm5Uycmdg",
+      "thumbnail": "https://i.ytimg.com/vi/j-mm5Uycmdg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/j-mm5Uycmdg?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=j-mm5Uycmdg",
+      "videoTitle": "LE 20H00 BILINGUE DU 31 OCTOBRE 2026",
+      "publishedAt": "2026-10-31T19:41:06Z",
+      "episodeDate": "2026-10-31",
+      "durationSec": 2087,
       "parts": [
         {
-          "videoId": "EwqS5_ZxN8E",
-          "title": "LE 20H DU 29 OCTOBRE 2026",
-          "durationSec": 2132,
-          "publishedAt": "2026-10-29T19:35:40Z"
+          "videoId": "j-mm5Uycmdg",
+          "title": "LE 20H00 BILINGUE DU 31 OCTOBRE 2026",
+          "durationSec": 2087,
+          "publishedAt": "2026-10-31T19:41:06Z"
         }
       ]
     },
