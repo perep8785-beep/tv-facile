@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-31T20:41:06Z",
-  "checkedAt": "2026-11-01T03:54:55Z",
+  "generatedAt": "2026-11-01T10:58:50Z",
+  "checkedAt": "2026-11-01T10:58:50Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -354,12 +354,12 @@
       "videoTitle": "LE 20H00 BILINGUE DU 31 OCTOBRE 2026",
       "publishedAt": "2026-10-31T19:41:06Z",
       "episodeDate": "2026-10-31",
-      "durationSec": 2087,
+      "durationSec": 2089,
       "parts": [
         {
           "videoId": "j-mm5Uycmdg",
           "title": "LE 20H00 BILINGUE DU 31 OCTOBRE 2026",
-          "durationSec": 2087,
+          "durationSec": 2089,
           "publishedAt": "2026-10-31T19:41:06Z"
         }
       ]
