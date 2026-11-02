@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-01T21:10:17Z",
-  "checkedAt": "2026-11-01T21:10:17Z",
+  "generatedAt": "2026-11-02T06:52:38Z",
+  "checkedAt": "2026-11-02T06:52:38Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -380,12 +380,12 @@
       "videoTitle": "CLUB D'ÉLITES",
       "publishedAt": "2026-11-01T14:03:34Z",
       "episodeDate": "2026-11-01",
-      "durationSec": 11419,
+      "durationSec": 11361,
       "parts": [
         {
           "videoId": "tsMH0PxGZy0",
           "title": "CLUB D'ÉLITES",
-          "durationSec": 11419,
+          "durationSec": 11361,
           "publishedAt": "2026-11-01T14:03:34Z"
         }
       ]
