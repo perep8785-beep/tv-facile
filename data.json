@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-03T12:41:57Z",
-  "checkedAt": "2026-11-03T12:41:57Z",
+  "generatedAt": "2026-11-03T19:49:45Z",
+  "checkedAt": "2026-11-03T19:49:45Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -191,20 +191,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "8lKdINVMtpQ",
-      "thumbnail": "https://i.ytimg.com/vi/8lKdINVMtpQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/8lKdINVMtpQ?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=8lKdINVMtpQ",
-      "videoTitle": "ÉQUINOXE SOIR DU LUNDI 02 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-02T19:45:57Z",
-      "episodeDate": "2026-11-02",
-      "durationSec": 3081,
+      "videoId": "b5bVeifo-ik",
+      "thumbnail": "https://i.ytimg.com/vi/b5bVeifo-ik/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/b5bVeifo-ik?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=b5bVeifo-ik",
+      "videoTitle": "ÉQUINOXE SOIR DU MARDI 03 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-03T18:54:45Z",
+      "episodeDate": "2026-11-03",
+      "durationSec": 2853,
       "parts": [
         {
-          "videoId": "8lKdINVMtpQ",
-          "title": "ÉQUINOXE SOIR DU LUNDI 02 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 3081,
-          "publishedAt": "2026-11-02T19:45:57Z"
+          "videoId": "b5bVeifo-ik",
+          "title": "ÉQUINOXE SOIR DU MARDI 03 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2853,
+          "publishedAt": "2026-11-03T18:54:45Z"
         }
       ]
     },
