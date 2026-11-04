@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-03T19:49:45Z",
-  "checkedAt": "2026-11-03T19:49:45Z",
+  "generatedAt": "2026-11-04T00:20:05Z",
+  "checkedAt": "2026-11-04T00:20:05Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -113,20 +113,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "jg_qEGop7qc",
-      "thumbnail": "https://i.ytimg.com/vi/jg_qEGop7qc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/jg_qEGop7qc?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=jg_qEGop7qc",
-      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU LUNDI 02 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-02T20:45:57Z",
-      "episodeDate": "2026-11-02",
-      "durationSec": 3360,
+      "videoId": "LV7y-9pCWsM",
+      "thumbnail": "https://i.ytimg.com/vi/LV7y-9pCWsM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/LV7y-9pCWsM?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=LV7y-9pCWsM",
+      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MARDI 03 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-03T20:20:05Z",
+      "episodeDate": "2026-11-03",
+      "durationSec": 3455,
       "parts": [
         {
-          "videoId": "jg_qEGop7qc",
-          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU LUNDI 02 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 3360,
-          "publishedAt": "2026-11-02T20:45:57Z"
+          "videoId": "LV7y-9pCWsM",
+          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MARDI 03 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 3455,
+          "publishedAt": "2026-11-03T20:20:05Z"
         }
       ]
     },
