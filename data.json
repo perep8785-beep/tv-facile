@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-05T22:19:15Z",
-  "checkedAt": "2026-11-05T22:19:15Z",
+  "generatedAt": "2026-11-06T09:53:56Z",
+  "checkedAt": "2026-11-06T09:53:56Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -87,20 +87,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "ApLII4Yw8T0",
-      "thumbnail": "https://i.ytimg.com/vi/ApLII4Yw8T0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/ApLII4Yw8T0?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=ApLII4Yw8T0",
-      "videoTitle": "LA REVUE DES GRANDES UNES DU JEUDI 05 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-05T09:42:38Z",
-      "episodeDate": "2026-11-05",
-      "durationSec": 1990,
+      "videoId": "8OAKuUVHRzU",
+      "thumbnail": "https://i.ytimg.com/vi/8OAKuUVHRzU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/8OAKuUVHRzU?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=8OAKuUVHRzU",
+      "videoTitle": "LA REVUE DES GRANDES UNES DU VENDREDI 06 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-06T08:57:56Z",
+      "episodeDate": "2026-11-06",
+      "durationSec": 2004,
       "parts": [
         {
-          "videoId": "ApLII4Yw8T0",
-          "title": "LA REVUE DES GRANDES UNES DU JEUDI 05 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 1990,
-          "publishedAt": "2026-11-05T09:42:38Z"
+          "videoId": "8OAKuUVHRzU",
+          "title": "LA REVUE DES GRANDES UNES DU VENDREDI 06 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2004,
+          "publishedAt": "2026-11-06T08:57:56Z"
         }
       ]
     },
@@ -354,12 +354,12 @@
       "videoTitle": "LE 20H DU 05 NOVEMBRE 2026",
       "publishedAt": "2026-11-05T20:19:15Z",
       "episodeDate": "2026-11-05",
-      "durationSec": 2072,
+      "durationSec": 2104,
       "parts": [
         {
           "videoId": "KXpbbFJuHmk",
           "title": "LE 20H DU 05 NOVEMBRE 2026",
-          "durationSec": 2072,
+          "durationSec": 2104,
           "publishedAt": "2026-11-05T20:19:15Z"
         }
       ]
