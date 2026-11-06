@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-06T17:06:26Z",
-  "checkedAt": "2026-11-06T17:06:26Z",
+  "generatedAt": "2026-11-06T22:06:09Z",
+  "checkedAt": "2026-11-06T22:06:09Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -113,20 +113,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "TE10jq0hUUU",
-      "thumbnail": "https://i.ytimg.com/vi/TE10jq0hUUU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/TE10jq0hUUU?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=TE10jq0hUUU",
-      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU JEUDI 05 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-05T20:19:15Z",
-      "episodeDate": "2026-11-05",
-      "durationSec": 3787,
+      "videoId": "r-HgszQoZ_8",
+      "thumbnail": "https://i.ytimg.com/vi/r-HgszQoZ_8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/r-HgszQoZ_8?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=r-HgszQoZ_8",
+      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU VENDREDI 06 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-06T20:06:09Z",
+      "episodeDate": "2026-11-06",
+      "durationSec": 3376,
       "parts": [
         {
-          "videoId": "TE10jq0hUUU",
-          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU JEUDI 05 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 3787,
-          "publishedAt": "2026-11-05T20:19:15Z"
+          "videoId": "r-HgszQoZ_8",
+          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU VENDREDI 06 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 3376,
+          "publishedAt": "2026-11-06T20:06:09Z"
         }
       ]
     },
@@ -191,20 +191,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "iwD7G_hqjCw",
-      "thumbnail": "https://i.ytimg.com/vi/iwD7G_hqjCw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/iwD7G_hqjCw?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=iwD7G_hqjCw",
-      "videoTitle": "ÉQUINOXE SOIR DU JEUDI 05 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-05T19:19:15Z",
-      "episodeDate": "2026-11-05",
-      "durationSec": 2835,
+      "videoId": "EkjFn2uicCY",
+      "thumbnail": "https://i.ytimg.com/vi/EkjFn2uicCY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/EkjFn2uicCY?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=EkjFn2uicCY",
+      "videoTitle": "ÉQUINOXE SOIR DU VENDREDI 06 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-06T19:06:09Z",
+      "episodeDate": "2026-11-06",
+      "durationSec": 2961,
       "parts": [
         {
-          "videoId": "iwD7G_hqjCw",
-          "title": "ÉQUINOXE SOIR DU JEUDI 05 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2835,
-          "publishedAt": "2026-11-05T19:19:15Z"
+          "videoId": "EkjFn2uicCY",
+          "title": "ÉQUINOXE SOIR DU VENDREDI 06 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2961,
+          "publishedAt": "2026-11-06T19:06:09Z"
         }
       ]
     },
