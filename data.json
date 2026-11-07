@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-07T14:53:57Z",
-  "checkedAt": "2026-11-07T14:53:57Z",
+  "generatedAt": "2026-11-07T22:46:37Z",
+  "checkedAt": "2026-11-07T22:46:37Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -139,20 +139,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "4iMEZMm_JFs",
-      "thumbnail": "https://i.ytimg.com/vi/4iMEZMm_JFs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/4iMEZMm_JFs?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=4iMEZMm_JFs",
-      "videoTitle": "JTB 12H DU SAMEDI 07 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-07T11:53:57Z",
+      "videoId": "vn-HckR35MM",
+      "thumbnail": "https://i.ytimg.com/vi/vn-HckR35MM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/vn-HckR35MM?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=vn-HckR35MM",
+      "videoTitle": "20H BILINGUE DU SAMEDI 07 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-07T19:46:37Z",
       "episodeDate": "2026-11-07",
-      "durationSec": 1912,
+      "durationSec": 2122,
       "parts": [
         {
-          "videoId": "4iMEZMm_JFs",
-          "title": "JTB 12H DU SAMEDI 07 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 1912,
-          "publishedAt": "2026-11-07T11:53:57Z"
+          "videoId": "vn-HckR35MM",
+          "title": "20H BILINGUE DU SAMEDI 07 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2122,
+          "publishedAt": "2026-11-07T19:46:37Z"
         }
       ]
     },
