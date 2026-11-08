@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-08T19:58:35Z",
-  "checkedAt": "2026-11-08T19:58:35Z",
+  "generatedAt": "2026-11-08T23:30:00Z",
+  "checkedAt": "2026-11-08T23:30:00Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -268,7 +268,7 @@
       "spoken": "Le journal de Canal 2",
       "freq": "daily",
       "found": true,
-      "status": "preserved",
+      "status": "found",
       "videoId": "YIuG6cRzpb8",
       "thumbnail": "https://i.ytimg.com/vi/YIuG6cRzpb8/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/YIuG6cRzpb8?rel=0&playsinline=1",
@@ -320,7 +320,7 @@
       "spoken": "Canal Presse",
       "freq": "weekly",
       "found": true,
-      "status": "preserved",
+      "status": "found",
       "videoId": "9lGzLRqopcM",
       "thumbnail": "https://i.ytimg.com/vi/9lGzLRqopcM/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/9lGzLRqopcM?rel=0&playsinline=1",
@@ -347,20 +347,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "KXpbbFJuHmk",
-      "thumbnail": "https://i.ytimg.com/vi/KXpbbFJuHmk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/KXpbbFJuHmk?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=KXpbbFJuHmk",
-      "videoTitle": "LE 20H DU 05 NOVEMBRE 2026",
-      "publishedAt": "2026-11-05T20:19:15Z",
-      "episodeDate": "2026-11-05",
-      "durationSec": 2104,
+      "videoId": "ngRML2PbgXQ",
+      "thumbnail": "https://i.ytimg.com/vi/ngRML2PbgXQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/ngRML2PbgXQ?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=ngRML2PbgXQ",
+      "videoTitle": "LE 20H00 BILINGUE DU 08 NOVEMBRE 2026",
+      "publishedAt": "2026-11-08T20:30:00Z",
+      "episodeDate": "2026-11-08",
+      "durationSec": 1985,
       "parts": [
         {
-          "videoId": "KXpbbFJuHmk",
-          "title": "LE 20H DU 05 NOVEMBRE 2026",
-          "durationSec": 2104,
-          "publishedAt": "2026-11-05T20:19:15Z"
+          "videoId": "ngRML2PbgXQ",
+          "title": "LE 20H00 BILINGUE DU 08 NOVEMBRE 2026",
+          "durationSec": 1985,
+          "publishedAt": "2026-11-08T20:30:00Z"
         }
       ]
     },
