@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-07T22:46:37Z",
-  "checkedAt": "2026-11-07T22:46:37Z",
+  "generatedAt": "2026-11-08T01:59:47Z",
+  "checkedAt": "2026-11-08T01:59:47Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -294,7 +294,7 @@
       "spoken": "Le débrief de l'actu, Canal 2",
       "freq": "daily",
       "found": true,
-      "status": "found",
+      "status": "preserved",
       "videoId": "en11sG1-l5U",
       "thumbnail": "https://i.ytimg.com/vi/en11sG1-l5U/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/en11sG1-l5U?rel=0&playsinline=1",
