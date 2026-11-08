@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-08T15:43:40Z",
-  "checkedAt": "2026-11-08T15:43:40Z",
+  "generatedAt": "2026-11-08T19:58:35Z",
+  "checkedAt": "2026-11-08T19:58:35Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -139,20 +139,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "vn-HckR35MM",
-      "thumbnail": "https://i.ytimg.com/vi/vn-HckR35MM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/vn-HckR35MM?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=vn-HckR35MM",
-      "videoTitle": "20H BILINGUE DU SAMEDI 07 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-07T19:46:37Z",
-      "episodeDate": "2026-11-07",
-      "durationSec": 2122,
+      "videoId": "PZuEVXs8f74",
+      "thumbnail": "https://i.ytimg.com/vi/PZuEVXs8f74/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/PZuEVXs8f74?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=PZuEVXs8f74",
+      "videoTitle": "20H BILINGUE DU DIMANCHE 08 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-08T19:32:35Z",
+      "episodeDate": "2026-11-08",
+      "durationSec": 1792,
       "parts": [
         {
-          "videoId": "vn-HckR35MM",
-          "title": "20H BILINGUE DU SAMEDI 07 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2122,
-          "publishedAt": "2026-11-07T19:46:37Z"
+          "videoId": "PZuEVXs8f74",
+          "title": "20H BILINGUE DU DIMANCHE 08 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 1792,
+          "publishedAt": "2026-11-08T19:32:35Z"
         }
       ]
     },
@@ -268,7 +268,7 @@
       "spoken": "Le journal de Canal 2",
       "freq": "daily",
       "found": true,
-      "status": "found",
+      "status": "preserved",
       "videoId": "YIuG6cRzpb8",
       "thumbnail": "https://i.ytimg.com/vi/YIuG6cRzpb8/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/YIuG6cRzpb8?rel=0&playsinline=1",
@@ -320,7 +320,7 @@
       "spoken": "Canal Presse",
       "freq": "weekly",
       "found": true,
-      "status": "found",
+      "status": "preserved",
       "videoId": "9lGzLRqopcM",
       "thumbnail": "https://i.ytimg.com/vi/9lGzLRqopcM/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/9lGzLRqopcM?rel=0&playsinline=1",
