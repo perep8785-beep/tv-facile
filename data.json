@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-09T21:15:37Z",
-  "checkedAt": "2026-11-09T21:15:37Z",
+  "generatedAt": "2026-11-10T03:42:00Z",
+  "checkedAt": "2026-11-10T03:42:00Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -195,14 +195,14 @@
       "thumbnail": "https://i.ytimg.com/vi/fb5ks4iOZxw/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/fb5ks4iOZxw?rel=0&playsinline=1",
       "watchUrl": "https://www.youtube.com/watch?v=fb5ks4iOZxw",
-      "videoTitle": "ÉQUINOXE SOIR DU LUNDI 09 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "videoTitle": "ÉQUINOXE SOIR:Établissements scolaires privés :Qui contrôle les frais exigés aux parents ?",
       "publishedAt": "2026-11-09T19:15:37Z",
       "episodeDate": "2026-11-09",
       "durationSec": 2804,
       "parts": [
         {
           "videoId": "fb5ks4iOZxw",
-          "title": "ÉQUINOXE SOIR DU LUNDI 09 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "title": "ÉQUINOXE SOIR:Établissements scolaires privés :Qui contrôle les frais exigés aux parents ?",
           "durationSec": 2804,
           "publishedAt": "2026-11-09T19:15:37Z"
         }
@@ -268,7 +268,7 @@
       "spoken": "Le journal de Canal 2",
       "freq": "daily",
       "found": true,
-      "status": "found",
+      "status": "preserved",
       "videoId": "YIuG6cRzpb8",
       "thumbnail": "https://i.ytimg.com/vi/YIuG6cRzpb8/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/YIuG6cRzpb8?rel=0&playsinline=1",
