@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-10T11:48:32Z",
-  "checkedAt": "2026-11-10T11:48:32Z",
+  "generatedAt": "2026-11-10T19:13:58Z",
+  "checkedAt": "2026-11-10T19:13:58Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -191,20 +191,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "fb5ks4iOZxw",
-      "thumbnail": "https://i.ytimg.com/vi/fb5ks4iOZxw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/fb5ks4iOZxw?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=fb5ks4iOZxw",
-      "videoTitle": "ÉQUINOXE SOIR:Établissements scolaires privés :Qui contrôle les frais exigés aux parents ?",
-      "publishedAt": "2026-11-09T19:15:37Z",
-      "episodeDate": "2026-11-09",
-      "durationSec": 2804,
+      "videoId": "FbCHax3Ex5E",
+      "thumbnail": "https://i.ytimg.com/vi/FbCHax3Ex5E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/FbCHax3Ex5E?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=FbCHax3Ex5E",
+      "videoTitle": "ÉQUINOXE SOIR DU MARDI 10 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-10T18:56:58Z",
+      "episodeDate": "2026-11-10",
+      "durationSec": 2978,
       "parts": [
         {
-          "videoId": "fb5ks4iOZxw",
-          "title": "ÉQUINOXE SOIR:Établissements scolaires privés :Qui contrôle les frais exigés aux parents ?",
-          "durationSec": 2804,
-          "publishedAt": "2026-11-09T19:15:37Z"
+          "videoId": "FbCHax3Ex5E",
+          "title": "ÉQUINOXE SOIR DU MARDI 10 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2978,
+          "publishedAt": "2026-11-10T18:56:58Z"
         }
       ]
     },
@@ -217,20 +217,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "pG4kRQMke8Y",
-      "thumbnail": "https://i.ytimg.com/vi/pG4kRQMke8Y/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/pG4kRQMke8Y?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=pG4kRQMke8Y",
-      "videoTitle": "PIDGIN NEWS MONDAY NOVEMBER 09, 2026 - EQUINOXE TV",
-      "publishedAt": "2026-11-09T13:15:37Z",
-      "episodeDate": "2026-11-09",
-      "durationSec": 1538,
+      "videoId": "EgjyZWL6d6g",
+      "thumbnail": "https://i.ytimg.com/vi/EgjyZWL6d6g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/EgjyZWL6d6g?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=EgjyZWL6d6g",
+      "videoTitle": "PIDGIN NEWS TUESDAY NOVEMBER 10, 2026 - EQUINOXE TV",
+      "publishedAt": "2026-11-10T13:13:58Z",
+      "episodeDate": "2026-11-10",
+      "durationSec": 1611,
       "parts": [
         {
-          "videoId": "pG4kRQMke8Y",
-          "title": "PIDGIN NEWS MONDAY NOVEMBER 09, 2026 - EQUINOXE TV",
-          "durationSec": 1538,
-          "publishedAt": "2026-11-09T13:15:37Z"
+          "videoId": "EgjyZWL6d6g",
+          "title": "PIDGIN NEWS TUESDAY NOVEMBER 10, 2026 - EQUINOXE TV",
+          "durationSec": 1611,
+          "publishedAt": "2026-11-10T13:13:58Z"
         }
       ]
     },
