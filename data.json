@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-11T00:04:09Z",
-  "checkedAt": "2026-11-11T00:04:09Z",
+  "generatedAt": "2026-11-11T06:10:40Z",
+  "checkedAt": "2026-11-11T06:10:40Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -294,21 +294,21 @@
       "spoken": "Le débrief de l'actu, Canal 2",
       "freq": "daily",
       "found": true,
-      "status": "preserved",
-      "videoId": "en11sG1-l5U",
-      "thumbnail": "https://i.ytimg.com/vi/en11sG1-l5U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/en11sG1-l5U?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=en11sG1-l5U",
-      "videoTitle": "LIONS INDOMPTABLES: David PAGOU est-il toujours en chantier ?(DEBRIEF DE L'ACTU du Jeudi 29/10/2026)",
-      "publishedAt": "2026-10-29T18:51:40Z",
-      "episodeDate": "2026-10-29",
-      "durationSec": 3286,
+      "status": "found",
+      "videoId": "gX3NWIzZXns",
+      "thumbnail": "https://i.ytimg.com/vi/gX3NWIzZXns/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/gX3NWIzZXns?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=gX3NWIzZXns",
+      "videoTitle": "LE DEBRIEF DE L ACTU DU 10 NOVEMBRE 2026",
+      "publishedAt": "2026-11-11T05:14:40Z",
+      "episodeDate": "2026-11-10",
+      "durationSec": 3221,
       "parts": [
         {
-          "videoId": "en11sG1-l5U",
-          "title": "LIONS INDOMPTABLES: David PAGOU est-il toujours en chantier ?(DEBRIEF DE L'ACTU du Jeudi 29/10/2026)",
-          "durationSec": 3286,
-          "publishedAt": "2026-10-29T18:51:40Z"
+          "videoId": "gX3NWIzZXns",
+          "title": "LE DEBRIEF DE L ACTU DU 10 NOVEMBRE 2026",
+          "durationSec": 3221,
+          "publishedAt": "2026-11-11T05:14:40Z"
         }
       ]
     },
