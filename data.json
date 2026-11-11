@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-10T19:13:58Z",
-  "checkedAt": "2026-11-10T19:13:58Z",
+  "generatedAt": "2026-11-11T00:04:09Z",
+  "checkedAt": "2026-11-11T00:04:09Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -113,20 +113,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "ovBGdDoqfqk",
-      "thumbnail": "https://i.ytimg.com/vi/ovBGdDoqfqk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/ovBGdDoqfqk?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=ovBGdDoqfqk",
-      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU LUNDI 09 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-09T20:15:37Z",
-      "episodeDate": "2026-11-09",
-      "durationSec": 3401,
+      "videoId": "-v84L29Fmt0",
+      "thumbnail": "https://i.ytimg.com/vi/-v84L29Fmt0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/-v84L29Fmt0?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=-v84L29Fmt0",
+      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MARDI 10 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-10T20:04:09Z",
+      "episodeDate": "2026-11-10",
+      "durationSec": 3305,
       "parts": [
         {
-          "videoId": "ovBGdDoqfqk",
-          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU LUNDI 09 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 3401,
-          "publishedAt": "2026-11-09T20:15:37Z"
+          "videoId": "-v84L29Fmt0",
+          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MARDI 10 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 3305,
+          "publishedAt": "2026-11-10T20:04:09Z"
         }
       ]
     },
@@ -320,7 +320,7 @@
       "spoken": "Canal Presse",
       "freq": "weekly",
       "found": true,
-      "status": "found",
+      "status": "preserved",
       "videoId": "9lGzLRqopcM",
       "thumbnail": "https://i.ytimg.com/vi/9lGzLRqopcM/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/9lGzLRqopcM?rel=0&playsinline=1",
@@ -347,20 +347,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "0nqSngJtdyc",
-      "thumbnail": "https://i.ytimg.com/vi/0nqSngJtdyc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/0nqSngJtdyc?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=0nqSngJtdyc",
-      "videoTitle": "LE 20H DU 09 NOVEMBRE 2026",
-      "publishedAt": "2026-11-09T20:15:37Z",
-      "episodeDate": "2026-11-09",
-      "durationSec": 2672,
+      "videoId": "_Ag-cU2A2uk",
+      "thumbnail": "https://i.ytimg.com/vi/_Ag-cU2A2uk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/_Ag-cU2A2uk?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=_Ag-cU2A2uk",
+      "videoTitle": "LE 20H DU 10 NOVEMBRE 2026",
+      "publishedAt": "2026-11-10T20:04:09Z",
+      "episodeDate": "2026-11-10",
+      "durationSec": 2462,
       "parts": [
         {
-          "videoId": "0nqSngJtdyc",
-          "title": "LE 20H DU 09 NOVEMBRE 2026",
-          "durationSec": 2672,
-          "publishedAt": "2026-11-09T20:15:37Z"
+          "videoId": "_Ag-cU2A2uk",
+          "title": "LE 20H DU 10 NOVEMBRE 2026",
+          "durationSec": 2462,
+          "publishedAt": "2026-11-10T20:04:09Z"
         }
       ]
     },
