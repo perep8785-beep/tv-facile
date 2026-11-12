@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-12T18:17:21Z",
-  "checkedAt": "2026-11-12T18:17:21Z",
+  "generatedAt": "2026-11-12T23:44:27Z",
+  "checkedAt": "2026-11-12T23:44:27Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -347,20 +347,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "_Ag-cU2A2uk",
-      "thumbnail": "https://i.ytimg.com/vi/_Ag-cU2A2uk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/_Ag-cU2A2uk?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=_Ag-cU2A2uk",
-      "videoTitle": "LE 20H DU 10 NOVEMBRE 2026",
-      "publishedAt": "2026-11-10T20:04:09Z",
-      "episodeDate": "2026-11-10",
-      "durationSec": 2429,
+      "videoId": "f0V2QW9smJY",
+      "thumbnail": "https://i.ytimg.com/vi/f0V2QW9smJY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/f0V2QW9smJY?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=f0V2QW9smJY",
+      "videoTitle": "LE 19H00 BILINGUE DU 12 NOVEMBRE 2026",
+      "publishedAt": "2026-11-12T18:44:27Z",
+      "episodeDate": "2026-11-12",
+      "durationSec": 2474,
       "parts": [
         {
-          "videoId": "_Ag-cU2A2uk",
-          "title": "LE 20H DU 10 NOVEMBRE 2026",
-          "durationSec": 2429,
-          "publishedAt": "2026-11-10T20:04:09Z"
+          "videoId": "f0V2QW9smJY",
+          "title": "LE 19H00 BILINGUE DU 12 NOVEMBRE 2026",
+          "durationSec": 2474,
+          "publishedAt": "2026-11-12T18:44:27Z"
         }
       ]
     },
