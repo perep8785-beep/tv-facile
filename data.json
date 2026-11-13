@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-13T11:34:06Z",
-  "checkedAt": "2026-11-13T11:34:06Z",
+  "generatedAt": "2026-11-13T18:45:57Z",
+  "checkedAt": "2026-11-13T18:45:57Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -139,20 +139,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "AzACqOz25yg",
-      "thumbnail": "https://i.ytimg.com/vi/AzACqOz25yg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/AzACqOz25yg?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=AzACqOz25yg",
-      "videoTitle": "JTB 12H DU JEUDI 12 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-12T12:17:21Z",
-      "episodeDate": "2026-11-12",
-      "durationSec": 1362,
+      "videoId": "NbkVCUVPdBs",
+      "thumbnail": "https://i.ytimg.com/vi/NbkVCUVPdBs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/NbkVCUVPdBs?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=NbkVCUVPdBs",
+      "videoTitle": "JTB 12H DU VENDREDI 13 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-13T11:45:57Z",
+      "episodeDate": "2026-11-13",
+      "durationSec": 2116,
       "parts": [
         {
-          "videoId": "AzACqOz25yg",
-          "title": "JTB 12H DU JEUDI 12 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 1362,
-          "publishedAt": "2026-11-12T12:17:21Z"
+          "videoId": "NbkVCUVPdBs",
+          "title": "JTB 12H DU VENDREDI 13 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2116,
+          "publishedAt": "2026-11-13T11:45:57Z"
         }
       ]
     },
@@ -217,20 +217,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "4CUl0_e67TA",
-      "thumbnail": "https://i.ytimg.com/vi/4CUl0_e67TA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/4CUl0_e67TA?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=4CUl0_e67TA",
-      "videoTitle": "PIDGIN NEWS THURSDAY NOVEMBER 12, 2026 - EQUINOXE TV",
-      "publishedAt": "2026-11-12T13:17:21Z",
-      "episodeDate": "2026-11-12",
-      "durationSec": 1028,
+      "videoId": "nysXk-aFhF4",
+      "thumbnail": "https://i.ytimg.com/vi/nysXk-aFhF4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/nysXk-aFhF4?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=nysXk-aFhF4",
+      "videoTitle": "PIDGIN NEWS FRIDAY NOVEMBER 13, 2026 - EQUINOXE TV",
+      "publishedAt": "2026-11-13T12:45:57Z",
+      "episodeDate": "2026-11-13",
+      "durationSec": 1439,
       "parts": [
         {
-          "videoId": "4CUl0_e67TA",
-          "title": "PIDGIN NEWS THURSDAY NOVEMBER 12, 2026 - EQUINOXE TV",
-          "durationSec": 1028,
-          "publishedAt": "2026-11-12T13:17:21Z"
+          "videoId": "nysXk-aFhF4",
+          "title": "PIDGIN NEWS FRIDAY NOVEMBER 13, 2026 - EQUINOXE TV",
+          "durationSec": 1439,
+          "publishedAt": "2026-11-13T12:45:57Z"
         }
       ]
     },
