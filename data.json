@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-12T23:44:27Z",
-  "checkedAt": "2026-11-12T23:44:27Z",
+  "generatedAt": "2026-11-13T11:34:06Z",
+  "checkedAt": "2026-11-13T11:34:06Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -35,20 +35,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "GnKM2gkoOnA",
-      "thumbnail": "https://i.ytimg.com/vi/GnKM2gkoOnA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/GnKM2gkoOnA?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=GnKM2gkoOnA",
-      "videoTitle": "10 12 LE ZÉNITH PART1 DU JEUDI 12 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-12T10:03:06Z",
-      "episodeDate": "2026-11-12",
-      "durationSec": 2934,
+      "videoId": "zHZYGW8_kUk",
+      "thumbnail": "https://i.ytimg.com/vi/zHZYGW8_kUk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/zHZYGW8_kUk?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=zHZYGW8_kUk",
+      "videoTitle": "10 12 LE ZÉNITH PART1 DU VENDREDI 13 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-13T10:56:06Z",
+      "episodeDate": "2026-11-13",
+      "durationSec": 5964,
       "parts": [
         {
-          "videoId": "GnKM2gkoOnA",
-          "title": "10 12 LE ZÉNITH PART1 DU JEUDI 12 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2934,
-          "publishedAt": "2026-11-12T10:03:06Z"
+          "videoId": "zHZYGW8_kUk",
+          "title": "10 12 LE ZÉNITH PART1 DU VENDREDI 13 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 5964,
+          "publishedAt": "2026-11-13T10:56:06Z"
         }
       ]
     },
@@ -87,20 +87,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "KaPwhKGlGhE",
-      "thumbnail": "https://i.ytimg.com/vi/KaPwhKGlGhE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/KaPwhKGlGhE?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=KaPwhKGlGhE",
-      "videoTitle": "LA REVUE DES GRANDES UNES DU JEUDI 12 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-12T09:03:43Z",
-      "episodeDate": "2026-11-12",
-      "durationSec": 2218,
+      "videoId": "jV2d-ZOzLik",
+      "thumbnail": "https://i.ytimg.com/vi/jV2d-ZOzLik/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/jV2d-ZOzLik?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=jV2d-ZOzLik",
+      "videoTitle": "LA REVUE DES GRANDES UNES DU VENDREDI 13 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-13T09:34:06Z",
+      "episodeDate": "2026-11-13",
+      "durationSec": 1861,
       "parts": [
         {
-          "videoId": "KaPwhKGlGhE",
-          "title": "LA REVUE DES GRANDES UNES DU JEUDI 12 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2218,
-          "publishedAt": "2026-11-12T09:03:43Z"
+          "videoId": "jV2d-ZOzLik",
+          "title": "LA REVUE DES GRANDES UNES DU VENDREDI 13 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 1861,
+          "publishedAt": "2026-11-13T09:34:06Z"
         }
       ]
     },
@@ -354,12 +354,12 @@
       "videoTitle": "LE 19H00 BILINGUE DU 12 NOVEMBRE 2026",
       "publishedAt": "2026-11-12T18:44:27Z",
       "episodeDate": "2026-11-12",
-      "durationSec": 2474,
+      "durationSec": 2473,
       "parts": [
         {
           "videoId": "f0V2QW9smJY",
           "title": "LE 19H00 BILINGUE DU 12 NOVEMBRE 2026",
-          "durationSec": 2474,
+          "durationSec": 2473,
           "publishedAt": "2026-11-12T18:44:27Z"
         }
       ]
