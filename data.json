@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-14T13:43:19Z",
-  "checkedAt": "2026-11-14T13:43:19Z",
+  "generatedAt": "2026-11-14T22:50:45Z",
+  "checkedAt": "2026-11-14T22:50:45Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -139,20 +139,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "HsETM2sKVto",
-      "thumbnail": "https://i.ytimg.com/vi/HsETM2sKVto/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/HsETM2sKVto?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=HsETM2sKVto",
-      "videoTitle": "JTB 12H DU SAMEDI 14 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-14T11:43:19Z",
+      "videoId": "p1WfRlrfl0Q",
+      "thumbnail": "https://i.ytimg.com/vi/p1WfRlrfl0Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/p1WfRlrfl0Q?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=p1WfRlrfl0Q",
+      "videoTitle": "20H BILINGUE DU SAMEDI 14 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-14T19:50:45Z",
       "episodeDate": "2026-11-14",
-      "durationSec": 1603,
+      "durationSec": 1967,
       "parts": [
         {
-          "videoId": "HsETM2sKVto",
-          "title": "JTB 12H DU SAMEDI 14 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 1603,
-          "publishedAt": "2026-11-14T11:43:19Z"
+          "videoId": "p1WfRlrfl0Q",
+          "title": "20H BILINGUE DU SAMEDI 14 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 1967,
+          "publishedAt": "2026-11-14T19:50:45Z"
         }
       ]
     },
@@ -195,14 +195,14 @@
       "thumbnail": "https://i.ytimg.com/vi/9d31mnt5GdA/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/9d31mnt5GdA?rel=0&playsinline=1",
       "watchUrl": "https://www.youtube.com/watch?v=9d31mnt5GdA",
-      "videoTitle": "ÉQUINOXE SOIR DU VENDREDI 13 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "videoTitle": "ÉQUINOXE SOIR:Législatives et Municipales 2026 l'administration fait-elle obstacle aux candidatures?",
       "publishedAt": "2026-11-13T19:06:28Z",
       "episodeDate": "2026-11-13",
       "durationSec": 2562,
       "parts": [
         {
           "videoId": "9d31mnt5GdA",
-          "title": "ÉQUINOXE SOIR DU VENDREDI 13 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "title": "ÉQUINOXE SOIR:Législatives et Municipales 2026 l'administration fait-elle obstacle aux candidatures?",
           "durationSec": 2562,
           "publishedAt": "2026-11-13T19:06:28Z"
         }
@@ -347,20 +347,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "EylEMgf8N_k",
-      "thumbnail": "https://i.ytimg.com/vi/EylEMgf8N_k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/EylEMgf8N_k?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=EylEMgf8N_k",
-      "videoTitle": "LE 20H DU 13 NOVEMBRE 2026",
-      "publishedAt": "2026-11-13T20:06:28Z",
-      "episodeDate": "2026-11-13",
-      "durationSec": 1820,
+      "videoId": "YjAv5LKoZco",
+      "thumbnail": "https://i.ytimg.com/vi/YjAv5LKoZco/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/YjAv5LKoZco?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=YjAv5LKoZco",
+      "videoTitle": "LE 20H BILINGUE DU 14 NOVEMBRE  2026",
+      "publishedAt": "2026-11-14T19:50:45Z",
+      "episodeDate": "2026-11-14",
+      "durationSec": 1866,
       "parts": [
         {
-          "videoId": "EylEMgf8N_k",
-          "title": "LE 20H DU 13 NOVEMBRE 2026",
-          "durationSec": 1820,
-          "publishedAt": "2026-11-13T20:06:28Z"
+          "videoId": "YjAv5LKoZco",
+          "title": "LE 20H BILINGUE DU 14 NOVEMBRE  2026",
+          "durationSec": 1866,
+          "publishedAt": "2026-11-14T19:50:45Z"
         }
       ]
     },
