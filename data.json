@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-13T18:45:57Z",
-  "checkedAt": "2026-11-13T18:45:57Z",
+  "generatedAt": "2026-11-14T00:06:28Z",
+  "checkedAt": "2026-11-14T00:06:28Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -113,20 +113,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "-v84L29Fmt0",
-      "thumbnail": "https://i.ytimg.com/vi/-v84L29Fmt0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/-v84L29Fmt0?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=-v84L29Fmt0",
-      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MARDI 10 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-10T20:04:09Z",
-      "episodeDate": "2026-11-10",
-      "durationSec": 3305,
+      "videoId": "AMYoR1ssJxc",
+      "thumbnail": "https://i.ytimg.com/vi/AMYoR1ssJxc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/AMYoR1ssJxc?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=AMYoR1ssJxc",
+      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU VENDREDI 13 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-13T20:06:28Z",
+      "episodeDate": "2026-11-13",
+      "durationSec": 3541,
       "parts": [
         {
-          "videoId": "-v84L29Fmt0",
-          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MARDI 10 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 3305,
-          "publishedAt": "2026-11-10T20:04:09Z"
+          "videoId": "AMYoR1ssJxc",
+          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU VENDREDI 13 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 3541,
+          "publishedAt": "2026-11-13T20:06:28Z"
         }
       ]
     },
@@ -191,20 +191,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "FbCHax3Ex5E",
-      "thumbnail": "https://i.ytimg.com/vi/FbCHax3Ex5E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/FbCHax3Ex5E?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=FbCHax3Ex5E",
-      "videoTitle": "ÉQUINOXE SOIR DU MARDI 10 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-10T18:56:58Z",
-      "episodeDate": "2026-11-10",
-      "durationSec": 2978,
+      "videoId": "9d31mnt5GdA",
+      "thumbnail": "https://i.ytimg.com/vi/9d31mnt5GdA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/9d31mnt5GdA?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=9d31mnt5GdA",
+      "videoTitle": "ÉQUINOXE SOIR DU VENDREDI 13 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-13T19:06:28Z",
+      "episodeDate": "2026-11-13",
+      "durationSec": 2562,
       "parts": [
         {
-          "videoId": "FbCHax3Ex5E",
-          "title": "ÉQUINOXE SOIR DU MARDI 10 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2978,
-          "publishedAt": "2026-11-10T18:56:58Z"
+          "videoId": "9d31mnt5GdA",
+          "title": "ÉQUINOXE SOIR DU VENDREDI 13 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2562,
+          "publishedAt": "2026-11-13T19:06:28Z"
         }
       ]
     },
@@ -347,20 +347,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "f0V2QW9smJY",
-      "thumbnail": "https://i.ytimg.com/vi/f0V2QW9smJY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/f0V2QW9smJY?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=f0V2QW9smJY",
-      "videoTitle": "LE 19H00 BILINGUE DU 12 NOVEMBRE 2026",
-      "publishedAt": "2026-11-12T18:44:27Z",
-      "episodeDate": "2026-11-12",
-      "durationSec": 2473,
+      "videoId": "EylEMgf8N_k",
+      "thumbnail": "https://i.ytimg.com/vi/EylEMgf8N_k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/EylEMgf8N_k?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=EylEMgf8N_k",
+      "videoTitle": "LE 20H DU 13 NOVEMBRE 2026",
+      "publishedAt": "2026-11-13T20:06:28Z",
+      "episodeDate": "2026-11-13",
+      "durationSec": 1820,
       "parts": [
         {
-          "videoId": "f0V2QW9smJY",
-          "title": "LE 19H00 BILINGUE DU 12 NOVEMBRE 2026",
-          "durationSec": 2473,
-          "publishedAt": "2026-11-12T18:44:27Z"
+          "videoId": "EylEMgf8N_k",
+          "title": "LE 20H DU 13 NOVEMBRE 2026",
+          "durationSec": 1820,
+          "publishedAt": "2026-11-13T20:06:28Z"
         }
       ]
     },
