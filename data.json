@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-15T09:42:31Z",
-  "checkedAt": "2026-11-15T09:42:31Z",
+  "generatedAt": "2026-11-15T16:37:01Z",
+  "checkedAt": "2026-11-15T16:37:01Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -165,20 +165,20 @@
       "freq": "weekly",
       "found": true,
       "status": "found",
-      "videoId": "XbQA0aXhMKY",
-      "thumbnail": "https://i.ytimg.com/vi/XbQA0aXhMKY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/XbQA0aXhMKY?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=XbQA0aXhMKY",
-      "videoTitle": "DROIT DE RÉPONSE DU DIMANCHE 08 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-08T13:43:40Z",
-      "episodeDate": "2026-11-08",
-      "durationSec": 6910,
+      "videoId": "p5Ht5GscV9E",
+      "thumbnail": "https://i.ytimg.com/vi/p5Ht5GscV9E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/p5Ht5GscV9E?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=p5Ht5GscV9E",
+      "videoTitle": "DROIT DE RÉPONSE DU DIMANCHE 15 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-15T13:37:01Z",
+      "episodeDate": "2026-11-15",
+      "durationSec": 6517,
       "parts": [
         {
-          "videoId": "XbQA0aXhMKY",
-          "title": "DROIT DE RÉPONSE DU DIMANCHE 08 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 6910,
-          "publishedAt": "2026-11-08T13:43:40Z"
+          "videoId": "p5Ht5GscV9E",
+          "title": "DROIT DE RÉPONSE DU DIMANCHE 15 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 6517,
+          "publishedAt": "2026-11-15T13:37:01Z"
         }
       ]
     },
@@ -373,20 +373,20 @@
       "freq": "weekly",
       "found": true,
       "status": "found",
-      "videoId": "e9pu8X4Wquo",
-      "thumbnail": "https://i.ytimg.com/vi/e9pu8X4Wquo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/e9pu8X4Wquo?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=e9pu8X4Wquo",
+      "videoId": "KeRD5qbPx88",
+      "thumbnail": "https://i.ytimg.com/vi/KeRD5qbPx88/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/KeRD5qbPx88?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=KeRD5qbPx88",
       "videoTitle": "CLUB D'ÉLITES",
-      "publishedAt": "2026-11-08T13:43:40Z",
-      "episodeDate": "2026-11-08",
-      "durationSec": 10910,
+      "publishedAt": "2026-11-15T14:37:01Z",
+      "episodeDate": "2026-11-15",
+      "durationSec": 12638,
       "parts": [
         {
-          "videoId": "e9pu8X4Wquo",
+          "videoId": "KeRD5qbPx88",
           "title": "CLUB D'ÉLITES",
-          "durationSec": 10910,
-          "publishedAt": "2026-11-08T13:43:40Z"
+          "durationSec": 12638,
+          "publishedAt": "2026-11-15T14:37:01Z"
         }
       ]
     }
