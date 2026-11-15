@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-15T16:37:01Z",
-  "checkedAt": "2026-11-15T16:37:01Z",
+  "generatedAt": "2026-11-15T21:17:58Z",
+  "checkedAt": "2026-11-15T21:17:58Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -139,20 +139,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "p1WfRlrfl0Q",
-      "thumbnail": "https://i.ytimg.com/vi/p1WfRlrfl0Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/p1WfRlrfl0Q?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=p1WfRlrfl0Q",
-      "videoTitle": "20H BILINGUE DU SAMEDI 14 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-14T19:50:45Z",
-      "episodeDate": "2026-11-14",
-      "durationSec": 1967,
+      "videoId": "pDNSkEQ6utg",
+      "thumbnail": "https://i.ytimg.com/vi/pDNSkEQ6utg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/pDNSkEQ6utg?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=pDNSkEQ6utg",
+      "videoTitle": "20H BILINGUE DU DIMANCHE 15 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-15T20:17:58Z",
+      "episodeDate": "2026-11-15",
+      "durationSec": 1641,
       "parts": [
         {
-          "videoId": "p1WfRlrfl0Q",
-          "title": "20H BILINGUE DU SAMEDI 14 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 1967,
-          "publishedAt": "2026-11-14T19:50:45Z"
+          "videoId": "pDNSkEQ6utg",
+          "title": "20H BILINGUE DU DIMANCHE 15 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 1641,
+          "publishedAt": "2026-11-15T20:17:58Z"
         }
       ]
     },
