@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-17T02:06:02Z",
-  "checkedAt": "2026-11-17T02:06:02Z",
+  "generatedAt": "2026-11-17T10:41:08Z",
+  "checkedAt": "2026-11-17T10:41:08Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -35,20 +35,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "nkftH5fDsAM",
-      "thumbnail": "https://i.ytimg.com/vi/nkftH5fDsAM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/nkftH5fDsAM?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=nkftH5fDsAM",
-      "videoTitle": "10 12 LE ZÉNITH PART1 DU LUNDI 16 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-16T10:36:57Z",
-      "episodeDate": "2026-11-16",
-      "durationSec": 1689,
+      "videoId": "C1jDSMKwsOQ",
+      "thumbnail": "https://i.ytimg.com/vi/C1jDSMKwsOQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/C1jDSMKwsOQ?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=C1jDSMKwsOQ",
+      "videoTitle": "10 12 LE ZÉNITH PART1 DU MARDI 17 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-17T10:01:08Z",
+      "episodeDate": "2026-11-17",
+      "durationSec": 2838,
       "parts": [
         {
-          "videoId": "nkftH5fDsAM",
-          "title": "10 12 LE ZÉNITH PART1 DU LUNDI 16 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 1689,
-          "publishedAt": "2026-11-16T10:36:57Z"
+          "videoId": "C1jDSMKwsOQ",
+          "title": "10 12 LE ZÉNITH PART1 DU MARDI 17 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2838,
+          "publishedAt": "2026-11-17T10:01:08Z"
         }
       ]
     },
@@ -87,20 +87,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "fZMyykwownI",
-      "thumbnail": "https://i.ytimg.com/vi/fZMyykwownI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/fZMyykwownI?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=fZMyykwownI",
-      "videoTitle": "LA REVUE DES GRANDES UNES DU LUNDI 16 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-16T09:36:57Z",
-      "episodeDate": "2026-11-16",
-      "durationSec": 2072,
+      "videoId": "Ief6TSwOsvw",
+      "thumbnail": "https://i.ytimg.com/vi/Ief6TSwOsvw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Ief6TSwOsvw?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=Ief6TSwOsvw",
+      "videoTitle": "LA REVUE DES GRANDES UNES DU MARDI 17 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-17T09:41:08Z",
+      "episodeDate": "2026-11-17",
+      "durationSec": 1940,
       "parts": [
         {
-          "videoId": "fZMyykwownI",
-          "title": "LA REVUE DES GRANDES UNES DU LUNDI 16 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2072,
-          "publishedAt": "2026-11-16T09:36:57Z"
+          "videoId": "Ief6TSwOsvw",
+          "title": "LA REVUE DES GRANDES UNES DU MARDI 17 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 1940,
+          "publishedAt": "2026-11-17T09:41:08Z"
         }
       ]
     },
@@ -195,14 +195,14 @@
       "thumbnail": "https://i.ytimg.com/vi/68tVt9GHmfo/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/68tVt9GHmfo?rel=0&playsinline=1",
       "watchUrl": "https://www.youtube.com/watch?v=68tVt9GHmfo",
-      "videoTitle": "ÉQUINOXE SOIR LUNDI 16 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "videoTitle": "ÉQUINOXE SOIR: Législatives et Municipales 2027 Les candidats face au parcours du combattant",
       "publishedAt": "2026-11-16T19:06:02Z",
       "episodeDate": "2026-11-16",
       "durationSec": 2491,
       "parts": [
         {
           "videoId": "68tVt9GHmfo",
-          "title": "ÉQUINOXE SOIR LUNDI 16 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "title": "ÉQUINOXE SOIR: Législatives et Municipales 2027 Les candidats face au parcours du combattant",
           "durationSec": 2491,
           "publishedAt": "2026-11-16T19:06:02Z"
         }
@@ -294,7 +294,7 @@
       "spoken": "Le débrief de l'actu, Canal 2",
       "freq": "daily",
       "found": true,
-      "status": "found",
+      "status": "preserved",
       "videoId": "gX3NWIzZXns",
       "thumbnail": "https://i.ytimg.com/vi/gX3NWIzZXns/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/gX3NWIzZXns?rel=0&playsinline=1",
@@ -354,12 +354,12 @@
       "videoTitle": "LE 20H00 DU 16 NOVEMBRE  2026",
       "publishedAt": "2026-11-16T20:06:02Z",
       "episodeDate": "2026-11-16",
-      "durationSec": 2253,
+      "durationSec": 2250,
       "parts": [
         {
           "videoId": "ZOu49pEgNlU",
           "title": "LE 20H00 DU 16 NOVEMBRE  2026",
-          "durationSec": 2253,
+          "durationSec": 2250,
           "publishedAt": "2026-11-16T20:06:02Z"
         }
       ]
