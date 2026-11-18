@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-17T19:24:34Z",
-  "checkedAt": "2026-11-17T19:24:34Z",
+  "generatedAt": "2026-11-18T01:44:47Z",
+  "checkedAt": "2026-11-18T01:44:47Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -113,20 +113,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "mhB2q_Jyhp8",
-      "thumbnail": "https://i.ytimg.com/vi/mhB2q_Jyhp8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/mhB2q_Jyhp8?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=mhB2q_Jyhp8",
-      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU LUNDI 16 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-16T20:06:02Z",
-      "episodeDate": "2026-11-16",
-      "durationSec": 3780,
+      "videoId": "n-DnIV83EPc",
+      "thumbnail": "https://i.ytimg.com/vi/n-DnIV83EPc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/n-DnIV83EPc?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=n-DnIV83EPc",
+      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MARDI 17 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-17T20:44:47Z",
+      "episodeDate": "2026-11-17",
+      "durationSec": 3051,
       "parts": [
         {
-          "videoId": "mhB2q_Jyhp8",
-          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU LUNDI 16 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 3780,
-          "publishedAt": "2026-11-16T20:06:02Z"
+          "videoId": "n-DnIV83EPc",
+          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MARDI 17 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 3051,
+          "publishedAt": "2026-11-17T20:44:47Z"
         }
       ]
     },
@@ -347,20 +347,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "ZOu49pEgNlU",
-      "thumbnail": "https://i.ytimg.com/vi/ZOu49pEgNlU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/ZOu49pEgNlU?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=ZOu49pEgNlU",
-      "videoTitle": "LE 20H00 DU 16 NOVEMBRE  2026",
-      "publishedAt": "2026-11-16T20:06:02Z",
-      "episodeDate": "2026-11-16",
-      "durationSec": 2250,
+      "videoId": "PmJTpmC4c7g",
+      "thumbnail": "https://i.ytimg.com/vi/PmJTpmC4c7g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/PmJTpmC4c7g?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=PmJTpmC4c7g",
+      "videoTitle": "LE 20H DU 17 NOVEMBRE  2026",
+      "publishedAt": "2026-11-17T19:44:47Z",
+      "episodeDate": "2026-11-17",
+      "durationSec": 2113,
       "parts": [
         {
-          "videoId": "ZOu49pEgNlU",
-          "title": "LE 20H00 DU 16 NOVEMBRE  2026",
-          "durationSec": 2250,
-          "publishedAt": "2026-11-16T20:06:02Z"
+          "videoId": "PmJTpmC4c7g",
+          "title": "LE 20H DU 17 NOVEMBRE  2026",
+          "durationSec": 2113,
+          "publishedAt": "2026-11-17T19:44:47Z"
         }
       ]
     },
