@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-18T01:44:47Z",
-  "checkedAt": "2026-11-18T01:44:47Z",
+  "generatedAt": "2026-11-18T09:14:00Z",
+  "checkedAt": "2026-11-18T09:14:00Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -87,20 +87,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "Ief6TSwOsvw",
-      "thumbnail": "https://i.ytimg.com/vi/Ief6TSwOsvw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/Ief6TSwOsvw?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=Ief6TSwOsvw",
-      "videoTitle": "LA REVUE DES GRANDES UNES DU MARDI 17 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-17T09:41:08Z",
-      "episodeDate": "2026-11-17",
-      "durationSec": 1940,
+      "videoId": "Wl5Q5ApMGiY",
+      "thumbnail": "https://i.ytimg.com/vi/Wl5Q5ApMGiY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Wl5Q5ApMGiY?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=Wl5Q5ApMGiY",
+      "videoTitle": "LA REVUE DES GRANDES UNES DU MERCREDI 18 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-18T08:58:00Z",
+      "episodeDate": "2026-11-18",
+      "durationSec": 1959,
       "parts": [
         {
-          "videoId": "Ief6TSwOsvw",
-          "title": "LA REVUE DES GRANDES UNES DU MARDI 17 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 1940,
-          "publishedAt": "2026-11-17T09:41:08Z"
+          "videoId": "Wl5Q5ApMGiY",
+          "title": "LA REVUE DES GRANDES UNES DU MERCREDI 18 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 1959,
+          "publishedAt": "2026-11-18T08:58:00Z"
         }
       ]
     },
@@ -354,12 +354,12 @@
       "videoTitle": "LE 20H DU 17 NOVEMBRE  2026",
       "publishedAt": "2026-11-17T19:44:47Z",
       "episodeDate": "2026-11-17",
-      "durationSec": 2113,
+      "durationSec": 2114,
       "parts": [
         {
           "videoId": "PmJTpmC4c7g",
           "title": "LE 20H DU 17 NOVEMBRE  2026",
-          "durationSec": 2113,
+          "durationSec": 2114,
           "publishedAt": "2026-11-17T19:44:47Z"
         }
       ]
