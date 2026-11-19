@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-19T00:20:17Z",
-  "checkedAt": "2026-11-19T00:20:17Z",
+  "generatedAt": "2026-11-19T07:43:54Z",
+  "checkedAt": "2026-11-19T07:43:54Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -354,12 +354,12 @@
       "videoTitle": "LE 20H DU 18 NOVEMBRE 2026",
       "publishedAt": "2026-11-18T20:20:17Z",
       "episodeDate": "2026-11-18",
-      "durationSec": 1552,
+      "durationSec": 1567,
       "parts": [
         {
           "videoId": "VQFr3hhI6Yg",
           "title": "LE 20H DU 18 NOVEMBRE 2026",
-          "durationSec": 1552,
+          "durationSec": 1567,
           "publishedAt": "2026-11-18T20:20:17Z"
         }
       ]
