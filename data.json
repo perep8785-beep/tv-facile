@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-19T16:49:39Z",
-  "checkedAt": "2026-11-19T16:49:39Z",
+  "generatedAt": "2026-11-19T23:22:44Z",
+  "checkedAt": "2026-11-19T23:22:44Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -113,20 +113,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "dhUBuA-OQYI",
-      "thumbnail": "https://i.ytimg.com/vi/dhUBuA-OQYI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/dhUBuA-OQYI?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=dhUBuA-OQYI",
-      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MERCREDI 18 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-18T20:20:17Z",
-      "episodeDate": "2026-11-18",
-      "durationSec": 2451,
+      "videoId": "Ewc362nq0jU",
+      "thumbnail": "https://i.ytimg.com/vi/Ewc362nq0jU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Ewc362nq0jU?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=Ewc362nq0jU",
+      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU JEUDI 19 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-19T20:22:44Z",
+      "episodeDate": "2026-11-19",
+      "durationSec": 3650,
       "parts": [
         {
-          "videoId": "dhUBuA-OQYI",
-          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MERCREDI 18 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2451,
-          "publishedAt": "2026-11-18T20:20:17Z"
+          "videoId": "Ewc362nq0jU",
+          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU JEUDI 19 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 3650,
+          "publishedAt": "2026-11-19T20:22:44Z"
         }
       ]
     },
@@ -191,20 +191,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "0E5Lg_AsMWQ",
-      "thumbnail": "https://i.ytimg.com/vi/0E5Lg_AsMWQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/0E5Lg_AsMWQ?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=0E5Lg_AsMWQ",
-      "videoTitle": "ÉQUINOXE SOIR DU MERCREDI 18 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-18T19:20:17Z",
-      "episodeDate": "2026-11-18",
-      "durationSec": 2776,
+      "videoId": "n3gFxaTef9A",
+      "thumbnail": "https://i.ytimg.com/vi/n3gFxaTef9A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/n3gFxaTef9A?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=n3gFxaTef9A",
+      "videoTitle": "ÉQUINOXE SOIR DU JEUDI 19 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-19T19:22:44Z",
+      "episodeDate": "2026-11-19",
+      "durationSec": 1623,
       "parts": [
         {
-          "videoId": "0E5Lg_AsMWQ",
-          "title": "ÉQUINOXE SOIR DU MERCREDI 18 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2776,
-          "publishedAt": "2026-11-18T19:20:17Z"
+          "videoId": "n3gFxaTef9A",
+          "title": "ÉQUINOXE SOIR DU JEUDI 19 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 1623,
+          "publishedAt": "2026-11-19T19:22:44Z"
         }
       ]
     },
@@ -294,7 +294,7 @@
       "spoken": "Le débrief de l'actu, Canal 2",
       "freq": "daily",
       "found": true,
-      "status": "found",
+      "status": "preserved",
       "videoId": "gX3NWIzZXns",
       "thumbnail": "https://i.ytimg.com/vi/gX3NWIzZXns/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/gX3NWIzZXns?rel=0&playsinline=1",
