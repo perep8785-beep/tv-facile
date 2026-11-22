@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-22T17:23:33Z",
-  "checkedAt": "2026-11-22T17:23:33Z",
+  "generatedAt": "2026-11-22T22:39:51Z",
+  "checkedAt": "2026-11-22T22:39:51Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -139,20 +139,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "4ICLxBVCxzU",
-      "thumbnail": "https://i.ytimg.com/vi/4ICLxBVCxzU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/4ICLxBVCxzU?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=4ICLxBVCxzU",
-      "videoTitle": "20H BILINGUE DU SAMEDI 21 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-21T19:59:16Z",
-      "episodeDate": "2026-11-21",
-      "durationSec": 1905,
+      "videoId": "_W5Izrj5kmk",
+      "thumbnail": "https://i.ytimg.com/vi/_W5Izrj5kmk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/_W5Izrj5kmk?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=_W5Izrj5kmk",
+      "videoTitle": "20H BILINGUE DU DIMANCHE 22 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-22T19:39:51Z",
+      "episodeDate": "2026-11-22",
+      "durationSec": 1817,
       "parts": [
         {
-          "videoId": "4ICLxBVCxzU",
-          "title": "20H BILINGUE DU SAMEDI 21 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 1905,
-          "publishedAt": "2026-11-21T19:59:16Z"
+          "videoId": "_W5Izrj5kmk",
+          "title": "20H BILINGUE DU DIMANCHE 22 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 1817,
+          "publishedAt": "2026-11-22T19:39:51Z"
         }
       ]
     },
@@ -347,20 +347,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "6P9ur5EO3EE",
-      "thumbnail": "https://i.ytimg.com/vi/6P9ur5EO3EE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/6P9ur5EO3EE?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=6P9ur5EO3EE",
-      "videoTitle": "LE 20H BILINGUE DU 21 NOVEMBRE 2026",
-      "publishedAt": "2026-11-21T19:59:16Z",
-      "episodeDate": "2026-11-21",
-      "durationSec": 2168,
+      "videoId": "3v_N1lmuRG0",
+      "thumbnail": "https://i.ytimg.com/vi/3v_N1lmuRG0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/3v_N1lmuRG0?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=3v_N1lmuRG0",
+      "videoTitle": "LE 20H BILINGUE DU 22 NOVEMBRE 2026",
+      "publishedAt": "2026-11-22T20:39:51Z",
+      "episodeDate": "2026-11-22",
+      "durationSec": 2667,
       "parts": [
         {
-          "videoId": "6P9ur5EO3EE",
-          "title": "LE 20H BILINGUE DU 21 NOVEMBRE 2026",
-          "durationSec": 2168,
-          "publishedAt": "2026-11-21T19:59:16Z"
+          "videoId": "3v_N1lmuRG0",
+          "title": "LE 20H BILINGUE DU 22 NOVEMBRE 2026",
+          "durationSec": 2667,
+          "publishedAt": "2026-11-22T20:39:51Z"
         }
       ]
     },
