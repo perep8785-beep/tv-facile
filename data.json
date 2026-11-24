@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-23T12:30:34Z",
-  "checkedAt": "2026-11-23T12:30:34Z",
+  "generatedAt": "2026-11-24T00:22:02Z",
+  "checkedAt": "2026-11-24T00:22:02Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -113,20 +113,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "B72fS806Rek",
-      "thumbnail": "https://i.ytimg.com/vi/B72fS806Rek/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/B72fS806Rek?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=B72fS806Rek",
-      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU VENDREDI 20 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-20T19:53:14Z",
-      "episodeDate": "2026-11-20",
-      "durationSec": 2952,
+      "videoId": "TYRmowjnI5w",
+      "thumbnail": "https://i.ytimg.com/vi/TYRmowjnI5w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/TYRmowjnI5w?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=TYRmowjnI5w",
+      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU LUNDI 23 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-23T20:22:02Z",
+      "episodeDate": "2026-11-23",
+      "durationSec": 3432,
       "parts": [
         {
-          "videoId": "B72fS806Rek",
-          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU VENDREDI 20 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2952,
-          "publishedAt": "2026-11-20T19:53:14Z"
+          "videoId": "TYRmowjnI5w",
+          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU LUNDI 23 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 3432,
+          "publishedAt": "2026-11-23T20:22:02Z"
         }
       ]
     },
@@ -191,20 +191,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "M-nrtwf2MF4",
-      "thumbnail": "https://i.ytimg.com/vi/M-nrtwf2MF4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/M-nrtwf2MF4?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=M-nrtwf2MF4",
-      "videoTitle": "ÉQUINOXE SOIR DU VENDREDI 20 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-20T19:53:14Z",
-      "episodeDate": "2026-11-20",
-      "durationSec": 2919,
+      "videoId": "RvQxeQdYIG0",
+      "thumbnail": "https://i.ytimg.com/vi/RvQxeQdYIG0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/RvQxeQdYIG0?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=RvQxeQdYIG0",
+      "videoTitle": "ÉQUINOXE SOIR DU LUNDI 23 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-23T19:22:02Z",
+      "episodeDate": "2026-11-23",
+      "durationSec": 2977,
       "parts": [
         {
-          "videoId": "M-nrtwf2MF4",
-          "title": "ÉQUINOXE SOIR DU VENDREDI 20 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2919,
-          "publishedAt": "2026-11-20T19:53:14Z"
+          "videoId": "RvQxeQdYIG0",
+          "title": "ÉQUINOXE SOIR DU LUNDI 23 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2977,
+          "publishedAt": "2026-11-23T19:22:02Z"
         }
       ]
     },
@@ -224,12 +224,12 @@
       "videoTitle": "PIDGIN NEWS MONDAY NOVEMBER 23, 2026 - EQUINOXE TV",
       "publishedAt": "2026-11-23T12:29:34Z",
       "episodeDate": "2026-11-23",
-      "durationSec": 1490,
+      "durationSec": 1491,
       "parts": [
         {
           "videoId": "IeXnHTu8ras",
           "title": "PIDGIN NEWS MONDAY NOVEMBER 23, 2026 - EQUINOXE TV",
-          "durationSec": 1490,
+          "durationSec": 1491,
           "publishedAt": "2026-11-23T12:29:34Z"
         }
       ]
