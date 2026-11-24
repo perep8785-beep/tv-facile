@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-24T00:22:02Z",
-  "checkedAt": "2026-11-24T00:22:02Z",
+  "generatedAt": "2026-11-24T10:12:31Z",
+  "checkedAt": "2026-11-24T10:12:31Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -35,20 +35,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "fOC5xHyOJt4",
-      "thumbnail": "https://i.ytimg.com/vi/fOC5xHyOJt4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/fOC5xHyOJt4?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=fOC5xHyOJt4",
-      "videoTitle": "10 12 LE ZÉNITH PART1 DU LUNDI 23 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-23T10:30:34Z",
-      "episodeDate": "2026-11-23",
-      "durationSec": 2851,
+      "videoId": "Wn6Suo7tZ5s",
+      "thumbnail": "https://i.ytimg.com/vi/Wn6Suo7tZ5s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Wn6Suo7tZ5s?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=Wn6Suo7tZ5s",
+      "videoTitle": "10 12 LE ZÉNITH PART1 DU MARDI 24 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-24T10:02:31Z",
+      "episodeDate": "2026-11-24",
+      "durationSec": 3184,
       "parts": [
         {
-          "videoId": "fOC5xHyOJt4",
-          "title": "10 12 LE ZÉNITH PART1 DU LUNDI 23 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2851,
-          "publishedAt": "2026-11-23T10:30:34Z"
+          "videoId": "Wn6Suo7tZ5s",
+          "title": "10 12 LE ZÉNITH PART1 DU MARDI 24 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 3184,
+          "publishedAt": "2026-11-24T10:02:31Z"
         }
       ]
     },
@@ -87,20 +87,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "cPbE8ma5wvk",
-      "thumbnail": "https://i.ytimg.com/vi/cPbE8ma5wvk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/cPbE8ma5wvk?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=cPbE8ma5wvk",
-      "videoTitle": "LA REVUE DES GRANDES UNES DU LUNDI 23 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-23T09:30:34Z",
-      "episodeDate": "2026-11-23",
-      "durationSec": 2034,
+      "videoId": "PQurxDMyZ_o",
+      "thumbnail": "https://i.ytimg.com/vi/PQurxDMyZ_o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/PQurxDMyZ_o?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=PQurxDMyZ_o",
+      "videoTitle": "LA REVUE DES GRANDES UNES DU MARDI 24 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-24T09:12:31Z",
+      "episodeDate": "2026-11-24",
+      "durationSec": 1989,
       "parts": [
         {
-          "videoId": "cPbE8ma5wvk",
-          "title": "LA REVUE DES GRANDES UNES DU LUNDI 23 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2034,
-          "publishedAt": "2026-11-23T09:30:34Z"
+          "videoId": "PQurxDMyZ_o",
+          "title": "LA REVUE DES GRANDES UNES DU MARDI 24 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 1989,
+          "publishedAt": "2026-11-24T09:12:31Z"
         }
       ]
     },
@@ -372,7 +372,7 @@
       "spoken": "Club d'Élites, sur Vision 4",
       "freq": "weekly",
       "found": true,
-      "status": "found",
+      "status": "preserved",
       "videoId": "ntxQTIjVtO4",
       "thumbnail": "https://i.ytimg.com/vi/ntxQTIjVtO4/hqdefault.jpg",
       "embedUrl": "https://www.youtube-nocookie.com/embed/ntxQTIjVtO4?rel=0&playsinline=1",
