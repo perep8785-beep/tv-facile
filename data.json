@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-25T13:33:47Z",
-  "checkedAt": "2026-11-25T13:33:47Z",
+  "generatedAt": "2026-11-25T22:46:23Z",
+  "checkedAt": "2026-11-25T22:46:23Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -113,20 +113,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "LJSUsHkYZVk",
-      "thumbnail": "https://i.ytimg.com/vi/LJSUsHkYZVk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/LJSUsHkYZVk?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=LJSUsHkYZVk",
-      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MARDI 24 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-24T19:54:50Z",
-      "episodeDate": "2026-11-24",
-      "durationSec": 3284,
+      "videoId": "k5aVr3LVjaY",
+      "thumbnail": "https://i.ytimg.com/vi/k5aVr3LVjaY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/k5aVr3LVjaY?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=k5aVr3LVjaY",
+      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MERCREDI 25 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-25T20:46:23Z",
+      "episodeDate": "2026-11-25",
+      "durationSec": 3722,
       "parts": [
         {
-          "videoId": "LJSUsHkYZVk",
-          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MARDI 24 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 3284,
-          "publishedAt": "2026-11-24T19:54:50Z"
+          "videoId": "k5aVr3LVjaY",
+          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU MERCREDI 25 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 3722,
+          "publishedAt": "2026-11-25T20:46:23Z"
         }
       ]
     },
@@ -191,20 +191,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "j09GxqMxyX0",
-      "thumbnail": "https://i.ytimg.com/vi/j09GxqMxyX0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/j09GxqMxyX0?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=j09GxqMxyX0",
-      "videoTitle": "ÉQUINOXE SOIR DU MARDI 24 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-24T19:39:50Z",
-      "episodeDate": "2026-11-24",
-      "durationSec": 2502,
+      "videoId": "inpPQCGaPnw",
+      "thumbnail": "https://i.ytimg.com/vi/inpPQCGaPnw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/inpPQCGaPnw?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=inpPQCGaPnw",
+      "videoTitle": "ÉQUINOXE SOIR (La surprise Maurice KAMTO ?) DU MERCREDI 25 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-25T19:46:23Z",
+      "episodeDate": "2026-11-25",
+      "durationSec": 2743,
       "parts": [
         {
-          "videoId": "j09GxqMxyX0",
-          "title": "ÉQUINOXE SOIR DU MARDI 24 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2502,
-          "publishedAt": "2026-11-24T19:39:50Z"
+          "videoId": "inpPQCGaPnw",
+          "title": "ÉQUINOXE SOIR (La surprise Maurice KAMTO ?) DU MERCREDI 25 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 2743,
+          "publishedAt": "2026-11-25T19:46:23Z"
         }
       ]
     },
@@ -347,20 +347,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "915kFWIKGOw",
-      "thumbnail": "https://i.ytimg.com/vi/915kFWIKGOw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/915kFWIKGOw?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=915kFWIKGOw",
-      "videoTitle": "LE 20H00 DU 24 NOVEMBRE 2026",
-      "publishedAt": "2026-11-24T19:39:50Z",
-      "episodeDate": "2026-11-24",
-      "durationSec": 1948,
+      "videoId": "aXfRh33gUYg",
+      "thumbnail": "https://i.ytimg.com/vi/aXfRh33gUYg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/aXfRh33gUYg?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=aXfRh33gUYg",
+      "videoTitle": "LE 20H DU 25 NOVEMBRE 2026",
+      "publishedAt": "2026-11-25T19:46:23Z",
+      "episodeDate": "2026-11-25",
+      "durationSec": 1962,
       "parts": [
         {
-          "videoId": "915kFWIKGOw",
-          "title": "LE 20H00 DU 24 NOVEMBRE 2026",
-          "durationSec": 1948,
-          "publishedAt": "2026-11-24T19:39:50Z"
+          "videoId": "aXfRh33gUYg",
+          "title": "LE 20H DU 25 NOVEMBRE 2026",
+          "durationSec": 1962,
+          "publishedAt": "2026-11-25T19:46:23Z"
         }
       ]
     },
