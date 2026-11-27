@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-27T15:01:44Z",
-  "checkedAt": "2026-11-27T15:01:44Z",
+  "generatedAt": "2026-11-27T23:26:30Z",
+  "checkedAt": "2026-11-27T23:26:30Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -113,20 +113,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "M-1KQwN8YmY",
-      "thumbnail": "https://i.ytimg.com/vi/M-1KQwN8YmY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/M-1KQwN8YmY?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=M-1KQwN8YmY",
-      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU JEUDI 26 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-26T20:12:48Z",
-      "episodeDate": "2026-11-26",
-      "durationSec": 3499,
+      "videoId": "GA-W4M_5P_Y",
+      "thumbnail": "https://i.ytimg.com/vi/GA-W4M_5P_Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/GA-W4M_5P_Y?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=GA-W4M_5P_Y",
+      "videoTitle": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU VENDREDI 27 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-27T20:26:30Z",
+      "episodeDate": "2026-11-27",
+      "durationSec": 3550,
       "parts": [
         {
-          "videoId": "M-1KQwN8YmY",
-          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU JEUDI 26 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 3499,
-          "publishedAt": "2026-11-26T20:12:48Z"
+          "videoId": "GA-W4M_5P_Y",
+          "title": "JOURNAL 20H ET DÉBRIEF JOURNAL 20H DU VENDREDI 27 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 3550,
+          "publishedAt": "2026-11-27T20:26:30Z"
         }
       ]
     },
@@ -191,20 +191,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "aazVyi91GC4",
-      "thumbnail": "https://i.ytimg.com/vi/aazVyi91GC4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/aazVyi91GC4?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=aazVyi91GC4",
-      "videoTitle": "ÉQUINOXE SOIR\"Législatives et Municipales 2027:Imbroglio autour des dépôts de candidatures à Elecam\"",
-      "publishedAt": "2026-11-26T19:12:48Z",
-      "episodeDate": "2026-11-26",
-      "durationSec": 3221,
+      "videoId": "FMFkutXDoC8",
+      "thumbnail": "https://i.ytimg.com/vi/FMFkutXDoC8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/FMFkutXDoC8?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=FMFkutXDoC8",
+      "videoTitle": "ÉQUINOXE SOIR DU VENDREDI 27 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-27T19:26:30Z",
+      "episodeDate": "2026-11-27",
+      "durationSec": 3016,
       "parts": [
         {
-          "videoId": "aazVyi91GC4",
-          "title": "ÉQUINOXE SOIR\"Législatives et Municipales 2027:Imbroglio autour des dépôts de candidatures à Elecam\"",
-          "durationSec": 3221,
-          "publishedAt": "2026-11-26T19:12:48Z"
+          "videoId": "FMFkutXDoC8",
+          "title": "ÉQUINOXE SOIR DU VENDREDI 27 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 3016,
+          "publishedAt": "2026-11-27T19:26:30Z"
         }
       ]
     },
