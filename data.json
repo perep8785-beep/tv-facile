@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-28T04:52:14Z",
-  "checkedAt": "2026-11-28T04:52:14Z",
+  "generatedAt": "2026-11-28T13:49:20Z",
+  "checkedAt": "2026-11-28T13:49:20Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -139,20 +139,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "BDKDsHZB1GA",
-      "thumbnail": "https://i.ytimg.com/vi/BDKDsHZB1GA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/BDKDsHZB1GA?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=BDKDsHZB1GA",
-      "videoTitle": "JTB 12H DU VENDREDI 27 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-27T12:01:44Z",
-      "episodeDate": "2026-11-27",
-      "durationSec": 2088,
+      "videoId": "z50slZk9Tyo",
+      "thumbnail": "https://i.ytimg.com/vi/z50slZk9Tyo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/z50slZk9Tyo?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=z50slZk9Tyo",
+      "videoTitle": "JTB 12H DU SAMEDI 28 NOVEMBRE 2026 - ÉQUINOXE TV",
+      "publishedAt": "2026-11-28T11:49:20Z",
+      "episodeDate": "2026-11-28",
+      "durationSec": 858,
       "parts": [
         {
-          "videoId": "BDKDsHZB1GA",
-          "title": "JTB 12H DU VENDREDI 27 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 2088,
-          "publishedAt": "2026-11-27T12:01:44Z"
+          "videoId": "z50slZk9Tyo",
+          "title": "JTB 12H DU SAMEDI 28 NOVEMBRE 2026 - ÉQUINOXE TV",
+          "durationSec": 858,
+          "publishedAt": "2026-11-28T11:49:20Z"
         }
       ]
     },
@@ -243,20 +243,20 @@
       "freq": "weekly",
       "found": true,
       "status": "found",
-      "videoId": "CvZ6NPEzjgk",
-      "thumbnail": "https://i.ytimg.com/vi/CvZ6NPEzjgk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/CvZ6NPEzjgk?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=CvZ6NPEzjgk",
+      "videoId": "-LGGOcp4VvA",
+      "thumbnail": "https://i.ytimg.com/vi/-LGGOcp4VvA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/-LGGOcp4VvA?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=-LGGOcp4VvA",
       "videoTitle": "PIDGIN NEWS DEBATE SATURDAY NOVEMBER 21, 2026 - EQUINOXE TV",
-      "publishedAt": "2026-11-21T12:45:55Z",
+      "publishedAt": "2026-11-28T12:49:20Z",
       "episodeDate": "2026-11-21",
-      "durationSec": 3326,
+      "durationSec": 3709,
       "parts": [
         {
-          "videoId": "CvZ6NPEzjgk",
+          "videoId": "-LGGOcp4VvA",
           "title": "PIDGIN NEWS DEBATE SATURDAY NOVEMBER 21, 2026 - EQUINOXE TV",
-          "durationSec": 3326,
-          "publishedAt": "2026-11-21T12:45:55Z"
+          "durationSec": 3709,
+          "publishedAt": "2026-11-28T12:49:20Z"
         }
       ]
     },
