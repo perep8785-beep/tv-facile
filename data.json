@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-27T23:26:30Z",
-  "checkedAt": "2026-11-27T23:26:30Z",
+  "generatedAt": "2026-11-28T04:52:14Z",
+  "checkedAt": "2026-11-28T04:52:14Z",
   "source": "pages",
   "channels": {
     "EQUINOXE TV": {
@@ -191,20 +191,20 @@
       "freq": "daily",
       "found": true,
       "status": "found",
-      "videoId": "FMFkutXDoC8",
-      "thumbnail": "https://i.ytimg.com/vi/FMFkutXDoC8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/FMFkutXDoC8?rel=0&playsinline=1",
-      "watchUrl": "https://www.youtube.com/watch?v=FMFkutXDoC8",
-      "videoTitle": "ÉQUINOXE SOIR DU VENDREDI 27 NOVEMBRE 2026 - ÉQUINOXE TV",
-      "publishedAt": "2026-11-27T19:26:30Z",
+      "videoId": "aazVyi91GC4",
+      "thumbnail": "https://i.ytimg.com/vi/aazVyi91GC4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/aazVyi91GC4?rel=0&playsinline=1",
+      "watchUrl": "https://www.youtube.com/watch?v=aazVyi91GC4",
+      "videoTitle": "ÉQUINOXE SOIR\"Législatives et Municipales 2027:Imbroglio autour des dépôts de candidatures à Elecam\"",
+      "publishedAt": "2026-11-27T04:52:14Z",
       "episodeDate": "2026-11-27",
-      "durationSec": 3016,
+      "durationSec": 3221,
       "parts": [
         {
-          "videoId": "FMFkutXDoC8",
-          "title": "ÉQUINOXE SOIR DU VENDREDI 27 NOVEMBRE 2026 - ÉQUINOXE TV",
-          "durationSec": 3016,
-          "publishedAt": "2026-11-27T19:26:30Z"
+          "videoId": "aazVyi91GC4",
+          "title": "ÉQUINOXE SOIR\"Législatives et Municipales 2027:Imbroglio autour des dépôts de candidatures à Elecam\"",
+          "durationSec": 3221,
+          "publishedAt": "2026-11-27T04:52:14Z"
         }
       ]
     },
